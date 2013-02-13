@@ -1,0 +1,11 @@
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c top_task3 
+# ** Note: (vsim-3812) Design is being optimized...
+# Break key hit 
+# Break key hit 
+# 
+# ** INTERNAL ERROR: vopt returned success but vsim could not find a design to simulate!
+# Error loading design

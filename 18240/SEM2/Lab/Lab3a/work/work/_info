@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bflores\Desktop\Lab3a\work
+vBCDtoSevenSeg
+Z1 Mx1 6 sv_std 3 std
+Z2 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+IT?^OSmIo@k9LkYQP^RkLo1
+V:nb4l4CXigbLkDjk^@kAd2
+S1
+Z3 dC:\Documents and Settings\bflores\Desktop\Lab3a\work
+w1300177756
+8C:/Documents and Settings/bflores/Desktop/Lab3a/display.sv
+FC:/Documents and Settings/bflores/Desktop/Lab3a/display.sv
+L0 1
+Z4 OE;L;6.6;45
+r1
+31
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+n@b@c@dto@seven@seg
+!s100 QKK:dH[23]A^o8K<PDVa^0
+!s105 display_sv_unit
+!s85 0
+vLEDController
+R1
+R2
+I<0S0=dDz^g06g20CC@9a83
+V35`hTZ?NffEjN:?kNY^;73
+S1
+R3
+w1300151568
+8C:/Documents and Settings/bflores/Desktop/Lab3a/LEDController.sv
+FC:/Documents and Settings/bflores/Desktop/Lab3a/LEDController.sv
+L0 65
+R4
+r1
+31
+R5
+n@l@e@d@controller
+!s100 gdWCIFzzo^BkVEK9=DES[2
+!s105 LEDController_sv_unit
+!s85 0
+vmyFSM1
+R1
+R2
+!s100 OJ7XPdk<P_LYh09nifaZR0
+IeBmKDB:cTle@2mQb3YBT^0
+Vo95ICPM8V:_h6_5i2NcEL3
+Z6 !s105 myFSM1_sv_unit
+S1
+R3
+Z7 w1300228535
+Z8 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+Z9 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+nmy@f@s@m1
+vtop1
+R1
+R2
+!s100 2YXEnb2?RWUh6jXH=V_h;0
+ILB[Pg3BkO]TLLm1?CjO@O0
+VTBIf3FRFC?Z368Jg@Y]^F0
+R6
+S1
+R3
+R7
+R8
+R9
+L0 80
+R4
+r1
+!s85 0
+31
+R5

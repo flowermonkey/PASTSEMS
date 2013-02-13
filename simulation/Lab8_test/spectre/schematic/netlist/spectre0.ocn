@@ -1,0 +1,13 @@
+simulator( 'spectre )
+design(	 "/afs/ece.cmu.edu/usr/bflores/simulation/Lab8_test/spectre/schematic/netlist/netlist")
+resultsDir( "/afs/ece.cmu.edu/usr/bflores/simulation/Lab8_test/spectre/schematic" )
+modelFile( 
+    '("/afs/ece.cmu.edu/class/ece320/F10/gpdk090_v4.5/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs" "NN")
+)
+analysis('tran ?stop "5n"  )
+desVar(	  "lambda" 50n	)
+desVar(	  "beta" 2.5	)
+temp( 27 ) 
+run()
+selectResult( 'tran )
+plot(getData("/out") getData("/in") )

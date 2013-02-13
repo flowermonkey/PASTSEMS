@@ -1,0 +1,86 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt
+Z1 VCgbM>QK63Rfe<UUXzASo80
+Z2 04 3 4 work top fast 0
+Z3 =1-002564aa4457-4d7eb4b9-2b7-510
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6;45
+Z7 dC:\Documents and Settings\bflores\Desktop\Lab3a
+vdff
+Z8 Mx1 23 C:\modeltech_6.6\sv_std 3 std
+Z9 DXx23 C:\modeltech_6.6\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z10 IHeWE=W>b^1>j@WzWjDQ_m2
+Z11 V;GC@fJC4l9bF1doI@Q2XK3
+Z12 !s105 myFSM0_sv_unit
+S1
+R7
+Z13 w1300147942
+Z14 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+Z15 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+L0 63
+Z16 OE;L;6.6;45
+r1
+31
+Z17 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z18 !s100 BZ]a2RCRXL[ORh;R0bI3N1
+!s85 0
+vfsmtestbench
+R8
+R9
+Z19 IO^cz0GE5oe`CZOP=m9jG@1
+Z20 V[H:[j08>gblXSJAdT]S=H3
+S1
+R7
+Z21 w1300149423
+Z22 8C:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+Z23 FC:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+L0 1
+R16
+r1
+31
+R17
+Z24 !s100 TEBf8cL6UPkhTdnR>Ha581
+Z25 !s105 fsmtestbench_sv_unit
+!s85 0
+vmyFSM0
+R8
+R9
+Z26 I7XVbS3CX2L0dgm;G[9fJ^3
+Z27 V9jMikZ7;QlRMAga>b3YXF0
+R12
+S1
+R7
+R13
+R14
+R15
+L0 1
+R16
+r1
+31
+R17
+Z28 nmy@f@s@m0
+Z29 !s100 SNT5:SP?jzFSJ[[^klaL90
+!s85 0
+vtop
+R8
+R9
+Z30 I9<P980<h@]z2oJ`[?IcHG1
+Z31 Ve:gFW1CKLAXc^T:7k2HoD1
+R12
+S1
+R7
+R13
+R14
+R15
+L0 74
+R16
+r1
+31
+R17
+Z32 !s100 Qzg9k3@[m=5cYX6SWX:663
+!s85 0

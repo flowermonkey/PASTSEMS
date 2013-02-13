@@ -1,0 +1,38 @@
+
+// Library name: lab6
+// Cell name: inv1
+// View name: schematic
+subckt inv1 IN OUT VDD VSS
+    NM0 (OUT IN VSS VSS) gpdk090_nmos1v w=(400n) l=100n as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT IN VDD VDD) gpdk090_pmos1v w=(800n) l=100n as=224f ad=224f \
+        ps=2.16u pd=2.16u m=(1)*(1) simM=(1)*(1)
+ends inv1
+// End of subcircuit definition.
+
+// Library name: lab8B
+// Cell name: MUX2
+// View name: schematic
+subckt MUX2 D0 D1 SEL0 VDD VSS Y
+    I2 (net24 Y VDD VSS) inv1
+    I1 (S0X S0 VDD VSS) inv1
+    I0 (SEL0 S0X VDD VSS) inv1
+    PM1 (D1 S0X net24 VDD) gpdk090_pmos1v w=(800n) l=100n as=224f ad=224f \
+        ps=2.16u pd=2.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (D0 S0 net24 VDD) gpdk090_pmos1v w=(800n) l=100n as=224f ad=224f \
+        ps=2.16u pd=2.16u m=(1)*(1) simM=(1)*(1)
+    NM1 (D1 S0 net24 VSS) gpdk090_nmos1v w=(400n) l=100n as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+    NM0 (D0 S0X net24 VSS) gpdk090_nmos1v w=(400n) l=100n as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+ends MUX2
+// End of subcircuit definition.
+
+// Library name: lab8B
+// Cell name: MUX2_testbench
+// View name: schematic
+I0 (D0 D1 SEL0 VDD GND net24) MUX2
+I4 (net24 OUT3 VDD GND) inv1
+I3 (net24 OUT4 VDD GND) inv1
+I2 (net24 OUT2 VDD GND) inv1
+I1 (net24 OUT1 VDD GND) inv1

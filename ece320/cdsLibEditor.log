@@ -1,0 +1,26 @@
+\o Program:		@(#)$CDS: cdsLibEditor.exe version 6.1.2 04/01/2009 13:46 (cat71lnx) $
+\o Sub version:		sub-version 07.02-s041
+\o Arguments:		-display localhost:14.0 -mpssession virtuoso13429 -mpshost ece005 -namespace CDBA -cdslib /afs/ece.cmu.edu/usr/bflores/ece320/cds.lib 
+\o Working Directory:	ece005:/afs/ece.cmu.edu/usr/bflores/ece320
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.2.3
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(331 1225 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/afs/ece.cmu.edu/usr/bflores/ece320"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(356 1250 531 513))
+\a newLibraryDialog->libraryName->value = "lab9"
+\a newLibraryDialog->okButton->value = t
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 12 0)
+\o Active cell: 12 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

@@ -1,0 +1,68 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece/usr/bflores/Lab3a
+T_opt
+Z1 VD`45VQ?@5R6VQb`F?F2^C0
+Z2 04 4 4 work top1 fast 0
+Z3 =1-0022195d11dd-4d7eb736-787c0-4bdc
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece/usr/bflores/Lab3a
+vfsmtestbench
+Z8 Mx1 19 __model_tech/sv_std 3 std
+Z9 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z10 Im1[1?W44?=>dYENKM>`0W0
+Z11 V[H:[j08>gblXSJAdT]S=H3
+S1
+R7
+Z12 w1300149423
+Z13 8fsmtestbench.sv
+Z14 Ffsmtestbench.sv
+L0 1
+Z15 OE;L;6.6b;45
+r1
+31
+Z16 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z17 !s100 TEBf8cL6UPkhTdnR>Ha581
+Z18 !s105 fsmtestbench_sv_unit
+!s85 0
+vmyFSM1
+R8
+R9
+Z19 I=IMBF]3MYeLe;NG;SFF280
+Z20 Vo95ICPM8V:_h6_5i2NcEL3
+Z21 !s105 myFSM1_sv_unit
+S1
+R7
+Z22 w1300142946
+Z23 8myFSM1.sv
+Z24 FmyFSM1.sv
+L0 1
+R15
+r1
+31
+R16
+Z25 nmy@f@s@m1
+Z26 !s100 o8Te1DZf0dY96RhCWJEDR1
+!s85 0
+vtop1
+R8
+R9
+Z27 IO2Q93DfO=D>Wj5@OYLAka1
+Z28 V7oM8ol?]l>9[RFO4eR9Q=2
+R21
+S1
+R7
+R22
+R23
+R24
+L0 76
+R15
+r1
+31
+R16
+Z29 !s100 1`?SSSX]S2MILMP1_LLJI1
+!s85 0

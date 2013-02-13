@@ -1,0 +1,202 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 7.2.0.349.isr12 32bit -- 27 Aug 2010
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: bflores   Host: ece004   HostID: 2800E83   PID: 27747
+Memory  available: 8.4301 GB  physical: 16.8596 GB
+CPU Type: Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2527.0
+              1         0        1     2527.0
+              2         0        2     2527.0
+              3         0        3     2527.0
+              4         1        0     2527.0
+              5         1        1     2527.0
+              6         1        2     2527.0
+              7         1        3     2527.0
+
+
+Simulating `input.scs' on ece004 at 11:59:18 AM, Thur Nov 29, 2012 (process id: 27747).
+Command line:
+    /usr/cds/mmsim-7.20.349/tools.lnx86/spectre/bin/32bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre3_27042_2 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 27747
+
+Loading /usr/cds/mmsim-7.20.349/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /usr/cds/mmsim-7.20.349/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /usr/cds/mmsim-7.20.349/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /usr/cds/mmsim-7.20.349/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Auto-loading AHDL component.
+Finished loading AHDL component in 0 s (elapsed).
+Installed AHDL simulation interface.
+Time for NDB Parsing: CPU = 145.976 ms, elapsed = 154.884 ms.
+Time accumulated: CPU = 145.976 ms, elapsed = 154.884 ms.
+Peak resident memory used = 26.8 Mbytes.
+
+Time for Elaboration: CPU = 25.996 ms, elapsed = 27.487 ms.
+Time accumulated: CPU = 172.972 ms, elapsed = 182.736 ms.
+Peak resident memory used = 34.9 Mbytes.
+
+Time for EDB Visiting: CPU = 0 s, elapsed = 746.965 us.
+Time accumulated: CPU = 173.972 ms, elapsed = 183.867 ms.
+Peak resident memory used = 35.2 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I15.PM0: `Rds' = 70.9091 uOhm is less than 0.001. Set to 0.
+
+
+Circuit inventory:
+              nodes 7
+            bsim3v3 10    
+            vsource 2     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I15.PM0: `Rds' = 70.9091 uOhm is less than 0.001. Set to 0.
+
+Time for parsing: CPU = 3 ms, elapsed = 7.44987 ms.
+Time accumulated: CPU = 177.972 ms, elapsed = 191.606 ms.
+Peak resident memory used = 35.8 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre3_27042_2, ).
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.3 ps    (2.53 %), step = 1.428 ps    (28.6 m%)
+    tran: time = 400 ps         (8 %), step = 51.89 ps     (1.04 %)
+    tran: time = 637.6 ps    (12.8 %), step = 51.33 ps     (1.03 %)
+    tran: time = 937.6 ps    (18.8 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 1.283 ps    (25.7 m%)
+    tran: time = 1.4 ns        (28 %), step = 53.76 ps     (1.08 %)
+    tran: time = 1.638 ns    (32.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 1.938 ns    (38.8 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 2.4 ns        (48 %), step = 53.76 ps     (1.08 %)
+    tran: time = 2.638 ns    (52.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 2.938 ns    (58.8 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 3.4 ns        (68 %), step = 53.76 ps     (1.08 %)
+    tran: time = 3.638 ns    (72.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 3.938 ns    (78.8 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 4.4 ns        (88 %), step = 53.76 ps     (1.08 %)
+    tran: time = 4.638 ns    (92.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 4.919 ns    (98.4 %), step = 81.22 ps     (1.62 %)
+Number of accepted tran steps =             495
+Initial condition solution time: CPU = 1 ms, elapsed = 615.835 us.
+Intrinsic tran analysis time:    CPU = 60.99 ms, elapsed = 68.964 ms.
+Total time required for tran analysis `tran': CPU = 64.99 ms, elapsed = 81.151 ms.
+Time accumulated: CPU = 244.962 ms, elapsed = 1.53421 s.
+Peak resident memory used = 40.4 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I15.PM0: `Rds' = 70.9091 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.3 ps    (2.53 %), step = 1.428 ps    (28.6 m%)
+    tran: time = 400 ps         (8 %), step = 51.89 ps     (1.04 %)
+    tran: time = 637.6 ps    (12.8 %), step = 51.33 ps     (1.03 %)
+    tran: time = 937.6 ps    (18.8 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 1.283 ps    (25.7 m%)
+    tran: time = 1.4 ns        (28 %), step = 53.76 ps     (1.08 %)
+    tran: time = 1.638 ns    (32.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 1.938 ns    (38.8 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 2.4 ns        (48 %), step = 53.76 ps     (1.08 %)
+    tran: time = 2.638 ns    (52.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 2.938 ns    (58.8 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 3.4 ns        (68 %), step = 53.76 ps     (1.08 %)
+    tran: time = 3.638 ns    (72.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 3.938 ns    (78.8 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 1.282 ps    (25.6 m%)
+    tran: time = 4.4 ns        (88 %), step = 53.76 ps     (1.08 %)
+    tran: time = 4.638 ns    (92.8 %), step = 51.3 ps      (1.03 %)
+    tran: time = 4.919 ns    (98.4 %), step = 81.22 ps     (1.62 %)
+Number of accepted tran steps =             495
+Initial condition solution time: CPU = 1 ms, elapsed = 436.068 us.
+Intrinsic tran analysis time:    CPU = 62.991 ms, elapsed = 70.2209 ms.
+Total time required for tran analysis `tran': CPU = 66.99 ms, elapsed = 81.7239 ms.
+Time accumulated: CPU = 402.938 ms, elapsed = 12.4754 s.
+Peak resident memory used = 40.9 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (12:39:58 PM, Thur Nov 29, 2012):
+Time used: CPU = 579 ms, elapsed = 2.44 ks (40m  40.4s), util. = 23.7e-03%.
+Time spent in licensing: elapsed = 67.2 ms.
+Peak memory used = 40.9 Mbytes.
+spectre completes with 0 errors, 3 warnings, and 0 notices.

@@ -1,0 +1,95 @@
+**NOTE**: My code fq differs depending on the sorted order of the lists. 
+		  So I'm assuming the case where listA finishes one word before listB.
+		  And that the lists are ordered in a way where for listC:
+		  word1=word1 from listA
+		  word2=word1 from listB
+		  word3=word2 from listA
+		  word4=word3 from listB...
+
+
+listA	.EQU	$A000			  Timing 					Frequency					  Total
+listB	.EQU	$B000						
+listC	.EQU	$C000					
+size	.EQU	$0080		
+
+		.ORG	$0000
+		BRA		start				2							1							2
+
+		.ORG	$0100		
+start	LDI		R0,$0				2							
+		LDI		R1,$0				2
+		LDI		R2,listA			2
+		LDI		R3,listB 			2
+		LDI		R4,listC			2
+
+							Total	10							1							10
+
+check	LDR		R5,R2				2
+		LDR		R6,R3				2
+		LDR		R7,R4				2
+		CMI 	R0,size				2
+		BRZ		whileB				2
+		CMI		R1,size				2
+		BRZ		whileA				2									
+																			10(256/2)+14(256/2)=
+							Total	10-14						256							3072
+
+comp	CMR 	R5,R6				1
+		BRN		A					2						
+		BRZ		AB					2						
+		BRA		B					2
+																			      3(128)+7(127)=
+							Total	3-7							255							1273
+
+A		MOV		R7,R5				1
+		INCR	R0					1
+		INCR	R2					1
+		INCR	R4					1
+		BRA		check				2
+
+							Total	6							128							768
+
+AB		MOV		R7,R5				1
+		INCR	R4					1
+		LDR		R7,R4				2
+		MOV		R7,R6				1
+		INCR	R4					1
+		INCR	R3					1
+		INCR	R2					1
+		INCR	R0					1
+		INCR	R1					1
+		BRA		check				2
+									
+							Total	12							0							0
+
+B		MOV		R7,R6				1
+		INCR	R1					1
+		INCR	R3					1
+		INCR	R4					1
+		BRA		check				2
+
+							Total 	6							127							762
+
+whileB	MOV		R7,R6				1
+		INCR	R3					1
+		INCR	R4					1
+		INCR	R1					1
+		CMI		R1,size				2
+		BRZ		done				2
+		BRA 	check				2
+
+							Total	10							1							10
+
+whileA	MOV		R7,R5				1
+		INCR	R2					1
+		INCR	R4					1
+		INCR	R0					1
+		CMI		R0,size				2
+		BRZ		done				2
+		BRA 	check				2
+
+							Total	10							0							0
+
+done	STOP						1							1							1
+
+TOTAL OVERALL EXECUTION TIME : 5898 

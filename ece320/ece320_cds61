@@ -1,0 +1,179 @@
+#!/bin/csh -f
+######################################################
+#                     ece623.csh                     #
+######################################################
+
+if (${?PATH}) then
+        setenv PATH .:${PATH}
+else
+        setenv PATH .
+endif
+if (${?LD_LIBRARY_PATH}) then
+        setenv LD_LIBRARY_PATH .:${LD_LIBRARY_PATH}
+else
+        setenv LD_LIBRARY_PATH .
+endif
+if (${?LM_LICENSE_FILE}) then
+        setenv LM_LICENSE_FILE /usr/cds/share/license.dat:${LM_LICENSE_FILE}
+else
+        setenv LM_LICENSE_FILE /usr/cds/share/license.dat
+endif
+
+#Cadence Setup
+setenv CDSHOME /usr/cds/ic-6.13
+setenv OA_HOME $CDSHOME/oa_v22.04.044
+setenv MMSIMHOME /usr/cds/mmsim-7.20.349
+setenv CLS_CDSD_COMPATIBILITY_LOCKING NO
+setenv ASSURAHOME /usr/cds/assura-4.10-613OA
+set path = ($ASSURAHOME/tools/assura/bin $CDSHOME/tools/bin $CDSHOME/tools/dfII/bin $MMSIMHOME/tools/bin $path)
+setenv CDS_Netlisting_Mode Analog
+
+#Following line works around GLIB2.0 problem in SUSE93 
+set release=`tail -n 1 /etc/SuSE-release`
+if ("$release" =~ 'VERSION = 9.3') then
+	setenv LD_ASSUME_KERNEL 2.4.1
+endif
+
+echo ""
+
+# global variables
+setenv ECE421_HOME /afs/ece/class/ece421/S11
+setenv GPDK090 /afs/ece/class/ece421/gpdk090_v4.4
+
+################ first set the best new cadence location for this
+if ( -d /usr/cds/ic ) then
+  setenv CADENCEDIR /usr/cds/ic
+else
+  setenv CADENCEDIR /afs/ece/support/cds/share/image/usr/cds/ic
+endif
+
+################ program specific variables
+set exe = virtuoso # set default exe here
+set mode = ""
+set cmos_tech = "gpdk090" # set default technology
+set cds_mode = "not_set"
+
+################ process help & usage
+
+if ($#argv > 0) then
+   switch ("$argv[1]")
+      case "-help":
+      case "-h":
+      case "-usage":
+      case "-u":
+         set shell_exit = 0
+         goto display_usage
+         breaksw
+      default:
+         breaksw
+   endsw
+endif
+                                 
+################ process arguments
+
+while ($#argv >= 1) 
+  switch ("$argv[1]")
+      case "-target_tech":
+      case "-tech_aim":
+      case "-tech":
+      case "-t":
+         shift
+         if ($#argv >= 1) then
+            set cmos_tech = $argv[1]
+            shift
+         endif
+         breaksw
+     case "-mode"
+     case "-m"
+         shift
+         if ($#argv >= 1) then
+            set mode = $argv[1]
+            shift
+         else
+            set shell_exit = 1
+           goto display_usage
+           breaksw           
+         endif
+         breaksw
+      case "-update"
+      case "-up"
+      case "-u"
+         shift
+         set update
+         breaksw
+     default: 
+        set shell_exit = 1
+        goto display_usage
+        breaksw
+  endsw
+end
+
+
+
+### check specified mode
+switch ($mode)
+   case ds:
+      set exe = icds
+      breaksw
+   case ms:
+      set exe = icms
+      breaksw
+   case fb:
+      set exe = icfb
+      breaksw
+   case lyp:
+      set exe = layoutPlus
+      breaksw
+   case ly:
+      set exe = layout
+      breaksw
+   case ce:
+      set exe = icca
+      breaksw
+   case msfb:
+      set exe = msfb
+      breaksw
+   case ca:
+      set exe = icca
+      breaksw
+   default:
+      breaksw
+endsw
+
+# copy .csdinit
+if (! -e ./.cdsinit) then
+    cp ${ECE421_HOME}/.cdsinit .
+    echo "Copying file .cdsinit..."
+endif
+chmod 555 ./.cdsinit
+
+# copy lib.defs
+if (! -e ./lib.defs) then
+    cp ${ECE421_HOME}/lib.defs .
+    echo "Copying file lib.defs..."
+endif
+chmod 775 ./lib.defs
+
+# copy display.drf
+if (! -e ./display.drf) then
+    cp ${GPDK090}/dfIItechFiles/display.drf .
+    echo "Copying file display.drf..."
+endif
+
+################ call up Cadence
+
+if (${?DEBUG}) then
+  echo ""
+  echo "(DEBUG)! Calling up CDS:"
+  echo "${exe}"
+  echo ""
+endif
+
+
+### Do it
+set exe_with_path = "${CDSHOME}/tools/dfII/bin/${exe}"
+${exe_with_path}
+
+exit($status)
+
+limit coredumpsize 0

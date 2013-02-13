@@ -1,0 +1,51 @@
+Symbol definitions in order of occurence : 
+Name		Value
+----		-------
+
+LOOP1		1008
+LOOP11		100D
+HZBIT		1011
+SETBIT		1012
+CLRBIT		1018
+STORE		1019
+LOOP2		1024
+DONE		102C
+SET		8000
+CLEAR		7FFF
+PTY		3D00
+BEGIN		4000
+		4001
+		4002
+		4003
+		4004
+		4005
+		4006
+		4007
+		4008
+		4009
+		400A
+		400B
+		400C
+		400D
+		400E
+END		400F
+
+
+Pass 2 Fixup Information : 
+Address	Name
+-------	-----
+
+1001	BEGIN
+1003	END
+1005	CLEAR
+1007	SET
+1010	hzbit
+1014	clrbit
+1017	store
+101D	loop1
+101F	BEGIN
+1023	END
+1029	done
+102B	loop2
+102E	END
+

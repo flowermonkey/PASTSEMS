@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : reference
+Design : priQueue
+Version: Z-2007.03-SP5
+Date   : Wed Nov 14 00:28:29 2012
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND3X1             typical       16.632000       1     16.632000  
+AOI2BB1XL          typical       16.632000       4     66.528000  
+AOI2BB2X1          typical       23.284800       1     23.284800  
+AOI2BB2XL          typical       23.284800      27    628.689589  
+AOI21X1            typical       13.305600       7     93.139201  
+AOI21XL            typical       13.305600       2     26.611200  
+AOI22X1            typical       16.632000       3     49.896000  
+AOI22XL            typical       16.632000       7    116.424000  
+AOI31X1            typical       16.632000       2     33.264000  
+AOI31XL            typical       16.632000       2     33.264000  
+AOI32X1            typical       23.284800       1     23.284800  
+AOI211X1           typical       16.632000       3     49.896000  
+AOI211XL           typical       16.632000       6     99.792000  
+AOI222X1           typical       26.611200       8    212.889603  
+AOI222XL           typical       26.611200      43   1144.281614  
+DFFSX1             typical       63.201599      48   3033.676758  n
+INVX1              typical        6.652800      20    133.056002  
+INVXL              typical        6.652800       5     33.264000  
+NAND2X1            typical        9.979200      10     99.792004  
+NAND2XL            typical        9.979200       1      9.979200  
+NAND3X1            typical       13.305600       1     13.305600  
+NOR2BX1            typical       13.305600       4     53.222401  
+NOR2X1             typical        9.979200       7     69.854403  
+NOR2XL             typical        9.979200       2     19.958401  
+NOR3BX1            typical       19.958401       1     19.958401  
+NOR3X1             typical       13.305600       4     53.222401  
+OAI2BB1X1          typical       16.632000       2     33.264000  
+OAI21XL            typical       13.305600      30    399.168005  
+OAI22X1            typical       19.958401       1     19.958401  
+OAI22XL            typical       19.958401       1     19.958401  
+OAI211X1           typical       19.958401       1     19.958401  
+OAI222XL           typical       26.611200       7    186.278402  
+OR2X1              typical       13.305600       1     13.305600  
+OR2X2              typical       13.305600       1     13.305600  
+-----------------------------------------------------------------------------
+Total 34 references                                  6862.363184
+1

@@ -1,0 +1,1918 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:45 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 561: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:45:55 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:46 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 561: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.100 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:46:03 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 10:51:00 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:51 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+//////////////////////////////////////
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.390 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:51:05 2012
+CPU time: .450 seconds to compile + .106 seconds to elab + .345 seconds to link + .763 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:51 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+**** Following assertions did not fire at all during simulation. *****
+"../top.sv", 562: top.unnamed$$_10: No attempt started
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:51:09 2012
+Releasing License for VCSRuntime_Net at Tue Oct 30 10:51:21
+Releasing License for VT_TestbenchRuntime at Tue Oct 30 10:51:21
+Attempting to Re-Acquire License for VCSRuntime_Net at Tue Oct 30 10:51:22
+Re-Acquired License for VCSRuntime_Net at Tue Oct 30 10:51:22, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Tue Oct 30 10:51:22
+Re-Acquired License for VT_TestbenchRuntime at Tue Oct 30 10:51:23, continuing....
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 10:53:14 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:53 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 549: top.unnamed$$_8: started at 495s failed at 495s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+"../top.sv", 549: top.unnamed$$_8: started at 645s failed at 645s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 561: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+"../top.sv", 561: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+"../top.sv", 561: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+"../top.sv", 561: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+"../top.sv", 561: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+"../top.sv", 561: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+//////////////////////////////////////
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:53:20 2012
+CPU time: .485 seconds to compile + .088 seconds to elab + .365 seconds to link + .681 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:53 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 549: top.unnamed$$_8: started at 495s failed at 495s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+"../top.sv", 549: top.unnamed$$_8: started at 645s failed at 645s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 561: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+ 
+"../top.sv", 561: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:53:24 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 10:54:51 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:54 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 562: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+"../top.sv", 562: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+"../top.sv", 562: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+"../top.sv", 562: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+"../top.sv", 562: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+"../top.sv", 562: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+//////////////////////////////////////
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:54:57 2012
+CPU time: .480 seconds to compile + .275 seconds to elab + .355 seconds to link + .824 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 10:54 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 562: top.unnamed$$_10: started at 1015s failed at 1065s
+Bad Protocol signal!
+ 
+"../top.sv", 562: top.unnamed$$_10: started at 1095s failed at 1095s
+Bad Protocol signal!
+ 
+"../top.sv", 562: top.unnamed$$_10: started at 1105s failed at 1145s
+Bad Protocol signal!
+ 
+"../top.sv", 562: top.unnamed$$_10: started at 1175s failed at 1175s
+Bad Protocol signal!
+ 
+"../top.sv", 562: top.unnamed$$_10: started at 1205s failed at 1205s
+Bad Protocol signal!
+ 
+"../top.sv", 562: top.unnamed$$_10: started at 1185s failed at 1225s
+Bad Protocol signal!
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 10:55:03 2012
+Releasing License for VCSRuntime_Net at Tue Oct 30 11:26:12
+Releasing License for VT_TestbenchRuntime at Tue Oct 30 11:26:12
+Attempting to Re-Acquire License for VCSRuntime_Net at Tue Oct 30 11:26:13
+Re-Acquired License for VCSRuntime_Net at Tue Oct 30 11:26:13, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Tue Oct 30 11:26:13
+Re-Acquired License for VT_TestbenchRuntime at Tue Oct 30 11:26:13, continuing....
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 11:32:13 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 11:32 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 281: top.testProtocol.unnamed$$_0: started at 1025s failed at 1025s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1045s failed at 1055s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+"../top.sv", 296: top.testProtocol.unnamed$$_4: started at 1065s failed at 1065s
+        Offending '(~protocolError)'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1055s failed at 1065s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+"../top.sv", 307: top.testProtocol.unnamed$$_5: started at 1115s failed at 1115s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1135s failed at 1145s
+        Offending '((intA + intB) == result)'
+Bad add!,     2+    7 =     2?
+//////////////////////////////////////
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 11:32:18 2012
+CPU time: 1.429 seconds to compile + .139 seconds to elab + .389 seconds to link + .716 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 11:32 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/.restartSimSession.tcl':
+ Line 155: gui_list_select: List item(s) given by "top.protocolError"  were not found..TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 281: top.testProtocol.unnamed$$_0: started at 1025s failed at 1025s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1045s failed at 1055s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+ 
+"../top.sv", 296: top.testProtocol.unnamed$$_4: started at 1065s failed at 1065s
+        Offending '(~protocolError)'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1055s failed at 1065s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+ 
+"../top.sv", 307: top.testProtocol.unnamed$$_5: started at 1115s failed at 1115s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 530: top.unnamed$$_1: started at 1135s failed at 1145s
+        Offending '((intA + intB) == result)'
+Bad add!,     2+    7 =     2?
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 11:33:51 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 11:37:08 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 11:37 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 281: top.testProtocol.unnamed$$_0: started at 1025s failed at 1025s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 524: top.unnamed$$_1: started at 1045s failed at 1055s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+"../top.sv", 296: top.testProtocol.unnamed$$_4: started at 1065s failed at 1065s
+        Offending '(~protocolError)'
+protocolError is not asserted properly!
+"../top.sv", 524: top.unnamed$$_1: started at 1055s failed at 1065s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+"../top.sv", 524: top.unnamed$$_1: started at 1135s failed at 1145s
+        Offending '((intA + intB) == result)'
+Bad add!,     2+    7 =     2?
+//////////////////////////////////////
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 11:37:13 2012
+CPU time: .520 seconds to compile + .114 seconds to elab + .395 seconds to link + .727 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 11:37 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/.restartSimSession.tcl':
+ Line 82: [DVSG007] 
+Signal ' "top.testProtocol.unnamed$$_9" "top.testProtocol.unnamed$$_10" "top.testProtocol.unnamed$$_11"' cannot be found..TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+//////////////////////////////////////
+/////////TESTING PROTOCOL/////////////
+//////////////////////////////////////
+"../top.sv", 281: top.testProtocol.unnamed$$_0: started at 1025s failed at 1025s
+        Offending 'protocolError'
+protocolError is not asserted properly!
+"../top.sv", 524: top.unnamed$$_1: started at 1045s failed at 1055s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+ 
+"../top.sv", 296: top.testProtocol.unnamed$$_4: started at 1065s failed at 1065s
+        Offending '(~protocolError)'
+protocolError is not asserted properly!
+"../top.sv", 524: top.unnamed$$_1: started at 1055s failed at 1065s
+        Offending '((intA + intB) == result)'
+Bad add!,     9+    7 =     2?
+ 
+"../top.sv", 524: top.unnamed$$_1: started at 1135s failed at 1145s
+        Offending '((intA + intB) == result)'
+Bad add!,     2+    7 =     2?
+ 
+//////////////////////////////////////
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1265
+Simulation complete, time is 1265.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1265
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 11:37:17 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:05:11 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Warning-[TMBIN] Too many bits in Based Number
+../top.sv, 225
+  The specified width is '4' bits, actually got '16' bits.
+  The offending number is : '0020'.
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:05 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1525
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1525
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:05:16 2012
+CPU time: .488 seconds to compile + .104 seconds to elab + .392 seconds to link + .769 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:05 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1525
+Simulation complete, time is 1525.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1525
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:05:20 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:08:24 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:08 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1485
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1485
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:08:29 2012
+CPU time: .446 seconds to compile + .099 seconds to elab + .389 seconds to link + .755 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:08 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1485
+Simulation complete, time is 1485.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1485
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:10:04 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:12:39 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:12 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1485
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1485
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:12:44 2012
+CPU time: .473 seconds to compile + .122 seconds to elab + .371 seconds to link + .761 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:12 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1485
+Simulation complete, time is 1485.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1485
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:12:52 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:16:57 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:17 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 634: top.unnamed$$_15: started at 575s failed at 585s
+        Offending '(data[19:16] == 4'h8)'
+When error signal is up result changes!
+"../top.sv", 634: top.unnamed$$_15: started at 775s failed at 785s
+        Offending '(data[19:16] == 4'h8)'
+When error signal is up result changes!
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1645
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1645
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:17:02 2012
+CPU time: .458 seconds to compile + .106 seconds to elab + .384 seconds to link + .716 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:17 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 634: top.unnamed$$_15: started at 575s failed at 585s
+        Offending '(data[19:16] == 4'h8)'
+When error signal is up result changes!
+"../top.sv", 634: top.unnamed$$_15: started at 775s failed at 785s
+        Offending '(data[19:16] == 4'h8)'
+When error signal is up result changes!
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1645
+Simulation complete, time is 1645.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1645
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:17:06 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:20:49 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:20 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 586: top.unnamed$$_8: started at 445s failed at 445s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+"../top.sv", 586: top.unnamed$$_8: started at 455s failed at 455s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+"../top.sv", 586: top.unnamed$$_8: started at 565s failed at 565s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+"../top.sv", 586: top.unnamed$$_8: started at 745s failed at 745s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+"../top.sv", 586: top.unnamed$$_8: started at 925s failed at 925s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1605
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1605
+CPU Time:      0.380 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:20:54 2012
+CPU time: .527 seconds to compile + .112 seconds to elab + .401 seconds to link + .743 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:20 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 586: top.unnamed$$_8: started at 445s failed at 445s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+"../top.sv", 586: top.unnamed$$_8: started at 455s failed at 455s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+"../top.sv", 586: top.unnamed$$_8: started at 565s failed at 565s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+"../top.sv", 586: top.unnamed$$_8: started at 745s failed at 745s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+"../top.sv", 586: top.unnamed$$_8: started at 925s failed at 925s
+        Offending 'stackOverflow'
+Bad stack maintenance!
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1605
+Simulation complete, time is 1605.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1605
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:21:04 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:24:42 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:24 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 581: top.unnamed$$_6: started at 575s failed at 585s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 585s failed at 595s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 595s failed at 605s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 605s failed at 615s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 615s failed at 625s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 625s failed at 635s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 635s failed at 645s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 645s failed at 655s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+"../top.sv", 581: top.unnamed$$_6: started at 775s failed at 785s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 785s failed at 795s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 795s failed at 805s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 805s failed at 815s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 815s failed at 825s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 825s failed at 835s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+"../top.sv", 581: top.unnamed$$_6: started at 835s failed at 845s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1645
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1645
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:24:47 2012
+CPU time: .472 seconds to compile + .107 seconds to elab + .386 seconds to link + .717 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:24 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 575s failed at 585s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 585s failed at 595s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 595s failed at 605s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 605s failed at 615s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 615s failed at 625s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 625s failed at 635s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 635s failed at 645s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 645s failed at 655s
+        Offending '(intF != result)'
+Bad pop!, should have popped     0 but result =    0
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 775s failed at 785s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 785s failed at 795s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 795s failed at 805s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 805s failed at 815s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 815s failed at 825s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 825s failed at 835s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+"../top.sv", 581: top.unnamed$$_6: started at 835s failed at 845s
+        Offending '(intF != result)'
+Bad pop!, should have popped     1 but result =    1
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1645
+Simulation complete, time is 1645.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1645
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:24:53 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:32:52 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:32 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 635: top.unnamed$$_15: started at 495s failed at 655s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 505s failed at 665s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 705s failed at 705s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 875s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 865s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 855s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 845s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 835s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 825s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 815s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 805s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 795s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 785s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 775s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 765s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 755s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 745s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 735s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 725s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:32:57 2012
+CPU time: .491 seconds to compile + .101 seconds to elab + .404 seconds to link + .745 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:32 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 495s failed at 655s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 505s failed at 665s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 705s failed at 705s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 875s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 865s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 855s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 845s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 835s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 825s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 815s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 805s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 795s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 785s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 775s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 765s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 755s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 745s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 735s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 725s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:33:01 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:34 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 495s failed at 655s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 505s failed at 665s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 705s failed at 705s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 875s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 865s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 855s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 845s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 835s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 825s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 815s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 805s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 795s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 785s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 775s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 765s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 755s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 745s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 735s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 725s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:34:58 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:36:51 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:36 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 635: top.unnamed$$_15: started at 495s failed at 655s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 705s failed at 705s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 875s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 865s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 855s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 845s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 835s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 825s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 815s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 805s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 795s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 785s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 775s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 765s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 755s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 745s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 735s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+"../top.sv", 635: top.unnamed$$_15: started at 725s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:36:55 2012
+CPU time: .466 seconds to compile + .104 seconds to elab + .390 seconds to link + .738 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:36 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 495s failed at 655s
+        Offending '(data[19:16] == 4'h8)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 705s failed at 705s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 875s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 865s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 855s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 845s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 835s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 825s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 815s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 805s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 795s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 785s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 775s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 765s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 755s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 745s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 735s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 725s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:37:00 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:39:58 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:40 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:40:03 2012
+CPU time: .498 seconds to compile + .097 seconds to elab + .403 seconds to link + .724 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:40 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 715s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:40:08 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:41:04 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:41 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:41:09 2012
+CPU time: .534 seconds to compile + .096 seconds to elab + .387 seconds to link + .882 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:41 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+"../top.sv", 635: top.unnamed$$_15: started at 715s failed at 875s
+        Offending '(result == num)'
+inputed numbers != outputed numbers
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:41:13 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct 30 12:42:51 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../TA_calc_correct.sv.e'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+4 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:42 2012
+    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+This test has no faults...
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:42:56 2012
+CPU time: .465 seconds to compile + .096 seconds to elab + .406 seconds to link + .729 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct 30 12:42 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p3/work/inter.vpd' was opened successfully.
+TA_calc_correct.sv.e, 1 : ÒIi2ã³*òÿ    //////////////////////////
+   ////                  ////
+  ////   TEST 0 BEGIN   ////
+ ////                  ////
+//////////////////////////
+ 
+This test has no faults...
+ 
+ 
+///////////////////////
+////   TEST 0 END  ////
+///////////////////////
+ 
+ 
+$finish called from file "../TA_calc_correct.sv.e", line 1.
+$finish at simulation time                 1665
+Simulation complete, time is 1665.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1665
+CPU Time:      0.100 seconds;       Data structure size:   0.0Mb
+Tue Oct 30 12:43:01 2012

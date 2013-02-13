@@ -1,0 +1,131 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt
+Z1 VCgbM>QK63Rfe<UUXzASo80
+Z2 04 3 4 work top fast 0
+Z3 =1-002564aa4457-4d7eb4b9-2b7-510
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6;45
+Z7 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt1
+Z8 VO70RgWF_mbDJ:dOT0mM2P1
+Z9 04 4 4 work top1 fast 0
+Z10 =1-002564aa4457-4d7eb56d-3ce-cc8
+R4
+Z11 n@_opt1
+R6
+R7
+vdff
+Z12 Mx1 6 sv_std 3 std
+Z13 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z14 IHeWE=W>b^1>j@WzWjDQ_m2
+Z15 V;GC@fJC4l9bF1doI@Q2XK3
+Z16 !s105 myFSM0_sv_unit
+S1
+R7
+Z17 w1300147942
+Z18 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+Z19 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+L0 63
+Z20 OE;L;6.6;45
+r1
+31
+Z21 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z22 !s100 BZ]a2RCRXL[ORh;R0bI3N1
+!s85 0
+vfsmtestbench
+Z23 Mx1 23 C:\modeltech_6.6\sv_std 3 std
+Z24 DXx23 C:\modeltech_6.6\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z25 IO^cz0GE5oe`CZOP=m9jG@1
+Z26 V[H:[j08>gblXSJAdT]S=H3
+S1
+R7
+Z27 w1300149423
+Z28 8C:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+Z29 FC:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+L0 1
+R20
+r1
+31
+R21
+Z30 !s100 TEBf8cL6UPkhTdnR>Ha581
+Z31 !s105 fsmtestbench_sv_unit
+!s85 0
+vmyFSM0
+R12
+R13
+Z32 I7XVbS3CX2L0dgm;G[9fJ^3
+Z33 V9jMikZ7;QlRMAga>b3YXF0
+R16
+S1
+R7
+R17
+R18
+R19
+L0 1
+R20
+r1
+31
+R21
+Z34 nmy@f@s@m0
+Z35 !s100 SNT5:SP?jzFSJ[[^klaL90
+!s85 0
+vmyFSM1
+R23
+R24
+Z36 IQodNKo=RAXhc9PIb59VFK2
+Z37 Vo95ICPM8V:_h6_5i2NcEL3
+Z38 !s105 myFSM1_sv_unit
+S1
+R7
+Z39 w1300142946
+Z40 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+Z41 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+L0 1
+R20
+r1
+31
+R21
+Z42 nmy@f@s@m1
+Z43 !s100 o8Te1DZf0dY96RhCWJEDR1
+!s85 0
+vtop
+R12
+R13
+Z44 I9<P980<h@]z2oJ`[?IcHG1
+Z45 Ve:gFW1CKLAXc^T:7k2HoD1
+R16
+S1
+R7
+R17
+R18
+R19
+L0 74
+R20
+r1
+31
+R21
+Z46 !s100 Qzg9k3@[m=5cYX6SWX:663
+!s85 0
+vtop1
+R23
+R24
+Z47 IIJ2cC^J5F]l^NA[LHSGc03
+Z48 V7oM8ol?]l>9[RFO4eR9Q=2
+R38
+S1
+R7
+R39
+R40
+R41
+L0 76
+R20
+r1
+31
+R21
+Z49 !s100 1`?SSSX]S2MILMP1_LLJI1
+!s85 0

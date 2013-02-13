@@ -1,0 +1,5 @@
+
+// Library name: lab6
+// Cell name: inv1
+// View name: schematic
+subckt inv1 IN OUT VDD VSS

@@ -1,0 +1,36 @@
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/work/work/HW_2/q7.sv
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module add_4
+# -- Compiling module Testbench
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+# Optimization canceled
+vsim work.Top
+# vsim work.Top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.Top(fast)
+run -all
+#                    0 sum=1000,a=1100,b=1100,N=1,Z=0,V=0
+# correct
+#                    1 sum=1001,a=1100,b=1101,N=1,Z=0,V=0
+# correct
+#                    2 sum=1010,a=1100,b=1110,N=1,Z=0,V=0
+# correct
+#                    3 sum=1011,a=1100,b=1111,N=1,Z=0,V=0
+# correct
+#                    4 sum=1100,a=1100,b=0000,N=1,Z=0,V=0
+# correct
+#                    5 sum=1101,a=1100,b=0001,N=1,Z=0,V=0
+# correct
+#                    6 sum=1110,a=1100,b=0010,N=1,Z=0,V=0
+# correct
+#                    7 sum=1111,a=1100,b=0011,N=1,Z=0,V=0
+# correct
+#                    8 sum=0000,a=1100,b=0100,N=0,Z=1,V=0
+# correct
+#                    9 sum=0001,a=1100,b=0101,N=0,Z=0,V=0
+# correct
+#                   10 sum=0010,a=1100,b=0110,N=0,Z=0,V=0

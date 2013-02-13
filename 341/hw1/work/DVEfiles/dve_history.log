@@ -1,0 +1,467 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_key -category {Hier} -key {showPowerSwitch} -value_type {bool} -value {false}
+gui_create_pref_category -category {dlg_settings}
+gui_create_pref_key -category {dlg_settings} -key {tableWithImmediatePopup} -value_type {bool} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key &Trace_toolbar -value false
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:15.41/dve_session02.02:15.41.tcl} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:11.23/dve_session02.02:11.23.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1919
+gui_set_state_value -category Layout -key child_console_size_y -value 172
+gui_set_state_value -category Layout -key child_data_coltype -value 543
+gui_set_state_value -category Layout -key child_data_colvalue -value 517
+gui_set_state_value -category Layout -key child_data_colvariable -value 631
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 1701
+gui_set_state_value -category Layout -key child_data_size_y -value 901
+gui_set_state_value -category Layout -key child_driver_showstate -value normal
+gui_set_state_value -category Layout -key child_driver_size_x -value 983
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_group_size_x -value 213
+gui_set_state_value -category Layout -key child_group_size_y -value 409
+gui_set_state_value -category Layout -key child_hier_colhier -value 200
+gui_set_state_value -category Layout -key child_hier_coltype -value 48
+gui_set_state_value -category Layout -key child_hier_docknewline -value false
+gui_set_state_value -category Layout -key child_hier_size_x -value 222
+gui_set_state_value -category Layout -key child_hier_size_y -value 906
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_docknewline -value false
+gui_set_state_value -category Layout -key child_list_down -value 363
+gui_set_state_value -category Layout -key child_list_pos_x -value 2
+gui_set_state_value -category Layout -key child_list_pos_y -value 2
+gui_set_state_value -category Layout -key child_list_right -value 568
+gui_set_state_value -category Layout -key child_list_showstate -value normal
+gui_set_state_value -category Layout -key child_list_size_x -value 728
+gui_set_state_value -category Layout -key child_list_size_y -value 508
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1047
+gui_set_state_value -category Layout -key child_schematic_size_y -value 485
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1701
+gui_set_state_value -category Layout -key child_source_size_y -value 901
+gui_set_state_value -category Layout -key child_watch_size_x -value 1091
+gui_set_state_value -category Layout -key child_watch_size_y -value 193
+gui_set_state_value -category Layout -key child_wave_colname -value 288
+gui_set_state_value -category Layout -key child_wave_colvalue -value 202
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 494
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 1197
+gui_set_state_value -category Layout -key child_wave_size_x -value 1701
+gui_set_state_value -category Layout -key child_wave_size_y -value 901
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 22
+gui_set_state_value -category Layout -key main_size_x -value 1919
+gui_set_state_value -category Layout -key main_size_y -value 1199
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 370
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 255
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 274
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1103
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 772
+gui_set_state_value -category Driver -key driver_add_to_wave -value true
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {{make ./simv} {vcs -debug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -debbug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customDirCombo} -value_type string -value /afs/ece.cmu.edu/usr/bflores/341/p2/work/
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{ -ucligui} {-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/hw1/work /afs/ece.cmu.edu/usr/bflores/341/p2/work /afs/ece.cmu.edu/usr/bflores/341/p1/work /afs/ece.cmu.edu/usr/bflores/341/p1}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv ./simv /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv /afs/ece.cmu.edu/usr/bflores/341/p1/work/simv /afs/ece.cmu.edu/usr/bflores/341/p1/simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_sim_continue  
+gui_src_highlight_item -id Source.1 -lfrom 1 -idxfrom 17 -fileIdFrom 0 -lto 1 -idxto 21 -fileIdTo 0 -selection {none} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 1 -idxfrom 3 -fileIdFrom 0 -lto 1 -idxto 21 -fileIdTo 0 -selection {fault_nettype none} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 1 -idxfrom 0 -fileIdFrom 0 -lto 1 -idxto 21 -fileIdTo 0 -selection {`default_nettype none} -selectionId 0 -replace 0
+gui_sim_terminate 
+gui_set_env SIMSETUP::SIMCURRENTDIR /afs/ece.cmu.edu/usr/bflores/341/hw1/work
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_src_expand -id { Source.1 } -fid  0  -line 54
+gui_src_collapse -id { Source.1 } -fid  0  -line 54
+gui_sim_continue  
+gui_sim_restart
+gui_sim_continue  
+gui_highlight_signals -clear 
+gui_src_highlight_item -id Source.1 -lfrom 54 -idxfrom 16 -fileIdFrom 0 -lto 145 -idxto 15 -fileIdTo 0 -selection {
+
+module top;
+
+//Clock-based 2-bit counter
+module counter } -selectionId 0 -replace 0
+gui_sim_terminate 
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_list_select -id Data.1 -selected  { {top.unnamed$$_2}   }
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_select -id Data.1 { top.p.valueToSend  top.p.free  top.p.ck  top.p.r_l  top.p.put  top.p.sent  {top.p.payload[7:0]}  {top.p.count[1:0]}  top.p.sent  {top.p.payload[7:0]}  {top.p.count[1:0]}  top.p.sent  top.p.ck  top.p.r_l  top.p.put  top.p.sent  top.p.ck  top.p.free  top.p.ck  top.p.free  top.p.valueToSend  top.p.free  top.p.valueToSend  top.p.free  top.p.ck  top.p.r_l  top.p.put  top.p.sent  {top.p.payload[7:0]}  {top.p.count[1:0]}  top.p.en_count  top.p.cl_count  top.p.curr   }
+gui_list_create_group_when_add -wave -enable
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { top.p.valueToSend top.p.free top.p.ck top.p.r_l top.p.put top.p.sent {top.p.payload[7:0]} {top.p.count[1:0]} top.p.en_count top.p.cl_count top.p.curr } -insertionbar
+gui_list_select -id Hier.1 -selected  { top.c   }
+gui_list_select -id Data.1 { {top.c.payload[7:0]}  top.c.put  top.c.ck  top.c.r_l  top.c.free  top.c.received  top.c.valueReceived  {top.c.count[1:0]}  top.c.en_count  top.c.cl_count  top.c.curr  top.c.en_count  top.c.cl_count  top.c.curr  top.c.en_count  top.c.valueReceived  {top.c.count[1:0]}  top.c.en_count  top.c.valueReceived  top.c.received  top.c.valueReceived  top.c.received  top.c.r_l  top.c.free  top.c.received  top.c.r_l  {top.c.payload[7:0]}  top.c.put  top.c.ck  top.c.r_l  {top.c.payload[7:0]}  top.c.put  top.c.ck  top.c.r_l  top.c.free  top.c.received  top.c.valueReceived  {top.c.count[1:0]}  top.c.en_count  top.c.cl_count  top.c.curr   }
+gui_list_add -id Wave.1 -from Data.1 { {top.c.payload[7:0]} top.c.put top.c.ck top.c.r_l top.c.free top.c.received top.c.valueReceived {top.c.count[1:0]} top.c.en_count top.c.cl_count top.c.curr } -insertionbar
+gui_sim_continue  
+gui_wv_zoom_timerange -id  Wave.1 27 132
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 635
+gui_marker_move -id  Wave.1 C1 88
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 14
+gui_marker_move -id  Wave.1 C1 22
+gui_marker_move -id  Wave.1 C1 29
+gui_marker_move -id  Wave.1 C1 30
+gui_marker_move -id  Wave.1 C1 32
+gui_wv_scroll_hslidermove -id  Wave.1 157
+gui_marker_move -id  Wave.1 C1 37
+gui_marker_move -id  Wave.1 C1 43
+gui_marker_move -id  Wave.1 C1 47
+gui_marker_move -id  Wave.1 C1 48
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 1556
+gui_wv_scroll_hslidermove -id  Wave.1 245
+gui_marker_move -id  Wave.1 C1 57
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 57
+gui_wv_scroll_hslidermove -id  Wave.1 300
+gui_marker_move -id  Wave.1 C1 64
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 59
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -vrel .2
+gui_scroll -window Wave.1 -vrel .2
+gui_scroll -window Wave.1 -vrel -.2
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 80
+gui_marker_move -id  Wave.1 C1 40
+gui_marker_move -id  Wave.1 C1 14
+gui_marker_move -id  Wave.1 C1 10
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 60
+gui_marker_move -id  Wave.1 C1 69
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 70
+gui_list_select -id Wave.1 -selected  { top.p.valueToSend   }
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_collapse -id  Hier.1   top
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_action -id  Hier.1 {top.unnamed$$_3}
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_action -id  Hier.1 _vcs_unit__1813906446
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_expand -id Hier.1   top.p
+gui_list_action -id  Hier.1 top.p
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_action -id  Hier.1 {top.unnamed$$_3}
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_src_highlight_item -id Source.1 -lfrom 128 -idxfrom 4 -fileIdFrom 0 -lto 128 -idxto 5 -fileIdTo 0 -selection {e} -selectionId 0 -replace 0
+gui_list_show_data -select -id  Hier.1   top.p
+gui_list_collapse -id  Hier.1   top.p
+gui_list_select -id Hier.1 -selected  { top.c   }
+gui_list_expand -id  Hier.1   top.c
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_show_data -select -id  Hier.1   top
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_action -id  Hier.1 {top.unnamed$$_3}
+gui_src_highlight_item -id Source.1 -lfrom 107 -idxfrom 1 -fileIdFrom 0 -lto 107 -idxto 9 -fileIdTo 0 -selection {consumer} -selectionId 0 -replace 0
+gui_show_assertion_attempts -name { top.p.valueToSend } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_show_assertion_attempts -close
+gui_list_collapse -id  Hier.1   top.c
+gui_list_action -id  Hier.1 {top.unnamed$$_3}
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_expand -id Hier.1   top.p
+gui_list_action -id  Hier.1 top.p
+gui_list_select -id Hier.1 -selected  { top.p.myCounter   }
+gui_list_action -id  Hier.1 top.p.myCounter
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_collapse -id  Hier.1   top.p
+gui_list_expand -id  Hier.1   top.c
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_action -id  Hier.1 _vcs_unit__1813906446
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_action -id  Hier.1 top
+gui_show_assertion_attempts -name { top.p.valueToSend } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_expand -id  Hier.1   top.p
+gui_list_collapse -id  Hier.1   top.p
+gui_list_collapse -id  Hier.1   top.c
+gui_list_collapse -id  Hier.1   top
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_action -id  Hier.1 {top.unnamed$$_3}
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Data.1 -selected  { {top.unnamed$$_2}   }
+gui_list_action -id  Data.1 {top.unnamed$$_2}
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_show_assertion_attempts -name { {top.unnamed$$_2} } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_sim_continue  
+gui_show_assertion_attempts -name { {top.unnamed$$_2} } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { {top.unnamed$$_2} } -insertionbar
+gui_list_add -id Wave.1 -from Data.1 { {top.unnamed$$_2} } -insertionbar
+gui_list_select -id Wave.1 -selected  { Group4   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {} {{Group4}}
+gui_marker_move -id  Wave.1 C1 140
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 80
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_list_set_filter -id Wave.2 -text {*}
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 80
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_expand -id Hier.1   top
+gui_list_action -id  Hier.1 top
+gui_list_select -id Hier.1 -selected  { top.p   }
+gui_list_expand -id Hier.1   top.p
+gui_list_action -id  Hier.1 top.p
+gui_list_collapse -id  Hier.1   top.p
+gui_list_select -id Hier.1 -selected  { top.c   }
+gui_marker_move -id  Wave.1 C1 93
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_list_action -id  Attempts.1 {@Attempt@15@top.unnamed$$_2@80@30@Success}
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_sim_restart
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 32
+gui_marker_move -id  Wave.1 C1 25
+gui_marker_delete -id Wave.1 C2
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_list_action -id  Attempts.1 {@Attempt@15@top.unnamed$$_2@80@30@Success}
+gui_wv_scroll_hslidermove -id  Wave.1 260
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 46
+gui_marker_move -id  Wave.1 C1 32
+gui_marker_delete -id Wave.1 C2
+gui_marker_move -id  Wave.1 C1 34
+gui_marker_move -id  Wave.1 C1 38
+gui_wv_scroll_hslidermove -id  Wave.1 386
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_list_action -id  Attempts.1 {@Attempt@15@top.unnamed$$_2@80@50@Failure}
+gui_wv_scroll_hslidermove -id  Wave.1 67
+gui_marker_move -id  Wave.1 C1 30
+gui_wv_scroll_hslidermove -id  Wave.1 277
+gui_wv_scroll_hslidermove -id  Wave.1 396
+gui_marker_move -id  Wave.1 C1 60
+gui_wv_scroll_hslidermove -id  Wave.1 750
+gui_marker_move -id  Wave.1 C1 70
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 509
+gui_list_select -id Wave.1 -selected  { {top.unnamed$$_2}   }
+gui_wv_scroll_hslidermove -id  Wave.1 1378
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_list_action -id  Attempts.1 {@Attempt@15@top.unnamed$$_2@80@30@Success}
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_marker_move -id  Wave.1 C1 62
+gui_show_assertion_attempts -close
+gui_marker_move -id  Wave.1 C1 39
+gui_marker_move -id  Wave.1 C1 40
+gui_marker_move -id  Wave.1 C1 50
+gui_marker_move -id  Wave.1 C1 60
+gui_marker_move -id  Wave.1 C1 70
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_list_select -id Wave.1 -selected  { {top.c.payload[7:0]}   }
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 1785
+gui_wv_scroll_hslidermove -id  Wave.1 284
+gui_list_select -id Wave.1 -selected  { {top.unnamed$$_2.clk_event}   }
+gui_list_select -id Wave.1 -selected  { {top.unnamed$$_2}   }
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 23
+gui_marker_move -id  Wave.1 C1 20
+gui_select_attempt -name {top.unnamed$$_2} -start_time 20 -end_time 20  -result_type Failure -id Wave.1
+gui_select_attempt -name {top.unnamed$$_2} -start_time 20 -end_time 20  -result_type Failure -id Wave.1
+gui_list_action -id  Wave.1 {top.unnamed$$_2}
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_list_select -id Hier.1 -selected  { {top.unnamed$$_3}   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Data.1 -selected  { {top.unnamed$$_2}   }
+gui_show_assertion_attempts -name { {top.unnamed$$_2} } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_list_action -id  Attempts.1 {@Attempt@15@top.unnamed$$_2@80@30@Success}
+gui_wv_scroll_hslidermove -id  Wave.1 246
+gui_marker_move -id  Wave.1 C1 32
+gui_marker_delete -id Wave.1 C2
+gui_marker_move -id  Wave.1 C1 34
+gui_marker_move -id  Wave.1 C1 30
+gui_marker_move -id  Wave.1 C1 33
+gui_marker_move -id  Wave.1 C1 44
+gui_wv_scroll_hslidermove -id  Wave.1 1023
+gui_marker_move -id  Wave.1 C1 80
+gui_show_assertion_attempts  -name { top.unnamed$$_2 }  -condition end -at  80  -failures all  -successes all  -vacuous all  -incompletes all  -matches all  -mismatches all
+gui_show_assertion_attempts -close
+gui_wv_scroll_hslidermove -id  Wave.1 341
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 4
+gui_list_select -id Wave.1 -selected  { top.c.valueReceived   }
+gui_list_select -id Wave.1 -selected  { top.c.valueReceived  top.p.valueToSend   }
+gui_wv_scroll_hslidermove -id  Wave.1 348
+gui_wv_scroll_hslidermove -id  Wave.1 268
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 64
+gui_marker_move -id  Wave.1 C1 60
+gui_marker_move -id  Wave.1 C1 11
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 19
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 30
+gui_marker_move -id  Wave.1 C1 40
+gui_marker_move -id  Wave.1 C1 50
+gui_marker_move -id  Wave.1 C1 60
+gui_list_set_filter -id Hier.1 -text {*}
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_list_sort -id  Hier.1   {Hierarchy}
+gui_list_sort -id  Hier.1   -descending  {Hierarchy}
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Data.1 -selected  { top.valueReceived   }
+gui_list_select -id Data.1 -selected  { {top.unnamed$$_4.unnamed$$_3}   }
+gui_show_assertion_attempts -name { {top.unnamed$$_4.unnamed$$_3} } -condition none -failures 10 -successes 10 -vacuous 10 -incompletes 10 -matches 10 -mismatches 10
+gui_show_assertion_attempts -close
+gui_list_set_filter -id Wave.1 -text {*}
+gui_list_select -id Hier.1 -selected  { _vcs_unit__1813906446   }
+gui_marker_move -id  Wave.1 C1 0
+gui_marker_move -id  Wave.1 C1 5
+gui_marker_move -id  Wave.1 C1 11
+gui_marker_move -id  Wave.1 C1 9
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 30
+gui_marker_move -id  Wave.1 C1 39
+gui_marker_move -id  Wave.1 C1 40
+gui_marker_move -id  Wave.1 C1 50
+gui_marker_move -id  Wave.1 C1 60
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 30
+gui_marker_move -id  Wave.1 C1 39
+gui_marker_move -id  Wave.1 C1 50
+gui_marker_move -id  Wave.1 C1 60
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 65
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_marker_move -id  Wave.1 C1 75
+gui_marker_move -id  Wave.1 C1 70
+gui_marker_move -id  Wave.1 C1 46
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_list_select -id Wave.1 -selected  { top.c.en_count   }
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 15
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 69
+gui_marker_move -id  Wave.1 C1 69
+gui_marker_move -id  Wave.1 C1 50
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 39
+gui_marker_move -id  Wave.1 C1 40
+gui_marker_move -id  Wave.1 C1 80
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 9
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_marker_move -id  Wave.1 C1 104
+gui_marker_move -id  Wave.1 C1 106
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 110
+gui_marker_move -id  Wave.1 C1 90
+gui_marker_move -id  Wave.1 C1 100
+gui_marker_move -id  Wave.1 C1 110
+gui_marker_move -id  Wave.1 C1 120
+gui_marker_move -id  Wave.1 C1 130
+gui_marker_move -id  Wave.1 C1 140
+gui_marker_move -id  Wave.1 C1 150
+gui_marker_move -id  Wave.1 C1 160
+gui_marker_move -id  Wave.1 C1 170
+gui_wv_zoom_timerange -id  Wave.1 0 189

@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"gnd!v" "0v"
+"V1n V0n" "analogLib_vpulse_spectre"
+"V3n V2n" "analogLib_vdc_spectre"
+"I0n" "Lab8"

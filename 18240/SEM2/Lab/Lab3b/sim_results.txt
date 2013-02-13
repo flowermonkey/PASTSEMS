@@ -1,0 +1,637 @@
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_comparator 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_comparator(fast)
+# run -all 
+#                    0    A =  0, B=  0, AltB = 0, AeqB = 1 , AgtB = 0
+#                    1    A =  2, B=  2, AltB = 0, AeqB = 1 , AgtB = 0
+#                    2    A = 15, B=  0, AltB = 0, AeqB = 0 , AgtB = 1
+#                    3    A =  3, B= 12, AltB = 1, AeqB = 0 , AgtB = 0
+# ** Note: $finish    : testbenches.sv(13)
+#    Time: 4 ns  Iteration: 0  Instance: /testbench_comparator/tcomp
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_adder 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_adder(fast)
+# run -all 
+#                    0     0 +  0 + 0 =  0 , Cout = 0
+#                    1     2 +  2 + 0 =  4 , Cout = 0
+#                    2    15 +  0 + 1 =  0 , Cout = 1
+#                    3    12 +  2 + 1 = 15 , Cout = 0
+# ** Note: $finish    : testbenches.sv(40)
+#    Time: 4 ns  Iteration: 0  Instance: /testbench_adder/tadd
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_mux 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_mux(fast)
+# run -all 
+#                    0    in0 = 0000, in1 = 0000, sel = 0, out = 0000
+#                    1    in0 = 0110, in1 = 0010, sel = 0, out = 0110
+#                    2    in0 = 1111, in1 = 0000, sel = 1, out = 0000
+#                    3    in0 = 0011, in1 = 1100, sel = 0, out = 0011
+# ** Note: $finish    : testbenches.sv(66)
+#    Time: 4 ns  Iteration: 0  Instance: /testbench_mux/tmux
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_register 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_register(fast)
+# run -all 
+#                    0    load = 0, clr = 0, data_in = 0000, data_out = xxxx
+#                   11    load = 1, clr = 0, data_in = 1010, data_out = xxxx
+#                   30    load = 1, clr = 0, data_in = 1010, data_out = 1010
+#                   31    load = 0, clr = 0, data_in = 1111, data_out = 1010
+#                   51    load = 0, clr = 0, data_in = 1010, data_out = 1010
+#                   71    load = 1, clr = 1, data_in = 1010, data_out = 1010
+#                   90    load = 1, clr = 1, data_in = 1010, data_out = 0000
+#                   91    load = 1, clr = 1, data_in = 1110, data_out = 0000
+#                  111    load = 1, clr = 0, data_in = 1110, data_out = 0000
+#                  130    load = 1, clr = 0, data_in = 1110, data_out = 1110
+# ** Note: $finish    : testbenches.sv(113)
+#    Time: 171 ns  Iteration: 0  Instance: /testbench_register/tr
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_SIPO 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_SIPO(fast)
+# run -all 
+#                    0 i=xxxxx, s_in = x, clr = x, en = x, q = xxxx
+#                    1 i=xxxxx, s_in = 0, clr = 0, en = 0, q = xxxx
+#                   10 i=00000, s_in = 0, clr = 0, en = 0, q = xxxx
+#                   11 i=00000, s_in = 0, clr = 0, en = 1, q = xxxx
+#                   30 i=00000, s_in = 0, clr = 0, en = 1, q = xxx0
+#                   31 i=00000, s_in = 0, clr = 0, en = 0, q = xxx0
+#                   51 i=00000, s_in = 0, clr = 0, en = 1, q = xxx0
+#                   70 i=00000, s_in = 0, clr = 0, en = 1, q = xx00
+#                   71 i=00000, s_in = 0, clr = 0, en = 0, q = xx00
+#                   91 i=00000, s_in = 0, clr = 0, en = 1, q = xx00
+#                  110 i=00000, s_in = 0, clr = 0, en = 1, q = x000
+#                  111 i=00000, s_in = 0, clr = 0, en = 0, q = x000
+#                  131 i=00000, s_in = 0, clr = 0, en = 1, q = x000
+#                  150 i=00000, s_in = 0, clr = 0, en = 1, q = 0000
+#                  151 i=00000, s_in = 0, clr = 0, en = 0, q = 0000
+# Message recieved
+#                  172 i=00000, s_in = 0, clr = 1, en = 0, q = 0000
+#                  191 i=00000, s_in = 0, clr = 0, en = 0, q = 0000
+#                  210 i=00001, s_in = 0, clr = 0, en = 0, q = 0000
+#                  211 i=00001, s_in = 0, clr = 0, en = 1, q = 0000
+#                  231 i=00001, s_in = 0, clr = 0, en = 0, q = 0000
+#                  251 i=00001, s_in = 0, clr = 0, en = 1, q = 0000
+#                  271 i=00001, s_in = 0, clr = 0, en = 0, q = 0000
+#                  291 i=00001, s_in = 0, clr = 0, en = 1, q = 0000
+#                  311 i=00001, s_in = 0, clr = 0, en = 0, q = 0000
+#                  331 i=00001, s_in = 1, clr = 0, en = 1, q = 0000
+#                  350 i=00001, s_in = 1, clr = 0, en = 1, q = 0001
+#                  351 i=00001, s_in = 1, clr = 0, en = 0, q = 0001
+# Message recieved
+#                  372 i=00001, s_in = 1, clr = 1, en = 0, q = 0001
+#                  390 i=00001, s_in = 1, clr = 1, en = 0, q = 0000
+#                  391 i=00001, s_in = 1, clr = 0, en = 0, q = 0000
+#                  410 i=00010, s_in = 1, clr = 0, en = 0, q = 0000
+#                  411 i=00010, s_in = 0, clr = 0, en = 1, q = 0000
+#                  431 i=00010, s_in = 0, clr = 0, en = 0, q = 0000
+#                  451 i=00010, s_in = 0, clr = 0, en = 1, q = 0000
+#                  471 i=00010, s_in = 0, clr = 0, en = 0, q = 0000
+#                  491 i=00010, s_in = 1, clr = 0, en = 1, q = 0000
+#                  510 i=00010, s_in = 1, clr = 0, en = 1, q = 0001
+#                  511 i=00010, s_in = 1, clr = 0, en = 0, q = 0001
+#                  531 i=00010, s_in = 0, clr = 0, en = 1, q = 0001
+#                  550 i=00010, s_in = 0, clr = 0, en = 1, q = 0010
+#                  551 i=00010, s_in = 0, clr = 0, en = 0, q = 0010
+# Message recieved
+#                  572 i=00010, s_in = 0, clr = 1, en = 0, q = 0010
+#                  590 i=00010, s_in = 0, clr = 1, en = 0, q = 0000
+#                  591 i=00010, s_in = 0, clr = 0, en = 0, q = 0000
+#                  610 i=00011, s_in = 0, clr = 0, en = 0, q = 0000
+#                  611 i=00011, s_in = 0, clr = 0, en = 1, q = 0000
+#                  631 i=00011, s_in = 0, clr = 0, en = 0, q = 0000
+#                  651 i=00011, s_in = 0, clr = 0, en = 1, q = 0000
+#                  671 i=00011, s_in = 0, clr = 0, en = 0, q = 0000
+#                  691 i=00011, s_in = 1, clr = 0, en = 1, q = 0000
+#                  710 i=00011, s_in = 1, clr = 0, en = 1, q = 0001
+#                  711 i=00011, s_in = 1, clr = 0, en = 0, q = 0001
+#                  731 i=00011, s_in = 1, clr = 0, en = 1, q = 0001
+#                  750 i=00011, s_in = 1, clr = 0, en = 1, q = 0011
+#                  751 i=00011, s_in = 1, clr = 0, en = 0, q = 0011
+# Message recieved
+#                  772 i=00011, s_in = 1, clr = 1, en = 0, q = 0011
+#                  790 i=00011, s_in = 1, clr = 1, en = 0, q = 0000
+#                  791 i=00011, s_in = 1, clr = 0, en = 0, q = 0000
+#                  810 i=00100, s_in = 1, clr = 0, en = 0, q = 0000
+#                  811 i=00100, s_in = 0, clr = 0, en = 1, q = 0000
+#                  831 i=00100, s_in = 0, clr = 0, en = 0, q = 0000
+#                  851 i=00100, s_in = 1, clr = 0, en = 1, q = 0000
+#                  870 i=00100, s_in = 1, clr = 0, en = 1, q = 0001
+#                  871 i=00100, s_in = 1, clr = 0, en = 0, q = 0001
+#                  891 i=00100, s_in = 0, clr = 0, en = 1, q = 0001
+#                  910 i=00100, s_in = 0, clr = 0, en = 1, q = 0010
+#                  911 i=00100, s_in = 0, clr = 0, en = 0, q = 0010
+#                  931 i=00100, s_in = 0, clr = 0, en = 1, q = 0010
+#                  950 i=00100, s_in = 0, clr = 0, en = 1, q = 0100
+#                  951 i=00100, s_in = 0, clr = 0, en = 0, q = 0100
+# Message recieved
+#                  972 i=00100, s_in = 0, clr = 1, en = 0, q = 0100
+#                  990 i=00100, s_in = 0, clr = 1, en = 0, q = 0000
+#                  991 i=00100, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1010 i=00101, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1011 i=00101, s_in = 0, clr = 0, en = 1, q = 0000
+#                 1031 i=00101, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1051 i=00101, s_in = 1, clr = 0, en = 1, q = 0000
+#                 1070 i=00101, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1071 i=00101, s_in = 1, clr = 0, en = 0, q = 0001
+#                 1091 i=00101, s_in = 0, clr = 0, en = 1, q = 0001
+#                 1110 i=00101, s_in = 0, clr = 0, en = 1, q = 0010
+#                 1111 i=00101, s_in = 0, clr = 0, en = 0, q = 0010
+#                 1131 i=00101, s_in = 1, clr = 0, en = 1, q = 0010
+#                 1150 i=00101, s_in = 1, clr = 0, en = 1, q = 0101
+#                 1151 i=00101, s_in = 1, clr = 0, en = 0, q = 0101
+# Message recieved
+#                 1172 i=00101, s_in = 1, clr = 1, en = 0, q = 0101
+#                 1190 i=00101, s_in = 1, clr = 1, en = 0, q = 0000
+#                 1191 i=00101, s_in = 1, clr = 0, en = 0, q = 0000
+#                 1210 i=00110, s_in = 1, clr = 0, en = 0, q = 0000
+#                 1211 i=00110, s_in = 0, clr = 0, en = 1, q = 0000
+#                 1231 i=00110, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1251 i=00110, s_in = 1, clr = 0, en = 1, q = 0000
+#                 1270 i=00110, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1271 i=00110, s_in = 1, clr = 0, en = 0, q = 0001
+#                 1291 i=00110, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1310 i=00110, s_in = 1, clr = 0, en = 1, q = 0011
+#                 1311 i=00110, s_in = 1, clr = 0, en = 0, q = 0011
+#                 1331 i=00110, s_in = 0, clr = 0, en = 1, q = 0011
+#                 1350 i=00110, s_in = 0, clr = 0, en = 1, q = 0110
+#                 1351 i=00110, s_in = 0, clr = 0, en = 0, q = 0110
+# Message recieved
+#                 1372 i=00110, s_in = 0, clr = 1, en = 0, q = 0110
+#                 1390 i=00110, s_in = 0, clr = 1, en = 0, q = 0000
+#                 1391 i=00110, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1410 i=00111, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1411 i=00111, s_in = 0, clr = 0, en = 1, q = 0000
+#                 1431 i=00111, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1451 i=00111, s_in = 1, clr = 0, en = 1, q = 0000
+#                 1470 i=00111, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1471 i=00111, s_in = 1, clr = 0, en = 0, q = 0001
+#                 1491 i=00111, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1510 i=00111, s_in = 1, clr = 0, en = 1, q = 0011
+#                 1511 i=00111, s_in = 1, clr = 0, en = 0, q = 0011
+#                 1531 i=00111, s_in = 1, clr = 0, en = 1, q = 0011
+#                 1550 i=00111, s_in = 1, clr = 0, en = 1, q = 0111
+#                 1551 i=00111, s_in = 1, clr = 0, en = 0, q = 0111
+# Message recieved
+#                 1572 i=00111, s_in = 1, clr = 1, en = 0, q = 0111
+#                 1590 i=00111, s_in = 1, clr = 1, en = 0, q = 0000
+#                 1591 i=00111, s_in = 1, clr = 0, en = 0, q = 0000
+#                 1610 i=01000, s_in = 1, clr = 0, en = 0, q = 0000
+#                 1611 i=01000, s_in = 1, clr = 0, en = 1, q = 0000
+#                 1630 i=01000, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1631 i=01000, s_in = 1, clr = 0, en = 0, q = 0001
+#                 1651 i=01000, s_in = 0, clr = 0, en = 1, q = 0001
+#                 1670 i=01000, s_in = 0, clr = 0, en = 1, q = 0010
+#                 1671 i=01000, s_in = 0, clr = 0, en = 0, q = 0010
+#                 1691 i=01000, s_in = 0, clr = 0, en = 1, q = 0010
+#                 1710 i=01000, s_in = 0, clr = 0, en = 1, q = 0100
+#                 1711 i=01000, s_in = 0, clr = 0, en = 0, q = 0100
+#                 1731 i=01000, s_in = 0, clr = 0, en = 1, q = 0100
+#                 1750 i=01000, s_in = 0, clr = 0, en = 1, q = 1000
+#                 1751 i=01000, s_in = 0, clr = 0, en = 0, q = 1000
+# Message recieved
+#                 1772 i=01000, s_in = 0, clr = 1, en = 0, q = 1000
+#                 1790 i=01000, s_in = 0, clr = 1, en = 0, q = 0000
+#                 1791 i=01000, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1810 i=01001, s_in = 0, clr = 0, en = 0, q = 0000
+#                 1811 i=01001, s_in = 1, clr = 0, en = 1, q = 0000
+#                 1830 i=01001, s_in = 1, clr = 0, en = 1, q = 0001
+#                 1831 i=01001, s_in = 1, clr = 0, en = 0, q = 0001
+#                 1851 i=01001, s_in = 0, clr = 0, en = 1, q = 0001
+#                 1870 i=01001, s_in = 0, clr = 0, en = 1, q = 0010
+#                 1871 i=01001, s_in = 0, clr = 0, en = 0, q = 0010
+#                 1891 i=01001, s_in = 0, clr = 0, en = 1, q = 0010
+#                 1910 i=01001, s_in = 0, clr = 0, en = 1, q = 0100
+#                 1911 i=01001, s_in = 0, clr = 0, en = 0, q = 0100
+#                 1931 i=01001, s_in = 1, clr = 0, en = 1, q = 0100
+#                 1950 i=01001, s_in = 1, clr = 0, en = 1, q = 1001
+#                 1951 i=01001, s_in = 1, clr = 0, en = 0, q = 1001
+# Message recieved
+#                 1972 i=01001, s_in = 1, clr = 1, en = 0, q = 1001
+#                 1990 i=01001, s_in = 1, clr = 1, en = 0, q = 0000
+#                 1991 i=01001, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2010 i=01010, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2011 i=01010, s_in = 1, clr = 0, en = 1, q = 0000
+#                 2030 i=01010, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2031 i=01010, s_in = 1, clr = 0, en = 0, q = 0001
+#                 2051 i=01010, s_in = 0, clr = 0, en = 1, q = 0001
+#                 2070 i=01010, s_in = 0, clr = 0, en = 1, q = 0010
+#                 2071 i=01010, s_in = 0, clr = 0, en = 0, q = 0010
+#                 2091 i=01010, s_in = 1, clr = 0, en = 1, q = 0010
+#                 2110 i=01010, s_in = 1, clr = 0, en = 1, q = 0101
+#                 2111 i=01010, s_in = 1, clr = 0, en = 0, q = 0101
+#                 2131 i=01010, s_in = 0, clr = 0, en = 1, q = 0101
+#                 2150 i=01010, s_in = 0, clr = 0, en = 1, q = 1010
+#                 2151 i=01010, s_in = 0, clr = 0, en = 0, q = 1010
+# Message recieved
+#                 2172 i=01010, s_in = 0, clr = 1, en = 0, q = 1010
+#                 2190 i=01010, s_in = 0, clr = 1, en = 0, q = 0000
+#                 2191 i=01010, s_in = 0, clr = 0, en = 0, q = 0000
+#                 2210 i=01011, s_in = 0, clr = 0, en = 0, q = 0000
+#                 2211 i=01011, s_in = 1, clr = 0, en = 1, q = 0000
+#                 2230 i=01011, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2231 i=01011, s_in = 1, clr = 0, en = 0, q = 0001
+#                 2251 i=01011, s_in = 0, clr = 0, en = 1, q = 0001
+#                 2270 i=01011, s_in = 0, clr = 0, en = 1, q = 0010
+#                 2271 i=01011, s_in = 0, clr = 0, en = 0, q = 0010
+#                 2291 i=01011, s_in = 1, clr = 0, en = 1, q = 0010
+#                 2310 i=01011, s_in = 1, clr = 0, en = 1, q = 0101
+#                 2311 i=01011, s_in = 1, clr = 0, en = 0, q = 0101
+#                 2331 i=01011, s_in = 1, clr = 0, en = 1, q = 0101
+#                 2350 i=01011, s_in = 1, clr = 0, en = 1, q = 1011
+#                 2351 i=01011, s_in = 1, clr = 0, en = 0, q = 1011
+# Message recieved
+#                 2372 i=01011, s_in = 1, clr = 1, en = 0, q = 1011
+#                 2390 i=01011, s_in = 1, clr = 1, en = 0, q = 0000
+#                 2391 i=01011, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2410 i=01100, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2411 i=01100, s_in = 1, clr = 0, en = 1, q = 0000
+#                 2430 i=01100, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2431 i=01100, s_in = 1, clr = 0, en = 0, q = 0001
+#                 2451 i=01100, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2470 i=01100, s_in = 1, clr = 0, en = 1, q = 0011
+#                 2471 i=01100, s_in = 1, clr = 0, en = 0, q = 0011
+#                 2491 i=01100, s_in = 0, clr = 0, en = 1, q = 0011
+#                 2510 i=01100, s_in = 0, clr = 0, en = 1, q = 0110
+#                 2511 i=01100, s_in = 0, clr = 0, en = 0, q = 0110
+#                 2531 i=01100, s_in = 0, clr = 0, en = 1, q = 0110
+#                 2550 i=01100, s_in = 0, clr = 0, en = 1, q = 1100
+#                 2551 i=01100, s_in = 0, clr = 0, en = 0, q = 1100
+# Message recieved
+#                 2572 i=01100, s_in = 0, clr = 1, en = 0, q = 1100
+#                 2590 i=01100, s_in = 0, clr = 1, en = 0, q = 0000
+#                 2591 i=01100, s_in = 0, clr = 0, en = 0, q = 0000
+#                 2610 i=01101, s_in = 0, clr = 0, en = 0, q = 0000
+#                 2611 i=01101, s_in = 1, clr = 0, en = 1, q = 0000
+#                 2630 i=01101, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2631 i=01101, s_in = 1, clr = 0, en = 0, q = 0001
+#                 2651 i=01101, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2670 i=01101, s_in = 1, clr = 0, en = 1, q = 0011
+#                 2671 i=01101, s_in = 1, clr = 0, en = 0, q = 0011
+#                 2691 i=01101, s_in = 0, clr = 0, en = 1, q = 0011
+#                 2710 i=01101, s_in = 0, clr = 0, en = 1, q = 0110
+#                 2711 i=01101, s_in = 0, clr = 0, en = 0, q = 0110
+#                 2731 i=01101, s_in = 1, clr = 0, en = 1, q = 0110
+#                 2750 i=01101, s_in = 1, clr = 0, en = 1, q = 1101
+#                 2751 i=01101, s_in = 1, clr = 0, en = 0, q = 1101
+# Message recieved
+#                 2772 i=01101, s_in = 1, clr = 1, en = 0, q = 1101
+#                 2790 i=01101, s_in = 1, clr = 1, en = 0, q = 0000
+#                 2791 i=01101, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2810 i=01110, s_in = 1, clr = 0, en = 0, q = 0000
+#                 2811 i=01110, s_in = 1, clr = 0, en = 1, q = 0000
+#                 2830 i=01110, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2831 i=01110, s_in = 1, clr = 0, en = 0, q = 0001
+#                 2851 i=01110, s_in = 1, clr = 0, en = 1, q = 0001
+#                 2870 i=01110, s_in = 1, clr = 0, en = 1, q = 0011
+#                 2871 i=01110, s_in = 1, clr = 0, en = 0, q = 0011
+#                 2891 i=01110, s_in = 1, clr = 0, en = 1, q = 0011
+#                 2910 i=01110, s_in = 1, clr = 0, en = 1, q = 0111
+#                 2911 i=01110, s_in = 1, clr = 0, en = 0, q = 0111
+#                 2931 i=01110, s_in = 0, clr = 0, en = 1, q = 0111
+#                 2950 i=01110, s_in = 0, clr = 0, en = 1, q = 1110
+#                 2951 i=01110, s_in = 0, clr = 0, en = 0, q = 1110
+# Message recieved
+#                 2972 i=01110, s_in = 0, clr = 1, en = 0, q = 1110
+#                 2990 i=01110, s_in = 0, clr = 1, en = 0, q = 0000
+#                 2991 i=01110, s_in = 0, clr = 0, en = 0, q = 0000
+#                 3010 i=01111, s_in = 0, clr = 0, en = 0, q = 0000
+#                 3011 i=01111, s_in = 1, clr = 0, en = 1, q = 0000
+#                 3030 i=01111, s_in = 1, clr = 0, en = 1, q = 0001
+#                 3031 i=01111, s_in = 1, clr = 0, en = 0, q = 0001
+#                 3051 i=01111, s_in = 1, clr = 0, en = 1, q = 0001
+#                 3070 i=01111, s_in = 1, clr = 0, en = 1, q = 0011
+#                 3071 i=01111, s_in = 1, clr = 0, en = 0, q = 0011
+#                 3091 i=01111, s_in = 1, clr = 0, en = 1, q = 0011
+#                 3110 i=01111, s_in = 1, clr = 0, en = 1, q = 0111
+#                 3111 i=01111, s_in = 1, clr = 0, en = 0, q = 0111
+#                 3131 i=01111, s_in = 1, clr = 0, en = 1, q = 0111
+#                 3150 i=01111, s_in = 1, clr = 0, en = 1, q = 1111
+#                 3151 i=01111, s_in = 1, clr = 0, en = 0, q = 1111
+# Message recieved
+#                 3172 i=01111, s_in = 1, clr = 1, en = 0, q = 1111
+#                 3190 i=01111, s_in = 1, clr = 1, en = 0, q = 0000
+#                 3191 i=01111, s_in = 1, clr = 0, en = 0, q = 0000
+#                 3210 i=10000, s_in = 1, clr = 0, en = 0, q = 0000
+# ** Note: $finish    : testbenches.sv(167)
+#    Time: 3220 ns  Iteration: 0  Instance: /testbench_SIPO/test
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_PISO 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_PISO(fast)
+# run -all 
+#                    0 d=xxxx, load = x, en = x, s_out = x
+#                    1 d=xxxx, load = 0, en = 0, s_out = x
+#                   10 d=0000, load = 0, en = 0, s_out = x
+# New Message
+#                   11 d=0000, load = 1, en = 0, s_out = x
+#                   30 d=0000, load = 1, en = 0, s_out = 0
+#                   31 d=0000, load = 0, en = 1, s_out = 0
+# Message sent
+#                   91 d=0000, load = 0, en = 0, s_out = 0
+#                  110 d=0001, load = 0, en = 0, s_out = 0
+# New Message
+#                  111 d=0001, load = 1, en = 0, s_out = 0
+#                  131 d=0001, load = 0, en = 1, s_out = 0
+#                  190 d=0001, load = 0, en = 1, s_out = 1
+# Message sent
+#                  191 d=0001, load = 0, en = 0, s_out = 1
+#                  210 d=0010, load = 0, en = 0, s_out = 1
+# New Message
+#                  211 d=0010, load = 1, en = 0, s_out = 1
+#                  230 d=0010, load = 1, en = 0, s_out = 0
+#                  231 d=0010, load = 0, en = 1, s_out = 0
+#                  270 d=0010, load = 0, en = 1, s_out = 1
+#                  290 d=0010, load = 0, en = 1, s_out = 0
+# Message sent
+#                  291 d=0010, load = 0, en = 0, s_out = 0
+#                  310 d=0011, load = 0, en = 0, s_out = 0
+# New Message
+#                  311 d=0011, load = 1, en = 0, s_out = 0
+#                  331 d=0011, load = 0, en = 1, s_out = 0
+#                  370 d=0011, load = 0, en = 1, s_out = 1
+# Message sent
+#                  391 d=0011, load = 0, en = 0, s_out = 1
+#                  410 d=0100, load = 0, en = 0, s_out = 1
+# New Message
+#                  411 d=0100, load = 1, en = 0, s_out = 1
+#                  430 d=0100, load = 1, en = 0, s_out = 0
+#                  431 d=0100, load = 0, en = 1, s_out = 0
+#                  450 d=0100, load = 0, en = 1, s_out = 1
+#                  470 d=0100, load = 0, en = 1, s_out = 0
+# Message sent
+#                  491 d=0100, load = 0, en = 0, s_out = 0
+#                  510 d=0101, load = 0, en = 0, s_out = 0
+# New Message
+#                  511 d=0101, load = 1, en = 0, s_out = 0
+#                  531 d=0101, load = 0, en = 1, s_out = 0
+#                  550 d=0101, load = 0, en = 1, s_out = 1
+#                  570 d=0101, load = 0, en = 1, s_out = 0
+#                  590 d=0101, load = 0, en = 1, s_out = 1
+# Message sent
+#                  591 d=0101, load = 0, en = 0, s_out = 1
+#                  610 d=0110, load = 0, en = 0, s_out = 1
+# New Message
+#                  611 d=0110, load = 1, en = 0, s_out = 1
+#                  630 d=0110, load = 1, en = 0, s_out = 0
+#                  631 d=0110, load = 0, en = 1, s_out = 0
+#                  650 d=0110, load = 0, en = 1, s_out = 1
+#                  690 d=0110, load = 0, en = 1, s_out = 0
+# Message sent
+#                  691 d=0110, load = 0, en = 0, s_out = 0
+#                  710 d=0111, load = 0, en = 0, s_out = 0
+# New Message
+#                  711 d=0111, load = 1, en = 0, s_out = 0
+#                  731 d=0111, load = 0, en = 1, s_out = 0
+#                  750 d=0111, load = 0, en = 1, s_out = 1
+# Message sent
+#                  791 d=0111, load = 0, en = 0, s_out = 1
+#                  810 d=1000, load = 0, en = 0, s_out = 1
+# New Message
+#                  811 d=1000, load = 1, en = 0, s_out = 1
+#                  831 d=1000, load = 0, en = 1, s_out = 1
+#                  850 d=1000, load = 0, en = 1, s_out = 0
+# Message sent
+#                  891 d=1000, load = 0, en = 0, s_out = 0
+#                  910 d=1001, load = 0, en = 0, s_out = 0
+# New Message
+#                  911 d=1001, load = 1, en = 0, s_out = 0
+#                  930 d=1001, load = 1, en = 0, s_out = 1
+#                  931 d=1001, load = 0, en = 1, s_out = 1
+#                  950 d=1001, load = 0, en = 1, s_out = 0
+#                  990 d=1001, load = 0, en = 1, s_out = 1
+# Message sent
+#                  991 d=1001, load = 0, en = 0, s_out = 1
+#                 1010 d=1010, load = 0, en = 0, s_out = 1
+# New Message
+#                 1011 d=1010, load = 1, en = 0, s_out = 1
+#                 1031 d=1010, load = 0, en = 1, s_out = 1
+#                 1050 d=1010, load = 0, en = 1, s_out = 0
+#                 1070 d=1010, load = 0, en = 1, s_out = 1
+#                 1090 d=1010, load = 0, en = 1, s_out = 0
+# Message sent
+#                 1091 d=1010, load = 0, en = 0, s_out = 0
+#                 1110 d=1011, load = 0, en = 0, s_out = 0
+# New Message
+#                 1111 d=1011, load = 1, en = 0, s_out = 0
+#                 1130 d=1011, load = 1, en = 0, s_out = 1
+#                 1131 d=1011, load = 0, en = 1, s_out = 1
+#                 1150 d=1011, load = 0, en = 1, s_out = 0
+#                 1170 d=1011, load = 0, en = 1, s_out = 1
+# Message sent
+#                 1191 d=1011, load = 0, en = 0, s_out = 1
+#                 1210 d=1100, load = 0, en = 0, s_out = 1
+# New Message
+#                 1211 d=1100, load = 1, en = 0, s_out = 1
+#                 1231 d=1100, load = 0, en = 1, s_out = 1
+#                 1270 d=1100, load = 0, en = 1, s_out = 0
+# Message sent
+#                 1291 d=1100, load = 0, en = 0, s_out = 0
+#                 1310 d=1101, load = 0, en = 0, s_out = 0
+# New Message
+#                 1311 d=1101, load = 1, en = 0, s_out = 0
+#                 1330 d=1101, load = 1, en = 0, s_out = 1
+#                 1331 d=1101, load = 0, en = 1, s_out = 1
+#                 1370 d=1101, load = 0, en = 1, s_out = 0
+#                 1390 d=1101, load = 0, en = 1, s_out = 1
+# Message sent
+#                 1391 d=1101, load = 0, en = 0, s_out = 1
+#                 1410 d=1110, load = 0, en = 0, s_out = 1
+# New Message
+#                 1411 d=1110, load = 1, en = 0, s_out = 1
+#                 1431 d=1110, load = 0, en = 1, s_out = 1
+#                 1490 d=1110, load = 0, en = 1, s_out = 0
+# Message sent
+#                 1491 d=1110, load = 0, en = 0, s_out = 0
+#                 1510 d=1111, load = 0, en = 0, s_out = 0
+# ** Note: $finish    : testbenches.sv(205)
+#    Time: 1520 ns  Iteration: 0  Instance: /testbench_PISO/test
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_counter 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_counter(fast)
+# run -all 
+#                    0 clr = x, load = x, en = x, up = x, d = x, q = x
+#                    1 clr = 0, load = 0, en = 0, up = 0, d = 0, q = x
+#                   11 clr = 0, load = 1, en = 0, up = 0, d = 0, q = x
+#                   30 clr = 0, load = 1, en = 0, up = 0, d = 0, q = 0
+#                   31 clr = 0, load = 1, en = 1, up = 1, d = 0, q = 0
+#                   51 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 0
+#                   70 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 1
+#                   90 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 2
+#                  110 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 3
+#                  130 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 0
+#                  150 clr = 0, load = 0, en = 1, up = 1, d = 0, q = 1
+#                  151 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 1
+#                  170 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 0
+#                  190 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 3
+#                  210 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 2
+#                  230 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 1
+#                  250 clr = 0, load = 0, en = 1, up = 0, d = 0, q = 0
+#                  251 clr = 1, load = 1, en = 1, up = 0, d = 1, q = 0
+#                  291 clr = 1, load = 0, en = 1, up = 0, d = 1, q = 0
+#                  331 clr = 1, load = 1, en = 0, up = 0, d = 2, q = 0
+#                  371 clr = 1, load = 0, en = 0, up = 0, d = 2, q = 0
+# ** Note: $finish    : testbenches.sv(261)
+#    Time: 411 ns  Iteration: 0  Instance: /testbench_counter/testcount
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c testbench_BCD 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.testbench_BCD(fast)
+# run -all 
+#                    0 clr = x, load = x, en = x, up = x, d = xx, q = xx
+#                    1 clr = 0, load = 0, en = 0, up = 0, d = 00, q = xx
+#                   11 clr = 0, load = 1, en = 0, up = 0, d = 00, q = xx
+#                   30 clr = 0, load = 1, en = 0, up = 0, d = 00, q = 00
+#                   31 clr = 0, load = 1, en = 1, up = 1, d = 00, q = 00
+#                   51 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 00
+#                   70 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 01
+#                   90 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 02
+#                  110 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 03
+#                  130 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 04
+#                  150 clr = 0, load = 0, en = 1, up = 1, d = 00, q = 05
+#                  151 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 05
+#                  170 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 04
+#                  190 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 03
+#                  210 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 02
+#                  230 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 01
+#                  250 clr = 0, load = 0, en = 1, up = 0, d = 00, q = 00
+#                  251 clr = 1, load = 1, en = 1, up = 0, d = 01, q = 00
+#                  291 clr = 1, load = 0, en = 1, up = 0, d = 01, q = 00
+#                  331 clr = 1, load = 1, en = 0, up = 0, d = 02, q = 00
+#                  371 clr = 1, load = 0, en = 0, up = 0, d = 02, q = 00
+#                  411 clr = 0, load = 1, en = 0, up = 0, d = 99, q = 00
+#                  430 clr = 0, load = 1, en = 0, up = 0, d = 99, q = 99
+#                  431 clr = 0, load = 0, en = 1, up = 1, d = 99, q = 99
+#                  450 clr = 0, load = 0, en = 1, up = 1, d = 99, q = 00
+#                  470 clr = 0, load = 0, en = 1, up = 1, d = 99, q = 01
+#                  471 clr = 0, load = 0, en = 1, up = 0, d = 99, q = 01
+#                  490 clr = 0, load = 0, en = 1, up = 0, d = 99, q = 00
+#                  510 clr = 0, load = 0, en = 1, up = 0, d = 99, q = 99
+#                  530 clr = 0, load = 0, en = 1, up = 0, d = 99, q = 98
+#                  531 clr = 0, load = 1, en = 1, up = 0, d = 19, q = 98
+#                  550 clr = 0, load = 1, en = 1, up = 0, d = 19, q = 19
+#                  551 clr = 0, load = 0, en = 1, up = 1, d = 19, q = 19
+#                  570 clr = 0, load = 0, en = 1, up = 1, d = 19, q = 20
+#                  590 clr = 0, load = 0, en = 1, up = 1, d = 19, q = 21
+#                  591 clr = 0, load = 0, en = 1, up = 0, d = 19, q = 21
+#                  610 clr = 0, load = 0, en = 1, up = 0, d = 19, q = 20
+#                  630 clr = 0, load = 0, en = 1, up = 0, d = 19, q = 19
+#                  650 clr = 0, load = 0, en = 1, up = 0, d = 19, q = 18
+# ** Note: $finish    : testbenches.sv(341)
+#    Time: 651 ns  Iteration: 0  Instance: /testbench_BCD/testBCD

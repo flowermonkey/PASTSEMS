@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"I2n I1n I0n" "inv1"
+"PM1n PM0n" "gpdk090_pmos1v_spectre"
+"NM1n NM0n" "gpdk090_nmos1v_spectre"
+"D0v" ":1v"
+"D1v" ":2v"
+"SEL0v" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"
+"Yv" ":6v"

@@ -1,0 +1,62 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : priQueue
+Version: Z-2007.03-SP5
+Date   : Wed Nov 14 00:28:28 2012
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: r1/out_reg[0]
+              (rising edge-triggered flip-flop clocked by ck)
+  Endpoint: r5/out_reg[0]
+            (rising edge-triggered flip-flop clocked by ck)
+  Path Group: ck
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ck (rise edge)                     0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  r1/out_reg[0]/CK (DFFSX1)                0.00       0.00 r
+  r1/out_reg[0]/QN (DFFSX1)                0.29       0.29 r
+  U719/Y (AOI2BB1XL)                       0.15       0.44 r
+  U717/Y (AOI211X1)                        0.07       0.51 f
+  U714/Y (AOI222X1)                        0.21       0.72 r
+  U747/Y (OAI21XL)                         0.09       0.81 f
+  U711/Y (AOI2BB1XL)                       0.18       0.99 f
+  U804/Y (AOI21X1)                         0.13       1.12 r
+  U805/Y (AOI222X1)                        0.09       1.21 f
+  U760/Y (OAI21XL)                         0.08       1.30 r
+  U759/Y (OAI21XL)                         0.10       1.39 f
+  U758/Y (AOI222X1)                        0.31       1.70 r
+  U764/Y (INVX1)                           0.11       1.81 f
+  U761/Y (NOR2X1)                          0.14       1.95 r
+  U757/Y (NOR2BX1)                         0.18       2.13 r
+  U765/Y (NAND2X1)                         0.07       2.20 f
+  U807/Y (AOI21X1)                         0.20       2.41 r
+  U629/Y (NOR3X1)                          0.09       2.50 f
+  U783/Y (OAI21XL)                         0.38       2.88 r
+  U578/Y (AOI222XL)                        0.07       2.95 f
+  U577/Y (AOI2BB2XL)                       0.21       3.15 f
+  r5/out_reg[0]/D (DFFSX1)                 0.00       3.15 f
+  data arrival time                                   3.15
+
+  clock ck (rise edge)                    10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  r5/out_reg[0]/CK (DFFSX1)                0.00      10.00 r
+  library setup time                      -0.17       9.83
+  data required time                                  9.83
+  -----------------------------------------------------------
+  data required time                                  9.83
+  data arrival time                                  -3.15
+  -----------------------------------------------------------
+  slack (MET)                                         6.68
+
+
+1

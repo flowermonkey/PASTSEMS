@@ -1,0 +1,106 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:15.41/dve_session02.02:15.41.tcl} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:11.23/dve_session02.02:11.23.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1269
+gui_set_state_value -category Layout -key child_console_size_y -value 105
+gui_set_state_value -category Layout -key child_data_coltype -value 338
+gui_set_state_value -category Layout -key child_data_colvalue -value 352
+gui_set_state_value -category Layout -key child_data_colvariable -value 422
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 1136
+gui_set_state_value -category Layout -key child_data_size_y -value 173
+gui_set_state_value -category Layout -key child_driver_showstate -value normal
+gui_set_state_value -category Layout -key child_driver_size_x -value 689
+gui_set_state_value -category Layout -key child_driver_size_y -value 393
+gui_set_state_value -category Layout -key child_group_size_x -value 213
+gui_set_state_value -category Layout -key child_group_size_y -value 409
+gui_set_state_value -category Layout -key child_hier_size_x -value 137
+gui_set_state_value -category Layout -key child_hier_size_y -value 178
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value 2
+gui_set_state_value -category Layout -key child_schematic_pos_y -value 2
+gui_set_state_value -category Layout -key child_schematic_showstate -value normal
+gui_set_state_value -category Layout -key child_schematic_size_x -value 677
+gui_set_state_value -category Layout -key child_schematic_size_y -value 124
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1146
+gui_set_state_value -category Layout -key child_source_size_y -value 558
+gui_set_state_value -category Layout -key child_watch_size_x -value 1091
+gui_set_state_value -category Layout -key child_watch_size_y -value 193
+gui_set_state_value -category Layout -key child_wave_colname -value 218
+gui_set_state_value -category Layout -key child_wave_colvalue -value 144
+gui_set_state_value -category Layout -key child_wave_dockstate -value bottom
+gui_set_state_value -category Layout -key child_wave_left -value 364
+gui_set_state_value -category Layout -key child_wave_right -value 876
+gui_set_state_value -category Layout -key child_wave_showstate -value normal
+gui_set_state_value -category Layout -key child_wave_size_x -value 1269
+gui_set_state_value -category Layout -key child_wave_size_y -value 355
+gui_set_state_value -category Layout -key main_pos_x -value 243
+gui_set_state_value -category Layout -key main_pos_y -value 227
+gui_set_state_value -category Layout -key main_size_x -value 1512
+gui_set_state_value -category Layout -key main_size_y -value 973
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 370
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 255
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 274
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1103
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 772
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/p1/work /afs/ece.cmu.edu/usr/bflores/341/p1}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {./simv /afs/ece.cmu.edu/usr/bflores/341/p1/simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui    } -dir .
+gui_list_select -id Hier.1 {  top   top   }
+gui_list_expand -id Hier.1   top
+gui_list_action -id  Hier.1 top
+gui_list_select -id Hier.1 {  top   top.calc   }
+gui_list_expand -id Hier.1   top.calc
+gui_list_action -id  Hier.1 top.calc
+gui_list_select -id Data.1 {  top.calc.clr_alu   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.1 { top.calc.keyIn top.calc.rst_b top.calc.clk {top.calc.display[7:0]} top.calc.error top.calc.push top.calc.pop top.calc.empty top.calc.two_num top.calc.load top.calc.ld_alu_1 top.calc.ld_alu_2 top.calc.clr_alu top.calc.ld_result top.calc.clr_op top.calc.ld_op top.calc.sel_add top.calc.negate top.calc.overflow {top.calc.sel_1[2:0]} {top.calc.sel_2[2:0]} {top.calc.sel_3[2:0]} {top.calc.sel_4[2:0]} {top.calc.op_out[3:0]} {top.calc.new_value[7:0]} {top.calc.out_alu_1[7:0]} {top.calc.out_alu_2[7:0]} {top.calc.out_result[7:0]} {top.calc.mux1_out[7:0]} {top.calc.mux3_out[7:0]} {top.calc.mux4_out[7:0]} {top.calc.stack_out[7:0]} {top.calc.reg0_in[7:0]} {top.calc.reg1_in[7:0]} {top.calc.reg2_in[7:0]} {top.calc.reg3_in[7:0]} {top.calc.reg4_in[7:0]} {top.calc.reg5_in[7:0]} {top.calc.reg6_in[7:0]} {top.calc.reg7_in[7:0]} {top.calc.reg0_out[7:0]} {top.calc.reg1_out[7:0]} {top.calc.reg2_out[7:0]} {top.calc.reg3_out[7:0]} {top.calc.reg4_out[7:0]} {top.calc.reg5_out[7:0]} {top.calc.reg6_out[7:0]} {top.calc.reg7_out[7:0]} {top.calc.in[11:0]} top.calc.ld_input } -insertionbar
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 {  {top.calc.stack_out[7:0]}   }
+gui_marker_move -id  Wave.1 C1 75
+gui_list_select -id Wave.1 {  {top.calc.stack_out[7:0]}   top.calc.pop   }
+gui_list_select -id Wave.1 {  top.calc.pop   top.calc.two_num   }
+gui_list_select -id Wave.1 {  top.calc.two_num   {top.calc.out_alu_1[7:0]}   }
+gui_list_select -id Wave.1 {  {top.calc.out_alu_1[7:0]}   {top.calc.out_alu_2[7:0]}   }
+gui_list_select -id Wave.1 {  {top.calc.out_alu_2[7:0]}   {top.calc.out_alu_1[7:0]}   }
+gui_close_window -window DLPane.1
+#gui_exit
+
+                                                                                                                                gui_wv_zoom_timerange -id  Wave.1 0 119
+                                                                                                                                                                                                                                                                                                  gui_wv_zoom_timerange -id  Wave.1 0 99
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                #gui_exit
+

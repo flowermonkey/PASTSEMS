@@ -1,0 +1,5 @@
+
+// Library name: Lab8
+// Cell name: inverter
+// View name: schematic
+subckt inverter IN OUT VDD VSS

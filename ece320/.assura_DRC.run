@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/usr/cds/assura-4.1/tools/assura/bin/assura /afs/ece.cmu.edu/usr/bflores/ece320/MUX2.rsf -cdslib /afs/ece.cmu.edu/usr/bflores/ece320/cds.lib -restart -gui
+exit $?

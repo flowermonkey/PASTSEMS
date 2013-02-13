@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece.cmu.edu/usr/bflores
+T_opt
+Z1 VR8MDcdLd]?df`OgJbZQWM1
+Z2 04 3 4 work Top fast 0
+Z3 =1-0022195d11dd-4c9986c5-19e85-69f7
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece.cmu.edu/usr/bflores
+T_opt1
+Z8 V]E?8KTg4S@EnPb=m[6;Md2
+Z9 04 4 4 work func fast 0
+Z10 =1-0022195d11dd-4c99870c-dc89e-6a33
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 V1Ek<ZdQG^k8ZMEe]9fPFo2
+R2
+Z13 =1-0022195d11dd-4c99880a-69bbc-6a68
+Z14 o-quiet -auto_acc_if_foreign -work work +acc
+Z15 n@_opt2
+R6
+R7
+vfunc
+Z16 Mx1 19 __model_tech/sv_std 3 std
+Z17 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z18 IYeZHAUoMfB7;F5^L6coPX0
+Z19 VdF?8CM>=KB77GB;oRlgoQ3
+Z20 !s105 lab_1_SOP_sv_unit
+S1
+Z21 d/afs/ece/usr/bflores
+Z22 w1285129675
+Z23 8/afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1_SOP.sv
+Z24 F/afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1_SOP.sv
+L0 1
+Z25 OE;L;6.6b;45
+r1
+31
+Z26 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z27 !s100 WnH<i=ahOY^<H_S2DDIcQ2
+!s85 0
+vTester
+R16
+R17
+Z28 I>3YaHiVf=LS7AlB:S2L>c0
+Z29 V2IcMYnIKmPSaRk]_Ah:^j3
+R20
+S1
+R21
+R22
+R23
+R24
+L0 27
+R25
+r1
+31
+R26
+Z30 n@tester
+Z31 !s100 >:Q;A^9Y09cClUeHLC96E3
+!s85 0
+vTop
+R16
+R17
+Z32 I;KFgWJE<=oQCKPc?ZSFlO3
+Z33 VLf[3YBiLS5Al5WM^I>:Cn2
+R20
+S1
+R21
+R22
+R23
+R24
+L0 62
+R25
+r1
+31
+R26
+n@top
+Z34 !s100 ^Q?Lk;`c@@lg=Q[I_9WY82
+!s85 0

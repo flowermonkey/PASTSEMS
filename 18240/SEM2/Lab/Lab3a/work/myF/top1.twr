@@ -1,0 +1,159 @@
+--------------------------------------------------------------------------------
+Release 9.1.03i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx91i\bin\nt\trce.exe -ise
+C:/Documents and Settings/bflores/Desktop/Lab3a/work/myF/myF.ise -intstyle ise
+-e 3 -s 5 -xml top1 top1.ncd -o top1.twr top1.pcf -ucf top1.ucf
+
+Design file:              top1.ncd
+Physical constraint file: top1.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2006-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+rst         |    0.633(R)|    1.668(R)|n_89              |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock clock
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+reset       |    4.607(R)|   -0.788(R)|n_90              |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+-----------------+------------+------------------+--------+
+                 | clk (edge) |                  | Clock  |
+Destination      |   to PAD   |Internal Clock(s) | Phase  |
+-----------------+------------+------------------+--------+
+displayValuesA[1]|   11.251(R)|n_89              |   0.000|
+displayValuesA[2]|   11.142(R)|n_89              |   0.000|
+displayValuesA[3]|   11.036(R)|n_89              |   0.000|
+displayValuesA[4]|   10.560(R)|n_89              |   0.000|
+displayValuesA[5]|   11.137(R)|n_89              |   0.000|
+displayValuesA[6]|   10.584(R)|n_89              |   0.000|
+displayValuesA[7]|   11.636(R)|n_89              |   0.000|
+-----------------+------------+------------------+--------+
+
+Clock clock to Pad
+----------------------+------------+------------------+--------+
+                      | clk (edge) |                  | Clock  |
+Destination           |   to PAD   |Internal Clock(s) | Phase  |
+----------------------+------------+------------------+--------+
+displayA              |    6.403(R)|n_90              |   0.000|
+sevenSegmentDisplay[0]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[1]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[2]|    6.403(R)|n_90              |   0.000|
+sevenSegmentDisplay[3]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[4]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[5]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[6]|    6.404(R)|n_90              |   0.000|
+sevenSegmentDisplay[7]|    6.403(R)|n_90              |   0.000|
+----------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+h_move[0]      |         |    1.647|         |         |
+h_move[1]      |         |    1.647|         |         |
+h_move[2]      |         |    1.647|         |         |
+h_move[3]      |         |    1.647|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.951|         |         |         |
+clock          |    5.080|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock h_move[0]
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.126|         |
+h_move[0]      |         |         |    0.660|    0.660|
+h_move[1]      |         |         |    0.359|    0.359|
+h_move[2]      |         |         |    0.549|    0.549|
+h_move[3]      |         |         |    0.732|    0.732|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock h_move[1]
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.126|         |
+h_move[0]      |         |         |    1.098|    1.098|
+h_move[1]      |         |         |    0.797|    0.797|
+h_move[2]      |         |         |    0.987|    0.987|
+h_move[3]      |         |         |    1.170|    1.170|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock h_move[2]
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.126|         |
+h_move[0]      |         |         |    1.230|    1.230|
+h_move[1]      |         |         |    0.929|    0.929|
+h_move[2]      |         |         |    1.119|    1.119|
+h_move[3]      |         |         |    1.302|    1.302|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock h_move[3]
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.126|         |
+h_move[0]      |         |         |    0.891|    0.891|
+h_move[1]      |         |         |    0.590|    0.590|
+h_move[2]      |         |         |    0.780|    0.780|
+h_move[3]      |         |         |    0.963|    0.963|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Mar 15 18:17:03 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 85 MB
+
+
+

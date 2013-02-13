@@ -1,0 +1,14 @@
+
+// Library name: lab9
+// Cell name: testbench_1_5
+// View name: schematic
+I3 (0 a b VDD) inverter width=8*8*lambda length=2*lambda
+I2 (0 a c VDD) inverter width=8*8*lambda length=2*lambda
+I1 (0 net12 a VDD) inverter width=4*8*lambda length=2*lambda
+I0 (0 IN net12 VDD) inverter width=8*lambda length=2*lambda
+NM0 (c 0 0 0) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=4000*2.5f \
+        ps=1.16u pd=1600*50n m=(1)*(1) simM=(1)*(1)
+C0 (b 0) gpdk090_mimcap area=(4u)*(4u) perim=2*(4u)+2*(4u) m=1*C_delay
+V2 (VDD 0) vsource dc=1.2 type=dc
+V0 (IN 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p

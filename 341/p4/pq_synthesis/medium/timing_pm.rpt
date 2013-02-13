@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : priQueue
+Version: Z-2007.03-SP5
+Date   : Wed Nov 14 00:13:26 2012
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: r1/out_reg[0]
+              (rising edge-triggered flip-flop clocked by ck)
+  Endpoint: top[0] (output port clocked by ck)
+  Path Group: ck
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  r1/out_reg[0]/CK (DFFSHQX4)              0.00       0.00 r
+  r1/out_reg[0]/Q (DFFSHQX4)               0.16       0.16 r
+  U215/Y (INVXL)                           0.02       0.18 f
+  top[0] (out)                             0.00       0.18 f
+  data arrival time                                   0.18
+
+  max_delay                                0.18       0.18
+  output external delay                    0.00       0.18
+  data required time                                  0.18
+  -----------------------------------------------------------
+  data required time                                  0.18
+  data arrival time                                  -0.18
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

@@ -1,0 +1,50 @@
+module mux (input bit a, b, sel,
+			output bit x);
+	assign x = (sel)?a:b;
+endmodule : mux
+
+module test_mux; 
+	bit x,a,b,sel;
+	logic [3:0] i;
+
+	mux M(.*);
+	
+	initial begin
+		for(i=0; i!=8; ++i)
+			#2 $display("i=%b, x=%b, sel=%b, a=%b, b=%b",i,x,sel,a,b);
+	end
+	assign a = i[2], b = i[1], sel = i[0];
+
+endmodule : test_mux
+
+
+Parsing design file '../hw0.sv'
+Top Level Modules:
+       test_mux
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Aug 29 22:22 2012
+
+i=0000, x=0, sel=0, a=0, b=0
+i=0001, x=0, sel=1, a=0, b=0
+i=0010, x=1, sel=0, a=0, b=1
+i=0011, x=0, sel=1, a=0, b=1
+i=0100, x=0, sel=0, a=1, b=0
+i=0101, x=1, sel=1, a=1, b=0
+i=0110, x=1, sel=0, a=1, b=1
+i=0111, x=1, sel=1, a=1, b=1
+
+		V C S   S i m u l a t i o n   R e p o r t 
+Time: 16
+CPU Time:      0.370 seconds;       Data structure size:   0.0Mb
+Wed Aug 29 22:22:01 2012
+CPU time: .116 seconds to compile + .040 seconds to elab + .164 seconds to link + .516 seconds in simulation

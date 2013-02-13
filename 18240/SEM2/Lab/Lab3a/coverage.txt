@@ -1,0 +1,617 @@
+Coverage Report by file with details
+
+File: fsmtestbench.sv
+Statement Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                      237       237         0     100.0
+
+================================Statement Details================================
+
+Statement Coverage for file fsmtestbench.sv --
+
+    1                                              module fsmtestbench(
+    2                                                input logic [3:0] c_move, 
+    3                                                output logic [3:0] h_move, 
+    4                                                output logic clk, rst);
+    5                                                
+    6             1                          1       initial clk = 0;
+    7             1                        142       always #10 clk = ~clk;
+    7             2                        141     
+    8                                                
+    9                                                initial begin
+    10                                                 $monitor($time,, "c_move=%d, h_move=%d", 
+    11            1                          1         c_move, h_move);  
+    12                                                 
+    13            1                          1         h_move = 'b0000; rst = 1;
+    13            2                          1     
+    14                                                 
+    15            1                          1         @(posedge clk);
+    16            1                          1         @(posedge clk);
+    17            1                          1         @(posedge clk);   
+    18                                                 
+    19            1                          1         @(posedge clk);
+    20            1                          1         #1 rst = 0;
+    20            2                          1     
+    21            1                          1         h_move = 'b0000;
+    22            1                          1         @(posedge clk);
+    23            1                          1         #1 h_move = 'b0001;
+    23            2                          1     
+    24            1                          1         @(posedge clk);
+    25            1                          1         #1 h_move = 'b0010;
+    25            2                          1     
+    26            1                          1         @(posedge clk);
+    27            1                          1         #1 h_move = 'b0011;
+    27            2                          1     
+    28            1                          1         @(posedge clk);
+    29            1                          1         #1 h_move = 'b0100;
+    29            2                          1     
+    30            1                          1         @(posedge clk);
+    31            1                          1         #1 h_move = 'b0101;
+    31            2                          1     
+    32            1                          1         @(posedge clk);
+    33            1                          1         #1 h_move = 'b0110;
+    33            2                          1     
+    34            1                          1         @(posedge clk);
+    35            1                          1         #1 h_move = 'b1000;
+    35            2                          1     
+    36            1                          1         @(posedge clk);
+    37            1                          1         #1 h_move = 'b0111;
+    37            2                          1     
+    38                                                 
+    39            1                          1         @(posedge clk);
+    40            1                          1         #1 h_move = 'b0100;
+    40            2                          1     
+    41            1                          1         @(posedge clk);
+    42            1                          1         #1 h_move = 'b0010;
+    42            2                          1     
+    43            1                          1         @(posedge clk);
+    44            1                          1         #1 h_move = 'b0111;
+    44            2                          1     
+    45            1                          1         @(posedge clk);
+    46            1                          1         #1 h_move = 'b0000;
+    46            2                          1     
+    47                                                 
+    48            1                          1         @(posedge clk);
+    49            1                          1         #1 rst =1; h_move = 'b0000;
+    49            2                          1     
+    49            3                          1     
+    50            1                          1         @(posedge clk);
+    51            1                          1         #1 rst =0; h_move = 'b0111;    
+    51            2                          1     
+    51            3                          1     
+    52            1                          1         @(posedge clk);
+    53            1                          1         #1 h_move = 'b0001;
+    53            2                          1     
+    54                                                 
+    55            1                          1         @(posedge clk);
+    56            1                          1         #1 rst =1; h_move = 'b0000;
+    56            2                          1     
+    56            3                          1     
+    57            1                          1         @(posedge clk);
+    58            1                          1         #1 rst =0; h_move = 'b0111;    
+    58            2                          1     
+    58            3                          1     
+    59            1                          1         @(posedge clk);
+    60            1                          1         #1 h_move = 'b0011;
+    60            2                          1     
+    61                                                 
+    62            1                          1         @(posedge clk);
+    63            1                          1         #1 rst =1; h_move = 'b0000;
+    63            2                          1     
+    63            3                          1     
+    64            1                          1         @(posedge clk);
+    65            1                          1         #1 rst =0; h_move = 'b0111;    
+    65            2                          1     
+    65            3                          1     
+    66            1                          1         @(posedge clk);
+    67            1                          1         #1 h_move = 'b0101;
+    67            2                          1     
+    68                                                 
+    69            1                          1         @(posedge clk);
+    70            1                          1         #1 rst =1; h_move = 'b0000;
+    70            2                          1     
+    70            3                          1     
+    71            1                          1         @(posedge clk);
+    72            1                          1         #1 rst =0; h_move = 'b0111;    
+    72            2                          1     
+    72            3                          1     
+    73            1                          1         @(posedge clk);
+    74            1                          1         #1 h_move = 'b1000;
+    74            2                          1     
+    75            1                          1         @(posedge clk);
+    76            1                          1         #1 h_move = 'b0110;
+    76            2                          1     
+    77            1                          1         @(posedge clk);
+    78            1                          1         @(posedge clk);
+    79            1                          1         @(posedge clk);
+    80            1                          1         #1 rst =1; h_move = 'b0000;
+    80            2                          1     
+    80            3                          1     
+    81                                                 
+    82            1                          1         @(posedge clk);
+    83            1                          1         #1 rst =0; h_move = 'b0111;
+    83            2                          1     
+    83            3                          1     
+    84            1                          1         @(posedge clk);
+    85            1                          1         #1 h_move = 'b0110;
+    85            2                          1     
+    86            1                          1         @(posedge clk);
+    87            1                          1         #1 h_move = 'b0010;
+    87            2                          1     
+    88            1                          1         @(posedge clk);
+    89            1                          1         #1 h_move = 'b0100;
+    89            2                          1     
+    90            1                          1         @(posedge clk);
+    91            1                          1         #1 h_move = 'b0111;
+    91            2                          1     
+    92            1                          1         @(posedge clk);
+    93            1                          1         #1 h_move = 'b0110;
+    93            2                          1     
+    94            1                          1         @(posedge clk);
+    95            1                          1         #1 h_move = 'b1000;
+    95            2                          1     
+    96            1                          1         @(posedge clk);
+    97            1                          1         #1 h_move = 'b0001;
+    97            2                          1     
+    98            1                          1         @(posedge clk);
+    99            1                          1         #1 rst =1; h_move = 'b0000;
+    99            2                          1     
+    99            3                          1     
+    100                                                
+    101           1                          1         @(posedge clk);
+    102           1                          1         #1 rst =0; h_move = 'b0111;
+    102           2                          1     
+    102           3                          1     
+    103           1                          1         @(posedge clk);
+    104           1                          1         #1 h_move = 'b0110;
+    104           2                          1     
+    105           1                          1         @(posedge clk);
+    106           1                          1         #1 h_move = 'b0011;
+    106           2                          1     
+    107           1                          1         #1 rst =1; h_move = 'b0000;
+    107           2                          1     
+    107           3                          1     
+    108                                                
+    109           1                          1         @(posedge clk);
+    110           1                          1         #1 rst =0; h_move = 'b0111;
+    110           2                          1     
+    110           3                          1     
+    111           1                          1         @(posedge clk);
+    112           1                          1         #1 h_move = 'b0110;
+    112           2                          1     
+    113           1                          1         @(posedge clk);
+    114           1                          1         #1 h_move = 'b0101;
+    114           2                          1     
+    115           1                          1         @(posedge clk);
+    116           1                          1         #1 h_move = 'b0000;
+    116           2                          1     
+    117           1                          1         @(posedge clk);
+    118           1                          1         #1 rst =1; h_move = 'b0000;
+    118           2                          1     
+    118           3                          1     
+    119                                            
+    120           1                          1         @(posedge clk);
+    121           1                          1         #1 rst =0; h_move = 'b0111;
+    121           2                          1     
+    121           3                          1     
+    122           1                          1         @(posedge clk);
+    123           1                          1         #1 h_move = 'b0110;
+    123           2                          1     
+    124           1                          1         @(posedge clk);
+    125           1                          1         #1 h_move = 'b0000;
+    125           2                          1     
+    126           1                          1         @(posedge clk);
+    127           1                          1         #1 h_move = 'b0110;
+    127           2                          1     
+    128           1                          1         @(posedge clk);
+    129           1                          1         #1 rst =1; h_move = 'b0000;
+    129           2                          1     
+    129           3                          1     
+    130                                                
+    131           1                          1         @(posedge clk);
+    132           1                          1         #1 rst =0; h_move = 'b0111;
+    132           2                          1     
+    132           3                          1     
+    133           1                          1         @(posedge clk);
+    134           1                          1         #1 h_move = 'b0010;
+    134           2                          1     
+    135           1                          1         @(posedge clk);
+    136           1                          1         #1 rst=1; h_move = 'b0000;
+    136           2                          1     
+    136           3                          1     
+    137                                                
+    138           1                          1         @(posedge clk);
+    139           1                          1         #1 rst =0; h_move = 'b0111;
+    139           2                          1     
+    139           3                          1     
+    140           1                          1         @(posedge clk);
+    141           1                          1         #1 h_move = 'b0110;
+    141           2                          1     
+    142           1                          1         @(posedge clk);
+    143           1                          1         #1 h_move = 'b1000;
+    143           2                          1     
+    144           1                          1         @(posedge clk);
+    145           1                          1         #1 rst =1; h_move = 'b0000;
+    145           2                          1     
+    145           3                          1     
+    146                                                
+    147           1                          1         @(posedge clk);
+    148           1                          1         #1 rst =0; h_move = 'b0111;
+    148           2                          1     
+    148           3                          1     
+    149           1                          1         @(posedge clk);
+    150           1                          1         #1 h_move = 'b0000;
+    150           2                          1     
+    151           1                          1         @(posedge clk);
+    152           1                          1         #1 h_move = 'b0110;
+    152           2                          1     
+    153           1                          1         @(posedge clk);
+    154           1                          1         #1 rst =1; h_move = 'b0000;
+    154           2                          1     
+    154           3                          1     
+    155                                                
+    156           1                          1         @(posedge clk);
+    157           1                          1         #1 rst =0; h_move = 'b0111;
+    157           2                          1     
+    157           3                          1     
+    158           1                          1         @(posedge clk);
+    159           1                          1         #1 h_move = 'b0110;
+    159           2                          1     
+    160           1                          1         @(posedge clk);
+    161           1                          1         #1 h_move = 'b0000;
+    161           2                          1     
+    162           1                          1         @(posedge clk);
+    163           1                          1         #1 h_move = 'b0101;
+    163           2                          1     
+    164           1                          1         @(posedge clk);
+    165           1                          1         #1 rst =1; h_move = 'b0000;
+    165           2                          1     
+    165           3                          1     
+    166                                                
+    167           1                          1         @(posedge clk);
+    168           1                          1         #1 $stop;
+    168           2                          1     
+    169                                                
+    170                                            end
+    171                                            endmodule
+
+Branch Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Branches                     0         0         0     100.0
+Condition Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Conditions                   0         0         0     100.0
+    Fec Conditions               0         0         0     100.0
+Expression Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Expressions                  0         0         0     100.0
+    Fec Expressions              0         0         0     100.0
+FSM Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+Toggle Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Toggle Bins                 12        12         0     100.0
+
+================================Toggle Details================================
+
+Toggle Coverage for File fsmtestbench.sv --
+
+       Line                                    Node      1H->0L      0L->1H                       	"Coverage" 
+----------------------------------------------------------------------------------------------------------------
+
+Total Node Count     =          6 
+Toggled Node Count   =          6 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =      100.0% (12 of 12 bins)
+
+File: myFSM1.sv
+Statement Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       26        25         1      96.1
+
+================================Statement Details================================
+
+Statement Coverage for file myFSM1.sv --
+
+    1                                              module myFSM1 (
+    2                                                input logic [3:0] h_move,
+    3                                                input logic       clk, rst,
+    4                                                output logic [3:0] c_move);
+    5                                                
+    6                                                enum logic [2:0] {A=3'd0, B=3'd1, C=3'd2, D=3'd3, E=3'd4, F=3'd5} current, next;
+    7                                                
+    8             1                        107       always_comb begin
+    9             1                        107         next=current;
+    10            1                      E-hit         unique case(current)
+    11                                                   A: begin
+    12                                                     if(h_move==7)
+    13                                                       begin
+    14            1                         13                 next = B;
+    15                                                       end
+    16                                                     else
+    17            1                         22               next=current;
+    18                                                     end
+    19                                                   B: begin 
+    20                                                     if(((h_move==0)||(h_move==1)||(h_move==3)||(h_move==5)||(h_move==8)))
+    21                                                     begin
+    22            1                          7               next = C;
+    23                                                     end
+    24                                                     else if (h_move==6)begin
+    25            1                          6               next = D;
+    26                                                     end
+    27                                                     else begin
+    28            1                         17               next = current;
+    29                                                     end
+    30                                                   end
+    31                                                   
+    32                                                   C: begin
+    33            1                         13               next=current;  
+    34                                                     end    
+    35                                                   D: begin
+    36                                                     if(((h_move==1)||(h_move==3)||(h_move==5)))
+    37                                                     begin
+    38            1                          3               next = E;
+    39                                                     end
+    40                                                     else if (h_move==0)begin
+    41            1                          4               next = F;
+    42                                                       end
+    43                                                     else begin
+    44            1                         12               next = current;
+    45                                                     end
+    46                                                   end
+    47                                                   
+    48                                                   E: begin
+    49            1                          4             next =current;
+    50                                                   end
+    51                                                   
+    52                                                   F: begin
+    53            1                          6             next=current;
+    54                                                   end
+    55                                                 endcase
+    56                                             end
+    57            1                         43       always_comb begin
+    58            1                         43         c_move=0;
+    59            1                         43         unique case(current)
+    60            1                         14           A: c_move=4;
+    61            1                         13           B: c_move=2;
+    62            1                          6           C: c_move=6;
+    63            1                          6           D: c_move=8; 
+    64            1                          2           E: c_move=0;
+    65            1                          2           F: c_move=5;
+    66            1                    ***0***           default: c_move=0;
+    67                                                 endcase
+    68                                             end
+    69                                             
+    70                                             
+    71            1                         44     always_ff @ (posedge clk) begin
+    72                                               if(rst) begin
+    73            1                         14         current <=A;
+    74                                               end else begin
+    75            1                         30         current<=next;
+    76                                               end
+    77                                             end
+    78                                             endmodule
+    79                                             
+    80                                             module top1(
+    81                                               output logic displayA,
+    82                                               output logic [7:0] sevenSegmentDisplay,
+    83                                               input logic [3:0]h_move,
+    84                                               input logic clk, rst,
+    85                                               output logic [3:0] c_move);
+    86                                               
+    87                                               wire [7:0]displayValuesA;
+    88                                               
+    89                                               BCDtoSevenSeg  bcd(displayValuesA, c_move);
+    90                                               myFSM1 fsm(.*);
+    91                                               LEDController LED(.displayValuesA(displayValuesA),.displayValuesB(),.displayValuesC(),.displayValuesD(), .clock(clk), .reset(rst), .displayA(displayA), .displayB(), .displayC(), .displayD(), .sevenSegmentDisplay(sevenSegmentDisplay));
+    92                                               
+    93                                               
+    94                                             endmodule  
+    95                                             
+    96                                             module test;
+    97                                               logic clk, rst;
+    98                                               logic [3:0] c_move; 
+    99                                               logic q2, q1, q0;
+    100                                              logic [3:0]h_move;
+    101                                              
+    102                                                
+    103                                              myFSM1 fsm(.*);
+    104                                              fsmtestbench t(.*);
+    105                                            endmodule  
+
+Branch Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Branches                    25        24         1      96.0
+
+================================Branch Details================================
+
+Branch Coverage for file myFSM1.sv --
+
+------------------------------------CASE Branch------------------------------------
+    10                                     107     Count coming in to CASE
+    11            1                         35           A: begin
+    10            1                          E         unique case(current)
+    19            1                         30           B: begin 
+    32            1                         13           C: begin
+    35            1                         19           D: begin
+    48            1                          4           E: begin
+    52            1                          6           F: begin
+Branch totals: 6 hits of 6 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    12                                      35     Count coming in to IF
+    12            1                         13             if(h_move==7)
+    16            1                         22             else
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    20                                      30     Count coming in to IF
+    20            1                          7             if(((h_move==0)||(h_move==1)||(h_move==3)||(h_move==5)||(h_move==8)))
+    24            1                         23             else if (h_move==6)begin
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    24                                      23     Count coming in to IF
+    24            2                          6             else if (h_move==6)begin
+    27            1                         17             else begin
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    36                                      19     Count coming in to IF
+    36            1                          3             if(((h_move==1)||(h_move==3)||(h_move==5)))
+    40            1                         16             else if (h_move==0)begin
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    40                                      16     Count coming in to IF
+    40            2                          4             else if (h_move==0)begin
+    43            1                         12             else begin
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------CASE Branch------------------------------------
+    59                                      43     Count coming in to CASE
+    60            1                         14           A: c_move=4;
+    61            1                         13           B: c_move=2;
+    62            1                          6           C: c_move=6;
+    63            1                          6           D: c_move=8; 
+    64            1                          2           E: c_move=0;
+    65            1                          2           F: c_move=5;
+    66            1                    ***0***           default: c_move=0;
+Branch totals: 6 hits of 7 branches = 85.7%
+
+------------------------------------IF Branch------------------------------------
+    72                                      44     Count coming in to IF
+    72            1                         14       if(rst) begin
+    74            1                         30       end else begin
+Branch totals: 2 hits of 2 branches = 100.0%
+
+
+Condition Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Conditions                  10        10         0     100.0
+    Fec Conditions              16        16         0     100.0
+
+================================Condition Details================================
+
+Condition Coverage for file myFSM1.sv --
+
+-------------------UDP Condition View (Short circuiting enabled)--------------------
+Line       20 Item    1         if(((h_move==0)||(h_move==1)||(h_move==3)||(h_move==5)||(h_move==8)))
+Condition totals: 6 hits of 6 rows = 100.0%
+
+----------------Focused Condition View (Short circuiting enabled)-------------------
+Line       20 Item    1         if(((h_move==0)||(h_move==1)||(h_move==3)||(h_move==5)||(h_move==8)))
+Condition totals: 10 hits of 10 rows = 100.0%
+
+-------------------UDP Condition View (Short circuiting enabled)--------------------
+Line       36 Item    1         if(((h_move==1)||(h_move==3)||(h_move==5)))
+Condition totals: 4 hits of 4 rows = 100.0%
+
+----------------Focused Condition View (Short circuiting enabled)-------------------
+Line       36 Item    1         if(((h_move==1)||(h_move==3)||(h_move==5)))
+Condition totals: 6 hits of 6 rows = 100.0%
+
+
+Expression Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Expressions                  0         0         0     100.0
+    Fec Expressions              0         0         0     100.0
+FSM Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    States                       6         6         0     100.0
+    Transitions                 16        11         5      68.7
+
+================================FSM Details================================
+
+FSM Coverage for file myFSM1.sv --
+
+FSM_ID: current
+    Current State Object : current
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  11                   A                   0
+  19                   B                   1
+  35                   D                   3
+  32                   C                   2
+  52                   F                   5
+  48                   E                   4
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                       A                  15
+                       B                  13
+                       D                   6
+                       C                   6
+                       F                   2
+                       E                   2
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  17                   0                   2          A -> A              
+  14                   1                  13          A -> B              
+  25                   3                   6          B -> D              
+  22                   4                   6          B -> C              
+  73                   5                   1          B -> A              
+  41                   7                   2          D -> F              
+  38                   8                   2          D -> E              
+  73                   9                   2          D -> A              
+  73                  11                   6          C -> A              
+  73                  13                   2          F -> A              
+  73                  15                   2          E -> A              
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+  28                   2          B -> B              
+  44                   6          D -> D              
+  33                  10          C -> C              
+  53                  12          F -> F              
+  49                  14          E -> E              
+
+
+    Summary                 Active      Hits    Misses % Covered
+    -------                 ------      ----    ------ ---------
+    States                       6         6         0     100.0
+    Transitions                 16        11         5      68.7
+Toggle Coverage:
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Toggle Bins                 46        40         6      86.9
+
+================================Toggle Details================================
+
+Toggle Coverage for File myFSM1.sv --
+
+       Line                                    Node      1H->0L      0L->1H                       	"Coverage" 
+----------------------------------------------------------------------------------------------------------------
+          6                                    next   ENUM type                   Value       Count
+          6                                 current   ENUM type                   Value       Count
+         99                                      q2           0           0                                0.00 
+         99                                      q1           0           0                                0.00 
+         99                                      q0           0           0                                0.00 
+
+Total Node Count     =         29 
+Toggled Node Count   =         26 
+Untoggled Node Count =          3 
+
+Toggle Coverage      =       86.9% (40 of 46 bins)
+

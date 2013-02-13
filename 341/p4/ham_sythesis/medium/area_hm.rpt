@@ -1,0 +1,25 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : area
+Design : ham_decoder
+Version: Z-2007.03-SP5
+Date   : Tue Nov 13 22:16:53 2012
+****************************************
+
+Library(s) Used:
+
+    typical (File: /afs/ece/class/ece341/setup/Artisan/typical.db)
+
+Number of ports:               14
+Number of nets:                41
+Number of cells:               34
+Number of references:          13
+
+Combinational area:       1234.094409
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          1234.094360
+Total area:                 undefined
+1

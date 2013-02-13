@@ -1,0 +1,108 @@
+<fog_problem>
+    <var_section>
+        <var_list_section>
+            <var_list_item path_id="0">
+                <var_scalar var_id="0" var_prec="32" var_sign="s" enum_id="-1" var_type="N" enum_name="" is_declared="1" var_covg="n">
+                    <var_non_array_elem>
+                    </var_non_array_elem>
+                </var_scalar>
+            </var_list_item>
+        </var_list_section>
+        <array_size_var_assoc_section>
+        </array_size_var_assoc_section>
+    </var_section>
+    <aggr_var_section>
+    </aggr_var_section>
+    <func_var_section>
+    </func_var_section>
+    <enum_names_section>
+    </enum_names_section>
+    <alloc_var_assoc_section>
+    </alloc_var_assoc_section>
+    <when_assoc_section>
+    </when_assoc_section>
+    <when_cblk_assoc_section>
+    </when_cblk_assoc_section>
+    <when_hierarchy_section>
+    </when_hierarchy_section>
+    <array_var_section>
+    </array_var_section>
+</fog_problem>
+
+<problem>
+    <cons_blocks>
+        <cons_block cb_id="0" cb_did="-2147483647" cb_always_on="N" cb_type="NORMAL" cb_covg="N">
+            <cons cons_id="0" cons_type="NORMAL" cons_prio="0">
+                <cons_expr>
+<expr>
+    <expr_set>
+        <set_dist_expr precision="1" sign="u">
+            <set_lhs_expr_table>
+                <set_lhs_expr_entry lhs_expr_id="0">
+            <expr>
+                <expr_variable var_id="0"/>
+            </expr>
+                </set_lhs_expr_entry>
+            </set_lhs_expr_table>
+            <dist_intervals>
+                <dist_interval wt_type="WHOLE">
+                    <lpoint lhs_expr_id="0">
+                        <expr>
+                            <constant value="0" constant_base="10" precision="32" sign="s" negative="N"/>
+                        </expr>
+                    </lpoint>
+                    <weight>
+                        <expr>
+                            <expr>
+                                <constant value="50" constant_base="10" precision="32" sign="s" negative="N"/>
+                            </expr>
+                            <expr_un_op operator="UCU" precision="0" sign="u"/>
+                        </expr>
+                    </weight>
+                </dist_interval>
+                <dist_interval wt_type="WHOLE">
+                    <lpoint lhs_expr_id="0">
+                        <expr>
+                            <constant value="1" constant_base="10" precision="32" sign="s" negative="N"/>
+                        </expr>
+                    </lpoint>
+                    <rpoint lhs_expr_id="0">
+                        <expr>
+                            <constant value="8" constant_base="10" precision="32" sign="s" negative="N"/>
+                        </expr>
+                    </rpoint>
+                    <weight>
+                        <expr>
+                            <expr>
+                                <constant value="0" constant_base="10" precision="32" sign="s" negative="N"/>
+                            </expr>
+                            <expr_un_op operator="UCU" precision="0" sign="u"/>
+                        </expr>
+                    </weight>
+                </dist_interval>
+            </dist_intervals>
+        </set_dist_expr>
+    </expr_set>
+</expr>
+                </cons_expr>
+            </cons>
+        </cons_block>
+    </cons_blocks>
+</problem>
+
+<problem>
+</problem>
+
+<problem>
+</problem>
+
+<problem>
+</problem>
+
+<problem>
+</problem>
+
+<problem>
+</problem>
+
+/*	delay	*/

@@ -1,0 +1,158 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+T_opt
+Z1 VPYG>BP9C;bOz81YPIWIGV2
+Z2 04 3 4 work top fast 0
+Z3 =1-0022195d11dd-4d8351e0-9d528-384c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+vcounter
+Z8 Mx1 19 __model_tech/sv_std 3 std
+Z9 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z10 IO2T5iMO5ViPJ@Jl4ehT^m3
+Z11 VXKn8G=AmiHdI3`e?LJlJg3
+S1
+R7
+Z12 w1300439826
+Z13 8counter.sv
+Z14 Fcounter.sv
+L0 1
+Z15 OE;L;6.6b;45
+r1
+31
+Z16 o-sv -L mtiAvm -L mtiOvm -L mtiUPF
+Z17 !s100 K918X;^_D;3^hZ>aV46Yi3
+Z18 !s105 counter_sv_unit
+!s85 0
+vfsm
+R8
+R9
+Z19 IXT_:zSNQGXG8mj>kLYX2S0
+Z20 VjdgOnEB_Yk7;;C3?]@=B`0
+S1
+R7
+Z21 w1300450035
+Z22 8fsm.sv
+Z23 Ffsm.sv
+L0 1
+R15
+r1
+31
+R16
+Z24 !s100 5EcYkHTU1NNSfoCC40hj>2
+Z25 !s105 fsm_sv_unit
+!s85 0
+vmux
+R8
+R9
+Z26 ICDVE]?7939zWRPI8Pzl1i0
+Z27 VmbZCZz;MIA5c6H<ZH<JRV1
+Z28 !s105 mux_sv_unit
+S1
+R7
+Z29 w1300451024
+Z30 8mux.sv
+Z31 Fmux.sv
+L0 1
+R15
+r1
+31
+R16
+Z32 !s100 >k]c84_3@cBQeN368fbC=3
+!s85 0
+vOnesCount
+R8
+R9
+Z33 I`:on:OdKaI=gSX3]zhHZ43
+Z34 VcbXHjNfidZNX`d?Z8`O<]0
+Z35 !s105 onescount_sv_unit
+S1
+R7
+Z36 w1300451753
+Z37 8onescount.sv
+Z38 Fonescount.sv
+L0 1
+R15
+r1
+31
+R16
+Z39 n@ones@count
+Z40 !s100 `2KUY408eP74;`BdhKg7i1
+!s85 0
+vregister
+R8
+R9
+Z41 IjURddb6aIZjU7QRFG^Ida2
+Z42 VF^hmPzeO@C1D:2_H_glbP2
+S1
+R7
+Z43 w1300451001
+Z44 8reg.sv
+Z45 Freg.sv
+L0 1
+R15
+r1
+31
+R16
+Z46 !s100 HRX4N>TL?V[?8f7be>_GU3
+Z47 !s105 reg_sv_unit
+!s85 0
+vtest
+Z48 Mx1 6 sv_std 3 std
+Z49 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z50 I4AI9kzUj?Kcl9>F:ihNjm1
+Z51 V0fYEigWgdFWO5nJiiR2J>2
+R28
+S1
+R7
+Z52 w1300442196
+R30
+R31
+L0 20
+R15
+r1
+31
+R16
+Z53 !s100 0<3Bc;7=0FZDMBfL7W2ia3
+!s85 0
+vtestbench
+R8
+R9
+Z54 IU^0HTngNBVFR2D[eHhK>`3
+Z55 VCoSU<>7=oJEdm1j;lgP>l2
+R35
+S1
+R7
+R36
+R37
+R38
+L0 27
+R15
+r1
+31
+R16
+Z56 !s100 i<C1H<C24[bj[PB9FMcdH1
+!s85 0
+vtop
+R8
+R9
+Z57 IeBH_lc2Indj61m1<7zlkT3
+Z58 Ve:gFW1CKLAXc^T:7k2HoD1
+R35
+S1
+R7
+R36
+R37
+R38
+L0 48
+R15
+r1
+31
+R16
+Z59 !s100 :1lNAXMe_EX6k0YA3Sc6:3
+!s85 0

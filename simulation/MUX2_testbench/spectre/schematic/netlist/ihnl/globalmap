@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+lab8B/MUX2_testbench/schematic MUX2_testbench
+lab6/inv1/schematic inv1
+lab8B/MUX2/schematic MUX2
+$endmodel
+$net
+$endnet
+$param
+$endparam

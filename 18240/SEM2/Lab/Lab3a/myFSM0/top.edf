@@ -1,0 +1,32 @@
+(edif top
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2009 06 11 10 20 10)
+      (author "Xilinx, Inc.")
+      (program "realTimeFpga" (version "Version 0.0.1"))
+      (comment "")
+    )
+  )
+  (library VIRTEX
+    (edifLevel 0)
+    (technology (numberDefinition))
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell top (celltype GENERIC)
+      (view rtl (viewType NETLIST)
+        (interface
+        )
+        (contents
+        )
+      )
+    )
+  )
+  (design top(cellRef top (libraryRef work))
+    (property PART (string "") (owner "Xilinx"))
+  )
+)

@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ham_decoder
+Version: Z-2007.03-SP5
+Date   : Wed Nov 14 02:52:31 2012
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: message[2] (input port)
+  Endpoint: correctMessage[4]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  message[2] (in)                          0.00       0.00 r
+  U36/Y (INVXL)                            0.03       0.03 f
+  U35/Y (AOI22XL)                          0.15       0.18 r
+  U34/Y (XNOR2XL)                          0.29       0.47 f
+  U33/Y (INVXL)                            0.14       0.61 r
+  U16/Y (NAND2XL)                          0.06       0.67 f
+  U15/Y (NOR2XL)                           0.12       0.79 r
+  U10/Y (NOR2XL)                           0.06       0.85 f
+  U8/Y (AOI31XL)                           0.12       0.97 r
+  correctMessage[4] (out)                  0.00       0.97 r
+  data arrival time                                   0.97
+
+  max_delay                               50.00      50.00
+  output external delay                    0.00      50.00
+  data required time                                 50.00
+  -----------------------------------------------------------
+  data required time                                 50.00
+  data arrival time                                  -0.97
+  -----------------------------------------------------------
+  slack (MET)                                        49.03
+
+
+1

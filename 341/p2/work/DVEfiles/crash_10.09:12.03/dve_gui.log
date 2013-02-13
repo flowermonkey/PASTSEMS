@@ -1,0 +1,4242 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:12 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ANBOARD THE ONE TRAIN           *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 118.
+$finish at simulation time                 3350
+Simulation complete, time is 3350.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3350
+CPU Time:      0.100 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:12:57 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:13 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 121: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ANBOARD THE ONE TRAIN           *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 118.
+$finish at simulation time                 3350
+Simulation complete, time is 3350.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3350
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:13:49 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 10:34:56 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:34 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:34:57 2012
+CPU time: .183 seconds to compile + .036 seconds to elab + .145 seconds to link + .438 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:34 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:35:24 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 10:37:01 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:37 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:37:03 2012
+CPU time: .186 seconds to compile + .036 seconds to elab + .146 seconds to link + .440 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:37 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:37:22 2012
+Warning: [DVDP402] 
+None of the children of the object 'top.pkt_out_avail[0:5]' were dumped.
+Warning: [DVDP402] 
+None of the children of the object 'top.pkt_out_avail[0:5]' were dumped.Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:38 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:38:55 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 10:41:35 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:41 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:41:37 2012
+CPU time: .180 seconds to compile + .035 seconds to elab + .145 seconds to link + .439 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:41 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:41:43 2012
+Warning: [DVDP402] 
+None of the children of the object 'top.pkt_out[0:5]' were dumped.
+Warning: [DVDP402] 
+None of the children of the object 'top.pkt_out[0:5]' were dumped.Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:43 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:43:14 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:45 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.100 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:45:03 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 10:48:06 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_5.o --whole-archive pre_vcsobj_1_5.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o pre_vcsobj_1_5.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:48 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:48:08 2012
+CPU time: .193 seconds to compile + .189 seconds to elab + .142 seconds to link + .433 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 10:48 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 10:48:13 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 11:02:57 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:02 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:02:58 2012
+CPU time: .181 seconds to compile + .027 seconds to elab + .142 seconds to link + .439 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:02 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:03:02 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 11:12:18 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_5.o --whole-archive pre_vcsobj_1_5.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o pre_vcsobj_1_5.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:12 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:12:19 2012
+CPU time: .182 seconds to compile + .028 seconds to elab + .147 seconds to link + .428 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:12 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:12:22 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:14 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:14:35 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:16 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:16:17 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:18 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 126: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+"../tb.sv", 133: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_in[1] == pkt_out[1])'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 123.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:19:02 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 11:20:41 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_5.o --whole-archive pre_vcsobj_1_5.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o pre_vcsobj_1_5.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:20 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+Zero Message Sent
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 128.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:20:42 2012
+CPU time: .186 seconds to compile + .030 seconds to elab + .153 seconds to link + .432 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:20 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 131: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+ 
+Zero Message Sent
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 128.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:21:02 2012
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 11:30:20 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_5.o --whole-archive pre_vcsobj_1_5.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o pre_vcsobj_1_5.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:30 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 159.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:30:22 2012
+CPU time: .186 seconds to compile + .029 seconds to elab + .147 seconds to link + .436 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:30 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 159.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.110 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:30:35 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 11:35 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p2/work/inter.vpd' was opened successfully.
+top.sv, 1 : `default_nettype none
+ 
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+ 
+Message sent...somethings wrong
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+ 
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+ 
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_out[1] == 32'h10000000)'
+ 
+Message did not send
+ 
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+ 
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+ 
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+ 
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+ 
+$finish called from file "../tb.sv", line 159.
+$finish at simulation time                 3450
+Simulation complete, time is 3450.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.120 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 11:35:10 2012
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * top.tb1.rst_b from time 220
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.Loading db file '/afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/gui/dve/libraries/syn/generic.sdb'
+4 drivers (2 possibly active statement) found for signal: top.genblk2[2].node_inst.sender.r_l
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * top.tb1.rst_b from time 220
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.4 drivers (2 possibly active statement) found for signal: top.genblk2[2].node_inst.sender.r_l
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Tue Oct  9 12:03:24 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../top.sv'
+Parsing design file '../tb.sv'
+Parsing design file '../node.sv'
+Parsing design file '../router.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_3.o --whole-archive pre_vcsobj_1_3.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_4.o --whole-archive pre_vcsobj_1_4.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_5.o --whole-archive pre_vcsobj_1_5.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o pre_vcsobj_1_3.o pre_vcsobj_1_4.o pre_vcsobj_1_5.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  9 12:03 2012
+************* TEST 1a: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*            are NOT actually sent?              *
+**************************************************
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 50s failed at 50s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 100s failed at 100s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 150s failed at 150s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+"../tb.sv", 162: top.tb1.unnamed$$_3: started at 200s failed at 200s
+        Offending '((((((pkt_out_avail[0] == 1'b0) & (pkt_out_avail[1] == 1'b0)) & (pkt_out_avail[2] == 1'b0)) & (pkt_out_avail[3] == 1'b0)) & (pkt_out_avail[4] == 1'b0)) & (pkt_out_avail[5] == 1'b0))'
+Message sent...somethings wrong
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+Test Passed:
+No messages sent. Therefore, zero pkts aren't always messages.
+************* TEST 1b: Zero Pkts *****************
+* Are zero pkts treated as packages when they    *
+*              ARE actually sent?                *
+**************************************************
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 260s failed at 260s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 310s failed at 310s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 360s failed at 360s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 410s failed at 410s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 460s failed at 460s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 510s failed at 510s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 560s failed at 560s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 610s failed at 610s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 660s failed at 660s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 710s failed at 710s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 760s failed at 760s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 810s failed at 810s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+"../tb.sv", 169: top.tb1.unnamed$$_4: started at 860s failed at 860s
+        Offending '(pkt_out[1] == 32'h10000000)'
+Message did not send
+************* TEST 2: Wild Pkts ******************
+* What happens when a wild number appears as     *
+*                 the destID?                    *
+**************************************************
+************* TEST 3: Conflicts *****************
+*           ALL ABOARD THE ONE TRAIN            *
+*************************************************
+************* TEST 4: Concurrency ***************
+*              All together now                 *
+*************************************************
+************* TEST 5: Proirity ******************
+*           Don't starve them                   *
+*************************************************
+$finish called from file "../tb.sv", line 159.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3450
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Tue Oct  9 12:03:26 2012
+CPU time: .186 seconds to compile + .028 seconds to elab + .148 seconds to link + .428 seconds in simulation
+Finished rebuilding the design.
+=========== Call stack: ============
+_ZN2ag10printStackERK7QStringi
+_ZN2ag16utilCrashHandlerD1Ev
+_ZN2ag10wndConsole23slotExecuteCmdWithFlagsERK7QStringbbbb
+_ZN2ag11utilFastTcl6invokeEbbbbbb
+_ZN2ag11dlgSimSetup9runTclCmdERK7QStringb
+_ZN2ag11dlgSimSetup20beginRebuildandStartEb
+_ZN2ag11dlgSimSetup13slotOKClickedEv
+_ZN2ag11dlgSimSetup9qt_invokeEiP8QUObject
+_ZN7QObject15activate_signalEP15QConnectionListP8QUObject
+_ZN7QObject15activate_signalEi
+_ZN7QButton7clickedEv
+_ZN7QDialog13keyPressEventEP9QKeyEvent
+_ZN7QWidget5eventEP6QEvent
+_ZN12QApplication14internalNotifyEP7QObjectP6QEvent
+_ZN12QApplication6notifyEP7QObjectP6QEvent
+_ZN10EkExtQtApp6notifyEP7QObjectP6QEvent
+_ZN2ag9baseQtApp6notifyEP7QObjectP6QEvent
+_ZN9QETWidget17translateKeyEventEPK7_XEventb
+_ZN12QApplication15x11ProcessEventEP7_XEvent
+_ZN10QEventLoop13processEventsEj
+_ZN2ag12ovaEventLoop13processEventsEj
+_ZN10QEventLoop9enterLoopEv
+_ZN10QEventLoop4execEv
+run_cci_event_loop
+_ZN2ag10ovaAppInst14enterEventLoopEiPPc
+main
+====================================
+

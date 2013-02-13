@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece.cmu.edu/usr/bflores
+T_opt
+Z1 VR8MDcdLd]?df`OgJbZQWM1
+Z2 04 3 4 work Top fast 0
+Z3 =1-0022195d11dd-4c9986c5-19e85-69f7
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece.cmu.edu/usr/bflores
+T_opt1
+Z8 V]E?8KTg4S@EnPb=m[6;Md2
+Z9 04 4 4 work func fast 0
+Z10 =1-0022195d11dd-4c99870c-dc89e-6a33
+R4
+Z11 n@_opt1
+R6
+R7
+vfunc
+Mx1 19 __model_tech/sv_std 3 std
+DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z12 IgCg<gHdR>`CPa_Okd[emX0
+Z13 VdF?8CM>=KB77GB;oRlgoQ3
+Z14 !s105 lab_1_sv_unit
+S1
+Z15 d/afs/ece/usr/bflores
+Z16 w1285129910
+Z17 8/afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1.sv
+Z18 F/afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1.sv
+L0 1
+Z19 OE;L;6.6b;45
+r1
+31
+Z20 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z21 !s100 8PN6io]VV=7HRh;m?Ih8^3
+!s85 0
+vTester
+Z22 Mx1 6 sv_std 3 std
+Z23 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z24 I`RWJRSj6?Y:Rj;bWI0<dM0
+Z25 V2IcMYnIKmPSaRk]_Ah:^j3
+R14
+S1
+R15
+R16
+R17
+R18
+L0 26
+R19
+r1
+31
+R20
+Z26 n@tester
+Z27 !s100 MjiV8L^P2jSmF8M2gbP<i0
+!s85 0
+vTop
+R22
+R23
+Z28 I5>a>FHJS<jR`Pl?Xfo2HW3
+Z29 VLf[3YBiLS5Al5WM^I>:Cn2
+R14
+S1
+R15
+R16
+R17
+R18
+L0 59
+R19
+r1
+31
+R20
+n@top
+Z30 !s100 efYi>cB8;c8Go>=`PdVBc0
+!s85 0

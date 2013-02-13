@@ -1,0 +1,9 @@
+
+// Library name: lab8B
+// Cell name: MUX2_testbench
+// View name: schematic
+I0 (D0 D1 SEL0 VDD GND net24) MUX2
+I4 (net24 OUT3 VDD GND) inv1
+I3 (net24 OUT4 VDD GND) inv1
+I2 (net24 OUT2 VDD GND) inv1
+I1 (net24 OUT1 VDD GND) inv1

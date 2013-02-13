@@ -1,0 +1,5 @@
+
+// Library name: lab8B
+// Cell name: MUX2
+// View name: schematic
+subckt MUX2 D0 D1 SEL0 VDD VSS Y

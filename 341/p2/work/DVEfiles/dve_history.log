@@ -1,0 +1,4313 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_key -category {Hier} -key {showPowerSwitch} -value_type {bool} -value {false}
+gui_create_pref_category -category {dlg_settings}
+gui_create_pref_key -category {dlg_settings} -key {tableWithImmediatePopup} -value_type {bool} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key &Trace_toolbar -value false
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:15.41/dve_session02.02:15.41.tcl} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p1/DVEfiles/crash_02.02:11.23/dve_session02.02:11.23.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1365
+gui_set_state_value -category Layout -key child_console_size_y -value 169
+gui_set_state_value -category Layout -key child_data_coltype -value 359
+gui_set_state_value -category Layout -key child_data_colvalue -value 333
+gui_set_state_value -category Layout -key child_data_colvariable -value 448
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 1149
+gui_set_state_value -category Layout -key child_data_size_y -value 431
+gui_set_state_value -category Layout -key child_driver_showstate -value normal
+gui_set_state_value -category Layout -key child_driver_size_x -value 1093
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_group_size_x -value 213
+gui_set_state_value -category Layout -key child_group_size_y -value 409
+gui_set_state_value -category Layout -key child_hier_colhier -value 200
+gui_set_state_value -category Layout -key child_hier_coltype -value 48
+gui_set_state_value -category Layout -key child_hier_docknewline -value false
+gui_set_state_value -category Layout -key child_hier_size_x -value 219
+gui_set_state_value -category Layout -key child_hier_size_y -value 437
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_docknewline -value false
+gui_set_state_value -category Layout -key child_list_down -value 363
+gui_set_state_value -category Layout -key child_list_pos_x -value 2
+gui_set_state_value -category Layout -key child_list_pos_y -value 2
+gui_set_state_value -category Layout -key child_list_right -value 568
+gui_set_state_value -category Layout -key child_list_showstate -value normal
+gui_set_state_value -category Layout -key child_list_size_x -value 728
+gui_set_state_value -category Layout -key child_list_size_y -value 508
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1047
+gui_set_state_value -category Layout -key child_schematic_size_y -value 485
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1150
+gui_set_state_value -category Layout -key child_source_size_y -value 432
+gui_set_state_value -category Layout -key child_watch_size_x -value 1091
+gui_set_state_value -category Layout -key child_watch_size_y -value 193
+gui_set_state_value -category Layout -key child_wave_colname -value 208
+gui_set_state_value -category Layout -key child_wave_colvalue -value 121
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 333
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 808
+gui_set_state_value -category Layout -key child_wave_size_x -value 1151
+gui_set_state_value -category Layout -key child_wave_size_y -value 433
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 22
+gui_set_state_value -category Layout -key main_size_x -value 1365
+gui_set_state_value -category Layout -key main_size_y -value 727
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 370
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 255
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 274
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1103
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 772
+gui_set_state_value -category Driver -key driver_add_to_wave -value true
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {{make ./simv} {vcs -debug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -debbug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customDirCombo} -value_type string -value /afs/ece.cmu.edu/usr/bflores/341/p2/work/
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{ -ucligui} {-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/p2/work /afs/ece.cmu.edu/usr/bflores/341/hw1/work /afs/ece.cmu.edu/usr/bflores/341/p1/work /afs/ece.cmu.edu/usr/bflores/341/p1}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/p2/work/simv /afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv ./simv /afs/ece.cmu.edu/usr/bflores/341/p1/work/simv /afs/ece.cmu.edu/usr/bflores/341/p1/simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Hier.1 -selected  { top.tb1   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_17}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_12}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_7}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {top.tb1.unnamed$$_7} } -insertionbar
+gui_sim_continue  
+gui_list_expand -id  Wave.1   {top.tb1.unnamed$$_7}
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_9}   }
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { {top.tb1.unnamed$$_9} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_list_expand -id  Wave.2   {top.tb1.unnamed$$_9}
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 821 1545
+gui_wv_zoom_timerange -id  Wave.2 874 951
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_marker_move -id  Wave.2 C1 901
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 981
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 947
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_list_expand -id  Hier.1   {top.genblk2[1].node_inst}
+gui_list_select -id Hier.1 -selected  { {top.genblk2[1].node_inst.receiver}   }
+gui_list_select -id Hier.1 -selected  { {top.genblk2[1].node_inst.sender}   }
+gui_list_select -id Hier.1 -selected  { {top.genblk2[1].node_inst.receiver}   }
+gui_list_expand -id  Hier.1   {top.genblk2[1].node_inst.receiver}
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk2[1].node_inst.receiver} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 815 1369
+gui_wv_zoom_timerange -id  Wave.2 927 1127
+gui_wv_zoom_timerange -id  Wave.2 1010 1077
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_list_collapse -id  Hier.1   {top.genblk2[1].node_inst}
+gui_list_expand -id  Hier.1   {top.genblk1[0].router_inst}
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[1].outReg}   }
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[1].output_buf}   }
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[2].output_buf}   }
+gui_list_create_group_when_add -wave -enable
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk1[0].router_inst.B1[2].output_buf} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_scroll_vslidermove -id  Wave.2 0
+gui_wv_zoom_timerange -id  Wave.2 0 2663
+gui_wv_zoom_timerange -id  Wave.2 828 1362
+gui_wv_scroll_vslidermove -id  Wave.2 375
+gui_wv_zoom_timerange -id  Wave.2 853 947
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 820
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[2].waitList}   }
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk1[0].router_inst.B1[2].waitList} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 672 1563
+gui_wv_zoom_timerange -id  Wave.2 818 926
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_marker_move -id  Wave.2 C1 810
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_list_expand -id  Wave.2   {top.genblk1[0].router_inst.B1[2].waitList.data_out[31:0]}
+gui_list_collapse -id  Wave.2   {top.genblk1[0].router_inst.B1[2].waitList.data_out[31:0]}
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[2].waitList.getPtr[1:0]}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[2].waitList.count[3:0]}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[2].waitList.getPtr[1:0]}   }
+gui_list_select -id Wave.2 -selected  { {New Group}   }
+gui_marker_move -id  Wave.2 C1 799
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 810
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[0].waitList}   }
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk1[0].router_inst.B1[0].waitList} } -insertionbar
+gui_list_collapse -id  Wave.2   {B1[2].output_buf}
+gui_wv_scroll_vslidermove -id  Wave.2 407
+gui_wv_scroll_vslidermove -id  Wave.2 411
+gui_list_collapse -id  Wave.2   {B1[2].waitList}
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 807 1620
+gui_wv_scroll_vslidermove -id  Wave.2 185
+gui_wv_zoom_timerange -id  Wave.2 828 906
+gui_wv_scrollleft -id  Wave.2  page
+gui_wv_scrollright -id  Wave.2  page
+gui_wv_scroll_vslidermove -id  Wave.2 148
+gui_wv_scroll_vslidermove -id  Wave.2 596
+gui_marker_move -id  Wave.2 C1 839
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_list_expand -id  Wave.2   {top.genblk1[0].router_inst.B1[0].waitList.queue[0:4][31:0]}
+gui_list_collapse -id  Wave.2   {top.genblk1[0].router_inst.B1[0].waitList.queue[0:4][31:0]}
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.empty}   }
+gui_marker_move -id  Wave.2 C1 839
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 810
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_list_expand -id  Wave.2   {B1[2].output_buf}
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.data_out[31:0]}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.rst_b}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.putPtr[1:0]}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.full}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.putPtr[1:0]}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.rst_b}   }
+gui_list_select -id Wave.2 -selected  { {top.genblk1[0].router_inst.B1[0].waitList.data_out[31:0]}   }
+gui_marker_select -id  Wave.2 { C1 }
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 820
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_marker_move -id  Wave.2 C1 810
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_marker_move -id  Wave.2 C1 819
+gui_marker_move -id  Wave.2 C1 819
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_marker_move -id  Wave.2 C1 820
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_marker_move -id  Wave.2 C1 808
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_marker_move -id  Wave.2 C1 811
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 810
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_set_env SIMSETUP::SIMCURRENTDIR /afs/ece.cmu.edu/usr/bflores/341/p2/work
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_wv_scroll_vslidermove -id  Wave.2 0
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 0 304
+gui_zoom -window  Wave.2  -full
+gui_marker_move -id  Wave.2 C1 2643
+gui_wv_zoom_timerange -id  Wave.2 385 861
+gui_list_select -id Wave.2 -selected  { {top.tb1.pkt_out_avail[1]}   }
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_list_select -id Wave.2 -selected  { {top.genblk2[1].node_inst.receiver.valueReceived}   }
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.2 1396
+gui_wv_zoom_timerange -id  Wave.2 901 1004
+gui_wv_scroll_hslidermove -id  Wave.2 6431
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollleft -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_wv_scrollright -id  Wave.2  line
+gui_marker_move -id  Wave.2 C1 860
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 910
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_list_set_filter -id Wave.2 -text {*}
+gui_marker_move -id  Wave.2 C1 880
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_list_collapse -id  Wave.2   {B1[0].waitList}
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[1].waitList}   }
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk1[0].router_inst.B1[1].waitList} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_scroll_vslidermove -id  Wave.2 0
+gui_wv_zoom_timerange -id  Wave.2 868 1425
+gui_wv_scroll_vslidermove -id  Wave.2 946
+gui_wv_scroll_hslidermove -id  Wave.2 1115
+gui_wv_zoom_timerange -id  Wave.2 844 930
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_list_select -id Hier.1 -selected  { {top.genblk1[0].router_inst.B1[1].input_buf}   }
+gui_list_add -id Wave.2 -from Hier.1 { {top.genblk1[0].router_inst.B1[1].input_buf} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_scroll_vslidermove -id  Wave.2 315
+gui_wv_scroll_vslidermove -id  Wave.2 0
+gui_wv_zoom_timerange -id  Wave.2 844 1725
+gui_wv_zoom_timerange -id  Wave.2 902 1150
+gui_wv_scroll_vslidermove -id  Wave.2 1296
+gui_wv_zoom_timerange -id  Wave.2 945 971
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 860
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_wv_zoom_timerange -id  Wave.2 824 901
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 870
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_list_collapse -id  Hier.1   {top.genblk1[0].router_inst}
+gui_list_expand -id  Hier.1   {top.genblk1[1].router_inst}
+gui_list_select -id Hier.1 -selected  { {top.genblk1[1].router_inst.B1[3].output_buf}   }
+gui_open_window Wave
+gui_list_add -id Wave.3 -from Hier.1 { {top.genblk1[1].router_inst.B1[3].output_buf} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.3  -full
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 891 1330
+gui_wv_scroll_vslidermove -id  Wave.2 1108
+gui_wv_scroll_vslidermove -id  Wave.2 793
+gui_wv_scroll_vslidermove -id  Wave.2 0
+gui_wv_zoom_timerange -id  Wave.2 950 1051
+gui_marker_move -id  Wave.2 C1 987
+gui_wv_zoom_timerange -id  Wave.3 726 1509
+gui_wv_zoom_timerange -id  Wave.3 951 987
+gui_wv_zoom_timerange -id  Wave.3 961 1039
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel .9
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_sim_restart
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 857 1438
+gui_zoom -window  Wave.3  -full
+gui_wv_zoom_timerange -id  Wave.3 760 1479
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_wv_zoom_timerange -id  Wave.3 824 969
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_marker_move -id  Wave.3 C1 870
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_marker_move -id  Wave.3 C1 879
+gui_marker_move -id  Wave.3 C1 886
+gui_marker_move -id  Wave.3 C1 880
+gui_marker_select -id  Wave.3 { C1 }
+gui_marker_move -id  Wave.3 C1 892
+gui_marker_move -id  Wave.3 C1 890
+gui_marker_move -id  Wave.3 C1 879
+gui_marker_move -id  Wave.3 C1 870
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_marker_move -id  Wave.3 C1 860
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.3  -full
+gui_zoom -window  Wave.3  -full
+gui_wv_zoom_timerange -id  Wave.3 817 1924
+gui_wv_zoom_timerange -id  Wave.3 1037 1354
+gui_wv_zoom_timerange -id  Wave.3 1102 1147
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_wv_zoom_timerange -id  Wave.3 954 1060
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_marker_move -id  Wave.3 C1 870
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -vrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel -.2
+gui_scroll -window Wave.3 -hrel -.2
+gui_marker_move -id  Wave.3 C1 878
+gui_marker_move -id  Wave.3 C1 870
+gui_marker_move -id  Wave.3 C1 881
+gui_marker_move -id  Wave.3 C1 870
+gui_scroll -window Wave.3 -vrel -.2
+gui_scroll -window Wave.3 -vrel .2
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.3  -full
+gui_wv_zoom_timerange -id  Wave.3 675 1404
+gui_wv_zoom_timerange -id  Wave.3 792 913
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_scroll -window Wave.3 -hrel .2
+gui_wv_scroll_hslidermove -id  Wave.2 930
+gui_wv_zoom_timerange -id  Wave.2 870 1053
+gui_wv_zoom_timerange -id  Wave.2 903 974
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_list_set_filter -id Wave.3 -text {*}
+gui_marker_move -id  Wave.2 C1 936
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 989
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 910
+gui_select_attempt -name {top.tb1.unnamed$$_9} -start_time 860 -end_time 910  -result_type Failure -id Wave.2
+gui_marker_delete -id Wave.2 C2
+gui_select_attempt -name {top.tb1.unnamed$$_9} -start_time 860 -end_time 910  -result_type Failure -id Wave.2
+gui_select_attempt -name {top.tb1.unnamed$$_9} -start_time 860 -end_time 910  -result_type Failure -id Wave.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_list_set_filter -id Wave.3 -text {*,}
+dump -add { {top.genblk2[1].node_inst.receiver.valueReceived} } -depth 0 -scope "."
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 766 1239
+gui_wv_zoom_timerange -id  Wave.2 840 1030
+gui_wv_zoom_timerange -id  Wave.2 879 960
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 920
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 998
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_marker_move -id  Wave.2 C1 1082
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_close_window -window Wave.2
+gui_close_window -window Wave.3
+gui_list_collapse -id  Wave.1   {top.tb1.unnamed$$_7}
+gui_list_select -id Hier.1 -selected  { top.tb1   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_7}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_9}   }
+gui_open_source -active {top.tb1.unnamed$$_9} -activate
+gui_src_highlight_item -id Source.1 -lfrom 219 -idxfrom 18 -fileIdFrom 0 -lto 219 -idxto 28 -fileIdTo 0 -selection {checkTest4} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 219 -idxfrom 18 -fileIdFrom 0 -lto 219 -idxto 28 -fileIdTo 0 -selection {checkTest4} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 219 -idxfrom 18 -fileIdFrom 0 -lto 219 -idxto 28 -fileIdTo 0 -selection {checkTest4} -selectionId 0 -replace 0
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_12}   }
+gui_open_source -active {top.tb1.unnamed$$_12} -activate
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_11}   }
+gui_open_source -active {top.tb1.unnamed$$_11} -activate
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { {top.tb1.unnamed$$_11} } -insertionbar
+gui_list_expand -id  Wave.2   {top.tb1.unnamed$$_11}
+gui_seek_next -id Wave.2 -number 1 
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 1072 1758
+gui_wv_zoom_timerange -id  Wave.2 1188 1235
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 1210
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 1159 1291
+gui_marker_move -id  Wave.2 C1 1210
+gui_wv_zoom_timerange -id  Wave.2 1201 1214
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_list_select -id Data.1 -selected  { {top.tb1.pkt_in_avail[0:5]}   }
+gui_list_add -id Wave.2 -from Data.1 { {top.tb1.pkt_in_avail[0:5]} } -insertionbar
+gui_sim_restart
+gui_sim_continue  
+gui_zoom -window  Wave.2  -full
+gui_wv_zoom_timerange -id  Wave.2 1162 1309
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_list_expand -id  Wave.2   {top.tb1.pkt_in_avail[0:5]}
+gui_marker_move -id  Wave.2 C1 1075
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 1103
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_list_collapse -id  Wave.2   {top.tb1.pkt_in_avail[0:5]}
+gui_list_select -id Data.1 -selected  { {top.tb1.pkt_out_avail[0:5]}   }
+gui_list_create_group_when_add -wave -disable
+gui_list_add -id Wave.2 -from Data.1 { {top.tb1.pkt_out_avail[0:5]} } -insertionbar
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Wave.2 -selected  { {top.tb1.pkt_in_avail[0:5]}   }
+gui_delete_selected -id  Wave.2
+gui_list_select -id Wave.2 -selected  { {top.tb1.pkt_out_avail[0:5]}   }
+gui_list_move  -id  Wave.2    -sid  Wave.2   -after {top.tb1.test_assert[5:0]} {{top.tb1.pkt_out_avail[0:5]}} 
+gui_list_move  -id  Wave.2    -sid  Wave.2   -after {top.tb1.test_assert[5:0]} {{top.tb1.pkt_out_avail[0:5]}} 
+gui_list_select -id Wave.2 -selected  { {top.tb1.pkt_out_avail[1]}   }
+gui_list_add  -id  Wave.2   -after {top.tb1.test_assert[5:0]} {{top.tb1.pkt_out_avail[1]}} 
+gui_list_select -id Wave.2 -selected  { {top.tb1.pkt_out_avail[0:5]}   }
+gui_list_select -id Wave.2 -selected  { Group4   }
+gui_list_expand -id  Wave.2   {top.tb1.pkt_out_avail[0:5]}
+gui_marker_move -id  Wave.2 C1 1156
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_scroll -window Wave.2 -hrel -.2
+gui_marker_move -id  Wave.2 C1 1206
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel .2
+gui_scroll -window Wave.2 -vrel -.2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel .2
+gui_scroll -window Wave.2 -hrel -.2
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_close_window -window Wave.2
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_7}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { Group1   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}  {top.tb1.unnamed$$_18}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}  {top.tb1.unnamed$$_18}  {top.tb1.unnamed$$_16}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}  {top.tb1.unnamed$$_18}  {top.tb1.unnamed$$_16}  {top.tb1.unnamed$$_15}   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_14}  {top.tb1.unnamed$$_18}  {top.tb1.unnamed$$_16}  {top.tb1.unnamed$$_15}  {top.tb1.unnamed$$_13}   }
+gui_list_add -id Wave.1 -from Data.1 { {top.tb1.unnamed$$_15} {top.tb1.unnamed$$_16} {top.tb1.unnamed$$_18} {top.tb1.unnamed$$_13} {top.tb1.unnamed$$_14} } -insertionbar
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_scroll -window Wave.1 -vrel .2
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_13}  {top.tb1.unnamed$$_14}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after Group1 {{top.tb1.unnamed$$_13} {top.tb1.unnamed$$_14}}
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_18}   }
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 1870
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_18}   }
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_18}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_18}
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_16}   }
+gui_marker_move -id  Wave.1 C1 1904
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_14}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_14}
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_15}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_15}
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_16}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_16}
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_13}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 1870
+gui_marker_move -id  Wave.1 C1 1900
+gui_marker_move -id  Wave.1 C1 1920
+gui_marker_move -id  Wave.1 C1 1930
+gui_marker_move -id  Wave.1 C1 1880
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_18}   }
+gui_list_action -id  Wave.1 {top.tb1.unnamed$$_18}
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 1980
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1516 1979
+gui_wv_zoom_timerange -id  Wave.1 1819 1978
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1626 2086
+gui_zoom -window Wave.1 -full
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1736 2086
+gui_highlight_signals -clear 
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_13}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {top.tb1.unnamed$$_15}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { Group1   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Hier.1 -selected  { top.tb1   }
+gui_list_select -id Hier.1 -selected  { top   }
+gui_list_select -id Hier.1 -selected  { top.tb1   }
+gui_list_select -id Data.1 -selected  { {top.tb1.unnamed$$_9}   }
+gui_list_action -id  Data.1 {top.tb1.unnamed$$_9}
+gui_list_add -id Wave.1 -from Data.1 { {top.tb1.unnamed$$_9} } -insertionbar
+gui_list_expand -id  Wave.1   {top.tb1.unnamed$$_9}
+gui_sim_continue  
+gui_wv_zoom_timerange -id  Wave.1 1812 1892
+gui_marker_move -id  Wave.1 C1 1847
+gui_marker_move -id  Wave.1 C1 1851
+gui_wv_scroll_hslidermove -id  Wave.1 11696
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 390 750
+gui_wv_scroll_hslidermove -id  Wave.1 787
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 714 1119
+gui_wv_zoom_timerange -id  Wave.1 832 882
+gui_scroll -window Wave.1 -hrel .2
+gui_marker_move -id  Wave.1 C1 860
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 719 1201
+gui_wv_scroll_hslidermove -id  Wave.1 880
+gui_wv_zoom_timerange -id  Wave.1 724 814
+gui_wv_scroll_hslidermove -id  Wave.1 6191
+gui_marker_move -id  Wave.1 C1 720
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_marker_move -id  Wave.1 C1 750
+gui_marker_move -id  Wave.1 C1 760
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 731 1079
+gui_wv_scroll_hslidermove -id  Wave.1 1444
+gui_wv_zoom_timerange -id  Wave.1 745 767
+gui_sim_restart -build /afs/ece.cmu.edu/usr/bflores/341/p2/work/simv.daidir/vcs_rebuild
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_sim_continue  
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 761 1010
+gui_wv_zoom_timerange -id  Wave.1 812 827
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_marker_move -id  Wave.1 C1 820
+gui_wv_zoom_timerange -id  Wave.1 778 856
+gui_wv_zoom_timerange -id  Wave.1 724 1012
+gui_wv_zoom_timerange -id  Wave.1 846 874
+gui_wv_zoom_timerange -id  Wave.1 768 908
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_wv_zoom_timerange -id  Wave.1 892 927
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2

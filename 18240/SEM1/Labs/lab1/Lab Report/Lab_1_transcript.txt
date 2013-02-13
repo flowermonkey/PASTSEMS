@@ -1,0 +1,105 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1.sv
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module func
+# -- Compiling module Tester
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+vsim -voptargs=+acc work.Top
+# vsim -voptargs=+acc work.Top 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.Top(fast)
+# Loading work.func(fast)
+# Loading work.Tester(fast)
+run -all
+#                    0 a=0,b=0,c=0,d=0,e=0,f=0, valid=x
+#                    2 a=0,b=0,c=0,d=0,e=1,f=0, valid=0
+#                    4 a=0,b=0,c=0,d=0,e=1,f=1, valid=0
+#                    6 a=0,b=0,c=0,d=1,e=1,f=1, valid=0
+#                    8 a=0,b=0,c=0,d=1,e=1,f=0, valid=0
+#                   10 a=0,b=0,c=0,d=1,e=0,f=0, valid=0
+#                   12 a=0,b=0,c=0,d=1,e=0,f=1, valid=0
+#                   14 a=0,b=0,c=1,d=0,e=1,f=0, valid=0
+#                   16 a=0,b=0,c=1,d=1,e=0,f=0, valid=0
+#                   18 a=0,b=0,c=1,d=1,e=0,f=1, valid=0
+#                   20 a=0,b=0,c=1,d=1,e=1,f=0, valid=0
+#                   22 a=0,b=1,c=1,d=1,e=1,f=1, valid=0
+#                   24 a=0,b=1,c=1,d=1,e=0,f=1, valid=0
+#                   26 a=0,b=1,c=0,d=1,e=0,f=1, valid=0
+#                   28 a=0,b=1,c=0,d=0,e=0,f=1, valid=0
+#                   30 a=0,b=1,c=0,d=0,e=1,f=0, valid=0
+#                   32 a=1,b=1,c=0,d=0,e=1,f=1, valid=0
+#                   34 a=1,b=1,c=0,d=0,e=0,f=1, valid=0
+#                   36 a=1,b=1,c=0,d=1,e=0,f=1, valid=0
+#                   38 a=1,b=1,c=0,d=1,e=1,f=1, valid=0
+#                   40 a=1,b=1,c=1,d=1,e=1,f=1, valid=0
+#                   42 a=1,b=1,c=1,d=1,e=0,f=1, valid=0
+#                   44 a=1,b=1,c=1,d=0,e=1,f=1, valid=0
+#                   46 a=1,b=0,c=0,d=0,e=1,f=1, valid=0
+#                   48 a=1,b=0,c=0,d=0,e=0,f=1, valid=0
+#                   50 a=1,b=0,c=0,d=1,e=0,f=1, valid=0
+#                   52 a=1,b=0,c=0,d=1,e=1,f=1, valid=0
+# ** Note: $finish    : /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1.sv(55)
+#    Time: 54 ns  Iteration: 0  Instance: /Top/t
+# 1
+# Break in Module Tester at /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1.sv line 55
+quit -sim
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1_SOP.sv
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module func
+# -- Compiling module Tester
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+vsim -voptargs=+acc work.Top
+# vsim -voptargs=+acc work.Top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.Top(fast)
+# Loading work.func(fast)
+# Loading work.Tester(fast)
+run -all
+#                    0 a=0,b=0,c=0,d=0,e=0,f=0, valid=x
+#                    2 a=0,b=0,c=0,d=0,e=1,f=0, valid=0
+#                    4 a=0,b=0,c=0,d=0,e=1,f=1, valid=0
+#                    6 a=0,b=0,c=0,d=1,e=1,f=1, valid=0
+#                    8 a=0,b=0,c=0,d=1,e=1,f=0, valid=0
+#                   10 a=0,b=0,c=0,d=1,e=0,f=0, valid=0
+#                   12 a=0,b=0,c=0,d=1,e=0,f=1, valid=0
+#                   14 a=0,b=0,c=1,d=0,e=1,f=0, valid=0
+#                   16 a=0,b=0,c=1,d=1,e=0,f=0, valid=0
+#                   18 a=0,b=0,c=1,d=1,e=0,f=1, valid=0
+#                   20 a=0,b=0,c=1,d=1,e=1,f=0, valid=0
+#                   22 a=0,b=1,c=1,d=1,e=1,f=1, valid=0
+#                   24 a=0,b=1,c=1,d=1,e=0,f=1, valid=0
+#                   26 a=0,b=1,c=0,d=1,e=0,f=1, valid=0
+#                   28 a=0,b=1,c=0,d=0,e=0,f=1, valid=0
+#                   30 a=0,b=1,c=0,d=0,e=1,f=0, valid=0
+#                   32 a=1,b=1,c=0,d=0,e=1,f=1, valid=0
+#                   34 a=1,b=1,c=0,d=0,e=0,f=1, valid=0
+#                   36 a=1,b=1,c=0,d=1,e=0,f=1, valid=0
+#                   38 a=1,b=1,c=0,d=1,e=1,f=1, valid=0
+#                   40 a=1,b=1,c=1,d=1,e=1,f=1, valid=0
+#                   42 a=1,b=1,c=1,d=1,e=0,f=1, valid=0
+#                   44 a=1,b=1,c=1,d=0,e=1,f=1, valid=0
+#                   46 a=1,b=0,c=0,d=0,e=1,f=1, valid=0
+#                   48 a=1,b=0,c=0,d=0,e=0,f=1, valid=0
+#                   50 a=1,b=0,c=0,d=1,e=0,f=1, valid=0
+#                   52 a=1,b=0,c=0,d=1,e=1,f=1, valid=0
+# ** Note: $finish    : /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1_SOP.sv(57)
+#    Time: 54 ns  Iteration: 0  Instance: /Top/t
+# 1
+# Break in Module Tester at /afs/ece.cmu.edu/usr/bflores/work/work/lab1/lab_1_SOP.sv line 57

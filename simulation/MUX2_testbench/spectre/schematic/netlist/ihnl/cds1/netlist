@@ -1,0 +1,13 @@
+    I2 (net24 Y VDD VSS) inv1
+    I1 (S0X S0 VDD VSS) inv1
+    I0 (SEL0 S0X VDD VSS) inv1
+    PM1 (D1 S0X net24 VDD) gpdk090_pmos1v w=(800n) l=100n as=224f ad=224f \
+        ps=2.16u pd=2.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (D0 S0 net24 VDD) gpdk090_pmos1v w=(800n) l=100n as=224f ad=224f \
+        ps=2.16u pd=2.16u m=(1)*(1) simM=(1)*(1)
+    NM1 (D1 S0 net24 VSS) gpdk090_nmos1v w=(400n) l=100n as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+    NM0 (D0 S0X net24 VSS) gpdk090_nmos1v w=(400n) l=100n as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+ends MUX2
+// End of subcircuit definition.

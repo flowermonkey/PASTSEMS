@@ -1,0 +1,64 @@
+module add_4 (
+    output  logic [3:0] sum,
+    output  logic N,Z,V,
+    input   logic [3:0] a,b);
+    
+logic [4:0] c;
+always_comb
+  begin
+assign sum = a + b;
+assign c= 5'b10000;
+
+  if (sum[3]==1) 
+    assign N = 1;
+  else 
+    assign N=0;
+  if (sum==4'b0000) 
+    assign Z = 1;
+  else
+    assign Z=0; 
+  if((c-sum)<0) 
+    assign V = 1;
+  else
+    assign V=0;
+  end
+endmodule
+
+module Testbench(
+      input logic [3:0] sum,
+      input logic N,Z,V,
+      output logic [3:0] a,b);
+logic [3:0] i;      
+assign b=i; 
+assign a=4'b1100; 
+
+  initial
+  begin 
+  $monitor ($time,, "sum=%b,a=%b,b=%b,N=%b,Z=%b,V=%b",sum,a,b,N,Z,V);
+  for (i =12; i<15; i++)
+    #1 if ((N==1&Z==1&V==1)|(N==1&Z==1&V==0))
+        $display("oops!");
+      else 
+        $display("correct");
+  #1 i=15;
+  if ((N==1&Z==1&V==1)|(N==1&Z==1&V==0))
+      $display("oops!");
+    else 
+      $display("correct");
+  for (i=0; i<6;i++)
+    #1 if ((N==1&Z==1&V==1)|(N==1&Z==1&V==0))
+        $display("oops!");
+      else 
+        $display("correct");
+  end
+endmodule
+
+module Top(sum,a,b,N, Z, V);
+  input [3:0]a;
+  input [3:0]b;
+  output  [3:0]sum;
+  output   N, Z, V;
+  
+  add_4 q(.*);
+  Testbench t(.*);
+endmodule

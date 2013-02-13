@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "preLab_sim"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  hierDelim "."
+  netlistDir "/afs/ece.cmu.edu/usr/bflores/simulation/preLab_sim/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "lab9/preLab_sim/schematic" "preLab_sim" )
+( "lab9/inverter/schematic" "inverter" )
+ )
+( term
+ )
+( param
+ )
+( "inverter" "ihnl/cds0/map" )
+( "preLab_sim" "ihnl/cds1/map" )
+ )

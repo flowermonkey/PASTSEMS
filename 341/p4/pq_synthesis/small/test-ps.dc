@@ -1,0 +1,52 @@
+# 18-341 Synopsys DC Script
+# Project 4
+# 10/25/2012
+# Brian Osbun <bosbun@andrew.cmu.edu>
+
+# ================================ SETUP =================================
+
+set target_library /afs/ece/class/ece341/setup/Artisan/typical.db
+set link_library /afs/ece/class/ece341/setup/Artisan/typical.db
+
+define_design_lib WORK -path "./work"
+
+analyze -format sverilog "pq.sv"
+elaborate "priQueue"
+current_design priQueue
+
+link
+uniquify
+
+# =============================== CLOCKING ===============================
+
+create_clock -period 10 ck
+
+set real_inputs [remove_from_collection [remove_from_collection [all_inputs] ck] r]
+
+set_input_delay -clock ck -max 0 $real_inputs
+set_output_delay -clock ck -max 0 [all_outputs]
+
+remove_driving_cell r
+set_drive 0 r
+
+set_max_delay 20 [all_outputs]
+set_max_area 0
+remove_unconnected_ports -blast_buses [get_cells -hierarchical *]
+
+set_fix_multiple_port_nets -all -constants -buffer_constants [get_designs *]
+
+# =============================== REPORTS ================================
+
+check_design
+set_ultra_optimization -f
+compile_ultra
+compile_ultra
+compile_ultra
+
+report_area > area_ps.rpt
+report_timing > timing_ps.rpt
+report_power > power_ps.rpt
+report_reference -hierarchy > ref_ps.rpt
+write -format verilog -output netlist_ps.sv
+
+exit

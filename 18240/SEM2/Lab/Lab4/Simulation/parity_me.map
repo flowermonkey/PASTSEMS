@@ -1,0 +1,44 @@
+Symbol definitions in order of occurence : 
+Name		Value
+----		-------
+
+LOOP1		1008
+LOOP11		100D
+STORE		100E
+LOOP2		1019
+DONE		1021
+SET		8000
+CLEAR		7FFF
+BEGIN		4000
+		4001
+		4002
+		4003
+		4004
+		4005
+		4006
+		4007
+		4008
+		4009
+		400A
+		400B
+		400C
+		400D
+		400E
+END		400F
+
+
+Pass 2 Fixup Information : 
+Address	Name
+-------	-----
+
+1001	BEGIN
+1003	END
+1005	CLEAR
+1007	SET
+1012	loop1
+1014	BEGIN
+1018	END
+101E	done
+1020	loop2
+1023	END
+

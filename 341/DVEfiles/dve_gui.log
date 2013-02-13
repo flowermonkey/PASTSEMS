@@ -1,0 +1,18 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec 13 01:25 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/inter.vpd' was opened successfully.
+test.sv, 15 : module top;
+oops
+oops
+oops
+oops
+$finish called from file "test.sv", line 35.
+$finish at simulation time                  100
+Simulation complete, time is 100.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.700 seconds;       Data structure size:   0.0Mb
+Thu Dec 13 01:28:16 2012

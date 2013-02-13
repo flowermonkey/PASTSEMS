@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "testbench_1_4"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/afs/ece.cmu.edu/usr/bflores/simulation/testbench_1_4/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "lab9/testbench_1_4/schematic" "testbench_1_4" )
+( "gnd!" "0" )
+( "lab9/inverter/schematic" "inverter" )
+ )
+( term
+ )
+( param
+ )
+( "inverter" "ihnl/cds0/map" )
+( "testbench_1_4" "ihnl/cds1/map" )
+ )

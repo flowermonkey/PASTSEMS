@@ -1,0 +1,66 @@
+Symbol definitions in order of occurence : 
+Name		Value
+----		-------
+
+LISTA		A000
+LISTB		B000
+LISTC		C000
+SIZE		0005
+A_ADDR		0000
+A_SIZE		0001
+B_ADDR		0002
+C_ADDR		0003
+START		1000
+CHECK		100A
+COMP		1015
+A		101C
+AB		1022
+B		102D
+WHILEB		1033
+WHILEA		103D
+DONE		1047
+LISA		A000
+		A001
+		A002
+		A003
+		A004
+LISB		B000
+		B001
+		B002
+		B003
+		B004
+
+
+Pass 2 Fixup Information : 
+Address	Name
+-------	-----
+
+0011	A_addr
+0013	listA
+0015	B_addr
+0017	listB
+0019	C_addr
+001B	listC
+001D	A_size
+001F	size
+0021	start
+1005	listA
+1007	listB
+1009	listC
+100E	size
+1010	whileB
+1012	size
+1014	whileA
+1017	A
+1019	AB
+101B	B
+1021	check
+102C	check
+1032	check
+1038	size
+103A	done
+103C	check
+1042	size
+1044	done
+1046	check
+

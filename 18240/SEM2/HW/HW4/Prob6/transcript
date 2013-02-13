@@ -1,0 +1,29 @@
+# vsim -do {run -all; quit} -c top 
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# run -all 
+#                    0d_in_ready =1, d_in = 000000000000000000000000010011, d_out= x, d_out_ready=0
+#                   10d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 0, d_out_ready=0
+#                   30d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 1, d_out_ready=0
+#                   50d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 2, d_out_ready=0
+#                  110d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 3, d_out_ready=0
+#                  590d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 3, d_out_ready=1
+#                  610d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 3, d_out_ready=0
+#                  630d_in_ready =1, d_in = 000000000000000000000000010011, d_out= 0, d_out_ready=0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 0
+#           Attempting to use alternate WLF file "./wlftrkkYb7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrkkYb7
+# ** Note: $finish    : onescount.sv(74)
+#    Time: 650 ns  Iteration: 1  Instance: /top/t

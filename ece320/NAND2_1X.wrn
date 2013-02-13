@@ -1,0 +1,8 @@
+Assura Errors & Warnings Search (PLEASE CAREFULLY REVIEW THESE MESSAGES)
+================================================================================
+WARNINGS & ERRORS found in Assura NVN Run Log file
+--------------------------------------------------------------------------------
+ WARNING (AVLVSNN-10040) : bindingFile/bind rule - schematic cell 'nmos1v_iso(MOS)' is not found.
+ This binding will be skipped.
+ WARNING (AVLVSNN-10041) : bindingFile/bind rule - layout cell 'nmos1v_iso(Generic)' is not found.
+ This binding will be skipped.

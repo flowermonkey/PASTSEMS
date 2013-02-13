@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : reference
+Design : priQueue
+Version: Z-2007.03-SP5
+Date   : Tue Nov 13 04:37:06 2012
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X2             typical       13.305600       1     13.305600  
+AOI2BB2XL          typical       23.284800       1     23.284800  
+AOI22XL            typical       16.632000       1     16.632000  
+AOI211XL           typical       16.632000       1     16.632000  
+AOI222X1           typical       26.611200       4    106.444801  
+DFFSX1             typical       63.201599       6    379.209595  n
+INVX1              typical        6.652800       3     19.958400  
+NOR2X1             typical        9.979200       2     19.958401  
+NOR3X1             typical       13.305600       1     13.305600  
+NOR3XL             typical       13.305600       1     13.305600  
+OAI21XL            typical       13.305600       2     26.611200  
+OR2XL              typical       13.305600       4     53.222401  
+-----------------------------------------------------------------------------
+Total 12 references                                   701.870398
+1

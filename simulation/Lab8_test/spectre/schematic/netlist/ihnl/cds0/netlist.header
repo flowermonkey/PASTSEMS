@@ -1,0 +1,5 @@
+
+// Library name: Lab8
+// Cell name: nand2
+// View name: schematic
+subckt nand2 A B OUT VDD VSS

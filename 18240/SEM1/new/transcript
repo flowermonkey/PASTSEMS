@@ -1,0 +1,108 @@
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: clk.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: rst.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(95): In, out, or inout does not appear in port list: h_move.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(96): In, out, or inout does not appear in port list: sevenSegmentDisplay.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayA.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayB.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayC.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayD.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(98): In, out, or inout does not appear in port list: numHits.
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: clk.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: rst.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(95): In, out, or inout does not appear in port list: h_move.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(96): In, out, or inout does not appear in port list: sevenSegmentDisplay.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayA.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayB.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayC.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayD.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(98): In, out, or inout does not appear in port list: numHits.
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: clk.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(94): In, out, or inout does not appear in port list: rst.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(95): In, out, or inout does not appear in port list: h_move.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(96): In, out, or inout does not appear in port list: sevenSegmentDisplay.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayA.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayB.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayC.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(97): In, out, or inout does not appear in port list: displayD.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(98): In, out, or inout does not appear in port list: numHits.
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# ** Warning: (vlog-6) -- Waiting for lock by "bflores@ece001.ece.cmu.edu". Lockfile is "/afs/ece.cmu.edu/usr/bflores/work/_lock".
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(79): Undefined variable: numhits.
+# ** Error: /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv(80): near "case": syntax error, unexpected "case", expecting ';'
+# -- Compiling module top1
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/new/myFSM1.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module myFSM1
+# -- Compiling module top1
+# 
+# Top level modules:
+# 	top1

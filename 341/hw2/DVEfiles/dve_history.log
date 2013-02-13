@@ -1,0 +1,164 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_key -category {Hier} -key {showPowerSwitch} -value_type {bool} -value {false}
+gui_create_pref_category -category {dlg_settings}
+gui_create_pref_key -category {dlg_settings} -key {tableWithImmediatePopup} -value_type {bool} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key &Trace_toolbar -value false
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /afs/ece.cmu.edu/usr/bflores/341/p4/ham_sythesis/medium/netlist_hm.sv -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p5/session.inter.vpd.tcl -ignore_errors} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p5/session.inter.vpd.tcl} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p5/session2.inter.vpd.tcl -ignore_errors} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/hw2/session.inter.vpd.tcl -ignore_errors} {gui_load_session -file /afs/ece.cmu.edu/usr/bflores/341/p5/session2.inter.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1365
+gui_set_state_value -category Layout -key child_console_size_y -value 160
+gui_set_state_value -category Layout -key child_data_coltype -value 550
+gui_set_state_value -category Layout -key child_data_colvalue -value 526
+gui_set_state_value -category Layout -key child_data_colvariable -value 644
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 1192
+gui_set_state_value -category Layout -key child_data_size_y -value 601
+gui_set_state_value -category Layout -key child_driver_showstate -value normal
+gui_set_state_value -category Layout -key child_driver_size_x -value 1093
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_group_size_x -value 213
+gui_set_state_value -category Layout -key child_group_size_y -value 409
+gui_set_state_value -category Layout -key child_hier_colhier -value 150
+gui_set_state_value -category Layout -key child_hier_coltype -value 21
+gui_set_state_value -category Layout -key child_hier_docknewline -value false
+gui_set_state_value -category Layout -key child_hier_size_x -value 177
+gui_set_state_value -category Layout -key child_hier_size_y -value 606
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_docknewline -value false
+gui_set_state_value -category Layout -key child_list_down -value 164
+gui_set_state_value -category Layout -key child_list_pos_x -value 2
+gui_set_state_value -category Layout -key child_list_pos_y -value 2
+gui_set_state_value -category Layout -key child_list_right -value 553
+gui_set_state_value -category Layout -key child_list_showstate -value normal
+gui_set_state_value -category Layout -key child_list_size_x -value 713
+gui_set_state_value -category Layout -key child_list_size_y -value 309
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1047
+gui_set_state_value -category Layout -key child_schematic_size_y -value 485
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1192
+gui_set_state_value -category Layout -key child_source_size_y -value 601
+gui_set_state_value -category Layout -key child_watch_size_x -value 1091
+gui_set_state_value -category Layout -key child_watch_size_y -value 193
+gui_set_state_value -category Layout -key child_wave_colname -value 132
+gui_set_state_value -category Layout -key child_wave_colvalue -value 63
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 199
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 922
+gui_set_state_value -category Layout -key child_wave_size_x -value 1131
+gui_set_state_value -category Layout -key child_wave_size_y -value 424
+gui_set_state_value -category Layout -key main_pos_x -value 8
+gui_set_state_value -category Layout -key main_pos_y -value 30
+gui_set_state_value -category Layout -key main_size_x -value 1313
+gui_set_state_value -category Layout -key main_size_y -value 719
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 853
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 370
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 255
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 274
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1103
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 772
+gui_set_state_value -category Assertion -key failures_limit -value {-1}
+gui_set_state_value -category Assertion -key incompletes_limit -value {-1}
+gui_set_state_value -category Assertion -key matches_limit -value {-1}
+gui_set_state_value -category Assertion -key mismatches_limit -value {-1}
+gui_set_state_value -category Assertion -key successes_limit -value {-1}
+gui_set_state_value -category Driver -key driver_add_to_wave -value true
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|EkTopVbox|wndWorkspace|qt_workspacechild4|Wave.2|left|filterVBox|controlHBox|unnamed -value_type string -value *r
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {{make ./simv} {vcs -debug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e} {vcs -debbug_all -sverilog -R ../top.sv ../node.sv ../router.sv ../TA_tb_simple.sv.e}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customDirCombo} -value_type string -value /afs/ece.cmu.edu/usr/bflores/341/p2/work/
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{ -ucligui} {-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/p5 /afs/ece.cmu.edu/usr/bflores/341/hw2 /afs/ece.cmu.edu/usr/yinggeg/Public/p5 /afs/ece.cmu.edu/usr/bflores/341/p4/mywork /afs/ece.cmu.edu/usr/bflores/341/p3/work}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/afs/ece.cmu.edu/usr/bflores/341/p5/simv ./simv /afs/ece.cmu.edu/usr/bflores/341/hw2/simv /afs/ece.cmu.edu/usr/yinggeg/Public/p5/simv /afs/ece.cmu.edu/usr/bflores/341/p4/mywork/simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { mux2.in1 mux2.in2 mux2.sel } -insertionbar
+gui_list_select -id Wave.1 -selected  { Group1   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Hier.1 -selected  { top   }
+gui_set_pref_value -category {Hier} -key {showScopeExplore} -value {false}
+gui_list_add -id Wave.1 -from Hier.1 { top } -insertionbar
+gui_list_select -id Hier.1 -selected  { register   }
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Wave.1 -selected  { top   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Hier.1 -selected  { top.r   }
+gui_list_add -id Wave.1 -from Hier.1 { top.r } -insertionbar
+gui_list_select -id Hier.1 -selected  { top.s   }
+gui_list_add -id Wave.1 -from Hier.1 { top.s } -insertionbar
+gui_list_collapse -id  Wave.1   r
+gui_list_add -id Wave.1 -from Hier.1 { top.s } -insertionbar
+gui_list_collapse -id  Wave.1   r
+gui_list_select -id Wave.1 -selected  { r   }
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { r   }
+gui_delete_selected -id  Wave.1
+gui_set_pref_value -category {Hier} -key {showScopeExplore} -value {true}
+gui_list_add -id Wave.1 -from Hier.1 { top.s } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 317
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 4155
+gui_wv_scroll_vslidermove -id  Wave.1 67
+gui_wv_scroll_hslidermove -id  Wave.1 4168
+gui_wv_scroll_hslidermove -id  Wave.1 4168
+gui_wv_scroll_hslidermove -id  Wave.1 3691
+gui_marker_move -id  Wave.1 C1 1306
+gui_wv_scroll_hslidermove -id  Wave.1 3667
+gui_wv_scroll_vslidermove -id  Wave.1 36
+gui_list_expand -id  Hier.1   top.s
+gui_list_select -id Hier.1 -selected  { top.s.c   }
+gui_list_select -id Hier.1 -selected  { top.s.crc16   }
+gui_list_select -id Hier.1 -selected  { top.s.remainder_reg   }
+gui_list_select -id Hier.1 -selected  { top.s.crc16   }
+gui_list_add -id Wave.1 -from Hier.1 { top.s.crc16 } -insertionbar
+gui_wv_scroll_vslidermove -id  Wave.1 212
+gui_sim_restart
+gui_sim_continue  
+gui_wv_scroll_hslidermove -id  Wave.1 1791
+gui_wv_scroll_vslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 3471
+gui_marker_move -id  Wave.1 C1 1335
+gui_wv_scroll_vslidermove -id  Wave.1 0
+gui_wv_scroll_vslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 1315
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel .2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2

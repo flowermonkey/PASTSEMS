@@ -1,0 +1,26 @@
+\o Program:		@(#)$CDS: libManager.exe version 6.1.2 04/01/2009 13:52 (cat71lnx) $
+\o Sub version:		sub-version 07.02-s041
+\o Arguments:		-unmapped -mpssession virtuoso13429 -mpshost ece005 
+\o Working Directory:	ece005:/afs/ece.cmu.edu/usr/bflores/ece320
+\o Qt version: 		4.2.3
+\o changeWorkingDir("/afs/ece.cmu.edu/usr/bflores/ece320") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/afs/ece.cmu.edu/usr/bflores/ece320/libManager.log".
+\o Opening libManager window.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/afs/ece.cmu.edu/usr/bflores/ece320/Lab8_2/nand2' does not exist
+\w 	but was defined in libFile '/afs/ece.cmu.edu/usr/bflores/ece320/cds.lib' for Lib 'nand2'.
+\a nrResizeWindow(cdsLibManager list(75 75 723 410))
+\a cdsLibManager->editLibraryPathButton->value = t
+\o Starting the cdsLibEditor...
+\w Warning: The directory: '/afs/ece.cmu.edu/usr/bflores/ece320/Lab8_2/nand2' does not exist
+\w 	but was defined in libFile '/afs/ece.cmu.edu/usr/bflores/ece320/cds.lib' for Lib 'nand2'.
+\o MPS request: update library list
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/afs/ece.cmu.edu/usr/bflores/ece320/Lab8_2/nand2' does not exist
+\w 	but was defined in libFile '/afs/ece.cmu.edu/usr/bflores/ece320/cds.lib' for Lib 'nand2'.
+\a nrSetCurrentWindow(cdsLibManager)
+\o libManager is exiting.
+\a exit(0)

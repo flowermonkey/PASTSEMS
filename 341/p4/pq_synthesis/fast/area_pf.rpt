@@ -1,0 +1,25 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : area
+Design : priQueue
+Version: Z-2007.03-SP5
+Date   : Tue Nov 13 04:46:39 2012
+****************************************
+
+Library(s) Used:
+
+    typical (File: /afs/ece/class/ece341/setup/Artisan/typical.db)
+
+Number of ports:                7
+Number of nets:                83
+Number of cells:               77
+Number of references:          24
+
+Combinational area:        974.635211
+Noncombinational area:     455.716805
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          1430.352051
+Total area:                 undefined
+1

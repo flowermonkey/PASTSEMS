@@ -1,0 +1,54 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec 22 16:02 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p5/inter.vpd' was opened successfully.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.160 seconds;       Data structure size:   1.0Mb
+Sat Dec 22 16:09:43 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec 22 16:10 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/p5/inter.vpd' was opened successfully.
+ 
+ 
+********************************************************************************
+*****************************WRITE AND READ TEST********************************
+********************************************************************************
+ 
+                   6 TestBench: Sending addr 0x00ab, data 0xcafebabedeadbeef to Device
+WRITING...
+                2850 TestBench: Sending addr 0x00ab, data 0xcafebabedeadbeef to Device: timed out
+ 
+                2852 TestBench: Request data from Device addr 0x00ab
+READING...
+                5696 TestBench: Receiving data from Device: timed out
+ 
+ 
+********************************************************************************
+*****************************END TEST*******************************************
+********************************************************************************
+ 
+ 
+********************************************************************************
+**************************UNINITIALIZED MEMORY TEST*****************************
+********************************************************************************
+ 
+                5698 TestBench: Request data from Device addr 0x000000ac
+READING...
+                8542 TestBench: Receiving data from Device: timed out
+ 
+ 
+********************************************************************************
+*****************************END TEST*******************************************
+********************************************************************************
+$finish called from file "TA_tb.sv", line 83.
+$finish at simulation time                 8542
+Simulation complete, time is 8542.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8542
+CPU Time:      0.120 seconds;       Data structure size:   1.0Mb
+Sat Dec 22 16:25:43 2012

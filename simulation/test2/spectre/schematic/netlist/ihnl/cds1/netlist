@@ -1,0 +1,12 @@
+
+// Library name: lab9
+// Cell name: test2
+// View name: schematic
+I16 (a b VDD 0) inverter
+I17 (b net12 VDD 0) inverter
+I18 (net12 OUT VDD 0) inverter
+I14 (IN net15 VDD 0) inverter
+I15 (net15 a VDD 0) inverter
+V2 (VDD 0) vsource dc=1.2 type=dc
+V0 (IN 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p

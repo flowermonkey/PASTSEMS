@@ -1,0 +1,162 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bge\Desktop\Lab2
+T_opt
+Z1 V[57zHPlZSYl<Y`iHBDMbV0
+Z2 04 6 4 work system fast 0
+Z3 =1-002564aa5972-4c9c0337-191-a74
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6;45
+Z7 dC:\Documents and Settings\bge\Desktop\Lab2
+vAdder
+Z8 Mx1 23 C:\modeltech_6.6\sv_std 3 std
+Z9 DXx23 C:\modeltech_6.6\sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z10 IRamRlG=E`d7A^mT2V<S:B2
+Z11 VkQ1hG>_FIF:_[YCoHh5`b3
+Z12 !s105 lab2_sv_unit
+S1
+R7
+Z13 w1285292828
+Z14 8C:/Documents and Settings/bge/Desktop/Lab2/work/lab2.sv
+Z15 FC:/Documents and Settings/bge/Desktop/Lab2/work/lab2.sv
+L0 86
+Z16 OE;L;6.6;45
+r1
+31
+Z17 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z18 n@adder
+Z19 !s100 cCfV^N3Jo3e?CBSbHTYe=1
+!s85 0
+vBCDtoSevenSeg
+Z20 Mx1 6 sv_std 3 std
+Z21 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z22 I_e>c?:VieBI43YHKNY]1o3
+Z23 V3gabhUbEj<YU76Y3;@0lk3
+S1
+R7
+Z24 w1285284800
+Z25 8C:/Documents and Settings/bge/Desktop/Lab2/work/display.sv
+Z26 FC:/Documents and Settings/bge/Desktop/Lab2/work/display.sv
+L0 1
+R16
+r1
+31
+R17
+Z27 n@b@c@dto@seven@seg
+Z28 !s100 F3zFo]j=aAVLUYQ;1fc7C1
+Z29 !s105 display_sv_unit
+!s85 0
+vComparator
+R8
+R9
+Z30 I^oj729=ETcH^F<S<D@9]h2
+Z31 VXO9`1GDKSVI6jg_0D6Nl70
+R12
+S1
+R7
+R13
+R14
+R15
+Z32 L0 112
+R16
+r1
+31
+R17
+Z33 n@comparator
+Z34 !s100 5W7>b<^MEY;51]852B`mi2
+!s85 0
+vLEDController
+R20
+R21
+Z35 I<0S0=dDz^g06g20CC@9a83
+Z36 V35`hTZ?NffEjN:?kNY^;73
+S1
+R7
+Z37 w1285279702
+Z38 8C:/Documents and Settings/bge/Desktop/Lab2/work/LEDController.sv
+Z39 FC:/Documents and Settings/bge/Desktop/Lab2/work/LEDController.sv
+L0 65
+R16
+r1
+31
+R17
+Z40 n@l@e@d@controller
+Z41 !s100 gdWCIFzzo^BkVEK9=DES[2
+Z42 !s105 LEDController_sv_unit
+!s85 0
+vSubtractor
+R8
+R9
+Z43 IWiHn=[b_i8[bTT3DUMM9>3
+Z44 VLGnb[7=BnFm9]i3J<e1h=2
+R12
+S1
+R7
+R13
+R14
+R15
+L0 99
+R16
+r1
+31
+R17
+Z45 n@subtractor
+Z46 !s100 ;9n84`Ia2_6S??>VOYeof0
+!s85 0
+vsystem
+R8
+R9
+Z47 I9W8fRkH:5K3QP?VgBNAYR2
+Z48 Vg5j^:>m`:]CXV>LiB=Ib]3
+R12
+S1
+R7
+R13
+R14
+R15
+L0 44
+R16
+r1
+31
+R17
+Z49 !s100 bFb8QnLoekA2<G9^DbNjF2
+!s85 0
+vtest_design
+R8
+R9
+Z50 IgbcdC;]JWN`fP=Nki@PS;2
+Z51 V4;AMhRl8bT=QhF`PaIPJJ2
+R12
+S1
+R7
+R13
+R14
+R15
+L0 57
+R16
+r1
+31
+R17
+Z52 !s100 VAiNdEo:YGg=Z9@L?^V>X2
+!s85 0
+vtop
+R8
+R9
+Z53 IJ28eMh>=R^=gHG^4NN[?03
+Z54 VSlBol3IDbeH?[bU3PDQ4_2
+R12
+S1
+R7
+R13
+R14
+R15
+L0 30
+R16
+r1
+31
+R17
+Z55 !s100 Am@GK5hjF:]:HIGG<5lEM3
+!s85 0

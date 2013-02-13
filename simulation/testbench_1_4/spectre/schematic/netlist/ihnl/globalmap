@@ -1,0 +1,12 @@
+CADENCE IHNL01070
+$model
+lab9/inverter/schematic inverter
+lab9/testbench_1_4/schematic testbench_1_4
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+lambda lambda
+beta beta
+$endparam

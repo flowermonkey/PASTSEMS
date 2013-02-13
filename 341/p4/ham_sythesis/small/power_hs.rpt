@@ -1,0 +1,40 @@
+Loading db file '/afs/ece/class/ece341/setup/Artisan/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ham_decoder
+Version: Z-2007.03-SP5
+Date   : Tue Nov 13 18:29:11 2012
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /afs/ece/class/ece341/setup/Artisan/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 459.9670 uW   (51%)
+  Net Switching Power  = 437.7847 uW   (49%)
+                         ---------
+Total Dynamic Power    = 897.7517 uW  (100%)
+
+Cell Leakage Power     =   2.5140 nW
+
+1

@@ -1,0 +1,113 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 7.1.1.071 -- 20 May 2009
+Copyright (C) 1989-2009 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: bflores   Host: ece002   HostID: 2800C83   PID: 8207
+Memory  available: 3.4326 GB  physical: 16.8596 GB
+CPU(1 of 8):  CPU 0  Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz  2527.000MHz
+
+Simulating `input.scs' on ece002 at 12:26:51 PM, Fri Dec 7, 2012 (process id: 8207).
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /usr/cds/mmsim-7.11/tools.lnx86/spectre/bin/32bit/spectre input.scs  \
+        +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre0_5971_1 -format sst2 -raw ../psf +lqtimeout  \
+        900 -maxw 5 -maxn 5
+spectre pid = 8207
+
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Auto-loading AHDL component.
+Finished loading AHDL component in 0 s (elapsed).
+Installed AHDL simulation interface.
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 9.87342 uOhm is less than 0.001. Set to 0.
+
+
+Circuit inventory:
+              nodes 4
+            bsim3v3 2     
+            vsource 3     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 9.87342 uOhm is less than 0.001. Set to 0.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre0_5971_1, ).
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 1 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 1 ns
+    step = 1 ps
+    maxstep = 20 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 31 ps        (3.1 %), step = 16 ps         (1.6 %)
+    tran: time = 91 ps        (9.1 %), step = 20 ps           (2 %)
+    tran: time = 125.8 ps    (12.6 %), step = 10.81 ps     (1.08 %)
+    tran: time = 176 ps      (17.6 %), step = 3.043 ps     (304 m%)
+    tran: time = 226.8 ps    (22.7 %), step = 8.848 ps     (885 m%)
+    tran: time = 281.5 ps    (28.2 %), step = 20 ps           (2 %)
+    tran: time = 328.6 ps    (32.9 %), step = 11.86 ps     (1.19 %)
+    tran: time = 376.3 ps    (37.6 %), step = 3.038 ps     (304 m%)
+    tran: time = 434.6 ps    (43.5 %), step = 13.82 ps     (1.38 %)
+    tran: time = 494.6 ps    (49.5 %), step = 20 ps           (2 %)
+    tran: time = 537 ps      (53.7 %), step = 15.04 ps      (1.5 %)
+    tran: time = 575.8 ps    (57.6 %), step = 2.837 ps     (284 m%)
+    tran: time = 628.4 ps    (62.8 %), step = 9.337 ps     (934 m%)
+    tran: time = 684.6 ps    (68.5 %), step = 20 ps           (2 %)
+    tran: time = 728.6 ps    (72.9 %), step = 11.86 ps     (1.19 %)
+    tran: time = 776.3 ps    (77.6 %), step = 3.038 ps     (304 m%)
+    tran: time = 834.6 ps    (83.5 %), step = 13.83 ps     (1.38 %)
+    tran: time = 894.6 ps    (89.5 %), step = 20 ps           (2 %)
+    tran: time = 934.6 ps    (93.5 %), step = 20 ps           (2 %)
+    tran: time = 987.3 ps    (98.7 %), step = 12.69 ps     (1.27 %)
+Number of accepted tran steps =             154
+Initial condition solution time: CPU = 0 s, elapsed = 370.979 us.
+Intrinsic tran analysis time:    CPU = 10 ms, elapsed = 38.8231 ms.
+Total time required for tran analysis `tran': CPU = 20 ms, elapsed = 67.421 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (12:28:29 PM, Fri Dec 7, 2012):
+Time used: CPU = 728 ms, elapsed = 98 s (1m  38.0s), util. = 743e-03%.
+Time spent in licensing: elapsed = 220 ms.
+Virtual memory used = 5.79 Mbytes.
+spectre completes with 0 errors, 2 warnings, and 0 notices.

@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"I7n I6n I5n" "nand2"
+"I3n" "inverter"
+"VDDv" ":1v"
+"VSSv" ":2v"
+"in1v" ":3v"
+"in2v" ":4v"
+"outv" ":5v"

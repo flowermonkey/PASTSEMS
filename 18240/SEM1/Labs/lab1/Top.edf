@@ -1,0 +1,228 @@
+(edif Top
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2009 06 11 10 20 10)
+      (author "Xilinx, Inc.")
+      (program "realTimeFpga" (version "Version 0.0.1"))
+      (comment "")
+    )
+  )
+  (library VIRTEX
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell IBUF (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+    (cell OBUF (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+    (cell LUT3 (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port I0 (direction input))
+          (port I1 (direction input))
+          (port I2 (direction input))
+          (port O (direction output))
+        )
+      )
+    )
+    (cell LUT4 (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port I0 (direction input))
+          (port I1 (direction input))
+          (port I2 (direction input))
+          (port I3 (direction input))
+          (port O (direction output))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell Top (celltype GENERIC)
+      (view rtl (viewType NETLIST)
+        (interface
+          (port a (direction input))
+          (port b (direction input))
+          (port c (direction input))
+          (port d (direction input))
+          (port (rename e_c "e") (direction input))
+          (port f (direction input))
+          (port valid (direction output))
+        )
+        (contents
+          (instance i_0
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "EF"))
+          )
+          (instance i_1
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "C8FA"))
+          )
+          (instance i_2
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "5510"))
+          )
+          (instance i_3
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "31"))
+          )
+          (instance i_4
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "8A13"))
+          )
+          (instance i_5
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "02"))
+          )
+          (instance i_6
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "02"))
+          )
+          (instance i_7
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "8900"))
+          )
+          (instance i_8
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_9
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_10
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_11
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_12
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_13
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_14
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (net f (joined
+            (portRef f)
+            (portRef I (instanceRef i_13))
+          ))
+          (net (rename e_c "e") (joined
+            (portRef e_c)
+            (portRef I (instanceRef i_12))
+          ))
+          (net d (joined
+            (portRef d)
+            (portRef I (instanceRef i_11))
+          ))
+          (net c (joined
+            (portRef c)
+            (portRef I (instanceRef i_10))
+          ))
+          (net b (joined
+            (portRef b)
+            (portRef I (instanceRef i_9))
+          ))
+          (net a (joined
+            (portRef a)
+            (portRef I (instanceRef i_8))
+          ))
+          (net n_0 (joined
+            (portRef O (instanceRef i_0))
+            (portRef I (instanceRef i_14))
+          ))
+          (net n_1 (joined
+            (portRef O (instanceRef i_1))
+            (portRef I2 (instanceRef i_3))
+          ))
+          (net n_2 (joined
+            (portRef O (instanceRef i_2))
+            (portRef I1 (instanceRef i_3))
+          ))
+          (net n_3 (joined
+            (portRef O (instanceRef i_3))
+            (portRef I2 (instanceRef i_0))
+          ))
+          (net n_4 (joined
+            (portRef O (instanceRef i_4))
+            (portRef I2 (instanceRef i_5))
+          ))
+          (net n_5 (joined
+            (portRef O (instanceRef i_5))
+            (portRef I1 (instanceRef i_0))
+          ))
+          (net n_6 (joined
+            (portRef O (instanceRef i_6))
+            (portRef I3 (instanceRef i_7))
+          ))
+          (net n_7 (joined
+            (portRef O (instanceRef i_7))
+            (portRef I0 (instanceRef i_0))
+          ))
+          (net n_8 (joined
+            (portRef O (instanceRef i_8))
+            (portRef I2 (instanceRef i_6))
+            (portRef I1 (instanceRef i_5))
+            (portRef I3 (instanceRef i_2))
+            (portRef I3 (instanceRef i_1))
+          ))
+          (net n_9 (joined
+            (portRef O (instanceRef i_9))
+            (portRef I1 (instanceRef i_6))
+            (portRef I0 (instanceRef i_5))
+            (portRef I2 (instanceRef i_2))
+            (portRef I1 (instanceRef i_1))
+          ))
+          (net n_10 (joined
+            (portRef O (instanceRef i_10))
+            (portRef I0 (instanceRef i_7))
+            (portRef I1 (instanceRef i_4))
+            (portRef I0 (instanceRef i_3))
+          ))
+          (net n_11 (joined
+            (portRef O (instanceRef i_11))
+            (portRef I2 (instanceRef i_7))
+            (portRef I3 (instanceRef i_4))
+            (portRef I2 (instanceRef i_1))
+          ))
+          (net n_12 (joined
+            (portRef O (instanceRef i_12))
+            (portRef I1 (instanceRef i_7))
+            (portRef I2 (instanceRef i_4))
+            (portRef I1 (instanceRef i_2))
+            (portRef I0 (instanceRef i_1))
+          ))
+          (net n_13 (joined
+            (portRef O (instanceRef i_13))
+            (portRef I0 (instanceRef i_6))
+            (portRef I0 (instanceRef i_4))
+            (portRef I0 (instanceRef i_2))
+          ))
+          (net valid (joined
+            (portRef O (instanceRef i_14))
+            (portRef valid)
+          ))
+        )
+      )
+    )
+  )
+  (design Top(cellRef Top (libraryRef work))
+    (property PART (string "") (owner "Xilinx"))
+  )
+)

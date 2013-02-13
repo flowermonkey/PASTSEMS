@@ -1,0 +1,48 @@
+
+// Library name: Lab8
+// Cell name: nand2
+// View name: schematic
+subckt nand2 A B OUT VDD VSS
+    NM1 (net5 A VSS VSS) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=17.4f \
+        ps=1.16u pd=290.00n m=(1)*(1) simM=(1)*(1)
+    NM0 (OUT B net5 VSS) gpdk090_nmos1v w=(120n) l=100n as=17.4f ad=69.6f \
+        ps=290.00n pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM1 (OUT A VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT B VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+ends nand2
+// End of subcircuit definition.
+
+// Library name: Lab8
+// Cell name: inverter
+// View name: schematic
+subckt inverter IN OUT VDD VSS
+    NM0 (OUT IN VSS VSS) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT IN VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+ends inverter
+// End of subcircuit definition.
+
+// Library name: Lab8
+// Cell name: Lab8
+// View name: schematic
+subckt Lab8 VDD VSS in1 in2 out
+    I7 (net044 net22 out VDD VSS) nand2
+    I6 (in1 in1 net22 VDD VSS) nand2
+    I5 (in1 net055 net044 VDD VSS) nand2
+    I3 (in2 net055 VDD VSS) inverter
+ends Lab8
+// End of subcircuit definition.
+
+// Library name: Lab8
+// Cell name: Lab8_test
+// View name: schematic
+V1 (in2 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p
+V0 (in 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p
+V3 (vss 0) vsource dc=0 type=dc
+V2 (vdd 0) vsource dc=1.2V type=dc
+I0 (vdd vss in in2 out) Lab8

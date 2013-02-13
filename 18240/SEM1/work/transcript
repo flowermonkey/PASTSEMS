@@ -1,0 +1,4 @@
+# vsim -do {vsim-coverage top1.sv; run-all; coverage report -lines -file coverage.txt; quit} -c top1.sv 
+# ** Error: (vsim-19) Failed to access library 'top1' at "top1".
+# No such file or directory. (errno = ENOENT)
+# Error loading design

@@ -1,0 +1,5 @@
+
+// Library name: Lab8
+// Cell name: Lab8
+// View name: schematic
+subckt Lab8 VDD VSS in1 in2 out

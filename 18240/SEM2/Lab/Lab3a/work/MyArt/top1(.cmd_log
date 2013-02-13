@@ -1,0 +1,3 @@
+ngdbuild -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/work/MyArt/MyArt.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "top1.edf" top1(.ngd
+ngdbuild -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/work/MyArt/MyArt.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top1.ucf" -p xc3s200-ft256-5 "top1.edf" top1(.ngd
+ngdbuild -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/work/MyArt/MyArt.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top1.ucf" -p xc3s200-ft256-5 "top1.edf" top1(.ngd

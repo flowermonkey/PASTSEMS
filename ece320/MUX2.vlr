@@ -1,0 +1,16 @@
+
+
+;----------------------------------------------------------------------------
+; vldb RSF file
+; Created by the Assura UI
+;----------------------------------------------------------------------------
+
+; form additions
+avSimName = "auLvs"
+avDisableWildcardPG = nil
+avLibName  = "lab8B"
+avCellName = "MUX2"
+avViewName = "schematic"
+avViewList = "auLvs schematic symbol"
+avStopList = "auLvs"
+avVldbFile = "/afs/ece.cmu.edu/usr/bflores/ece320/MUX2.sdb"

@@ -1,0 +1,1272 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 7.1.1.071 -- 20 May 2009
+Copyright (C) 1989-2009 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: bflores   Host: ece006   HostID: 2801083   PID: 21654
+Memory  available: 1.6100 GB  physical: 16.8596 GB
+CPU(1 of 8):  CPU 0  Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz  2527.000MHz
+
+Simulating `input.scs' on ece006 at 4:14:44 PM, Fri Nov 30, 2012 (process id: 21654).
+Environment variable:
+    SPECTRE_DEFAULTS=-E
+Command line:
+    /usr/cds/mmsim-7.11/tools.lnx86/spectre/bin/32bit/spectre input.scs  \
+        +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre2_13320_17 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 21654
+
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /usr/cds/mmsim-7.11/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Auto-loading AHDL component.
+Finished loading AHDL component in 0 s (elapsed).
+Installed AHDL simulation interface.
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+Circuit inventory:
+              nodes 7
+            bsim3v3 9     
+          capacitor 1     
+           resistor 1     
+            vsource 2     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-6006): 3 warnings suppressed.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre2_13320_17, ).
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.2 ps    (2.52 %), step = 6.635 ps     (133 m%)
+    tran: time = 400 ps         (8 %), step = 51.22 ps     (1.02 %)
+    tran: time = 625.7 ps    (12.5 %), step = 18.93 ps     (379 m%)
+    tran: time = 969.7 ps    (19.4 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 8.748 ps     (175 m%)
+    tran: time = 1.4 ns        (28 %), step = 42.58 ps     (852 m%)
+    tran: time = 1.65 ns       (33 %), step = 26.13 ps     (523 m%)
+    tran: time = 1.961 ns    (39.2 %), step = 100 ps          (2 %)
+    tran: time = 2.129 ns    (42.6 %), step = 6.29 ps      (126 m%)
+    tran: time = 2.4 ns        (48 %), step = 37.61 ps     (752 m%)
+    tran: time = 2.64 ns     (52.8 %), step = 22.75 ps     (455 m%)
+    tran: time = 2.929 ns    (58.6 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.937 ps     (139 m%)
+    tran: time = 3.4 ns        (68 %), step = 40 ps        (800 m%)
+    tran: time = 3.63 ns     (72.6 %), step = 20.04 ps     (401 m%)
+    tran: time = 3.878 ns    (77.6 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 7.626 ps     (153 m%)
+    tran: time = 4.4 ns        (88 %), step = 44.19 ps     (884 m%)
+    tran: time = 4.626 ns    (92.5 %), step = 18.89 ps     (378 m%)
+    tran: time = 4.934 ns    (98.7 %), step = 65.58 ps     (1.31 %)
+Number of accepted tran steps =             427
+Initial condition solution time: CPU = 0 s, elapsed = 938.892 us.
+Intrinsic tran analysis time:    CPU = 60 ms, elapsed = 137.883 ms.
+Total time required for tran analysis `tran': CPU = 70 ms, elapsed = 165.061 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.1 ps    (2.52 %), step = 6.63 ps      (133 m%)
+    tran: time = 400 ps         (8 %), step = 47.12 ps     (942 m%)
+    tran: time = 651.8 ps      (13 %), step = 27.53 ps     (551 m%)
+    tran: time = 878.7 ps    (17.6 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 7.574 ps     (151 m%)
+    tran: time = 1.4 ns        (28 %), step = 44.1 ps      (882 m%)
+    tran: time = 1.652 ns      (33 %), step = 27.5 ps      (550 m%)
+    tran: time = 1.878 ns    (37.6 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 7.618 ps     (152 m%)
+    tran: time = 2.4 ns        (48 %), step = 44.1 ps      (882 m%)
+    tran: time = 2.652 ns      (53 %), step = 27.5 ps      (550 m%)
+    tran: time = 2.878 ns    (57.6 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 7.616 ps     (152 m%)
+    tran: time = 3.4 ns        (68 %), step = 44.1 ps      (882 m%)
+    tran: time = 3.652 ns      (73 %), step = 27.5 ps      (550 m%)
+    tran: time = 3.878 ns    (77.6 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 7.617 ps     (152 m%)
+    tran: time = 4.4 ns        (88 %), step = 44.1 ps      (882 m%)
+    tran: time = 4.652 ns      (93 %), step = 27.5 ps      (550 m%)
+    tran: time = 4.878 ns    (97.6 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             424
+Initial condition solution time: CPU = 0 s, elapsed = 383.139 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 104.16 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 147.64 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.2 ps    (2.52 %), step = 6.662 ps     (133 m%)
+    tran: time = 400 ps         (8 %), step = 33.32 ps     (666 m%)
+    tran: time = 634.9 ps    (12.7 %), step = 17.9 ps      (358 m%)
+    tran: time = 933.1 ps    (18.7 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.865 ps     (137 m%)
+    tran: time = 1.4 ns        (28 %), step = 32.4 ps      (648 m%)
+    tran: time = 1.633 ns    (32.7 %), step = 17.63 ps     (353 m%)
+    tran: time = 1.924 ns    (38.5 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 7.08 ps      (142 m%)
+    tran: time = 2.4 ns        (48 %), step = 44.3 ps      (886 m%)
+    tran: time = 2.632 ns    (52.6 %), step = 17.21 ps     (344 m%)
+    tran: time = 2.914 ns    (58.3 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 7.361 ps     (147 m%)
+    tran: time = 3.4 ns        (68 %), step = 48.96 ps     (979 m%)
+    tran: time = 3.632 ns    (72.6 %), step = 17.28 ps     (346 m%)
+    tran: time = 3.916 ns    (78.3 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 7.303 ps     (146 m%)
+    tran: time = 4.4 ns        (88 %), step = 49.06 ps     (981 m%)
+    tran: time = 4.632 ns    (92.6 %), step = 17.28 ps     (346 m%)
+    tran: time = 4.917 ns    (98.3 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             429
+Initial condition solution time: CPU = 0 s, elapsed = 432.014 us.
+Intrinsic tran analysis time:    CPU = 60 ms, elapsed = 106.674 ms.
+Total time required for tran analysis `tran': CPU = 60 ms, elapsed = 121.024 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.1 ps    (2.52 %), step = 6.511 ps     (130 m%)
+    tran: time = 400 ps         (8 %), step = 43.22 ps     (864 m%)
+    tran: time = 664.3 ps    (13.3 %), step = 39.31 ps     (786 m%)
+    tran: time = 930.9 ps    (18.6 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.751 ps     (135 m%)
+    tran: time = 1.4 ns        (28 %), step = 47.81 ps     (956 m%)
+    tran: time = 1.63 ns     (32.6 %), step = 27.68 ps     (554 m%)
+    tran: time = 1.948 ns      (39 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.452 ps     (129 m%)
+    tran: time = 2.4 ns        (48 %), step = 43.33 ps     (867 m%)
+    tran: time = 2.625 ns    (52.5 %), step = 26.17 ps     (523 m%)
+    tran: time = 2.931 ns    (58.6 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.746 ps     (135 m%)
+    tran: time = 3.4 ns        (68 %), step = 47.7 ps      (954 m%)
+    tran: time = 3.63 ns     (72.6 %), step = 27.67 ps     (553 m%)
+    tran: time = 3.948 ns      (79 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.453 ps     (129 m%)
+    tran: time = 4.4 ns        (88 %), step = 43.33 ps     (867 m%)
+    tran: time = 4.625 ns    (92.5 %), step = 26.17 ps     (523 m%)
+    tran: time = 4.931 ns    (98.6 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             409
+Initial condition solution time: CPU = 0 s, elapsed = 349.998 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 70.0922 ms.
+Total time required for tran analysis `tran': CPU = 40 ms, elapsed = 122.027 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126.1 ps    (2.52 %), step = 6.552 ps     (131 m%)
+    tran: time = 400 ps         (8 %), step = 62.1 ps      (1.24 %)
+    tran: time = 663.3 ps    (13.3 %), step = 38.49 ps     (770 m%)
+    tran: time = 928.7 ps    (18.6 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.845 ps     (137 m%)
+    tran: time = 1.4 ns        (28 %), step = 69.54 ps     (1.39 %)
+    tran: time = 1.66 ns     (33.2 %), step = 37.16 ps     (743 m%)
+    tran: time = 1.924 ns    (38.5 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.977 ps     (140 m%)
+    tran: time = 2.4 ns        (48 %), step = 69.23 ps     (1.38 %)
+    tran: time = 2.661 ns    (53.2 %), step = 37.3 ps      (746 m%)
+    tran: time = 2.924 ns    (58.5 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.964 ps     (139 m%)
+    tran: time = 3.4 ns        (68 %), step = 69.28 ps     (1.39 %)
+    tran: time = 3.661 ns    (73.2 %), step = 37.28 ps     (746 m%)
+    tran: time = 3.924 ns    (78.5 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.966 ps     (139 m%)
+    tran: time = 4.4 ns        (88 %), step = 69.27 ps     (1.39 %)
+    tran: time = 4.661 ns    (93.2 %), step = 37.28 ps     (746 m%)
+    tran: time = 4.924 ns    (98.5 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             404
+Initial condition solution time: CPU = 0 s, elapsed = 689.983 us.
+Intrinsic tran analysis time:    CPU = 60 ms, elapsed = 122.19 ms.
+Total time required for tran analysis `tran': CPU = 60 ms, elapsed = 147.413 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.428 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 73.75 ps     (1.47 %)
+    tran: time = 646.6 ps    (12.9 %), step = 34.47 ps     (689 m%)
+    tran: time = 900.2 ps      (18 %), step = 100 ps          (2 %)
+    tran: time = 1.125 ns    (22.5 %), step = 7.614 ps     (152 m%)
+    tran: time = 1.4 ns        (28 %), step = 66.76 ps     (1.34 %)
+    tran: time = 1.654 ns    (33.1 %), step = 36.91 ps     (738 m%)
+    tran: time = 1.913 ns    (38.3 %), step = 100 ps          (2 %)
+    tran: time = 2.125 ns    (42.5 %), step = 7.085 ps     (142 m%)
+    tran: time = 2.4 ns        (48 %), step = 63.08 ps     (1.26 %)
+    tran: time = 2.654 ns    (53.1 %), step = 36.8 ps      (736 m%)
+    tran: time = 2.913 ns    (58.3 %), step = 100 ps          (2 %)
+    tran: time = 3.125 ns    (62.5 %), step = 7.102 ps     (142 m%)
+    tran: time = 3.4 ns        (68 %), step = 63.23 ps     (1.26 %)
+    tran: time = 3.654 ns    (73.1 %), step = 36.8 ps      (736 m%)
+    tran: time = 3.913 ns    (78.3 %), step = 100 ps          (2 %)
+    tran: time = 4.125 ns    (82.5 %), step = 7.101 ps     (142 m%)
+    tran: time = 4.4 ns        (88 %), step = 63.23 ps     (1.26 %)
+    tran: time = 4.654 ns    (93.1 %), step = 36.8 ps      (736 m%)
+    tran: time = 4.913 ns    (98.3 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             410
+Initial condition solution time: CPU = 0 s, elapsed = 372.887 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 51.1408 ms.
+Total time required for tran analysis `tran': CPU = 60 ms, elapsed = 61.8839 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.477 ps     (130 m%)
+    tran: time = 400 ps         (8 %), step = 47.94 ps     (959 m%)
+    tran: time = 661 ps      (13.2 %), step = 39.1 ps      (782 m%)
+    tran: time = 925.7 ps    (18.5 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.83 ps      (137 m%)
+    tran: time = 1.4 ns        (28 %), step = 44.81 ps     (896 m%)
+    tran: time = 1.661 ns    (33.2 %), step = 38.98 ps     (780 m%)
+    tran: time = 1.925 ns    (38.5 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.849 ps     (137 m%)
+    tran: time = 2.4 ns        (48 %), step = 44.79 ps     (896 m%)
+    tran: time = 2.661 ns    (53.2 %), step = 38.98 ps     (780 m%)
+    tran: time = 2.925 ns    (58.5 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.849 ps     (137 m%)
+    tran: time = 3.4 ns        (68 %), step = 44.79 ps     (896 m%)
+    tran: time = 3.661 ns    (73.2 %), step = 38.98 ps     (780 m%)
+    tran: time = 3.925 ns    (78.5 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.849 ps     (137 m%)
+    tran: time = 4.4 ns        (88 %), step = 44.79 ps     (896 m%)
+    tran: time = 4.661 ns    (93.2 %), step = 38.98 ps     (780 m%)
+    tran: time = 4.925 ns    (98.5 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             403
+Initial condition solution time: CPU = 0 s, elapsed = 348.091 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 64.0461 ms.
+Total time required for tran analysis `tran': CPU = 40 ms, elapsed = 98.7749 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.472 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 46.08 ps     (922 m%)
+    tran: time = 627.9 ps    (12.6 %), step = 26.68 ps     (534 m%)
+    tran: time = 942.8 ps    (18.9 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.491 ps     (130 m%)
+    tran: time = 1.4 ns        (28 %), step = 46.01 ps     (920 m%)
+    tran: time = 1.628 ns    (32.6 %), step = 26.68 ps     (534 m%)
+    tran: time = 1.943 ns    (38.9 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.491 ps     (130 m%)
+    tran: time = 2.4 ns        (48 %), step = 46.02 ps     (920 m%)
+    tran: time = 2.628 ns    (52.6 %), step = 26.68 ps     (534 m%)
+    tran: time = 2.943 ns    (58.9 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.491 ps     (130 m%)
+    tran: time = 3.4 ns        (68 %), step = 46.02 ps     (920 m%)
+    tran: time = 3.628 ns    (72.6 %), step = 26.68 ps     (534 m%)
+    tran: time = 3.943 ns    (78.9 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.491 ps     (130 m%)
+    tran: time = 4.4 ns        (88 %), step = 46.02 ps     (920 m%)
+    tran: time = 4.628 ns    (92.6 %), step = 26.68 ps     (534 m%)
+    tran: time = 4.921 ns    (98.4 %), step = 78.6 ps      (1.57 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 348.806 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 68.4969 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 106.839 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.458 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 48.38 ps     (968 m%)
+    tran: time = 651.4 ps      (13 %), step = 35.94 ps     (719 m%)
+    tran: time = 908.5 ps    (18.2 %), step = 100 ps          (2 %)
+    tran: time = 1.125 ns    (22.5 %), step = 7.282 ps     (146 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.81 ps     (916 m%)
+    tran: time = 1.651 ns      (33 %), step = 35.9 ps      (718 m%)
+    tran: time = 1.908 ns    (38.2 %), step = 100 ps          (2 %)
+    tran: time = 2.125 ns    (42.5 %), step = 7.301 ps     (146 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.81 ps     (916 m%)
+    tran: time = 2.651 ns      (53 %), step = 35.9 ps      (718 m%)
+    tran: time = 2.908 ns    (58.2 %), step = 100 ps          (2 %)
+    tran: time = 3.125 ns    (62.5 %), step = 7.301 ps     (146 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.81 ps     (916 m%)
+    tran: time = 3.651 ns      (73 %), step = 35.9 ps      (718 m%)
+    tran: time = 3.908 ns    (78.2 %), step = 100 ps          (2 %)
+    tran: time = 4.125 ns    (82.5 %), step = 7.301 ps     (146 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.81 ps     (916 m%)
+    tran: time = 4.651 ns      (93 %), step = 35.9 ps      (718 m%)
+    tran: time = 4.908 ns    (98.2 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             403
+Initial condition solution time: CPU = 0 s, elapsed = 346.899 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 71.367 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 111.661 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.461 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 47.71 ps     (954 m%)
+    tran: time = 660.9 ps    (13.2 %), step = 39.12 ps     (782 m%)
+    tran: time = 925.5 ps    (18.5 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.817 ps     (136 m%)
+    tran: time = 1.4 ns        (28 %), step = 40.49 ps     (810 m%)
+    tran: time = 1.656 ns    (33.1 %), step = 37.32 ps     (746 m%)
+    tran: time = 1.916 ns    (38.3 %), step = 100 ps          (2 %)
+    tran: time = 2.125 ns    (42.5 %), step = 7.049 ps     (141 m%)
+    tran: time = 2.4 ns        (48 %), step = 40.88 ps     (818 m%)
+    tran: time = 2.648 ns      (53 %), step = 34.9 ps      (698 m%)
+    tran: time = 2.894 ns    (57.9 %), step = 100 ps          (2 %)
+    tran: time = 3.125 ns    (62.5 %), step = 8.027 ps     (161 m%)
+    tran: time = 3.4 ns        (68 %), step = 41.21 ps     (824 m%)
+    tran: time = 3.647 ns    (72.9 %), step = 34.62 ps     (692 m%)
+    tran: time = 3.891 ns    (77.8 %), step = 100 ps          (2 %)
+    tran: time = 4.125 ns    (82.5 %), step = 8.298 ps     (166 m%)
+    tran: time = 4.4 ns        (88 %), step = 40.83 ps     (817 m%)
+    tran: time = 4.648 ns      (93 %), step = 34.96 ps     (699 m%)
+    tran: time = 4.895 ns    (97.9 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             404
+Initial condition solution time: CPU = 0 s, elapsed = 345.945 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 50.467 ms.
+Total time required for tran analysis `tran': CPU = 60 ms, elapsed = 62.49 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.462 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 46.54 ps     (931 m%)
+    tran: time = 664.4 ps    (13.3 %), step = 40.32 ps     (806 m%)
+    tran: time = 931.9 ps    (18.6 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.673 ps     (133 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.49 ps     (910 m%)
+    tran: time = 1.664 ns    (33.3 %), step = 40.27 ps     (805 m%)
+    tran: time = 1.932 ns    (38.6 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.68 ps      (134 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.47 ps     (909 m%)
+    tran: time = 2.664 ns    (53.3 %), step = 40.27 ps     (805 m%)
+    tran: time = 2.932 ns    (58.6 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.68 ps      (134 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.47 ps     (909 m%)
+    tran: time = 3.664 ns    (73.3 %), step = 40.27 ps     (805 m%)
+    tran: time = 3.932 ns    (78.6 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.68 ps      (134 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.47 ps     (909 m%)
+    tran: time = 4.664 ns    (93.3 %), step = 40.27 ps     (805 m%)
+    tran: time = 4.932 ns    (98.6 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 376.94 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 55.6009 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 67.1339 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.463 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 46 ps        (920 m%)
+    tran: time = 626.8 ps    (12.5 %), step = 26.28 ps     (526 m%)
+    tran: time = 939.7 ps    (18.8 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.528 ps     (131 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.78 ps     (916 m%)
+    tran: time = 1.627 ns    (32.5 %), step = 26.28 ps     (526 m%)
+    tran: time = 1.94 ns     (38.8 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.528 ps     (131 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.79 ps     (916 m%)
+    tran: time = 2.627 ns    (52.5 %), step = 26.28 ps     (526 m%)
+    tran: time = 2.94 ns     (58.8 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.528 ps     (131 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.79 ps     (916 m%)
+    tran: time = 3.627 ns    (72.5 %), step = 26.28 ps     (526 m%)
+    tran: time = 3.94 ns     (78.8 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.528 ps     (131 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.79 ps     (916 m%)
+    tran: time = 4.627 ns    (92.5 %), step = 26.28 ps     (526 m%)
+    tran: time = 4.92 ns     (98.4 %), step = 80.12 ps      (1.6 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 391.006 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 51.9111 ms.
+Total time required for tran analysis `tran': CPU = 40 ms, elapsed = 78.8109 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.465 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.16 ps     (903 m%)
+    tran: time = 632.4 ps    (12.6 %), step = 28.23 ps     (565 m%)
+    tran: time = 956.6 ps    (19.1 %), step = 100 ps          (2 %)
+    tran: time = 1.129 ns    (22.6 %), step = 6.137 ps     (123 m%)
+    tran: time = 1.4 ns        (28 %), step = 71.88 ps     (1.44 %)
+    tran: time = 1.665 ns    (33.3 %), step = 40.26 ps     (805 m%)
+    tran: time = 1.933 ns    (38.7 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.666 ps     (133 m%)
+    tran: time = 2.4 ns        (48 %), step = 44.32 ps     (886 m%)
+    tran: time = 2.633 ns    (52.7 %), step = 28.39 ps     (568 m%)
+    tran: time = 2.958 ns    (59.2 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 8.698 ps     (174 m%)
+    tran: time = 3.4 ns        (68 %), step = 70.16 ps      (1.4 %)
+    tran: time = 3.625 ns    (72.5 %), step = 25.67 ps     (513 m%)
+    tran: time = 3.936 ns    (78.7 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.608 ps     (132 m%)
+    tran: time = 4.4 ns        (88 %), step = 44.56 ps     (891 m%)
+    tran: time = 4.633 ns    (92.7 %), step = 28.43 ps     (569 m%)
+    tran: time = 4.929 ns    (98.6 %), step = 70.82 ps     (1.42 %)
+Number of accepted tran steps =             395
+Initial condition solution time: CPU = 0 s, elapsed = 379.086 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 58.1539 ms.
+Total time required for tran analysis `tran': CPU = 40 ms, elapsed = 70.8611 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.464 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.46 ps     (909 m%)
+    tran: time = 629.8 ps    (12.6 %), step = 27.29 ps     (546 m%)
+    tran: time = 948.5 ps      (19 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.401 ps     (128 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.57 ps     (911 m%)
+    tran: time = 1.63 ns     (32.6 %), step = 27.3 ps      (546 m%)
+    tran: time = 1.949 ns      (39 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.399 ps     (128 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.57 ps     (911 m%)
+    tran: time = 2.63 ns     (52.6 %), step = 27.3 ps      (546 m%)
+    tran: time = 2.949 ns      (59 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.399 ps     (128 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.57 ps     (911 m%)
+    tran: time = 3.63 ns     (72.6 %), step = 27.3 ps      (546 m%)
+    tran: time = 3.949 ns      (79 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.399 ps     (128 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.57 ps     (911 m%)
+    tran: time = 4.63 ns     (92.6 %), step = 27.3 ps      (546 m%)
+    tran: time = 4.924 ns    (98.5 %), step = 75.7 ps      (1.51 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 375.032 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 49.1791 ms.
+Total time required for tran analysis `tran': CPU = 40 ms, elapsed = 63.756 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.465 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.17 ps     (903 m%)
+    tran: time = 631.1 ps    (12.6 %), step = 27.75 ps     (555 m%)
+    tran: time = 952.5 ps      (19 %), step = 100 ps          (2 %)
+    tran: time = 1.125 ns    (22.5 %), step = 7.11 ps      (142 m%)
+    tran: time = 1.4 ns        (28 %), step = 74.26 ps     (1.49 %)
+    tran: time = 1.66 ns     (33.2 %), step = 38.69 ps     (774 m%)
+    tran: time = 1.924 ns    (38.5 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.857 ps     (137 m%)
+    tran: time = 2.4 ns        (48 %), step = 72.8 ps      (1.46 %)
+    tran: time = 2.662 ns    (53.2 %), step = 39.5 ps      (790 m%)
+    tran: time = 2.929 ns    (58.6 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.752 ps     (135 m%)
+    tran: time = 3.4 ns        (68 %), step = 44.09 ps     (882 m%)
+    tran: time = 3.631 ns    (72.6 %), step = 27.78 ps     (556 m%)
+    tran: time = 3.953 ns    (79.1 %), step = 100 ps          (2 %)
+    tran: time = 4.125 ns    (82.5 %), step = 7.112 ps     (142 m%)
+    tran: time = 4.4 ns        (88 %), step = 74.21 ps     (1.48 %)
+    tran: time = 4.66 ns     (93.2 %), step = 38.72 ps     (774 m%)
+    tran: time = 4.924 ns    (98.5 %), step = 100 ps          (2 %)
+Number of accepted tran steps =             394
+Initial condition solution time: CPU = 0 s, elapsed = 411.987 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 49.0909 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 62.6781 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.464 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.4 ps      (908 m%)
+    tran: time = 630.1 ps    (12.6 %), step = 27.4 ps      (548 m%)
+    tran: time = 949.4 ps      (19 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.388 ps     (128 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.52 ps     (910 m%)
+    tran: time = 1.63 ns     (32.6 %), step = 27.41 ps     (548 m%)
+    tran: time = 1.95 ns       (39 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.386 ps     (128 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.52 ps     (910 m%)
+    tran: time = 2.63 ns     (52.6 %), step = 27.41 ps     (548 m%)
+    tran: time = 2.95 ns       (59 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.386 ps     (128 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.52 ps     (910 m%)
+    tran: time = 3.63 ns     (72.6 %), step = 27.41 ps     (548 m%)
+    tran: time = 3.95 ns       (79 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.386 ps     (128 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.52 ps     (910 m%)
+    tran: time = 4.63 ns     (92.6 %), step = 27.41 ps     (548 m%)
+    tran: time = 4.925 ns    (98.5 %), step = 75.22 ps      (1.5 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 349.045 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 63.4589 ms.
+Total time required for tran analysis `tran': CPU = 60 ms, elapsed = 109.811 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.464 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.51 ps     (910 m%)
+    tran: time = 629.5 ps    (12.6 %), step = 27.18 ps     (544 m%)
+    tran: time = 947.5 ps      (19 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.413 ps     (128 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.61 ps     (912 m%)
+    tran: time = 1.629 ns    (32.6 %), step = 27.19 ps     (544 m%)
+    tran: time = 1.948 ns      (39 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.412 ps     (128 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.61 ps     (912 m%)
+    tran: time = 2.629 ns    (52.6 %), step = 27.2 ps      (544 m%)
+    tran: time = 2.948 ns      (59 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.412 ps     (128 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.61 ps     (912 m%)
+    tran: time = 3.629 ns    (72.6 %), step = 27.2 ps      (544 m%)
+    tran: time = 3.948 ns      (79 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.412 ps     (128 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.61 ps     (912 m%)
+    tran: time = 4.629 ns    (92.6 %), step = 27.2 ps      (544 m%)
+    tran: time = 4.924 ns    (98.5 %), step = 76.18 ps     (1.52 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 354.052 us.
+Intrinsic tran analysis time:    CPU = 40 ms, elapsed = 64.9111 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 114.509 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.464 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.73 ps     (915 m%)
+    tran: time = 628.2 ps    (12.6 %), step = 26.77 ps     (535 m%)
+    tran: time = 943.9 ps    (18.9 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.465 ps     (129 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.73 ps     (915 m%)
+    tran: time = 1.628 ns    (32.6 %), step = 26.77 ps     (535 m%)
+    tran: time = 1.944 ns    (38.9 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.465 ps     (129 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.73 ps     (915 m%)
+    tran: time = 2.628 ns    (52.6 %), step = 26.77 ps     (535 m%)
+    tran: time = 2.944 ns    (58.9 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.465 ps     (129 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.73 ps     (915 m%)
+    tran: time = 3.628 ns    (72.6 %), step = 26.77 ps     (535 m%)
+    tran: time = 3.944 ns    (78.9 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.465 ps     (129 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.73 ps     (915 m%)
+    tran: time = 4.628 ns    (92.6 %), step = 26.77 ps     (535 m%)
+    tran: time = 4.922 ns    (98.4 %), step = 78.05 ps     (1.56 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 348.806 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 60.3199 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 86.606 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Warning from spectre.
+    WARNING (CMI-2477): I0.PM0: `Rds' = 8.96552 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I1.PM0: `Rds' = 2.22222 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I2.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+    WARNING (CMI-2477): I3.PM0: `Rds' = 1.10953 uOhm is less than 0.001. Set to 0.
+
+
+***********************************************
+Transient Analysis `tran': time = (0 s -> 5 ns)
+***********************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 5 ns
+    step = 5 ps
+    maxstep = 100 ps
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 126 ps      (2.52 %), step = 6.464 ps     (129 m%)
+    tran: time = 400 ps         (8 %), step = 45.62 ps     (912 m%)
+    tran: time = 628.8 ps    (12.6 %), step = 26.97 ps     (539 m%)
+    tran: time = 945.7 ps    (18.9 %), step = 100 ps          (2 %)
+    tran: time = 1.126 ns    (22.5 %), step = 6.439 ps     (129 m%)
+    tran: time = 1.4 ns        (28 %), step = 45.68 ps     (914 m%)
+    tran: time = 1.629 ns    (32.6 %), step = 26.98 ps     (540 m%)
+    tran: time = 1.946 ns    (38.9 %), step = 100 ps          (2 %)
+    tran: time = 2.126 ns    (42.5 %), step = 6.439 ps     (129 m%)
+    tran: time = 2.4 ns        (48 %), step = 45.68 ps     (914 m%)
+    tran: time = 2.629 ns    (52.6 %), step = 26.98 ps     (540 m%)
+    tran: time = 2.946 ns    (58.9 %), step = 100 ps          (2 %)
+    tran: time = 3.126 ns    (62.5 %), step = 6.439 ps     (129 m%)
+    tran: time = 3.4 ns        (68 %), step = 45.68 ps     (914 m%)
+    tran: time = 3.629 ns    (72.6 %), step = 26.98 ps     (540 m%)
+    tran: time = 3.946 ns    (78.9 %), step = 100 ps          (2 %)
+    tran: time = 4.126 ns    (82.5 %), step = 6.439 ps     (129 m%)
+    tran: time = 4.4 ns        (88 %), step = 45.68 ps     (914 m%)
+    tran: time = 4.629 ns    (92.6 %), step = 26.98 ps     (540 m%)
+    tran: time = 4.923 ns    (98.5 %), step = 77.12 ps     (1.54 %)
+Number of accepted tran steps =             399
+Initial condition solution time: CPU = 0 s, elapsed = 398.159 us.
+Intrinsic tran analysis time:    CPU = 50 ms, elapsed = 63.4849 ms.
+Total time required for tran analysis `tran': CPU = 50 ms, elapsed = 104.699 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (4:19:25 PM, Fri Nov 30, 2012):
+Time used: CPU = 2.81 s, elapsed = 281 s (4m  41.0s), util. = 999e-03%.
+Time spent in licensing: elapsed = 214 ms.
+Virtual memory used = 6.08 Mbytes.
+spectre completes with 0 errors, 81 warnings, and 0 notices.

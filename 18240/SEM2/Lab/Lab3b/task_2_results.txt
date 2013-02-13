@@ -1,0 +1,60 @@
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# run -all 
+# message_byte = H
+# message_byte = A
+# message_byte = V
+# message_byte = E
+# message_byte = 
+# message_byte = F
+# message_byte = U
+# message_byte = N
+# message_byte =  
+# message_byte = S
+# message_byte = T
+# message_byte = O
+# message_byte = R
+# message_byte = M
+# message_byte = I
+# message_byte = N
+# message_byte = '
+# message_byte =  
+# message_byte = D
+# message_byte = A
+# message_byte =  
+# message_byte = C
+# message_byte = 
+# message_byte = S
+# message_byte = 
+# message_byte = L
+# message_byte = E
+# message_byte = .
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte = 
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte =  
+# message_byte =  
+#

@@ -1,0 +1,80 @@
+                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Thu Nov 15 02:14:33 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './crc.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Nov 15 02:14 2012
+         0 messageReceived: 00000000000, done: 0, ok: 0
+        55 messageReceived: 00000000001, done: 0, ok: 0
+        75 messageReceived: 00000000010, done: 0, ok: 0
+        95 messageReceived: 00000000100, done: 0, ok: 0
+       115 messageReceived: 00000001000, done: 0, ok: 0
+       135 messageReceived: 00000010000, done: 0, ok: 0
+       155 messageReceived: 00000100000, done: 0, ok: 0
+       175 messageReceived: 00001000000, done: 0, ok: 0
+       195 messageReceived: 00010000001, done: 0, ok: 0
+       215 messageReceived: 00100000010, done: 0, ok: 0
+       235 messageReceived: 01000000100, done: 0, ok: 0
+       255 messageReceived: 10000001000, done: 0, ok: 0
+       355 messageReceived: 10000001000, done: 1, ok: 1 <<<<<MESSAGE RECIEVED
+       375 messageReceived: 10000001000, done: 0, ok: 0
+       475 messageReceived: 00000000000, done: 0, ok: 0
+       595 messageReceived: 00000000001, done: 0, ok: 0
+       615 messageReceived: 00000000010, done: 0, ok: 0
+       635 messageReceived: 00000000100, done: 0, ok: 0
+       655 messageReceived: 00000001000, done: 0, ok: 0
+       675 messageReceived: 00000010001, done: 0, ok: 0
+       695 messageReceived: 00000100011, done: 0, ok: 0
+       715 messageReceived: 00001000111, done: 0, ok: 0
+       815 messageReceived: 00001000111, done: 1, ok: 1 <<<<<MESSAGE RECIEVED
+       835 messageReceived: 00001000111, done: 0, ok: 0
+       935 messageReceived: 00000000000, done: 0, ok: 0
+       975 messageReceived: 00000000001, done: 0, ok: 0
+       995 messageReceived: 00000000010, done: 0, ok: 0
+      1015 messageReceived: 00000000101, done: 0, ok: 0
+      1035 messageReceived: 00000001010, done: 0, ok: 0
+      1055 messageReceived: 00000010101, done: 0, ok: 0
+      1075 messageReceived: 00000101010, done: 0, ok: 0
+      1095 messageReceived: 00001010100, done: 0, ok: 0
+      1115 messageReceived: 00010101000, done: 0, ok: 0
+      1135 messageReceived: 00101010001, done: 0, ok: 0
+      1155 messageReceived: 01010100011, done: 0, ok: 0
+      1175 messageReceived: 10101000111, done: 0, ok: 0
+      1275 messageReceived: 10101000111, done: 1, ok: 1 <<<<<MESSAGE RECIEVED
+      1295 messageReceived: 10101000111, done: 0, ok: 0
+      1395 messageReceived: 00000000000, done: 0, ok: 0
+      1455 messageReceived: 00000000001, done: 0, ok: 0
+      1475 messageReceived: 00000000010, done: 0, ok: 0
+      1495 messageReceived: 00000000101, done: 0, ok: 0
+      1515 messageReceived: 00000001011, done: 0, ok: 0
+      1535 messageReceived: 00000010111, done: 0, ok: 0
+      1555 messageReceived: 00000101110, done: 0, ok: 0
+      1575 messageReceived: 00001011100, done: 0, ok: 0
+      1595 messageReceived: 00010111001, done: 0, ok: 0
+      1615 messageReceived: 00101110010, done: 0, ok: 0
+      1635 messageReceived: 01011100100, done: 0, ok: 0 <<<<<MESSAGE RECIEVED BUT NOT CORRECT [last bit not set]
+$finish called from file "./crc.sv", line 202.
+$finish at simulation time                 1835
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1835
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Thu Nov 15 02:14:38 2012
+CPU time: .151 seconds to compile + .038 seconds to elab + .183 seconds to link + .562 seconds in simulation

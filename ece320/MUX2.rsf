@@ -1,0 +1,26 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.3:IC6.1.3.500.10 06/09/09 14:08 (sfrh259) $
+; sub-version 4.1
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; avParameter Section
+; Created by the Assura UI
+;----------------------------------------------------------------------------
+
+avParameters(
+  ?inputLayout ( "df2" "lab8B" )
+  ?cellName "MUX2"
+  ?viewName "layout"
+  ?technology "gpdk090"
+  ?techLib "/afs/ece.cmu.edu/class/ece320/F11/gpdk090_v4.5/assura_tech.lib"
+  ?avrpt t
+  ?dbuPerUU 2000.0
+  ?flagNon45 t
+  ?flagOffGrid (0.005 1.0)
+  ?joinPins top
+  ?overwrite t
+  ?textPriOnly nil
+  ?userUnits "micron"
+)

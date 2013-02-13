@@ -1,0 +1,35 @@
+@(#)$CDS: nvn version av4.1:Production:dfII6.1.3:IC6.1.3.500.10 06/09/2009 14:45 (sfrh259) $
+sub-version 4.1, integ signature 2009-06-09-1330
+run on ece005 at Fri Nov  9 16:25:02 2012
+
+Schematic                      | Layout                      | Status
+-------------------------------------------------------------------------------
+NAND2_1X schematic Lab8_6      | NAND2_1X layout Lab8_6      | matched      
+
+Schematic and Layout Match
+
+Schematic:
+  Library:Lab8_6
+  Cell   :NAND2_1X
+  View   :schematic
+
+Layout:
+  Library:Lab8_6
+  Cell   :NAND2_1X
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

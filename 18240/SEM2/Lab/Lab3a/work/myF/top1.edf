@@ -1,0 +1,1582 @@
+(edif top1
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2009 06 11 10 20 10)
+      (author "Xilinx, Inc.")
+      (program "realTimeFpga" (version "Version 0.0.1"))
+      (comment "")
+    )
+  )
+  (library VIRTEX
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell IBUF (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+    (cell OBUF (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+    (cell FDR (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port Q (direction output))
+          (port D (direction input))
+          (port C (direction input))
+          (port R (direction input))
+        )
+      )
+    )
+    (cell GND (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port G (direction output))
+        )
+      )
+    )
+    (cell LD (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port Q (direction output))
+          (port D (direction input))
+          (port G (direction input))
+        )
+      )
+    )
+    (cell LUT2 (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port I0 (direction input))
+          (port I1 (direction input))
+          (port O (direction output))
+        )
+      )
+    )
+    (cell LUT3 (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port I0 (direction input))
+          (port I1 (direction input))
+          (port I2 (direction input))
+          (port O (direction output))
+        )
+      )
+    )
+    (cell LUT4 (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port I0 (direction input))
+          (port I1 (direction input))
+          (port I2 (direction input))
+          (port I3 (direction input))
+          (port O (direction output))
+        )
+      )
+    )
+    (cell MUXCY_L (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port LO (direction output))
+          (port S (direction input))
+          (port DI (direction input))
+          (port CI (direction input))
+        )
+      )
+    )
+    (cell VCC (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port P (direction output))
+        )
+      )
+    )
+    (cell XORCY (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port LI (direction input))
+          (port CI (direction input))
+        )
+      )
+    )
+    (cell BUFG (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell top1 (celltype GENERIC)
+      (view rtl (viewType NETLIST)
+        (interface
+          (port displayA (direction output))
+          (port (array (rename sevenSegmentDisplay_7_0_
+           "sevenSegmentDisplay[7:0]") 8) (direction output))
+          (port (array (rename h_move_3_0_ "h_move[3:0]") 4) (direction input))
+          (port clk (direction input))
+          (port clock (direction input))
+          (port rst (direction input))
+          (port reset (direction input))
+          (port (array (rename c_move_3_0_ "c_move[3:0]") 4) (direction input))
+          (port (array (rename displayValuesA_7_0_ "displayValuesA[7:0]") 8)
+           (direction output))
+        )
+        (contents
+          (instance (rename fsm_next_reg_2_ "fsm/next_reg[2]")
+            (viewRef PRIM (cellRef LD (libraryRef VIRTEX)))
+          )
+          (instance (rename fsm_next_reg_1_ "fsm/next_reg[1]")
+            (viewRef PRIM (cellRef LD (libraryRef VIRTEX)))
+          )
+          (instance (rename fsm_next_reg_0_ "fsm/next_reg[0]")
+            (viewRef PRIM (cellRef LD (libraryRef VIRTEX)))
+          )
+          (instance (rename fsm_current_reg_2_ "fsm/current_reg[2]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename fsm_current_reg_1_ "fsm/current_reg[1]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename fsm_current_reg_0_ "fsm/current_reg[0]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_state_reg_1_ "LED/state_reg[1]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_state_reg_0_ "LED/state_reg[0]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_17_ "LED/tickCount_reg[17]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_16_ "LED/tickCount_reg[16]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_15_ "LED/tickCount_reg[15]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_14_ "LED/tickCount_reg[14]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_13_ "LED/tickCount_reg[13]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_12_ "LED/tickCount_reg[12]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_11_ "LED/tickCount_reg[11]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_10_ "LED/tickCount_reg[10]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_9_ "LED/tickCount_reg[9]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_8_ "LED/tickCount_reg[8]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_7_ "LED/tickCount_reg[7]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_6_ "LED/tickCount_reg[6]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_5_ "LED/tickCount_reg[5]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_4_ "LED/tickCount_reg[4]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_3_ "LED/tickCount_reg[3]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_2_ "LED/tickCount_reg[2]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_1_ "LED/tickCount_reg[1]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_tickCount_reg_0_ "LED/tickCount_reg[0]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_7_
+           "LED/sevenSegmentDisplay_reg[7]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_6_
+           "LED/sevenSegmentDisplay_reg[6]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_5_
+           "LED/sevenSegmentDisplay_reg[5]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_4_
+           "LED/sevenSegmentDisplay_reg[4]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_3_
+           "LED/sevenSegmentDisplay_reg[3]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_2_
+           "LED/sevenSegmentDisplay_reg[2]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_1_
+           "LED/sevenSegmentDisplay_reg[1]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_sevenSegmentDisplay_reg_0_
+           "LED/sevenSegmentDisplay_reg[0]")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance (rename LED_displayA_reg "LED/displayA_reg")
+            (viewRef PRIM (cellRef FDR (libraryRef VIRTEX)))
+          )
+          (instance i_0
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_1
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_2
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_3
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_4
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_5
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_6
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_7
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_8
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_9
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_10
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_11
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_12
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_13
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_14
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_15
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_16
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_17
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_18
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_19
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_20
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_21
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_22
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_23
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_24
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_25
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_26
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_27
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_28
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_29
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_30
+            (viewRef PRIM (cellRef MUXCY_L (libraryRef VIRTEX)))
+          )
+          (instance i_31
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_32
+            (viewRef PRIM (cellRef XORCY (libraryRef VIRTEX)))
+          )
+          (instance i_33
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "E"))
+          )
+          (instance i_34
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "80"))
+          )
+          (instance i_35
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "8"))
+          )
+          (instance i_36
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "4CFF"))
+          )
+          (instance i_37
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "FF08"))
+          )
+          (instance i_38
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "3F3E"))
+          )
+          (instance i_39
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "ECCC"))
+          )
+          (instance i_40
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "09"))
+          )
+          (instance i_41
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "01"))
+          )
+          (instance i_42
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "8"))
+          )
+          (instance i_43
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "4"))
+          )
+          (instance i_44
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "80"))
+          )
+          (instance i_45
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "8"))
+          )
+          (instance i_46
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "1"))
+          )
+          (instance i_47
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "8"))
+          )
+          (instance i_48
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "15"))
+          )
+          (instance i_49
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_50
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_51
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_52
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_53
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_54
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_55
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_56
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_57
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_58
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_59
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_60
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_61
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_62
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_63
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_64
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_65
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "2A"))
+          )
+          (instance i_66
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "6A"))
+          )
+          (instance i_67
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0001"))
+          )
+          (instance i_68
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "4"))
+          )
+          (instance i_69
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0001"))
+          )
+          (instance i_70
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "01"))
+          )
+          (instance i_71
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0002"))
+          )
+          (instance i_72
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "4"))
+          )
+          (instance i_73
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "8000"))
+          )
+          (instance i_74
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "6CCC"))
+          )
+          (instance i_75
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0700"))
+          )
+          (instance i_76
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "7757"))
+          )
+          (instance i_77
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0711"))
+          )
+          (instance i_78
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "4C"))
+          )
+          (instance i_79
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "F8E6"))
+          )
+          (instance i_80
+            (viewRef PRIM (cellRef LUT2 (libraryRef VIRTEX)))
+            (property INIT (string "1"))
+          )
+          (instance i_81
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0800"))
+          )
+          (instance i_82
+            (viewRef PRIM (cellRef LUT4 (libraryRef VIRTEX)))
+            (property INIT (string "0701"))
+          )
+          (instance i_83
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "C4"))
+          )
+          (instance i_84
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "02"))
+          )
+          (instance i_85
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "F6"))
+          )
+          (instance i_86
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "02"))
+          )
+          (instance i_87
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "18"))
+          )
+          (instance i_88
+            (viewRef PRIM (cellRef LUT3 (libraryRef VIRTEX)))
+            (property INIT (string "01"))
+          )
+          (instance i_89
+            (viewRef PRIM (cellRef BUFG (libraryRef VIRTEX)))
+          )
+          (instance i_90
+            (viewRef PRIM (cellRef BUFG (libraryRef VIRTEX)))
+          )
+          (instance i_91
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_92
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_93
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_94
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_95
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_96
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_97
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_98
+            (viewRef PRIM (cellRef IBUF (libraryRef VIRTEX)))
+          )
+          (instance i_99
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_100
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_101
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_102
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_103
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_104
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_105
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_106
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_107
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_108
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_109
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_110
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_111
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_112
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_113
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_114
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_115
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_116
+            (viewRef PRIM (cellRef GND (libraryRef VIRTEX)))
+          )
+          (instance i_117
+            (viewRef PRIM (cellRef VCC (libraryRef VIRTEX)))
+          )
+          (net reset (joined
+            (portRef reset)
+            (portRef I (instanceRef i_98))
+          ))
+          (net rst (joined
+            (portRef rst)
+            (portRef I (instanceRef i_97))
+          ))
+          (net clock (joined
+            (portRef clock)
+            (portRef I (instanceRef i_96))
+          ))
+          (net clk (joined
+            (portRef clk)
+            (portRef I (instanceRef i_95))
+          ))
+          (net (rename h_move_0_ "h_move[0]") (joined
+            (portRef (member h_move_3_0_ 3))
+            (portRef I (instanceRef i_94))
+          ))
+          (net (rename h_move_1_ "h_move[1]") (joined
+            (portRef (member h_move_3_0_ 2))
+            (portRef I (instanceRef i_93))
+          ))
+          (net (rename h_move_2_ "h_move[2]") (joined
+            (portRef (member h_move_3_0_ 1))
+            (portRef I (instanceRef i_92))
+          ))
+          (net (rename h_move_3_ "h_move[3]") (joined
+            (portRef (member h_move_3_0_ 0))
+            (portRef I (instanceRef i_91))
+          ))
+          (net (rename next_2_ "next[2]") (joined
+            (portRef Q (instanceRef fsm_next_reg_2_))
+            (portRef D (instanceRef fsm_current_reg_2_))
+          ))
+          (net (rename next_1_ "next[1]") (joined
+            (portRef Q (instanceRef fsm_next_reg_1_))
+            (portRef D (instanceRef fsm_current_reg_1_))
+          ))
+          (net (rename next_0_ "next[0]") (joined
+            (portRef Q (instanceRef fsm_next_reg_0_))
+            (portRef D (instanceRef fsm_current_reg_0_))
+          ))
+          (net (rename sel_2_ "sel[2]") (joined
+            (portRef Q (instanceRef fsm_current_reg_2_))
+            (portRef I1 (instanceRef i_88))
+            (portRef I1 (instanceRef i_87))
+            (portRef I1 (instanceRef i_86))
+            (portRef I1 (instanceRef i_85))
+            (portRef I1 (instanceRef i_84))
+            (portRef I1 (instanceRef i_83))
+            (portRef I0 (instanceRef i_80))
+            (portRef I1 (instanceRef i_76))
+            (portRef I1 (instanceRef i_41))
+            (portRef I1 (instanceRef i_40))
+            (portRef I1 (instanceRef i_39))
+            (portRef I1 (instanceRef i_38))
+          ))
+          (net (rename sel_1_ "sel[1]") (joined
+            (portRef Q (instanceRef fsm_current_reg_1_))
+            (portRef I2 (instanceRef i_88))
+            (portRef I2 (instanceRef i_87))
+            (portRef I2 (instanceRef i_86))
+            (portRef I2 (instanceRef i_85))
+            (portRef I2 (instanceRef i_84))
+            (portRef I2 (instanceRef i_83))
+            (portRef I1 (instanceRef i_80))
+            (portRef I1 (instanceRef i_78))
+            (portRef I2 (instanceRef i_76))
+            (portRef I2 (instanceRef i_41))
+            (portRef I2 (instanceRef i_40))
+            (portRef I2 (instanceRef i_39))
+            (portRef I2 (instanceRef i_38))
+          ))
+          (net (rename sel_0_ "sel[0]") (joined
+            (portRef Q (instanceRef fsm_current_reg_0_))
+            (portRef I0 (instanceRef i_88))
+            (portRef I0 (instanceRef i_87))
+            (portRef I0 (instanceRef i_86))
+            (portRef I0 (instanceRef i_85))
+            (portRef I0 (instanceRef i_84))
+            (portRef I0 (instanceRef i_83))
+            (portRef I0 (instanceRef i_78))
+            (portRef I0 (instanceRef i_76))
+            (portRef I0 (instanceRef i_44))
+            (portRef I0 (instanceRef i_41))
+            (portRef I0 (instanceRef i_40))
+            (portRef I0 (instanceRef i_39))
+            (portRef I0 (instanceRef i_38))
+            (portRef I0 (instanceRef i_37))
+            (portRef I0 (instanceRef i_36))
+            (portRef I0 (instanceRef i_34))
+          ))
+          (net (rename sel__0_1_ "sel__0[1]") (joined
+            (portRef Q (instanceRef LED_state_reg_1_))
+            (portRef I1 (instanceRef i_74))
+            (portRef I1 (instanceRef i_46))
+            (portRef I1 (instanceRef i_33))
+          ))
+          (net (rename sel__0_0_ "sel__0[0]") (joined
+            (portRef Q (instanceRef LED_state_reg_0_))
+            (portRef I0 (instanceRef i_74))
+            (portRef I0 (instanceRef i_66))
+            (portRef I0 (instanceRef i_46))
+            (portRef I0 (instanceRef i_33))
+          ))
+          (net (rename un_LED_tickCount_reg_17__ "\n_LED/tickCount_reg[17] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_17_))
+            (portRef I1 (instanceRef i_72))
+            (portRef LI (instanceRef i_32))
+          ))
+          (net (rename un_LED_tickCount_reg_16__ "\n_LED/tickCount_reg[16] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_16_))
+            (portRef I2 (instanceRef i_67))
+            (portRef S (instanceRef i_30))
+            (portRef LI (instanceRef i_31))
+          ))
+          (net (rename un_LED_tickCount_reg_15__ "\n_LED/tickCount_reg[15] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_15_))
+            (portRef I0 (instanceRef i_71))
+            (portRef S (instanceRef i_28))
+            (portRef LI (instanceRef i_29))
+          ))
+          (net (rename un_LED_tickCount_reg_14__ "\n_LED/tickCount_reg[14] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_14_))
+            (portRef I0 (instanceRef i_67))
+            (portRef S (instanceRef i_26))
+            (portRef LI (instanceRef i_27))
+          ))
+          (net (rename un_LED_tickCount_reg_13__ "\n_LED/tickCount_reg[13] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_13_))
+            (portRef I1 (instanceRef i_67))
+            (portRef S (instanceRef i_24))
+            (portRef LI (instanceRef i_25))
+          ))
+          (net (rename un_LED_tickCount_reg_12__ "\n_LED/tickCount_reg[12] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_12_))
+            (portRef I2 (instanceRef i_71))
+            (portRef S (instanceRef i_22))
+            (portRef LI (instanceRef i_23))
+          ))
+          (net (rename un_LED_tickCount_reg_11__ "\n_LED/tickCount_reg[11] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_11_))
+            (portRef I0 (instanceRef i_69))
+            (portRef S (instanceRef i_20))
+            (portRef LI (instanceRef i_21))
+          ))
+          (net (rename un_LED_tickCount_reg_10__ "\n_LED/tickCount_reg[10] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_10_))
+            (portRef I0 (instanceRef i_72))
+            (portRef S (instanceRef i_18))
+            (portRef LI (instanceRef i_19))
+          ))
+          (net (rename un_LED_tickCount_reg_9__ "\n_LED/tickCount_reg[9] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_9_))
+            (portRef I3 (instanceRef i_71))
+            (portRef S (instanceRef i_16))
+            (portRef LI (instanceRef i_17))
+          ))
+          (net (rename un_LED_tickCount_reg_8__ "\n_LED/tickCount_reg[8] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_8_))
+            (portRef I1 (instanceRef i_70))
+            (portRef S (instanceRef i_14))
+            (portRef LI (instanceRef i_15))
+          ))
+          (net (rename un_LED_tickCount_reg_7__ "\n_LED/tickCount_reg[7] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_7_))
+            (portRef I0 (instanceRef i_70))
+            (portRef S (instanceRef i_12))
+            (portRef LI (instanceRef i_13))
+          ))
+          (net (rename un_LED_tickCount_reg_6__ "\n_LED/tickCount_reg[6] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_6_))
+            (portRef I1 (instanceRef i_69))
+            (portRef S (instanceRef i_10))
+            (portRef LI (instanceRef i_11))
+          ))
+          (net (rename un_LED_tickCount_reg_5__ "\n_LED/tickCount_reg[5] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_5_))
+            (portRef I2 (instanceRef i_70))
+            (portRef S (instanceRef i_8))
+            (portRef LI (instanceRef i_9))
+          ))
+          (net (rename un_LED_tickCount_reg_4__ "\n_LED/tickCount_reg[4] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_4_))
+            (portRef I2 (instanceRef i_69))
+            (portRef S (instanceRef i_6))
+            (portRef LI (instanceRef i_7))
+          ))
+          (net (rename un_LED_tickCount_reg_3__ "\n_LED/tickCount_reg[3] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_3_))
+            (portRef I3 (instanceRef i_69))
+            (portRef S (instanceRef i_4))
+            (portRef LI (instanceRef i_5))
+          ))
+          (net (rename un_LED_tickCount_reg_2__ "\n_LED/tickCount_reg[2] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_2_))
+            (portRef I1 (instanceRef i_71))
+            (portRef S (instanceRef i_2))
+            (portRef LI (instanceRef i_3))
+          ))
+          (net (rename un_LED_tickCount_reg_1__ "\n_LED/tickCount_reg[1] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_1_))
+            (portRef I3 (instanceRef i_67))
+            (portRef S (instanceRef i_0))
+            (portRef LI (instanceRef i_1))
+          ))
+          (net (rename un_LED_tickCount_reg_0__ "\n_LED/tickCount_reg[0] ")
+           (joined
+            (portRef Q (instanceRef LED_tickCount_reg_0_))
+            (portRef I0 (instanceRef i_68))
+            (portRef I0 (instanceRef i_48))
+            (portRef CI (instanceRef i_0))
+            (portRef CI (instanceRef i_1))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_7__
+           "\n_LED/sevenSegmentDisplay_reg[7] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_7_))
+            (portRef I (instanceRef i_100))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_6__
+           "\n_LED/sevenSegmentDisplay_reg[6] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_6_))
+            (portRef I (instanceRef i_101))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_5__
+           "\n_LED/sevenSegmentDisplay_reg[5] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_5_))
+            (portRef I (instanceRef i_102))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_4__
+           "\n_LED/sevenSegmentDisplay_reg[4] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_4_))
+            (portRef I (instanceRef i_103))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_3__
+           "\n_LED/sevenSegmentDisplay_reg[3] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_3_))
+            (portRef I (instanceRef i_104))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_2__
+           "\n_LED/sevenSegmentDisplay_reg[2] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_2_))
+            (portRef I (instanceRef i_105))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_1__
+           "\n_LED/sevenSegmentDisplay_reg[1] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_1_))
+            (portRef I (instanceRef i_106))
+          ))
+          (net (rename un_LED_sevenSegmentDisplay_reg_0__
+           "\n_LED/sevenSegmentDisplay_reg[0] ") (joined
+            (portRef Q (instanceRef LED_sevenSegmentDisplay_reg_0_))
+            (portRef I (instanceRef i_107))
+          ))
+          (net (rename un_LED_displayA_reg_ "\n_LED/displayA_reg ") (joined
+            (portRef Q (instanceRef LED_displayA_reg))
+            (portRef I (instanceRef i_99))
+          ))
+          (net n_0 (joined
+            (portRef LO (instanceRef i_0))
+            (portRef CI (instanceRef i_2))
+            (portRef CI (instanceRef i_3))
+          ))
+          (net (rename p_0_out_1_ "p_0_out[1]") (joined
+            (portRef O (instanceRef i_1))
+            (portRef I0 (instanceRef i_49))
+          ))
+          (net n_2 (joined
+            (portRef LO (instanceRef i_2))
+            (portRef CI (instanceRef i_4))
+            (portRef CI (instanceRef i_5))
+          ))
+          (net (rename p_0_out_2_ "p_0_out[2]") (joined
+            (portRef O (instanceRef i_3))
+            (portRef I0 (instanceRef i_50))
+          ))
+          (net n_4 (joined
+            (portRef LO (instanceRef i_4))
+            (portRef CI (instanceRef i_6))
+            (portRef CI (instanceRef i_7))
+          ))
+          (net (rename p_0_out_3_ "p_0_out[3]") (joined
+            (portRef O (instanceRef i_5))
+            (portRef I0 (instanceRef i_51))
+          ))
+          (net n_6 (joined
+            (portRef LO (instanceRef i_6))
+            (portRef CI (instanceRef i_8))
+            (portRef CI (instanceRef i_9))
+          ))
+          (net (rename p_0_out_4_ "p_0_out[4]") (joined
+            (portRef O (instanceRef i_7))
+            (portRef I0 (instanceRef i_52))
+          ))
+          (net n_8 (joined
+            (portRef LO (instanceRef i_8))
+            (portRef CI (instanceRef i_10))
+            (portRef CI (instanceRef i_11))
+          ))
+          (net (rename p_0_out_5_ "p_0_out[5]") (joined
+            (portRef O (instanceRef i_9))
+            (portRef I0 (instanceRef i_53))
+          ))
+          (net n_10 (joined
+            (portRef LO (instanceRef i_10))
+            (portRef CI (instanceRef i_12))
+            (portRef CI (instanceRef i_13))
+          ))
+          (net (rename p_0_out_6_ "p_0_out[6]") (joined
+            (portRef O (instanceRef i_11))
+            (portRef I0 (instanceRef i_54))
+          ))
+          (net n_12 (joined
+            (portRef LO (instanceRef i_12))
+            (portRef CI (instanceRef i_14))
+            (portRef CI (instanceRef i_15))
+          ))
+          (net (rename p_0_out_7_ "p_0_out[7]") (joined
+            (portRef O (instanceRef i_13))
+            (portRef I0 (instanceRef i_55))
+          ))
+          (net n_14 (joined
+            (portRef LO (instanceRef i_14))
+            (portRef CI (instanceRef i_16))
+            (portRef CI (instanceRef i_17))
+          ))
+          (net (rename p_0_out_8_ "p_0_out[8]") (joined
+            (portRef O (instanceRef i_15))
+            (portRef I0 (instanceRef i_56))
+          ))
+          (net n_16 (joined
+            (portRef LO (instanceRef i_16))
+            (portRef CI (instanceRef i_18))
+            (portRef CI (instanceRef i_19))
+          ))
+          (net (rename p_0_out_9_ "p_0_out[9]") (joined
+            (portRef O (instanceRef i_17))
+            (portRef I0 (instanceRef i_57))
+          ))
+          (net n_18 (joined
+            (portRef LO (instanceRef i_18))
+            (portRef CI (instanceRef i_20))
+            (portRef CI (instanceRef i_21))
+          ))
+          (net (rename p_0_out_10_ "p_0_out[10]") (joined
+            (portRef O (instanceRef i_19))
+            (portRef I0 (instanceRef i_58))
+          ))
+          (net n_20 (joined
+            (portRef LO (instanceRef i_20))
+            (portRef CI (instanceRef i_22))
+            (portRef CI (instanceRef i_23))
+          ))
+          (net (rename p_0_out_11_ "p_0_out[11]") (joined
+            (portRef O (instanceRef i_21))
+            (portRef I0 (instanceRef i_59))
+          ))
+          (net n_22 (joined
+            (portRef LO (instanceRef i_22))
+            (portRef CI (instanceRef i_24))
+            (portRef CI (instanceRef i_25))
+          ))
+          (net (rename p_0_out_12_ "p_0_out[12]") (joined
+            (portRef O (instanceRef i_23))
+            (portRef I0 (instanceRef i_60))
+          ))
+          (net n_24 (joined
+            (portRef LO (instanceRef i_24))
+            (portRef CI (instanceRef i_26))
+            (portRef CI (instanceRef i_27))
+          ))
+          (net (rename p_0_out_13_ "p_0_out[13]") (joined
+            (portRef O (instanceRef i_25))
+            (portRef I0 (instanceRef i_61))
+          ))
+          (net n_26 (joined
+            (portRef LO (instanceRef i_26))
+            (portRef CI (instanceRef i_28))
+            (portRef CI (instanceRef i_29))
+          ))
+          (net (rename p_0_out_14_ "p_0_out[14]") (joined
+            (portRef O (instanceRef i_27))
+            (portRef I0 (instanceRef i_62))
+          ))
+          (net n_28 (joined
+            (portRef LO (instanceRef i_28))
+            (portRef CI (instanceRef i_30))
+            (portRef CI (instanceRef i_31))
+          ))
+          (net (rename p_0_out_15_ "p_0_out[15]") (joined
+            (portRef O (instanceRef i_29))
+            (portRef I0 (instanceRef i_63))
+          ))
+          (net n_30 (joined
+            (portRef LO (instanceRef i_30))
+            (portRef CI (instanceRef i_32))
+          ))
+          (net (rename p_0_out_16_ "p_0_out[16]") (joined
+            (portRef O (instanceRef i_31))
+            (portRef I0 (instanceRef i_64))
+          ))
+          (net (rename p_0_out_17_ "p_0_out[17]") (joined
+            (portRef O (instanceRef i_32))
+            (portRef I0 (instanceRef i_65))
+          ))
+          (net n_33 (joined
+            (portRef O (instanceRef i_33))
+            (portRef D (instanceRef LED_displayA_reg))
+          ))
+          (net n_34 (joined
+            (portRef O (instanceRef i_34))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_2_))
+          ))
+          (net n_35 (joined
+            (portRef O (instanceRef i_35))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_4_))
+          ))
+          (net (rename out_0_ "out[0]") (joined
+            (portRef O (instanceRef i_36))
+            (portRef D (instanceRef fsm_next_reg_0_))
+          ))
+          (net (rename out_1_ "out[1]") (joined
+            (portRef O (instanceRef i_37))
+            (portRef D (instanceRef fsm_next_reg_1_))
+          ))
+          (net n_38 (joined
+            (portRef O (instanceRef i_38))
+            (portRef G (instanceRef fsm_next_reg_0_))
+            (portRef G (instanceRef fsm_next_reg_1_))
+            (portRef G (instanceRef fsm_next_reg_2_))
+          ))
+          (net (rename out_2_ "out[2]") (joined
+            (portRef O (instanceRef i_39))
+            (portRef D (instanceRef fsm_next_reg_2_))
+          ))
+          (net n_40 (joined
+            (portRef O (instanceRef i_40))
+            (portRef I (instanceRef i_112))
+          ))
+          (net n_41 (joined
+            (portRef O (instanceRef i_41))
+            (portRef I (instanceRef i_111))
+          ))
+          (net n_42 (joined
+            (portRef O (instanceRef i_42))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_1_))
+          ))
+          (net n_43 (joined
+            (portRef O (instanceRef i_43))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_3_))
+          ))
+          (net n_44 (joined
+            (portRef O (instanceRef i_44))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_5_))
+          ))
+          (net n_45 (joined
+            (portRef O (instanceRef i_45))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_6_))
+          ))
+          (net n_46 (joined
+            (portRef O (instanceRef i_46))
+            (portRef I1 (instanceRef i_47))
+            (portRef I1 (instanceRef i_45))
+            (portRef I2 (instanceRef i_44))
+            (portRef I1 (instanceRef i_43))
+            (portRef I1 (instanceRef i_42))
+            (portRef I1 (instanceRef i_35))
+            (portRef I2 (instanceRef i_34))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_0_))
+          ))
+          (net n_47 (joined
+            (portRef O (instanceRef i_47))
+            (portRef D (instanceRef LED_sevenSegmentDisplay_reg_7_))
+          ))
+          (net (rename tickCount1_out_0_ "tickCount1_out[0]") (joined
+            (portRef O (instanceRef i_48))
+            (portRef D (instanceRef LED_tickCount_reg_0_))
+          ))
+          (net (rename tickCount1_out_1_ "tickCount1_out[1]") (joined
+            (portRef O (instanceRef i_49))
+            (portRef D (instanceRef LED_tickCount_reg_1_))
+          ))
+          (net (rename tickCount1_out_2_ "tickCount1_out[2]") (joined
+            (portRef O (instanceRef i_50))
+            (portRef D (instanceRef LED_tickCount_reg_2_))
+          ))
+          (net (rename tickCount1_out_3_ "tickCount1_out[3]") (joined
+            (portRef O (instanceRef i_51))
+            (portRef D (instanceRef LED_tickCount_reg_3_))
+          ))
+          (net (rename tickCount1_out_4_ "tickCount1_out[4]") (joined
+            (portRef O (instanceRef i_52))
+            (portRef D (instanceRef LED_tickCount_reg_4_))
+          ))
+          (net (rename tickCount1_out_5_ "tickCount1_out[5]") (joined
+            (portRef O (instanceRef i_53))
+            (portRef D (instanceRef LED_tickCount_reg_5_))
+          ))
+          (net (rename tickCount1_out_6_ "tickCount1_out[6]") (joined
+            (portRef O (instanceRef i_54))
+            (portRef D (instanceRef LED_tickCount_reg_6_))
+          ))
+          (net (rename tickCount1_out_7_ "tickCount1_out[7]") (joined
+            (portRef O (instanceRef i_55))
+            (portRef D (instanceRef LED_tickCount_reg_7_))
+          ))
+          (net (rename tickCount1_out_8_ "tickCount1_out[8]") (joined
+            (portRef O (instanceRef i_56))
+            (portRef D (instanceRef LED_tickCount_reg_8_))
+          ))
+          (net (rename tickCount1_out_9_ "tickCount1_out[9]") (joined
+            (portRef O (instanceRef i_57))
+            (portRef D (instanceRef LED_tickCount_reg_9_))
+          ))
+          (net (rename tickCount1_out_10_ "tickCount1_out[10]") (joined
+            (portRef O (instanceRef i_58))
+            (portRef D (instanceRef LED_tickCount_reg_10_))
+          ))
+          (net (rename tickCount1_out_11_ "tickCount1_out[11]") (joined
+            (portRef O (instanceRef i_59))
+            (portRef D (instanceRef LED_tickCount_reg_11_))
+          ))
+          (net (rename tickCount1_out_12_ "tickCount1_out[12]") (joined
+            (portRef O (instanceRef i_60))
+            (portRef D (instanceRef LED_tickCount_reg_12_))
+          ))
+          (net (rename tickCount1_out_13_ "tickCount1_out[13]") (joined
+            (portRef O (instanceRef i_61))
+            (portRef D (instanceRef LED_tickCount_reg_13_))
+          ))
+          (net (rename tickCount1_out_14_ "tickCount1_out[14]") (joined
+            (portRef O (instanceRef i_62))
+            (portRef D (instanceRef LED_tickCount_reg_14_))
+          ))
+          (net (rename tickCount1_out_15_ "tickCount1_out[15]") (joined
+            (portRef O (instanceRef i_63))
+            (portRef D (instanceRef LED_tickCount_reg_15_))
+          ))
+          (net (rename tickCount1_out_16_ "tickCount1_out[16]") (joined
+            (portRef O (instanceRef i_64))
+            (portRef D (instanceRef LED_tickCount_reg_16_))
+          ))
+          (net (rename tickCount1_out_17_ "tickCount1_out[17]") (joined
+            (portRef O (instanceRef i_65))
+            (portRef D (instanceRef LED_tickCount_reg_17_))
+          ))
+          (net n_66 (joined
+            (portRef O (instanceRef i_66))
+            (portRef D (instanceRef LED_state_reg_0_))
+          ))
+          (net n_67 (joined
+            (portRef O (instanceRef i_67))
+            (portRef I1 (instanceRef i_68))
+            (portRef I2 (instanceRef i_48))
+          ))
+          (net n_68 (joined
+            (portRef O (instanceRef i_68))
+            (portRef I3 (instanceRef i_74))
+            (portRef I2 (instanceRef i_66))
+            (portRef I2 (instanceRef i_65))
+            (portRef I2 (instanceRef i_64))
+            (portRef I2 (instanceRef i_63))
+            (portRef I2 (instanceRef i_62))
+            (portRef I2 (instanceRef i_61))
+            (portRef I2 (instanceRef i_60))
+            (portRef I2 (instanceRef i_59))
+            (portRef I2 (instanceRef i_58))
+            (portRef I2 (instanceRef i_57))
+            (portRef I2 (instanceRef i_56))
+            (portRef I2 (instanceRef i_55))
+            (portRef I2 (instanceRef i_54))
+            (portRef I2 (instanceRef i_53))
+            (portRef I2 (instanceRef i_52))
+            (portRef I2 (instanceRef i_51))
+            (portRef I2 (instanceRef i_50))
+            (portRef I2 (instanceRef i_49))
+          ))
+          (net n_69 (joined
+            (portRef O (instanceRef i_69))
+            (portRef I3 (instanceRef i_73))
+          ))
+          (net n_70 (joined
+            (portRef O (instanceRef i_70))
+            (portRef I2 (instanceRef i_73))
+          ))
+          (net n_71 (joined
+            (portRef O (instanceRef i_71))
+            (portRef I1 (instanceRef i_73))
+          ))
+          (net n_72 (joined
+            (portRef O (instanceRef i_72))
+            (portRef I0 (instanceRef i_73))
+          ))
+          (net n_73 (joined
+            (portRef O (instanceRef i_73))
+            (portRef I2 (instanceRef i_74))
+            (portRef I1 (instanceRef i_66))
+            (portRef I1 (instanceRef i_65))
+            (portRef I1 (instanceRef i_64))
+            (portRef I1 (instanceRef i_63))
+            (portRef I1 (instanceRef i_62))
+            (portRef I1 (instanceRef i_61))
+            (portRef I1 (instanceRef i_60))
+            (portRef I1 (instanceRef i_59))
+            (portRef I1 (instanceRef i_58))
+            (portRef I1 (instanceRef i_57))
+            (portRef I1 (instanceRef i_56))
+            (portRef I1 (instanceRef i_55))
+            (portRef I1 (instanceRef i_54))
+            (portRef I1 (instanceRef i_53))
+            (portRef I1 (instanceRef i_52))
+            (portRef I1 (instanceRef i_51))
+            (portRef I1 (instanceRef i_50))
+            (portRef I1 (instanceRef i_49))
+            (portRef I1 (instanceRef i_48))
+          ))
+          (net n_74 (joined
+            (portRef O (instanceRef i_74))
+            (portRef D (instanceRef LED_state_reg_1_))
+          ))
+          (net n_75 (joined
+            (portRef O (instanceRef i_75))
+            (portRef I3 (instanceRef i_76))
+          ))
+          (net n_76 (joined
+            (portRef O (instanceRef i_76))
+            (portRef I3 (instanceRef i_36))
+          ))
+          (net n_77 (joined
+            (portRef O (instanceRef i_77))
+            (portRef I2 (instanceRef i_36))
+          ))
+          (net n_78 (joined
+            (portRef O (instanceRef i_78))
+            (portRef I3 (instanceRef i_37))
+          ))
+          (net n_79 (joined
+            (portRef O (instanceRef i_79))
+            (portRef I2 (instanceRef i_37))
+          ))
+          (net n_80 (joined
+            (portRef O (instanceRef i_80))
+            (portRef I1 (instanceRef i_44))
+            (portRef I1 (instanceRef i_37))
+            (portRef I1 (instanceRef i_36))
+            (portRef I1 (instanceRef i_34))
+          ))
+          (net n_81 (joined
+            (portRef O (instanceRef i_81))
+            (portRef I3 (instanceRef i_38))
+          ))
+          (net n_82 (joined
+            (portRef O (instanceRef i_82))
+            (portRef I2 (instanceRef i_78))
+            (portRef I3 (instanceRef i_39))
+          ))
+          (net n_83 (joined
+            (portRef O (instanceRef i_83))
+            (portRef I (instanceRef i_114))
+            (portRef I0 (instanceRef i_42))
+          ))
+          (net n_84 (joined
+            (portRef O (instanceRef i_84))
+            (portRef I (instanceRef i_113))
+          ))
+          (net n_85 (joined
+            (portRef O (instanceRef i_85))
+            (portRef I0 (instanceRef i_43))
+          ))
+          (net n_86 (joined
+            (portRef O (instanceRef i_86))
+            (portRef I (instanceRef i_110))
+          ))
+          (net n_87 (joined
+            (portRef O (instanceRef i_87))
+            (portRef I (instanceRef i_109))
+            (portRef I0 (instanceRef i_45))
+          ))
+          (net n_88 (joined
+            (portRef O (instanceRef i_88))
+            (portRef I (instanceRef i_108))
+            (portRef I0 (instanceRef i_47))
+            (portRef I0 (instanceRef i_35))
+          ))
+          (net n_89 (joined
+            (portRef O (instanceRef i_89))
+            (portRef C (instanceRef fsm_current_reg_0_))
+            (portRef C (instanceRef fsm_current_reg_1_))
+            (portRef C (instanceRef fsm_current_reg_2_))
+          ))
+          (net n_90 (joined
+            (portRef O (instanceRef i_90))
+            (portRef C (instanceRef LED_displayA_reg))
+            (portRef C (instanceRef LED_tickCount_reg_17_))
+            (portRef C (instanceRef LED_tickCount_reg_16_))
+            (portRef C (instanceRef LED_tickCount_reg_15_))
+            (portRef C (instanceRef LED_tickCount_reg_14_))
+            (portRef C (instanceRef LED_tickCount_reg_13_))
+            (portRef C (instanceRef LED_tickCount_reg_12_))
+            (portRef C (instanceRef LED_tickCount_reg_11_))
+            (portRef C (instanceRef LED_tickCount_reg_10_))
+            (portRef C (instanceRef LED_tickCount_reg_9_))
+            (portRef C (instanceRef LED_tickCount_reg_8_))
+            (portRef C (instanceRef LED_tickCount_reg_7_))
+            (portRef C (instanceRef LED_tickCount_reg_6_))
+            (portRef C (instanceRef LED_tickCount_reg_5_))
+            (portRef C (instanceRef LED_tickCount_reg_4_))
+            (portRef C (instanceRef LED_tickCount_reg_3_))
+            (portRef C (instanceRef LED_tickCount_reg_2_))
+            (portRef C (instanceRef LED_tickCount_reg_1_))
+            (portRef C (instanceRef LED_tickCount_reg_0_))
+            (portRef C (instanceRef LED_state_reg_0_))
+            (portRef C (instanceRef LED_state_reg_1_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_0_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_1_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_2_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_3_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_4_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_5_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_6_))
+            (portRef C (instanceRef LED_sevenSegmentDisplay_reg_7_))
+          ))
+          (net n_91 (joined
+            (portRef O (instanceRef i_91))
+            (portRef I2 (instanceRef i_82))
+            (portRef I2 (instanceRef i_81))
+            (portRef I2 (instanceRef i_79))
+            (portRef I2 (instanceRef i_77))
+            (portRef I2 (instanceRef i_75))
+          ))
+          (net n_92 (joined
+            (portRef O (instanceRef i_92))
+            (portRef I0 (instanceRef i_82))
+            (portRef I0 (instanceRef i_81))
+            (portRef I0 (instanceRef i_79))
+            (portRef I0 (instanceRef i_77))
+            (portRef I0 (instanceRef i_75))
+          ))
+          (net n_93 (joined
+            (portRef O (instanceRef i_93))
+            (portRef I1 (instanceRef i_82))
+            (portRef I1 (instanceRef i_81))
+            (portRef I1 (instanceRef i_79))
+            (portRef I1 (instanceRef i_77))
+            (portRef I1 (instanceRef i_75))
+          ))
+          (net n_94 (joined
+            (portRef O (instanceRef i_94))
+            (portRef I3 (instanceRef i_82))
+            (portRef I3 (instanceRef i_81))
+            (portRef I3 (instanceRef i_79))
+            (portRef I3 (instanceRef i_77))
+            (portRef I3 (instanceRef i_75))
+          ))
+          (net n_95 (joined
+            (portRef O (instanceRef i_95))
+            (portRef I (instanceRef i_89))
+          ))
+          (net n_96 (joined
+            (portRef O (instanceRef i_96))
+            (portRef I (instanceRef i_90))
+          ))
+          (net n_97 (joined
+            (portRef O (instanceRef i_97))
+            (portRef R (instanceRef fsm_current_reg_2_))
+            (portRef R (instanceRef fsm_current_reg_1_))
+            (portRef R (instanceRef fsm_current_reg_0_))
+          ))
+          (net n_98 (joined
+            (portRef O (instanceRef i_98))
+            (portRef R (instanceRef LED_displayA_reg))
+            (portRef R (instanceRef LED_tickCount_reg_0_))
+            (portRef R (instanceRef LED_tickCount_reg_1_))
+            (portRef R (instanceRef LED_tickCount_reg_2_))
+            (portRef R (instanceRef LED_tickCount_reg_3_))
+            (portRef R (instanceRef LED_tickCount_reg_4_))
+            (portRef R (instanceRef LED_tickCount_reg_5_))
+            (portRef R (instanceRef LED_tickCount_reg_6_))
+            (portRef R (instanceRef LED_tickCount_reg_7_))
+            (portRef R (instanceRef LED_tickCount_reg_8_))
+            (portRef R (instanceRef LED_tickCount_reg_9_))
+            (portRef R (instanceRef LED_tickCount_reg_10_))
+            (portRef R (instanceRef LED_tickCount_reg_11_))
+            (portRef R (instanceRef LED_tickCount_reg_12_))
+            (portRef R (instanceRef LED_tickCount_reg_13_))
+            (portRef R (instanceRef LED_tickCount_reg_14_))
+            (portRef R (instanceRef LED_tickCount_reg_15_))
+            (portRef R (instanceRef LED_tickCount_reg_16_))
+            (portRef R (instanceRef LED_tickCount_reg_17_))
+            (portRef R (instanceRef LED_state_reg_1_))
+            (portRef R (instanceRef LED_state_reg_0_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_7_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_6_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_5_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_4_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_3_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_2_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_1_))
+            (portRef R (instanceRef LED_sevenSegmentDisplay_reg_0_))
+          ))
+          (net displayA (joined
+            (portRef O (instanceRef i_99))
+            (portRef displayA)
+          ))
+          (net (rename sevenSegmentDisplay_7_ "sevenSegmentDisplay[7]") (joined
+            (portRef O (instanceRef i_100))
+            (portRef (member sevenSegmentDisplay_7_0_ 0))
+          ))
+          (net (rename sevenSegmentDisplay_6_ "sevenSegmentDisplay[6]") (joined
+            (portRef O (instanceRef i_101))
+            (portRef (member sevenSegmentDisplay_7_0_ 1))
+          ))
+          (net (rename sevenSegmentDisplay_5_ "sevenSegmentDisplay[5]") (joined
+            (portRef O (instanceRef i_102))
+            (portRef (member sevenSegmentDisplay_7_0_ 2))
+          ))
+          (net (rename sevenSegmentDisplay_4_ "sevenSegmentDisplay[4]") (joined
+            (portRef O (instanceRef i_103))
+            (portRef (member sevenSegmentDisplay_7_0_ 3))
+          ))
+          (net (rename sevenSegmentDisplay_3_ "sevenSegmentDisplay[3]") (joined
+            (portRef O (instanceRef i_104))
+            (portRef (member sevenSegmentDisplay_7_0_ 4))
+          ))
+          (net (rename sevenSegmentDisplay_2_ "sevenSegmentDisplay[2]") (joined
+            (portRef O (instanceRef i_105))
+            (portRef (member sevenSegmentDisplay_7_0_ 5))
+          ))
+          (net (rename sevenSegmentDisplay_1_ "sevenSegmentDisplay[1]") (joined
+            (portRef O (instanceRef i_106))
+            (portRef (member sevenSegmentDisplay_7_0_ 6))
+          ))
+          (net (rename sevenSegmentDisplay_0_ "sevenSegmentDisplay[0]") (joined
+            (portRef O (instanceRef i_107))
+            (portRef (member sevenSegmentDisplay_7_0_ 7))
+          ))
+          (net (rename displayValuesA_7_ "displayValuesA[7]") (joined
+            (portRef O (instanceRef i_108))
+            (portRef (member displayValuesA_7_0_ 0))
+          ))
+          (net (rename displayValuesA_6_ "displayValuesA[6]") (joined
+            (portRef O (instanceRef i_109))
+            (portRef (member displayValuesA_7_0_ 1))
+          ))
+          (net (rename displayValuesA_5_ "displayValuesA[5]") (joined
+            (portRef O (instanceRef i_110))
+            (portRef (member displayValuesA_7_0_ 2))
+          ))
+          (net (rename displayValuesA_4_ "displayValuesA[4]") (joined
+            (portRef O (instanceRef i_111))
+            (portRef (member displayValuesA_7_0_ 3))
+          ))
+          (net (rename displayValuesA_3_ "displayValuesA[3]") (joined
+            (portRef O (instanceRef i_112))
+            (portRef (member displayValuesA_7_0_ 4))
+          ))
+          (net (rename displayValuesA_2_ "displayValuesA[2]") (joined
+            (portRef O (instanceRef i_113))
+            (portRef (member displayValuesA_7_0_ 5))
+          ))
+          (net (rename displayValuesA_1_ "displayValuesA[1]") (joined
+            (portRef O (instanceRef i_114))
+            (portRef (member displayValuesA_7_0_ 6))
+          ))
+          (net (rename displayValuesA_0_ "displayValuesA[0]") (joined
+            (portRef O (instanceRef i_115))
+            (portRef (member displayValuesA_7_0_ 7))
+          ))
+          (net n_116 (joined
+            (portRef G (instanceRef i_116))
+            (portRef DI (instanceRef i_26))
+            (portRef DI (instanceRef i_18))
+            (portRef DI (instanceRef i_4))
+            (portRef DI (instanceRef i_10))
+            (portRef DI (instanceRef i_6))
+            (portRef DI (instanceRef i_24))
+            (portRef DI (instanceRef i_16))
+            (portRef DI (instanceRef i_30))
+            (portRef DI (instanceRef i_8))
+            (portRef DI (instanceRef i_22))
+            (portRef DI (instanceRef i_14))
+            (portRef DI (instanceRef i_28))
+            (portRef DI (instanceRef i_2))
+            (portRef DI (instanceRef i_20))
+            (portRef DI (instanceRef i_12))
+            (portRef DI (instanceRef i_0))
+          ))
+          (net n_117 (joined
+            (portRef P (instanceRef i_117))
+            (portRef I (instanceRef i_115))
+          ))
+        )
+      )
+    )
+  )
+  (design top1(cellRef top1 (libraryRef work))
+    (property PART (string "") (owner "Xilinx"))
+  )
+)

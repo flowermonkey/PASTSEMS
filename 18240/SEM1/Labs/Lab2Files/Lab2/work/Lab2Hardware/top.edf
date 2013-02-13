@@ -1,0 +1,66 @@
+(edif top
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2009 06 11 10 20 10)
+      (author "Xilinx, Inc.")
+      (program "realTimeFpga" (version "Version 0.0.1"))
+      (comment "")
+    )
+  )
+  (library VIRTEX
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell OBUF (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port O (direction output))
+          (port I (direction input))
+        )
+      )
+    )
+    (cell GND (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port G (direction output))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell top (celltype GENERIC)
+      (view rtl (viewType NETLIST)
+        (interface
+          (port out (direction output))
+          (port (array (rename a_3_0_ "a[3:0]") 4) (direction input))
+          (port (array (rename b_3_0_ "b[3:0]") 4) (direction input))
+          (port (array (rename c_3_0_ "c[3:0]") 4) (direction input))
+          (port (array (rename d_3_0_ "d[3:0]") 4) (direction input))
+        )
+        (contents
+          (instance i_0
+            (viewRef PRIM (cellRef OBUF (libraryRef VIRTEX)))
+          )
+          (instance i_1
+            (viewRef PRIM (cellRef GND (libraryRef VIRTEX)))
+          )
+          (net out (joined
+            (portRef O (instanceRef i_0))
+            (portRef out)
+          ))
+          (net n_1 (joined
+            (portRef G (instanceRef i_1))
+            (portRef I (instanceRef i_0))
+          ))
+        )
+      )
+    )
+  )
+  (design top(cellRef top (libraryRef work))
+    (property PART (string "") (owner "Xilinx"))
+  )
+)

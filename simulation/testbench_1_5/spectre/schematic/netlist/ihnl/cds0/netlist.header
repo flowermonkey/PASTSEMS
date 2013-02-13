@@ -1,0 +1,6 @@
+
+// Library name: lab9
+// Cell name: inverter
+// View name: schematic
+subckt inverter GND IN OUT VDD
+parameters width length

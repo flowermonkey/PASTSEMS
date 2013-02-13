@@ -1,0 +1,4 @@
+simulator lang=spectre
+include "gpdk090_mimcap.scs"
+include "gpdk090_nmos1v.scs"
+include "gpdk090_pmos1v.scs"

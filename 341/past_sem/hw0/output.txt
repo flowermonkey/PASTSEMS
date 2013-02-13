@@ -1,0 +1,36 @@
+                         Chronologic VCS (TM)
+            Version D-2009.12 -- Thu Jan 19 14:33:12 2012
+               Copyright (c) 1991-2009 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'mux.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+1 module and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+../simv up to date
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Jan 19 14:33 2012
+
+                   0> a=0, b=0, sel=0 => f=0 
+                   1> a=1, b=0, sel=0 => f=1 
+                   2> a=1, b=1, sel=0 => f=1 
+                   3> a=0, b=1, sel=0 => f=0 
+                   4> a=0, b=1, sel=1 => f=1 
+                   5> a=1, b=1, sel=1 => f=1 
+                   6> a=1, b=0, sel=1 => f=0 
+                   7> a=0, b=0, sel=1 => f=0 
+$finish called from file "mux.sv", line 22.
+$finish at simulation time                    8
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8
+CPU Time:      0.050 seconds;       Data structure size:   0.0Mb
+Thu Jan 19 14:33:13 2012
+CPU time: .056 seconds to compile + .012 seconds to elab + .024 seconds to link + .084 seconds in simulation

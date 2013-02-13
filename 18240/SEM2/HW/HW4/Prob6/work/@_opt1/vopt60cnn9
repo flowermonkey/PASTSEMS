@@ -1,0 +1,166 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+T_opt
+Z1 VPYG>BP9C;bOz81YPIWIGV2
+Z2 04 3 4 work top fast 0
+Z3 =1-0022195d11dd-4d8351e0-9d528-384c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+T_opt1
+Z8 VSFa8OBUkVgP8:AiCin=A@3
+R2
+Z9 =1-0022195d11dd-4d835234-ec1b8-4473
+R4
+Z10 n@_opt1
+R6
+R7
+vcounter
+Z11 Mx1 19 __model_tech/sv_std 3 std
+Z12 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z13 IO2T5iMO5ViPJ@Jl4ehT^m3
+Z14 VXKn8G=AmiHdI3`e?LJlJg3
+S1
+R7
+Z15 w1300439826
+Z16 8counter.sv
+Z17 Fcounter.sv
+L0 1
+Z18 OE;L;6.6b;45
+r1
+31
+Z19 o-sv -L mtiAvm -L mtiOvm -L mtiUPF
+Z20 !s100 K918X;^_D;3^hZ>aV46Yi3
+Z21 !s105 counter_sv_unit
+!s85 0
+vfsm
+R11
+R12
+Z22 IM2:9gi5`d`dcC<0kjP;[m0
+Z23 VjdgOnEB_Yk7;;C3?]@=B`0
+S1
+R7
+Z24 w1300451874
+Z25 8fsm.sv
+Z26 Ffsm.sv
+L0 1
+R18
+r1
+31
+R19
+Z27 !s105 fsm_sv_unit
+Z28 !s100 Nl<A=?[f=1BK<aSMg6ogF3
+!s85 0
+vmux
+R11
+R12
+Z29 ICDVE]?7939zWRPI8Pzl1i0
+Z30 VmbZCZz;MIA5c6H<ZH<JRV1
+Z31 !s105 mux_sv_unit
+S1
+R7
+Z32 w1300451024
+Z33 8mux.sv
+Z34 Fmux.sv
+L0 1
+R18
+r1
+31
+R19
+Z35 !s100 >k]c84_3@cBQeN368fbC=3
+!s85 0
+vOnesCount
+R11
+R12
+Z36 I`:on:OdKaI=gSX3]zhHZ43
+Z37 VcbXHjNfidZNX`d?Z8`O<]0
+Z38 !s105 onescount_sv_unit
+S1
+R7
+Z39 w1300451753
+Z40 8onescount.sv
+Z41 Fonescount.sv
+L0 1
+R18
+r1
+31
+R19
+Z42 n@ones@count
+Z43 !s100 `2KUY408eP74;`BdhKg7i1
+!s85 0
+vregister
+R11
+R12
+Z44 IjURddb6aIZjU7QRFG^Ida2
+Z45 VF^hmPzeO@C1D:2_H_glbP2
+S1
+R7
+Z46 w1300451001
+Z47 8reg.sv
+Z48 Freg.sv
+L0 1
+R18
+r1
+31
+R19
+Z49 !s100 HRX4N>TL?V[?8f7be>_GU3
+Z50 !s105 reg_sv_unit
+!s85 0
+vtest
+Z51 Mx1 6 sv_std 3 std
+Z52 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z53 I4AI9kzUj?Kcl9>F:ihNjm1
+Z54 V0fYEigWgdFWO5nJiiR2J>2
+R31
+S1
+R7
+Z55 w1300442196
+R33
+R34
+L0 20
+R18
+r1
+31
+R19
+Z56 !s100 0<3Bc;7=0FZDMBfL7W2ia3
+!s85 0
+vtestbench
+R11
+R12
+Z57 IU^0HTngNBVFR2D[eHhK>`3
+Z58 VCoSU<>7=oJEdm1j;lgP>l2
+R38
+S1
+R7
+R39
+R40
+R41
+L0 27
+R18
+r1
+31
+R19
+Z59 !s100 i<C1H<C24[bj[PB9FMcdH1
+!s85 0
+vtop
+R11
+R12
+Z60 IeBH_lc2Indj61m1<7zlkT3
+Z61 Ve:gFW1CKLAXc^T:7k2HoD1
+R38
+S1
+R7
+R39
+R40
+R41
+L0 48
+R18
+r1
+31
+R19
+Z62 !s100 :1lNAXMe_EX6k0YA3Sc6:3
+!s85 0

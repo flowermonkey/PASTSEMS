@@ -1,0 +1,26 @@
+
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Feb  6 07:39 2012
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+calc.sv, 1 : typedef enum bit [3:0] {NONE, NUMBER, PLUS, MINUS, EQUALS, NEGATE, LP, RP, CLEAR} keyOp_t;
+        10  op=  1, num=   8, error= 0, display=  0 
+        20  op=  3, num=   0, error= 0, display=  8 
+        30  op=  6, num=   0, error= 0, display=  8 
+        40  op=  1, num=   4, error= 0, display=  0 
+        50  op=  2, num=   0, error= 0, display=  4 
+        60  op=  1, num=   1, error= 0, display=  4 
+        70  op=  7, num=   0, error= 0, display=  1 
+        80  op=  3, num=   0, error= 0, display=  5 
+        90  op=  1, num=   1, error= 0, display=  0 
+       100  op=  4, num=   0, error= 0, display=  1 
+       110  op=  0, num=   0, error= 0, display=255 
+       120  op=  0, num=   0, error= 0, display=  0 
+$finish called from file "
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 90
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Mon Feb  6 09:10:16 201212o r t 
+Time: 120
+CPU Time:      0.160 seconds;       Data structure size:   0.0Mb
+Mon Feb  6 09:06:43 2012

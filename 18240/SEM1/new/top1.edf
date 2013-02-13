@@ -1,0 +1,57 @@
+(edif top1
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2009 06 11 10 20 10)
+      (author "Xilinx, Inc.")
+      (program "realTimeFpga" (version "Version 0.0.1"))
+      (comment "")
+    )
+  )
+  (library VIRTEX
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell VCC (celltype GENERIC)
+      (view PRIM (viewType NETLIST)
+        (interface
+          (port P (direction output))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell top1 (celltype GENERIC)
+      (view rtl (viewType NETLIST)
+        (interface
+          (port clk (direction input))
+          (port rst (direction input))
+          (port (array (rename h_move_3_0_ "h_move[3:0]") 4) (direction input))
+          (port (array (rename sevenSegmentDisplay_7_0_
+           "sevenSegmentDisplay[7:0]") 8) (direction output))
+          (port displayA (direction output))
+          (port displayB (direction output))
+          (port displayC (direction output))
+          (port displayD (direction output))
+          (port (array (rename numHits_7_0_ "numHits[7:0]") 8)
+           (direction input))
+        )
+        (contents
+          (instance i_0
+            (viewRef PRIM (cellRef VCC (libraryRef VIRTEX)))
+          )
+          (net (rename numHits_0_ "numHits[0]") (joined
+            (portRef (member numHits_7_0_ 7))
+            (portRef P (instanceRef i_0))
+          ))
+        )
+      )
+    )
+  )
+  (design top1(cellRef top1 (libraryRef work))
+    (property PART (string "") (owner "Xilinx"))
+  )
+)

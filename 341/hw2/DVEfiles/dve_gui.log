@@ -1,0 +1,161 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec  5 18:39 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw2/inter.vpd' was opened successfully.
+16crc.sv, 47 : module mux2 (input bit in1, in2, sel,
+         0 messageReceived: 0000000000000000, done: 0, ok: 0
+        55 messageReceived: 0000000000000001, done: 0, ok: 0
+        75 messageReceived: 0000000000000003, done: 0, ok: 0
+        95 messageReceived: 0000000000000006, done: 0, ok: 0
+       115 messageReceived: 000000000000000c, done: 0, ok: 0
+       135 messageReceived: 0000000000000019, done: 0, ok: 0
+       155 messageReceived: 0000000000000032, done: 0, ok: 0
+       175 messageReceived: 0000000000000065, done: 0, ok: 0
+       195 messageReceived: 00000000000000ca, done: 0, ok: 0
+       215 messageReceived: 0000000000000195, done: 0, ok: 0
+       235 messageReceived: 000000000000032b, done: 0, ok: 0
+       255 messageReceived: 0000000000000657, done: 0, ok: 0
+       275 messageReceived: 0000000000000caf, done: 0, ok: 0
+       295 messageReceived: 000000000000195f, done: 0, ok: 0
+       315 messageReceived: 00000000000032bf, done: 0, ok: 0
+       335 messageReceived: 000000000000657f, done: 0, ok: 0
+       355 messageReceived: 000000000000cafe, done: 0, ok: 0
+       375 messageReceived: 00000000000195fd, done: 0, ok: 0
+       395 messageReceived: 0000000000032bfa, done: 0, ok: 0
+       415 messageReceived: 00000000000657f5, done: 0, ok: 0
+       435 messageReceived: 00000000000cafeb, done: 0, ok: 0
+       455 messageReceived: 0000000000195fd7, done: 0, ok: 0
+       475 messageReceived: 000000000032bfae, done: 0, ok: 0
+       495 messageReceived: 0000000000657f5d, done: 0, ok: 0
+       515 messageReceived: 0000000000cafeba, done: 0, ok: 0
+       535 messageReceived: 000000000195fd75, done: 0, ok: 0
+       555 messageReceived: 00000000032bfaea, done: 0, ok: 0
+       575 messageReceived: 000000000657f5d5, done: 0, ok: 0
+       595 messageReceived: 000000000cafebab, done: 0, ok: 0
+       615 messageReceived: 00000000195fd757, done: 0, ok: 0
+       635 messageReceived: 0000000032bfaeaf, done: 0, ok: 0
+       655 messageReceived: 00000000657f5d5f, done: 0, ok: 0
+       675 messageReceived: 00000000cafebabe, done: 0, ok: 0
+       695 messageReceived: 0000000195fd757d, done: 0, ok: 0
+       715 messageReceived: 000000032bfaeafb, done: 0, ok: 0
+       735 messageReceived: 0000000657f5d5f6, done: 0, ok: 0
+       755 messageReceived: 0000000cafebabed, done: 0, ok: 0
+       775 messageReceived: 000000195fd757db, done: 0, ok: 0
+       795 messageReceived: 00000032bfaeafb7, done: 0, ok: 0
+       815 messageReceived: 000000657f5d5f6f, done: 0, ok: 0
+       835 messageReceived: 000000cafebabede, done: 0, ok: 0
+       855 messageReceived: 00000195fd757dbd, done: 0, ok: 0
+       875 messageReceived: 0000032bfaeafb7a, done: 0, ok: 0
+       895 messageReceived: 00000657f5d5f6f5, done: 0, ok: 0
+       915 messageReceived: 00000cafebabedea, done: 0, ok: 0
+       935 messageReceived: 0000195fd757dbd5, done: 0, ok: 0
+       955 messageReceived: 000032bfaeafb7ab, done: 0, ok: 0
+       975 messageReceived: 0000657f5d5f6f56, done: 0, ok: 0
+       995 messageReceived: 0000cafebabedead, done: 0, ok: 0
+      1015 messageReceived: 000195fd757dbd5b, done: 0, ok: 0
+      1035 messageReceived: 00032bfaeafb7ab6, done: 0, ok: 0
+      1055 messageReceived: 000657f5d5f6f56d, done: 0, ok: 0
+      1075 messageReceived: 000cafebabedeadb, done: 0, ok: 0
+      1095 messageReceived: 00195fd757dbd5b7, done: 0, ok: 0
+      1115 messageReceived: 0032bfaeafb7ab6f, done: 0, ok: 0
+      1135 messageReceived: 00657f5d5f6f56df, done: 0, ok: 0
+      1155 messageReceived: 00cafebabedeadbe, done: 0, ok: 0
+      1175 messageReceived: 0195fd757dbd5b7d, done: 0, ok: 0
+      1195 messageReceived: 032bfaeafb7ab6fb, done: 0, ok: 0
+      1215 messageReceived: 0657f5d5f6f56df7, done: 0, ok: 0
+      1235 messageReceived: 0cafebabedeadbee, done: 0, ok: 0
+      1255 messageReceived: 195fd757dbd5b7dd, done: 0, ok: 0
+      1275 messageReceived: 32bfaeafb7ab6fbb, done: 0, ok: 0
+      1295 messageReceived: 657f5d5f6f56df77, done: 0, ok: 0
+      1315 messageReceived: cafebabedeadbeef, done: 0, ok: 0
+      1635 messageReceived: cafebabedeadbeef, done: 1, ok: 1
+      1655 messageReceived: cafebabedeadbeef, done: 0, ok: 0
+$finish called from file "16crc.sv", line 238.
+$finish at simulation time                 1715
+Simulation complete, time is 1715.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1715
+CPU Time:      0.290 seconds;       Data structure size:   0.0Mb
+Wed Dec  5 18:41:56 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec  5 18:44 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw2/inter.vpd' was opened successfully.
+16crc.sv, 47 : module mux2 (input bit in1, in2, sel,
+         0 messageReceived: 0000000000000000, done: 0, ok: 0
+        55 messageReceived: 0000000000000001, done: 0, ok: 0
+        75 messageReceived: 0000000000000003, done: 0, ok: 0
+        95 messageReceived: 0000000000000006, done: 0, ok: 0
+       115 messageReceived: 000000000000000c, done: 0, ok: 0
+       135 messageReceived: 0000000000000019, done: 0, ok: 0
+       155 messageReceived: 0000000000000032, done: 0, ok: 0
+       175 messageReceived: 0000000000000065, done: 0, ok: 0
+       195 messageReceived: 00000000000000ca, done: 0, ok: 0
+       215 messageReceived: 0000000000000195, done: 0, ok: 0
+       235 messageReceived: 000000000000032b, done: 0, ok: 0
+       255 messageReceived: 0000000000000657, done: 0, ok: 0
+       275 messageReceived: 0000000000000caf, done: 0, ok: 0
+       295 messageReceived: 000000000000195f, done: 0, ok: 0
+       315 messageReceived: 00000000000032bf, done: 0, ok: 0
+       335 messageReceived: 000000000000657f, done: 0, ok: 0
+       355 messageReceived: 000000000000cafe, done: 0, ok: 0
+       375 messageReceived: 00000000000195fd, done: 0, ok: 0
+       395 messageReceived: 0000000000032bfa, done: 0, ok: 0
+       415 messageReceived: 00000000000657f5, done: 0, ok: 0
+       435 messageReceived: 00000000000cafeb, done: 0, ok: 0
+       455 messageReceived: 0000000000195fd7, done: 0, ok: 0
+       475 messageReceived: 000000000032bfae, done: 0, ok: 0
+       495 messageReceived: 0000000000657f5d, done: 0, ok: 0
+       515 messageReceived: 0000000000cafeba, done: 0, ok: 0
+       535 messageReceived: 000000000195fd75, done: 0, ok: 0
+       555 messageReceived: 00000000032bfaea, done: 0, ok: 0
+       575 messageReceived: 000000000657f5d5, done: 0, ok: 0
+       595 messageReceived: 000000000cafebab, done: 0, ok: 0
+       615 messageReceived: 00000000195fd757, done: 0, ok: 0
+       635 messageReceived: 0000000032bfaeaf, done: 0, ok: 0
+       655 messageReceived: 00000000657f5d5f, done: 0, ok: 0
+       675 messageReceived: 00000000cafebabe, done: 0, ok: 0
+       695 messageReceived: 0000000195fd757d, done: 0, ok: 0
+       715 messageReceived: 000000032bfaeafb, done: 0, ok: 0
+       735 messageReceived: 0000000657f5d5f6, done: 0, ok: 0
+       755 messageReceived: 0000000cafebabed, done: 0, ok: 0
+       775 messageReceived: 000000195fd757db, done: 0, ok: 0
+       795 messageReceived: 00000032bfaeafb7, done: 0, ok: 0
+       815 messageReceived: 000000657f5d5f6f, done: 0, ok: 0
+       835 messageReceived: 000000cafebabede, done: 0, ok: 0
+       855 messageReceived: 00000195fd757dbd, done: 0, ok: 0
+       875 messageReceived: 0000032bfaeafb7a, done: 0, ok: 0
+       895 messageReceived: 00000657f5d5f6f5, done: 0, ok: 0
+       915 messageReceived: 00000cafebabedea, done: 0, ok: 0
+       935 messageReceived: 0000195fd757dbd5, done: 0, ok: 0
+       955 messageReceived: 000032bfaeafb7ab, done: 0, ok: 0
+       975 messageReceived: 0000657f5d5f6f56, done: 0, ok: 0
+       995 messageReceived: 0000cafebabedead, done: 0, ok: 0
+      1015 messageReceived: 000195fd757dbd5b, done: 0, ok: 0
+      1035 messageReceived: 00032bfaeafb7ab6, done: 0, ok: 0
+      1055 messageReceived: 000657f5d5f6f56d, done: 0, ok: 0
+      1075 messageReceived: 000cafebabedeadb, done: 0, ok: 0
+      1095 messageReceived: 00195fd757dbd5b7, done: 0, ok: 0
+      1115 messageReceived: 0032bfaeafb7ab6f, done: 0, ok: 0
+      1135 messageReceived: 00657f5d5f6f56df, done: 0, ok: 0
+      1155 messageReceived: 00cafebabedeadbe, done: 0, ok: 0
+      1175 messageReceived: 0195fd757dbd5b7d, done: 0, ok: 0
+      1195 messageReceived: 032bfaeafb7ab6fb, done: 0, ok: 0
+      1215 messageReceived: 0657f5d5f6f56df7, done: 0, ok: 0
+      1235 messageReceived: 0cafebabedeadbee, done: 0, ok: 0
+      1255 messageReceived: 195fd757dbd5b7dd, done: 0, ok: 0
+      1275 messageReceived: 32bfaeafb7ab6fbb, done: 0, ok: 0
+      1295 messageReceived: 657f5d5f6f56df77, done: 0, ok: 0
+      1315 messageReceived: cafebabedeadbeef, done: 0, ok: 0
+      1635 messageReceived: cafebabedeadbeef, done: 1, ok: 1
+      1655 messageReceived: cafebabedeadbeef, done: 0, ok: 0
+$finish called from file "16crc.sv", line 238.
+$finish at simulation time                 1715
+Simulation complete, time is 1715.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1715
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Wed Dec  5 18:44:29 2012

@@ -1,0 +1,1805 @@
+
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  5 23:36 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The design has assertions or cover properties.
+The assertion browser can be used to view them. Click on the assertion toolbar button or use the menu 'Window->Panes->Assertion' to open it.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+Releasing License for VCSRuntime_Net at Sat Oct  6 00:00:40
+Releasing License for VT_TestbenchRuntime at Sat Oct  6 00:00:40
+Attempting to Re-Acquire License for VCSRuntime_Net at Sat Oct  6 00:00:41
+Re-Acquired License for VCSRuntime_Net at Sat Oct  6 00:00:41, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Sat Oct  6 00:00:41
+Re-Acquired License for VT_TestbenchRuntime at Sat Oct  6 00:00:41, continuing....
+prob1_mealy.sv, 1 : `default_nettype none
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:   2115.540 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:12:14 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:12:17 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+        This module or some inlined child module(s) has/have been modified.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:12 2012
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 50s failed at 50s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 100s failed at 100s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 150s failed at 150s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  150
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:12:19 2012
+CPU time: .144 seconds to compile + .025 seconds to elab + .126 seconds to link + .417 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:12 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 50s failed at 50s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 100s failed at 100s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 150s failed at 150s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  150
+Simulation complete, time is 150.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.060 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:12:30 2012
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:12 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 50s failed at 50s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 100s failed at 100s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 124: top.unnamed$$_4.unnamed$$_3: started at 150s failed at 150s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  150
+Simulation complete, time is 150.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:12:43 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:40:20 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:40 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 130s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 180s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 190s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 240s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:40:22 2012
+CPU time: .115 seconds to compile + .027 seconds to elab + .126 seconds to link + .418 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:40 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 130s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 180s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 190s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 240s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.160 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:40:57 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:41:40 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:41 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:41:42 2012
+CPU time: .115 seconds to compile + .025 seconds to elab + .125 seconds to link + .419 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:41 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:41:44 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:43:41 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:43 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 70s failed at 120s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 130s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 180s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 190s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 240s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.330 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:43:42 2012
+CPU time: .114 seconds to compile + .025 seconds to elab + .122 seconds to link + .413 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:43 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 70s failed at 120s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 130s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 180s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 190s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 240s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:43:45 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:44:54 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:44 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:44:55 2012
+CPU time: .109 seconds to compile + .023 seconds to elab + .121 seconds to link + .414 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:44 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '((sent == 1) && (received == 1))'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:44:58 2012
+Releasing License for VCSRuntime_Net at Sat Oct  6 00:48:57
+Releasing License for VT_TestbenchRuntime at Sat Oct  6 00:48:57
+Attempting to Re-Acquire License for VCSRuntime_Net at Sat Oct  6 00:48:59
+Re-Acquired License for VCSRuntime_Net at Sat Oct  6 00:48:59, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Sat Oct  6 00:48:59
+Re-Acquired License for VT_TestbenchRuntime at Sat Oct  6 00:48:59, continuing....
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:49:46 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:49 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:49:48 2012
+CPU time: .119 seconds to compile + .028 seconds to elab + .131 seconds to link + .421 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:49 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:49:51 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:51:22 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:51 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:51:24 2012
+CPU time: .109 seconds to compile + .025 seconds to elab + .123 seconds to link + .418 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:51 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 110s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 170s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 230s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:53:47 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:54:51 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+        This module or some inlined child module(s) has/have been modified.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:54 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:54:52 2012
+CPU time: .141 seconds to compile + .027 seconds to elab + .125 seconds to link + .414 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:54 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:54:56 2012
+Warning: [DVAS132] 
+Cannot find the assertion debug library 'libassertdebug.so'. Contributing signals will be added to Waveform during tracing.
+In order to obtain full assertion tracing capabilities, please compile the design with '-assert dve' option.Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:55 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:55:43 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:56:53 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:56 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 60s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 120s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 180s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s failed at 240s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.330 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:56:54 2012
+CPU time: .113 seconds to compile + .025 seconds to elab + .119 seconds to link + .416 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:56 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 30s failed at 60s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 90s failed at 120s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 150s failed at 180s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s failed at 240s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:56:58 2012
+0
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:57:53 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+        This module or some inlined child module(s) has/have been modified.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:57 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:57:54 2012
+CPU time: .150 seconds to compile + .026 seconds to elab + .131 seconds to link + .416 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:57 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.080 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:58:00 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 00:59:47 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:59 2012
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 10s failed at 10s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 20s failed at 20s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 70s failed at 70s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 80s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 130s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 140s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 190s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 200s failed at 200s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:59:49 2012
+CPU time: .112 seconds to compile + .025 seconds to elab + .127 seconds to link + .420 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 00:59 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 10s failed at 10s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 20s failed at 20s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 70s failed at 70s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 80s failed at 80s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 40s failed at 80s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 50s failed at 90s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 60s failed at 100s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 130s failed at 130s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 140s failed at 140s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 100s failed at 140s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 110s failed at 150s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 120s failed at 160s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 190s failed at 190s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 200s failed at 200s
+        Offending 'put'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 160s failed at 200s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+Message Sent!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 170s failed at 210s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 180s failed at 220s
+        Offending '(sent == 1)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 121.
+$finish at simulation time                  250
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 220s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 230s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 240s not finished
+"../prob1_mealy.sv", 128: top.unnamed$$_2: started at 210s not finished
+Simulation complete, time is 250.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 250
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 00:59:52 2012
+0
+Releasing License for VCSRuntime_Net at Sat Oct  6 01:02:31
+Releasing License for VT_TestbenchRuntime at Sat Oct  6 01:02:31
+Attempting to Re-Acquire License for VCSRuntime_Net at Sat Oct  6 01:02:32
+Re-Acquired License for VCSRuntime_Net at Sat Oct  6 01:02:32, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Sat Oct  6 01:02:32
+Re-Acquired License for VT_TestbenchRuntime at Sat Oct  6 01:02:32, continuing....
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:05:21 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:05 2012
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 50s failed at 50s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 100s failed at 100s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 150s failed at 150s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 129.
+$finish at simulation time                  150
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:05:23 2012
+CPU time: .110 seconds to compile + .026 seconds to elab + .122 seconds to link + .415 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:05 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.restartSimSession.tcl':
+ Line 90: [DVSG007] 
+Signal ' "top.unnamed$$_2"' cannot be found.
+ Line 93: [DVSG007] 
+Signal ' "top.unnamed$$_2"' cannot be found.
+ Line 159: gui_list_expand: Unable to find item with name "top.unnamed$$_2.prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 50s failed at 50s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 100s failed at 100s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 150s failed at 150s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck!
+$finish called from file "../prob1_mealy.sv", line 129.
+$finish at simulation time                  150
+Simulation complete, time is 150.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:05:26 2012
+Releasing License for VCSRuntime_Net at Sat Oct  6 01:06:44
+Releasing License for VT_TestbenchRuntime at Sat Oct  6 01:06:44
+Attempting to Re-Acquire License for VCSRuntime_Net at Sat Oct  6 01:06:45
+Re-Acquired License for VCSRuntime_Net at Sat Oct  6 01:06:45, continuing....
+Attempting to Re-Acquire License for VT_TestbenchRuntime at Sat Oct  6 01:06:45
+Re-Acquired License for VT_TestbenchRuntime at Sat Oct  6 01:06:45, continuing....
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:09:50 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:09 2012
+Message Sent!
+Message Sent!
+Message Sent!
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:09:52 2012
+CPU time: .118 seconds to compile + .026 seconds to elab + .123 seconds to link + .417 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:09 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+Message Sent!
+Message Sent!
+Message Sent!
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+Simulation complete, time is 190.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.060 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:10:04 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:10:23 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_moore.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:10 2012
+Message Sent!
+Message Sent!
+Message Sent!
+$finish called from file "../prob1_moore.sv", line 116.
+$finish at simulation time                  150
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:10:24 2012
+CPU time: .111 seconds to compile + .025 seconds to elab + .124 seconds to link + .413 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:10 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.restartSimSession.tcl':
+ Line 84: [DVSG007] 
+Signal ' "top.p.sent"' cannot be found.
+ Line 87: [DVSG007] 
+Signal ' "top.c.received"' cannot be found..prob1_mealy.sv, 1 : `default_nettype none
+Message Sent!
+Message Sent!
+Message Sent!
+$finish called from file "../prob1_moore.sv", line 116.
+$finish at simulation time                  150
+Simulation complete, time is 150.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 150
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:10:29 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:20:47 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, no re-compilation is necessary.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+ld -r -m elf_i386 -o pre_vcsobj_1_2.o --whole-archive pre_vcsobj_1_2.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive   SIM_l.o 5NrI_d.o 5NrIB_d.o    pre_vcsobj_1_1.o pre_vcsobj_1_2.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:20 2012
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13700000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13000000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:20:48 2012
+CPU time: .112 seconds to compile + .026 seconds to elab + .123 seconds to link + .419 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:20 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13700000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13000000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+Simulation complete, time is 190.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.060 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:20:56 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:23:13 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+        This module or some inlined child module(s) has/have been modified.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:23 2012
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 70fd0000
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 70000000
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 129.
+$finish at simulation time                  190
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:23:15 2012
+CPU time: .148 seconds to compile + .026 seconds to elab + .129 seconds to link + .420 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:23 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 70fd0000
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 70000000
+"../prob1_mealy.sv", 122: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 129.
+$finish at simulation time                  190
+Simulation complete, time is 190.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:23:19 2012
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:24:59 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Error-[IND] Identifier not declared
+../prob1_mealy.sv, 38
+  Identifier 'd' has not been declared yet. If this error is not expected, 
+  please check if you have set `default_nettype to none.
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "../prob1_mealy.sv", 38: token is ''
+                                                        d       3: payload 
+  <= valueToSend.d;
+                                                                    ^
+2 errors
+CPU time: .081 seconds to compile
+Error: [DVIT009] 
+Build error for command '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/simv.daidir/vcs_rebuild'.
+Build directory '/afs/ece.cmu.edu/usr/bflores/341/hw1/work'.
+Warning: [DVIT102] 
+Cannot protect DVE log directory from deletion during rebuild.
+Removal of temporary directory failed: Directory not empty.
+  Path: '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/.saveDVEfiles'.
+Please ensure you have write permission in the directory.                         Chronologic VCS (TM)
+          Version F-2011.12-SP1 -- Sat Oct  6 01:25:33 2012
+               Copyright (c) 1991-2012 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+Parsing design file '../prob1_mealy.sv'
+Top Level Modules:
+       top
+No TimeScale specified
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+        However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+        This module or some inlined child module(s) has/have been modified.
+ld -r -m elf_i386 -o pre_vcsobj_1_1.o --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -melf_i386 -m32    -Wl,-whole-archive    -Wl,-no-whole-archive  _vcsobj_1_1.o  5NrI_d.o 5NrIB_d.o SIM_l.o    pre_vcsobj_1_1.o  rmapats_mop.o rmapats.o      /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/librterrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libsnpsmalloc.so     /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libvcsnew.so /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/libuclinative.so         /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/vcs_save_restore_new.o /afs/ece.cmu.edu/support/synopsys/synopsys/share/image/usr/local/synopsys/vcs-mx_vF-2011.12-SP1/suse32/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:25 2012
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13700000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13000000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:25:34 2012
+CPU time: .145 seconds to compile + .027 seconds to elab + .130 seconds to link + .418 seconds in simulation
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Oct  6 01:25 2012
+VCD+ Writer F-2011.12-SP1 Copyright (c) 1991-2012 by Synopsys Inc.
+The file '/afs/ece.cmu.edu/usr/bflores/341/hw1/work/inter.vpd' was opened successfully.
+prob1_mealy.sv, 1 : `default_nettype none
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 70s failed at 70s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13700000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 130s failed at 130s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 13000000
+"../prob1_mealy.sv", 123: top.unnamed$$_4.unnamed$$_3: started at 190s failed at 190s
+        Offending '(valueReceived == valueToSend)'
+Message did not send...you suck! 00000000
+$finish called from file "../prob1_mealy.sv", line 130.
+$finish at simulation time                  190
+Simulation complete, time is 190.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 190
+CPU Time:      0.070 seconds;       Data structure size:   0.0Mb
+Sat Oct  6 01:25:37 2012

@@ -1,0 +1,42 @@
+# 18-341 Synopsys DC Script
+# Project 4
+# 10/25/2012
+# Brian Osbun <bosbun@andrew.cmu.edu>
+
+# ================================ SETUP =================================
+
+set target_library /afs/ece/class/ece341/setup/Artisan/typical.db
+set link_library /afs/ece/class/ece341/setup/Artisan/typical.db
+
+define_design_lib WORK -path "./work"
+
+analyze -format sverilog "ham.sv"
+elaborate "ham_decoder"
+current_design ham_decoder
+
+link
+uniquify
+
+
+# =============================== CLOCKING ===============================
+
+set_max_delay .49 [all_outputs]
+set_max_area 0
+remove_unconnected_ports -blast_buses [get_cells -hierarchical *]
+
+set_fix_multiple_port_nets -all -constants -buffer_constants [get_designs *]
+# =============================== REPORTS ================================
+
+check_design
+set_ultra_optimization -f
+compile_ultra
+compile_ultra
+compile_ultra
+compile -boundary_optimization -area_effort high -map_effort medium -ungroup_all 
+
+report_area > ./medium/area_hm.rpt
+report_timing > ./medium/timing_hm.rpt
+report_power > ./medium/power_hm.rpt
+write -format verilog -output ./medium/netlist_hm.sv
+
+exit

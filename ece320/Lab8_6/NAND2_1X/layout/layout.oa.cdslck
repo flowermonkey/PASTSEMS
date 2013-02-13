@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      bflores
+HostName                       ece005.ece.cmu.edu
+ProcessIdentifier              17952
+ProcessCreationTime_UTC        1352491907
+ProcessCreationTime_Readable   Fri Nov  9 15:11:47 2012 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/ece.cmu.edu/usr/bflores/ece320/Lab8_6/NAND2_1X/layout/layout.oa.cdslck.dirlck
+TimeEditLocked                 Fri Nov  9 15:12:05 2012 EST

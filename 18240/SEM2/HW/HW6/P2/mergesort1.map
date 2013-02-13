@@ -1,0 +1,54 @@
+Symbol definitions in order of occurence : 
+Name		Value
+----		-------
+
+LISTA		A000
+LISTB		B000
+LISTC		C000
+SIZE		0080
+START		0100
+CHECK		010A
+COMP		0115
+A		011C
+AB		0122
+B		012D
+WHILEB		0133
+WHILEA		013D
+DONE		0147
+LISA		A000
+		A001
+		A002
+		A003
+		A004
+LISB		B000
+		B001
+		B002
+		B003
+		B004
+
+
+Pass 2 Fixup Information : 
+Address	Name
+-------	-----
+
+0001	start
+0105	listA
+0107	listB
+0109	listC
+010E	size
+0110	whileB
+0112	size
+0114	whileA
+0117	A
+0119	AB
+011B	B
+0121	check
+012C	check
+0132	check
+0138	size
+013A	done
+013C	check
+0142	size
+0144	done
+0146	check
+

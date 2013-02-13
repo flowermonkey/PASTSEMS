@@ -1,0 +1,433 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece/usr/ajtoth/240/lab4/week2/Version for Simulation
+T_opt
+Z1 VX4J^bJWf59SW1oOXIOkXO0
+Z2 04 10 4 work p18240_top fast 0
+Z3 =1-0022195d0518-4db5f0d4-aeaf4-195d
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece/usr/ajtoth/240/lab4/week2/Version for Simulation
+T_opt1
+Z8 V>_3gBkgZXR?d19]7SD]M?1
+R2
+Z9 =1-0022195d0518-4db5ffb6-609fb-2978
+R4
+Z10 n@_opt1
+R6
+R7
+valu
+Z11 Mx1 19 __model_tech/sv_std 3 std
+Z12 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z13 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 11 alu_sv_unit
+Z14 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 11 alu_sv_unit 0 22 ]KoPlK<Fzk>CUiN8EoY952
+Z15 VO1:0U]D[10mOZ`L8]kLZz0
+r1
+31
+Z16 IJcJ@8@Okn2CjE4oP@CS0z2
+Z17 !s105 alu_sv_unit
+S1
+Z18 d/afs/ece/usr/ajtoth/240/lab4/week2/Simulation
+Z19 w1303773102
+Z20 8alu.sv
+Z21 Falu.sv
+L0 31
+Z22 OE;L;6.6b;45
+Z23 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z24 !s100 XTC6C>E8<]DZ441Y^z`SI3
+!s85 0
+Xalu_sv_unit
+R11
+R12
+Z25 V]KoPlK<Fzk>CUiN8EoY952
+r1
+31
+Z26 I]KoPlK<Fzk>CUiN8EoY952
+S1
+R18
+Z27 w1303769290
+R20
+R21
+Z28 Fconstants.sv
+L1 26
+R22
+R23
+Z29 !s100 BQ_FOf54Dc<LRkW_[@?@:3
+!s85 0
+!i103 1
+vbarDisplay
+R11
+R12
+Z30 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 13 board_sv_unit
+Z31 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 13 board_sv_unit 0 22 eU7f<X_R0:g:DA_KG0iSV0
+Z32 Vai9ib2im?WjQCTgUbddm[3
+r1
+31
+Z33 I1:77COBoz_>bIkMKWPTLX1
+Z34 !s105 board_sv_unit
+S1
+R18
+Z35 w1303757054
+Z36 8board.sv
+Z37 Fboard.sv
+L0 28
+R22
+R23
+Z38 nbar@display
+Z39 !s100 dV7kjB@1;dOmIYcmlY6VH1
+!s85 0
+Xboard_sv_unit
+R11
+R12
+Z40 VeU7f<X_R0:g:DA_KG0iSV0
+r1
+31
+Z41 IeU7f<X_R0:g:DA_KG0iSV0
+S1
+R18
+R35
+R36
+R37
+R28
+L1 26
+R22
+R23
+Z42 !s100 maFd6RlLcAP]=2bb^kE2`3
+!s85 0
+!i103 1
+Xconstants_sv_unit
+Z43 Mx1 6 sv_std 3 std
+Z44 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z45 !s100 V?8ioeLO[dL1;94IbRC1<0
+Z46 IZW7nP7o@3Gb<V2mC8KZ[91
+Z47 VZW7nP7o@3Gb<V2mC8KZ[91
+S1
+R18
+R35
+Z48 8constants.sv
+R28
+L0 26
+R22
+r1
+31
+R23
+!i103 1
+!s85 0
+vcontrolpath
+R11
+R12
+Z49 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 19 controlpath_sv_unit
+Z50 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 19 controlpath_sv_unit 0 22 V<SXIc?:QlHlIiGJ?Zb?D0
+Z51 VP8XbJc1O?zQiToe49lN_>1
+r1
+31
+Z52 IQH_@khf?F9<2`3=L]4jb[3
+S1
+R18
+Z53 w1303768942
+Z54 8controlpath.sv
+Z55 Fcontrolpath.sv
+L0 36
+R22
+R23
+Z56 !s100 ni^@7ImSQVgY0E0CZBUW81
+Z57 !s105 controlpath_sv_unit
+!s85 0
+Xcontrolpath_sv_unit
+R11
+R12
+Z58 VV<SXIc?:QlHlIiGJ?Zb?D0
+r1
+31
+Z59 IV<SXIc?:QlHlIiGJ?Zb?D0
+S1
+R18
+R53
+R54
+R55
+R28
+L1 26
+R22
+R23
+Z60 !s100 ]Q1OJ?0OiQYX`9D4kKkE;0
+!s85 0
+!i103 1
+vdatapath
+R11
+R12
+Z61 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 16 datapath_sv_unit
+Z62 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 16 datapath_sv_unit 0 22 ]Ma7enV59?jFUEad6_9eM0
+Z63 VG8VbLc8MB7>JY2GLZXJ`c3
+r1
+31
+Z64 IJ`KezCiHd?gYcSLcM2Jo=1
+S1
+R18
+R35
+Z65 8datapath.sv
+Z66 Fdatapath.sv
+L0 23
+R22
+R23
+Z67 !s100 4HQ9L;WCWn65>KnTeGoR;2
+Z68 !s105 datapath_sv_unit
+!s85 0
+Xdatapath_sv_unit
+R11
+R12
+Z69 V]Ma7enV59?jFUEad6_9eM0
+r1
+31
+Z70 I]Ma7enV59?jFUEad6_9eM0
+S1
+R18
+R35
+R65
+R66
+R28
+L1 26
+R22
+R23
+Z71 !s100 lGe2?mnmX`XDV<hmO>Dlm3
+!s85 0
+!i103 1
+vdemux
+R11
+R12
+Z72 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 15 library_sv_unit
+Z73 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 15 library_sv_unit 0 22 6j=0g42LABRSO11ifMn502
+Z74 VDRnGLMChdeN558^h5e_bn1
+r1
+31
+Z75 I[ocV9Yc[A;fj5R]?Bh8A60
+Z76 !s105 library_sv_unit
+S1
+R18
+R35
+Z77 8library.sv
+Z78 Flibrary.sv
+Z79 L0 113
+R22
+R23
+Z80 !s100 7JEXdVf>`<2:6ZdhLJQhi3
+!s85 0
+vHEXtoSevenSeg
+R43
+R44
+Z81 Mx2 4 work 13 board_sv_unit
+Z82 DXx4 work 13 board_sv_unit 0 22 eU7f<X_R0:g:DA_KG0iSV0
+Z83 VFYgRVDCK;LQ2ndE?0MJS31
+r1
+31
+Z84 !s100 QURmoUR6IULz_iDlgD8VH0
+Z85 I7bf55ahR=<AE`:IW[J14l1
+R34
+S1
+R18
+R35
+R36
+R37
+Z86 L0 115
+R22
+R23
+Z87 n@h@e@xto@seven@seg
+!s85 0
+vLEDController
+R11
+R12
+Z88 IzLj3@S7KHH;WNMCAS[<NS3
+Z89 V35`hTZ?NffEjN:?kNY^;73
+S1
+R18
+R35
+Z90 8LEDController.sv
+Z91 FLEDController.sv
+L0 45
+R22
+r1
+31
+R23
+Z92 n@l@e@d@controller
+Z93 !s100 ?Wz>=QWLXHY^nkI14>c0i2
+Z94 !s105 LEDController_sv_unit
+!s85 0
+Xlibrary_sv_unit
+R11
+R12
+Z95 V6j=0g42LABRSO11ifMn502
+r1
+31
+Z96 I6j=0g42LABRSO11ifMn502
+S1
+R18
+R35
+R77
+R78
+R28
+L1 26
+R22
+R23
+Z97 !s100 E;6A0Se@?0BMDb;DW_ZE41
+!s85 0
+!i103 1
+vmemory_16bit
+R11
+R12
+R72
+R73
+Z98 V01nMHeF?KNHPahViHM6=j0
+r1
+31
+Z99 IU`Nc:1ZbAETk4DSec;DN62
+R76
+S1
+R18
+R35
+R77
+R78
+L0 35
+R22
+R23
+Z100 !s100 bfiLzdIa;[1=ZnH=:DT363
+!s85 0
+vmux4to1
+R11
+R12
+R72
+R73
+Z101 VnL:obUmYmcbRRDzf`5Ahz0
+r1
+31
+Z102 IECF]hd]l`zIUd4UF^gmU:1
+R76
+S1
+R18
+R35
+R77
+R78
+L0 86
+R22
+R23
+Z103 !s100 hbcgY5QDPgkQ;3mMN9:nO2
+!s85 0
+Xp18240_sv_unit
+R11
+R12
+Z104 Vldg``IUlSb;hWT4ogU1Mm0
+r1
+31
+Z105 Ildg``IUlSb;hWT4ogU1Mm0
+S1
+R18
+R35
+Z106 8p18240.sv
+Z107 Fp18240.sv
+R28
+L1 26
+R22
+R23
+Z108 !s100 [g5I2=]0A?OEi77@Z695H3
+!s85 0
+!i103 1
+vp18240_top
+R11
+R12
+Z109 Mx2 58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 14 p18240_sv_unit
+Z110 DXx58 /afs/ece.cmu.edu/usr/ajtoth/240/lab4/week2/Simulation/work 14 p18240_sv_unit 0 22 ldg``IUlSb;hWT4ogU1Mm0
+Z111 VUnXbo_RJF6R:A67A=188Q3
+r1
+31
+Z112 I`f42M<<SCOFRRm<@GL6E;3
+S1
+R18
+R35
+R106
+R107
+L0 40
+R22
+R23
+Z113 !s100 _F>aj[JJCXgTb^Ym0b7WJ2
+Z114 !s105 p18240_sv_unit
+!s85 0
+vreg_file
+R11
+R12
+Z115 INe@DW:2Fzhb[]Be=[Sj_71
+Z116 VQ;@:3g<dd<zP=KJA0M=6O1
+S1
+R18
+R35
+Z117 8regfile.sv
+Z118 Fregfile.sv
+L0 29
+R22
+r1
+31
+R23
+Z119 !s100 WR;kX`BHIKzVgPF^hWN0S2
+Z120 !s105 regfile_sv_unit
+!s85 0
+vregister
+R11
+R12
+R72
+R73
+Z121 Ve@LIo[m=eeCe3eZ9b1XY03
+r1
+31
+Z122 IQVB^AF6U>c0>DkLV4LdgO3
+R76
+S1
+R18
+R35
+R77
+R78
+Z123 L0 131
+R22
+R23
+Z124 !s100 DBnNRlP?fQYVBm28GfS6?1
+!s85 0
+vsevenSegDisplay
+R11
+R12
+R30
+R31
+Z125 VkE><C2gIC<cHb6?HS1>=_0
+r1
+31
+Z126 INm2kJSj[EaVhN;=fTBU7W3
+R34
+S1
+R18
+R35
+R36
+R37
+L0 70
+R22
+R23
+Z127 nseven@seg@display
+Z128 !s100 oO_oESU4j3;cEgKQ4l68f2
+!s85 0
+vtridrive
+R11
+R12
+R72
+R73
+Z129 V0`kdNNcbO8C>;[XbdmXi50
+r1
+31
+Z130 IGMQSXTCbf=XU4NVW[^6Mn2
+R76
+S1
+R18
+R35
+R77
+R78
+L0 72
+R22
+R23
+Z131 !s100 bkEiQgooJHlKD3TUG1BPI1
+!s85 0

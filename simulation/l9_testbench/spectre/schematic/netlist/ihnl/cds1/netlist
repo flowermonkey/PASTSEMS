@@ -1,0 +1,12 @@
+
+// Library name: lab9
+// Cell name: l9_testbench
+// View name: schematic
+I4 (0 net11 OUT VDD) inverter width=256*8*lambda length=2*lambda
+I3 (0 c net11 VDD) inverter width=64*8*lambda length=2*lambda
+I2 (0 a c VDD) inverter width=8*16*lambda length=2*lambda
+I1 (0 net20 a VDD) inverter width=4*8*lambda length=2*lambda
+I0 (0 IN net20 VDD) inverter width=8*lambda length=2*lambda
+V2 (VDD 0) vsource dc=1.2 type=dc
+V0 (IN 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p

@@ -1,0 +1,41 @@
+Chronologic VCS simulator copyright 1991-2012
+Contains Synopsys proprietary information.
+Compiler version F-2011.12-SP1; Runtime version F-2011.12-SP1;  Dec  5 19:52 2012
+
+
+********************************************************************************
+*****************************WRITE AND READ TEST********************************
+********************************************************************************
+
+Sending an OUT to endpoint 4
+Sending sync...
+Sending PID...
+                  24 THUMBDRIVE: SYNC FOUND!
+                  24 THUMBDRIVE: SYNC FOUND!
+Sending Address and endP...
+                  40 THUMBDRIVE: PID = 0001, Inverted PID=1110
+
+Sending EOP...
+                  74 THUMBDRIVE: Correct CRC5 residue
+                  80 THUMBDRIVE: Good EOP!
+Sending DATA- memPage Packet...
+                 110 THUMBDRIVE: SYNC FOUND!
+                 110 THUMBDRIVE: SYNC FOUND!
+                 126 THUMBDRIVE: PID = 0011, Inverted PID=1100
+
+                 188 THUMBDRIVE: SINGLE ENDED ZERO IN DATA BYTES
+                 188 THUMBDRIVE: SINGLE ENDED ZERO IN DATA BYTES
+                 188 THUMBDRIVE: SINGLE ENDED ZERO IN DATA BYTES
+                 708 THUMBDRIVE:	PID=0011, ADDR=05, ENDP=4
+
+
+
+********************************************************************************
+*****************************END TEST*******************************************
+********************************************************************************
+$finish called from file "prelab_tb.sv", line 45.
+$finish at simulation time                  710
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 710
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Wed Dec  5 19:52:39 2012

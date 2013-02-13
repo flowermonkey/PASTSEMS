@@ -1,0 +1,156 @@
+Loading realTime.tcl:Loading realTime.tcl: log(realTime.log.02 realTime.cmd.02) prompt utils config sdc cli commands dir
+Loading FPGA commands> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/fpga_tcl/commands.tcl
+
+info:    started RealTime Designer 9.3-p253 (built on: Wed Aug 11 18:33:58 PDT 2010) on Thu Oct 14 19:46:40 2010  [LIC-100]
+info:    running pid 8082/8090 on ece008.ece.cmu.edu (x86_64/Linux-2.6.27.29-0.1-default)  [LIC-101]
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/common_vhdl.tcl
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/core.tcl
+> disable_message LIB-100
+> disable_message LIB-117
+> disable_message LIB-125
+> disable_message NL-120
+> disable_message LIB-114
+> disable_message LIB-106
+> disable_message LIB-200
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/XILINX.lib
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_comp.lib
+> set_parameter areaOptMergePartitions true
+info:    Parameter 'areaOptMergePartitions' set to 'true'  [PARAM-104]
+> set_parameter genomeArea 25000
+info:    Parameter 'genomeArea' set to '25000'  [PARAM-104]
+> set_parameter extractSynchronousSetReset true
+info:    Parameter 'extractSynchronousSetReset' set to 'true'  [PARAM-104]
+> set_parameter extractEnableFromAssign true
+info:    Parameter 'extractEnableFromAssign' set to 'true'  [PARAM-104]
+> set_parameter shareDatapathInElaborate true
+info:    Parameter 'shareDatapathInElaborate' set to 'true'  [PARAM-104]
+> set_parameter datapathMergeMultiplierInCSA false
+info:    Parameter 'datapathMergeMultiplierInCSA' set to 'false'  [PARAM-104]
+> set_parameter replaceUndriven 0
+info:    Parameter 'replaceUndriven' set to '0'  [PARAM-104]
+> set_parameter extractLatchEnablesFirst true
+info:    Parameter 'extractLatchEnablesFirst' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesSeparator /
+info:    Parameter 'dissolveMergeNamesSeparator' set to '/'  [PARAM-104]
+> set_parameter max_loop_limit 8192
+info:    Parameter 'max_loop_limit' set to '8192'  [PARAM-104]
+> set_parameter inferBinaryMux true
+info:    Parameter 'inferBinaryMux' set to 'true'  [PARAM-104]
+> set_parameter inferSignInv true
+info:    Parameter 'inferSignInv' set to 'true'  [PARAM-104]
+> set_parameter inferAddSub true
+info:    Parameter 'inferAddSub' set to 'true'  [PARAM-104]
+> set_parameter inferCounter true
+info:    Parameter 'inferCounter' set to 'true'  [PARAM-104]
+> set_parameter inferRom true
+info:    Parameter 'inferRom' set to 'true'  [PARAM-104]
+> set_parameter pushRamOps true
+info:    Parameter 'pushRamOps' set to 'true'  [PARAM-104]
+> set_parameter prepRams true
+info:    Parameter 'prepRams' set to 'true'  [PARAM-104]
+> set_parameter optimizeMemoryPorts true
+info:    Parameter 'optimizeMemoryPorts' set to 'true'  [PARAM-104]
+> set_parameter dissolveMemory 1
+info:    Parameter 'dissolveMemory' set to '1'  [PARAM-104]
+> set_parameter inferMemoryIfTotalBitsMoreThan 16383
+info:    Parameter 'inferMemoryIfTotalBitsMoreThan' set to '16383'  [PARAM-104]
+> set_parameter adjustMemoryIndex 0
+info:    Parameter 'adjustMemoryIndex' set to '0'  [PARAM-104]
+> set_parameter romLutToGates true
+info:    Parameter 'romLutToGates' set to 'true'  [PARAM-104]
+> set_parameter prepDsps true
+info:    Parameter 'prepDsps' set to 'true'  [PARAM-104]
+> set_parameter recognizeDsps true
+info:    Parameter 'recognizeDsps' set to 'true'  [PARAM-104]
+> set_parameter convertLoopToLatch true
+info:    Parameter 'convertLoopToLatch' set to 'true'  [PARAM-104]
+> set_parameter DspDebugLevel 1
+info:    Parameter 'DspDebugLevel' set to '1'  [PARAM-104]
+> set_parameter DspPreInferRegister false
+info:    Parameter 'DspPreInferRegister' set to 'false'  [PARAM-104]
+> set_parameter DspFlattenBeforeReinfer true
+info:    Parameter 'DspFlattenBeforeReinfer' set to 'true'  [PARAM-104]
+> set_parameter simplifySignExtension true
+info:    Parameter 'simplifySignExtension' set to 'true'  [PARAM-104]
+> set_parameter retimeLogicForRegisterInference true
+info:    Parameter 'retimeLogicForRegisterInference' set to 'true'  [PARAM-104]
+> set_parameter dspResource -1
+info:    Parameter 'dspResource' set to '-1'  [PARAM-104]
+> set_parameter doDSPResourceManagement true
+info:    Parameter 'doDSPResourceManagement' set to 'true'  [PARAM-104]
+> set_parameter avoidAssigns 2
+info:    Parameter 'avoidAssigns' set to '2'  [PARAM-104]
+> set_parameter optimizeSteps GAU
+info:    Parameter 'optimizeSteps' set to 'GAU'  [PARAM-104]
+> set_parameter enableTristateToMux true
+info:    Parameter 'enableTristateToMux' set to 'true'  [PARAM-104]
+> set_parameter finalCleanupUndriven true
+info:    Parameter 'finalCleanupUndriven' set to 'true'  [PARAM-104]
+> set_parameter inferMuxPart true
+info:    Parameter 'inferMuxPart' set to 'true'  [PARAM-104]
+> set_parameter inferRegPart true
+info:    Parameter 'inferRegPart' set to 'true'  [PARAM-104]
+> set_parameter muxMapLevel 3
+info:    Parameter 'muxMapLevel' set to '3'  [PARAM-104]
+> set_parameter recodeMuxes true
+info:    Parameter 'recodeMuxes' set to 'true'  [PARAM-104]
+> set_parameter muxDecompInElaborate false
+info:    Parameter 'muxDecompInElaborate' set to 'false'  [PARAM-104]
+> set_parameter reinferMuxLevel 3
+info:    Parameter 'reinferMuxLevel' set to '3'  [PARAM-104]
+> set_parameter reinferMuxWidthThreshold 8
+info:    Parameter 'reinferMuxWidthThreshold' set to '8'  [PARAM-104]
+> set_parameter convUMinusToAdder true
+info:    Parameter 'convUMinusToAdder' set to 'true'  [PARAM-104]
+> set_parameter transformUminus 3
+info:    Parameter 'transformUminus' set to '3'  [PARAM-104]
+> set_parameter shareDatapathUminus false
+info:    Parameter 'shareDatapathUminus' set to 'false'  [PARAM-104]
+> set_parameter cellOverridesModule true
+info:    Parameter 'cellOverridesModule' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesToDfg true
+info:    Parameter 'dissolveMergeNamesToDfg' set to 'true'  [PARAM-104]
+> set_parameter useAbcMapping true
+info:    Parameter 'useAbcMapping' set to 'true'  [PARAM-104]
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+> set_parameter romLutToGates false
+info:    Parameter 'romLutToGates' set to 'false'  [PARAM-104]
+> set_parameter datapathAddThreshold 14
+info:    Parameter 'datapathAddThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathComparatorThreshold 14
+info:    Parameter 'datapathComparatorThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathEqThreshold 14
+info:    Parameter 'datapathEqThreshold' set to '14'  [PARAM-104]
+> set_parameter allowHillClimb false
+info:    Parameter 'allowHillClimb' set to 'false'  [PARAM-104]
+> set_parameter collapseMuxChain 1
+info:    Parameter 'collapseMuxChain' set to '1'  [PARAM-104]
+> set_parameter forceExtractGenerateGenomes 1000
+info:    Parameter 'forceExtractGenerateGenomes' set to '1000'  [PARAM-104]
+> set_parameter decloneMultiDriverRegisters false
+info:    Parameter 'decloneMultiDriverRegisters' set to 'false'  [PARAM-104]
+> set_parameter lutPairBeforeUniquify true
+info:    Parameter 'lutPairBeforeUniquify' set to 'true'  [PARAM-104]
+> set_parameter vhdlDeferReadUntilElab true
+info:    Parameter 'vhdlDeferReadUntilElab' set to 'true'  [PARAM-104]
+> read_vhdl -lib UNISIM /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_VCOMP.vhd
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_vhdl.tcl
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_VCOMP.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDMACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDSUB_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SINGLE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_TDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_LOAD_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_TC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/EQ_COMPARE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_DUALCLOCK_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_SYNC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MULT_MACRO.vhd
+> read_verilog -sv {
+Battleship.sv
+LEDController.sv
+}
+error:   syntax error near ; ((Battleship.sv:270)[11])  [VLOG-1137]

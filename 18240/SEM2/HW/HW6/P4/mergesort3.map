@@ -1,0 +1,54 @@
+Symbol definitions in order of occurence : 
+Name		Value
+----		-------
+
+A_ADDR		A000
+B_ADDR		B000
+C_ADDR		C000
+A_SIZE		0080
+BEGIN		0010
+MERGE		1000
+CHECK		100A
+COMP		1015
+A		101C
+AB		1022
+B		102D
+WHILEB		1033
+WHILEA		103B
+JUMP		1043
+DONE		1044
+LISA		A000
+		A001
+		A002
+		A003
+		A004
+LISB		B000
+		B001
+		B002
+		B003
+		B004
+
+
+Pass 2 Fixup Information : 
+Address	Name
+-------	-----
+
+0014	A_addr
+0016	B_addr
+0018	C_addr
+001A	A_size
+0020	merge
+0026	done
+1010	whileB
+1014	whileA
+1017	A
+1019	AB
+101B	B
+1021	check
+102C	check
+1032	check
+1038	jump
+103A	check
+1040	jump
+1042	check
+

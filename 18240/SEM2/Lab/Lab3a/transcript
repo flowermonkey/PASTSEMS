@@ -1,0 +1,98 @@
+# vsim -coverage top1 
+# vsim -coverage top1 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.top1(fast)
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+#  run -all 
+#                    0 c_move= 4, h_move= 0
+#                   91 c_move= 4, h_move= 1
+#                  111 c_move= 4, h_move= 2
+#                  131 c_move= 4, h_move= 3
+#                  151 c_move= 4, h_move= 4
+#                  171 c_move= 4, h_move= 5
+#                  191 c_move= 4, h_move= 6
+#                  211 c_move= 4, h_move= 8
+#                  231 c_move= 4, h_move= 7
+#                  250 c_move= 2, h_move= 7
+#                  251 c_move= 2, h_move= 4
+#                  271 c_move= 2, h_move= 2
+#                  291 c_move= 2, h_move= 7
+#                  311 c_move= 2, h_move= 0
+#                  330 c_move= 6, h_move= 0
+#                  350 c_move= 4, h_move= 0
+#                  351 c_move= 4, h_move= 7
+#                  370 c_move= 2, h_move= 7
+#                  371 c_move= 2, h_move= 1
+#                  390 c_move= 6, h_move= 1
+#                  391 c_move= 6, h_move= 0
+#                  410 c_move= 4, h_move= 0
+#                  411 c_move= 4, h_move= 7
+#                  430 c_move= 2, h_move= 7
+#                  431 c_move= 2, h_move= 3
+#                  450 c_move= 6, h_move= 3
+#                  451 c_move= 6, h_move= 0
+#                  470 c_move= 4, h_move= 0
+#                  471 c_move= 4, h_move= 7
+#                  490 c_move= 2, h_move= 7
+#                  491 c_move= 2, h_move= 5
+#                  510 c_move= 6, h_move= 5
+#                  511 c_move= 6, h_move= 0
+#                  530 c_move= 4, h_move= 0
+#                  531 c_move= 4, h_move= 7
+#                  550 c_move= 2, h_move= 7
+#                  551 c_move= 2, h_move= 8
+#                  570 c_move= 6, h_move= 8
+#                  571 c_move= 6, h_move= 6
+#                  631 c_move= 6, h_move= 0
+#                  650 c_move= 4, h_move= 0
+#                  651 c_move= 4, h_move= 7
+#                  670 c_move= 2, h_move= 7
+#                  671 c_move= 2, h_move= 6
+#                  690 c_move= 8, h_move= 6
+#                  691 c_move= 8, h_move= 2
+#                  711 c_move= 8, h_move= 4
+#                  731 c_move= 8, h_move= 7
+#                  751 c_move= 8, h_move= 6
+#                  771 c_move= 8, h_move= 8
+#                  791 c_move= 8, h_move= 1
+#                  810 c_move= 0, h_move= 1
+#                  811 c_move= 0, h_move= 0
+#                  830 c_move= 4, h_move= 0
+#                  831 c_move= 4, h_move= 7
+#                  850 c_move= 2, h_move= 7
+#                  851 c_move= 2, h_move= 6
+#                  870 c_move= 8, h_move= 6
+#                  871 c_move= 8, h_move= 3
+#                  872 c_move= 8, h_move= 0
+#                  890 c_move= 4, h_move= 0
+#                  891 c_move= 4, h_move= 7
+#                  910 c_move= 2, h_move= 7
+#                  911 c_move= 2, h_move= 6
+#                  930 c_move= 8, h_move= 6
+#                  931 c_move= 8, h_move= 5
+#                  950 c_move= 0, h_move= 5
+#                  951 c_move= 0, h_move= 0
+#                  970 c_move= 4, h_move= 0
+#                  971 c_move= 4, h_move= 7
+#                  990 c_move= 2, h_move= 7
+#                  991 c_move= 2, h_move= 6
+#                 1010 c_move= 8, h_move= 6
+#                 1011 c_move= 8, h_move= 0
+#                 1030 c_move= 5, h_move= 0
+#                 1031 c_move= 5, h_move= 6
+# Break at fsmtestbench.sv line 128
+# Stopped at fsmtestbench.sv line 128 
+#  coverage report -lines -file coverage.txt 
+# No matches
+#  quit 

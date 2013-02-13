@@ -1,0 +1,5 @@
+_vSEL0 (SEL0 0) vsource wave=[ 0p 0 250p 0 500p 0 750p 0 1000p 0 1250p 0 1500p 0 1750p 0 2000p 0 2250p 1.2 2500p 1.2 2750p 1.2 3000p 1.2 3250p 1.2 3500p 1.2 3750p 1.2 4000p 1.2 5n 1.2 ] type=pwl
+_vGND (GND 0) vsource dc=0 type=dc
+_vVDD (VDD 0) vsource dc=1.2V type=dc
+_vD1 (D1 0) vsource wave=[ 0p 0 250p 0 500p 0 750p 0 1000p 0 1250p 1.2 1500p 1.2 1750p 1.2 2000p 1.2 2250p 0 2500p 0 2750p 0 3000p 0 3250p 1.2 3500p 1.2 3750p 1.2 4000p 1.2 5n 1.2 ] type=pwl
+_vD0 (D0 0) vsource wave=[ 0p 0 250p 0 500p 0 750p 1.2 1000p 1.2 1250p 0 1500p 0 1750p 1.2 2000p 1.2 2250p 0 2500p 0 2750p 1.2 3000p 1.2 3250p 0 3500p 0 3750p 1.2 4000p 1.2 5n 1.2 ] type=pwl

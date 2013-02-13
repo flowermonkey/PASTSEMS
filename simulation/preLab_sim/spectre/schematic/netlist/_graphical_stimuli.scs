@@ -1,0 +1,3 @@
+_vGND (GND 0) vsource dc=0 type=dc
+_vVDD (VDD 0) vsource dc=1.2  type=dc
+_vIN (IN 0) vsource wave=[ 0p 1.2  100p 1.2  200p 0 300p 0 400p 1.2  500p 1.2  600p 0 700p 0 800p 1.2  1n 1.2  ] type=pwl

@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 9.1.03i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx91i\bin\nt\trce.exe -ise
+C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise
+-intstyle ise -e 3 -s 5 -xml top1 top1.ncd -o top1.twr top1.pcf -ucf top1.ucf
+
+Design file:              top1.ncd
+Physical constraint file: top1.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2006-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+h_move[0]   |    0.830(R)|    2.017(R)|n_81              |   0.000|
+h_move[1]   |    1.042(R)|    2.233(R)|n_81              |   0.000|
+h_move[2]   |    0.474(R)|    2.472(R)|n_81              |   0.000|
+h_move[3]   |    0.526(R)|    2.344(R)|n_81              |   0.000|
+rst         |    0.798(R)|    3.173(R)|n_81              |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+----------------------+------------+------------------+--------+
+                      | clk (edge) |                  | Clock  |
+Destination           |   to PAD   |Internal Clock(s) | Phase  |
+----------------------+------------+------------------+--------+
+c_move[0]             |   11.195(R)|n_81              |   0.000|
+c_move[1]             |   12.207(R)|n_81              |   0.000|
+c_move[2]             |   11.314(R)|n_81              |   0.000|
+c_move[3]             |   11.696(R)|n_81              |   0.000|
+displayA              |    8.843(R)|n_81              |   0.000|
+sevenSegmentDisplay[0]|    8.844(R)|n_81              |   0.000|
+sevenSegmentDisplay[1]|    8.844(R)|n_81              |   0.000|
+sevenSegmentDisplay[2]|   10.894(R)|n_81              |   0.000|
+sevenSegmentDisplay[3]|    8.844(R)|n_81              |   0.000|
+sevenSegmentDisplay[4]|   10.871(R)|n_81              |   0.000|
+sevenSegmentDisplay[5]|   10.775(R)|n_81              |   0.000|
+sevenSegmentDisplay[6]|    8.843(R)|n_81              |   0.000|
+sevenSegmentDisplay[7]|   11.014(R)|n_81              |   0.000|
+----------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.379|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Mar 16 16:19:41 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 85 MB
+
+
+

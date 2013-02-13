@@ -1,0 +1,131 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt
+VCgbM>QK63Rfe<UUXzASo80
+04 3 4 work top fast 0
+=1-002564aa4457-4d7eb4b9-2b7-510
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;6.6;45
+Z3 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt1
+VO70RgWF_mbDJ:dOT0mM2P1
+04 4 4 work top1 fast 0
+=1-002564aa4457-4d7eb56d-3ce-cc8
+R1
+n@_opt1
+R2
+R3
+vdff
+Z4 Mx1 6 sv_std 3 std
+Z5 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+IHeWE=W>b^1>j@WzWjDQ_m2
+V;GC@fJC4l9bF1doI@Q2XK3
+Z6 !s105 myFSM0_sv_unit
+S1
+R3
+Z7 w1300147942
+Z8 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+Z9 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+L0 63
+Z10 OE;L;6.6;45
+r1
+31
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 BZ]a2RCRXL[ORh;R0bI3N1
+!s85 0
+vfsmtestbench
+R4
+R5
+IO^cz0GE5oe`CZOP=m9jG@1
+V[H:[j08>gblXSJAdT]S=H3
+S1
+R3
+w1300149423
+8C:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+FC:/Documents and Settings/bflores/Desktop/Lab3a/fsmtestbench.sv
+L0 1
+R10
+r1
+31
+R11
+!s100 TEBf8cL6UPkhTdnR>Ha581
+!s105 fsmtestbench_sv_unit
+!s85 0
+vmyFSM0
+R4
+R5
+I7XVbS3CX2L0dgm;G[9fJ^3
+V9jMikZ7;QlRMAga>b3YXF0
+R6
+S1
+R3
+R7
+R8
+R9
+L0 1
+R10
+r1
+31
+R11
+nmy@f@s@m0
+!s100 SNT5:SP?jzFSJ[[^klaL90
+!s85 0
+vmyFSM1
+R4
+R5
+!s100 o8Te1DZf0dY96RhCWJEDR1
+IQodNKo=RAXhc9PIb59VFK2
+Vo95ICPM8V:_h6_5i2NcEL3
+Z12 !s105 myFSM1_sv_unit
+S1
+R3
+Z13 w1300152656
+Z14 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+Z15 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1.sv
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+nmy@f@s@m1
+vtop
+R4
+R5
+I9<P980<h@]z2oJ`[?IcHG1
+Ve:gFW1CKLAXc^T:7k2HoD1
+R6
+S1
+R3
+R7
+R8
+R9
+L0 74
+R10
+r1
+31
+R11
+!s100 Qzg9k3@[m=5cYX6SWX:663
+!s85 0
+vtop1
+R4
+R5
+!s100 b9560GcBd]2lVRSoaaZG@0
+I>KmB?6@MUke];<5mje;CX3
+Vg0A9_Vm^Ic^b_ic0booBY3
+R12
+S1
+R3
+R13
+R14
+R15
+L0 76
+R10
+r1
+!s85 0
+31
+R11

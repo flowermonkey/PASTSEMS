@@ -1,0 +1,8 @@
+map -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o top1_map.ncd top1(.ngd top1.pcf
+par -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -w -intstyle ise -ol std -t 1 top1_map.ncd top1.ncd top1.pcf
+trce -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -e 3 -s 5 -xml top1 top1.ncd -o top1.twr top1.pcf -ucf top1.ucf
+bitgen -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -f top1.ut top1.ncd
+map -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o top1_map.ncd top1(.ngd top1.pcf
+par -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -w -intstyle ise -ol std -t 1 top1_map.ncd top1.ncd top1.pcf
+trce -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -e 3 -s 5 -xml top1 top1.ncd -o top1.twr top1.pcf -ucf top1.ucf
+bitgen -ise "C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM1work/myFSM1/myFSM1.ise" -intstyle ise -f top1.ut top1.ncd

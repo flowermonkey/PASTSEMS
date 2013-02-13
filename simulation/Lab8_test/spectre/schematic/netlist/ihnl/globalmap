@@ -1,0 +1,14 @@
+CADENCE IHNL01070
+$model
+Lab8/nand2/schematic nand2
+Lab8/inverter/schematic inverter
+Lab8/Lab8_test/schematic Lab8_test
+Lab8/Lab8/schematic Lab8
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+lambda lambda
+beta beta
+$endparam

@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt
+Z1 VCgbM>QK63Rfe<UUXzASo80
+Z2 04 3 4 work top fast 0
+Z3 =1-002564aa4457-4d7eb4b9-2b7-510
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6;45
+Z7 dC:\Documents and Settings\bflores\Desktop\Lab3a
+T_opt1
+Z8 VO70RgWF_mbDJ:dOT0mM2P1
+Z9 04 4 4 work top1 fast 0
+Z10 =1-002564aa4457-4d7eb56d-3ce-cc8
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 V^kLNAz^fnhPJPj]h`S3Si0
+Z13 04 4 4 work test fast 0
+Z14 =1-0022195d11dd-4d811fe2-6047b-61e3
+R4
+Z15 n@_opt2
+Z16 OE;O;6.6b;45
+R7
+vdff
+Z17 Mx1 6 sv_std 3 std
+Z18 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z19 IHeWE=W>b^1>j@WzWjDQ_m2
+Z20 V;GC@fJC4l9bF1doI@Q2XK3
+Z21 !s105 myFSM0_sv_unit
+S1
+R7
+Z22 w1300147942
+Z23 8C:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+Z24 FC:/Documents and Settings/bflores/Desktop/Lab3a/myFSM0.sv
+L0 63
+Z25 OE;L;6.6;45
+r1
+31
+Z26 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z27 !s100 BZ]a2RCRXL[ORh;R0bI3N1
+!s85 0
+vfsmtestbench
+Z28 Mx1 19 __model_tech/sv_std 3 std
+Z29 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z30 Ie4JFk9D?e:C5^7N8OdEFb2
+Z31 V[H:[j08>gblXSJAdT]S=H3
+S1
+Z32 d/afs/ece/usr/bflores/Lab3a
+Z33 w1300307919
+Z34 8fsmtestbench.sv
+Z35 Ffsmtestbench.sv
+L0 1
+Z36 OE;L;6.6b;45
+r1
+31
+Z37 !s102 +cover
+Z38 o-sv +cover -L mtiAvm -L mtiOvm -L mtiUPF -nocovercells
+Z39 !s105 fsmtestbench_sv_unit
+Z40 !s100 bbcA=5]zTAEMcPg8MoHP`0
+!s85 0
+vmyFSM0
+R17
+R18
+Z41 I7XVbS3CX2L0dgm;G[9fJ^3
+Z42 V9jMikZ7;QlRMAga>b3YXF0
+R21
+S1
+R7
+R22
+R23
+R24
+L0 1
+R25
+r1
+31
+R26
+Z43 nmy@f@s@m0
+Z44 !s100 SNT5:SP?jzFSJ[[^klaL90
+!s85 0
+vmyFSM1
+R28
+R29
+Z45 I==?;^M5jnFONb4>JI@b6:2
+Z46 Vo95ICPM8V:_h6_5i2NcEL3
+Z47 !s105 myFSM1_sv_unit
+S1
+R32
+Z48 w1300307289
+Z49 8myFSM1.sv
+Z50 FmyFSM1.sv
+L0 1
+R36
+r1
+31
+R37
+R38
+Z51 nmy@f@s@m1
+Z52 !s100 Am`TZk=l:9iA@WEBF_]Fc3
+!s85 0
+vtest
+R28
+R29
+Z53 I^YJ[I3b4`Z>=bPZ]]U0JR2
+Z54 Vk<3<[f=78GX=_HO53D;7>3
+R47
+S1
+R32
+R48
+R49
+R50
+L0 96
+R36
+r1
+31
+R37
+R38
+Z55 !s100 `g1nY]BGVCOFFD4cl^X=21
+!s85 0
+vtop
+R17
+R18
+Z56 I9<P980<h@]z2oJ`[?IcHG1
+Z57 Ve:gFW1CKLAXc^T:7k2HoD1
+R21
+S1
+R7
+R22
+R23
+R24
+L0 74
+R25
+r1
+31
+R26
+Z58 !s100 Qzg9k3@[m=5cYX6SWX:663
+!s85 0
+vtop1
+R17
+R18
+Z59 IMJLO=?[gBC=]iV>`>a2dN1
+Z60 VTBIf3FRFC?Z368Jg@Y]^F0
+R47
+S1
+R32
+R48
+R49
+R50
+L0 80
+R36
+r1
+31
+R37
+R38
+Z61 !s100 2YXEnb2?RWUh6jXH=V_h;0
+!s85 0

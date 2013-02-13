@@ -1,0 +1,6 @@
+    NM0 (OUT IN GND GND) gpdk090_nmos1v w=(width) l=length as=112f ad=112f \
+        ps=1.36u pd=1.36u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT IN VDD VDD) gpdk090_pmos1v w=(width*beta) l=length as=560f \
+        ad=560f ps=4.56u pd=4.56u m=(1)*(1) simM=(1)*(1)
+ends inverter
+// End of subcircuit definition.

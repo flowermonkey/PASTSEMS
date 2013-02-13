@@ -1,0 +1,330 @@
+Loading realTime.tcl:Loading realTime.tcl: log(realTime.log.07 realTime.cmd.07) prompt utils config sdc cli commands dir
+Loading FPGA commands> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/fpga_tcl/commands.tcl
+
+info:    started RealTime Designer 9.3-p253 (built on: Wed Aug 11 18:33:58 PDT 2010) on Thu Oct 14 21:26:39 2010  [LIC-100]
+info:    running pid 12654/12662 on ece008.ece.cmu.edu (x86_64/Linux-2.6.27.29-0.1-default)  [LIC-101]
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/common_vhdl.tcl
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/core.tcl
+> disable_message LIB-100
+> disable_message LIB-117
+> disable_message LIB-125
+> disable_message NL-120
+> disable_message LIB-114
+> disable_message LIB-106
+> disable_message LIB-200
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/XILINX.lib
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_comp.lib
+> set_parameter areaOptMergePartitions true
+info:    Parameter 'areaOptMergePartitions' set to 'true'  [PARAM-104]
+> set_parameter genomeArea 25000
+info:    Parameter 'genomeArea' set to '25000'  [PARAM-104]
+> set_parameter extractSynchronousSetReset true
+info:    Parameter 'extractSynchronousSetReset' set to 'true'  [PARAM-104]
+> set_parameter extractEnableFromAssign true
+info:    Parameter 'extractEnableFromAssign' set to 'true'  [PARAM-104]
+> set_parameter shareDatapathInElaborate true
+info:    Parameter 'shareDatapathInElaborate' set to 'true'  [PARAM-104]
+> set_parameter datapathMergeMultiplierInCSA false
+info:    Parameter 'datapathMergeMultiplierInCSA' set to 'false'  [PARAM-104]
+> set_parameter replaceUndriven 0
+info:    Parameter 'replaceUndriven' set to '0'  [PARAM-104]
+> set_parameter extractLatchEnablesFirst true
+info:    Parameter 'extractLatchEnablesFirst' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesSeparator /
+info:    Parameter 'dissolveMergeNamesSeparator' set to '/'  [PARAM-104]
+> set_parameter max_loop_limit 8192
+info:    Parameter 'max_loop_limit' set to '8192'  [PARAM-104]
+> set_parameter inferBinaryMux true
+info:    Parameter 'inferBinaryMux' set to 'true'  [PARAM-104]
+> set_parameter inferSignInv true
+info:    Parameter 'inferSignInv' set to 'true'  [PARAM-104]
+> set_parameter inferAddSub true
+info:    Parameter 'inferAddSub' set to 'true'  [PARAM-104]
+> set_parameter inferCounter true
+info:    Parameter 'inferCounter' set to 'true'  [PARAM-104]
+> set_parameter inferRom true
+info:    Parameter 'inferRom' set to 'true'  [PARAM-104]
+> set_parameter pushRamOps true
+info:    Parameter 'pushRamOps' set to 'true'  [PARAM-104]
+> set_parameter prepRams true
+info:    Parameter 'prepRams' set to 'true'  [PARAM-104]
+> set_parameter optimizeMemoryPorts true
+info:    Parameter 'optimizeMemoryPorts' set to 'true'  [PARAM-104]
+> set_parameter dissolveMemory 1
+info:    Parameter 'dissolveMemory' set to '1'  [PARAM-104]
+> set_parameter inferMemoryIfTotalBitsMoreThan 16383
+info:    Parameter 'inferMemoryIfTotalBitsMoreThan' set to '16383'  [PARAM-104]
+> set_parameter adjustMemoryIndex 0
+info:    Parameter 'adjustMemoryIndex' set to '0'  [PARAM-104]
+> set_parameter romLutToGates true
+info:    Parameter 'romLutToGates' set to 'true'  [PARAM-104]
+> set_parameter prepDsps true
+info:    Parameter 'prepDsps' set to 'true'  [PARAM-104]
+> set_parameter recognizeDsps true
+info:    Parameter 'recognizeDsps' set to 'true'  [PARAM-104]
+> set_parameter convertLoopToLatch true
+info:    Parameter 'convertLoopToLatch' set to 'true'  [PARAM-104]
+> set_parameter DspDebugLevel 1
+info:    Parameter 'DspDebugLevel' set to '1'  [PARAM-104]
+> set_parameter DspPreInferRegister false
+info:    Parameter 'DspPreInferRegister' set to 'false'  [PARAM-104]
+> set_parameter DspFlattenBeforeReinfer true
+info:    Parameter 'DspFlattenBeforeReinfer' set to 'true'  [PARAM-104]
+> set_parameter simplifySignExtension true
+info:    Parameter 'simplifySignExtension' set to 'true'  [PARAM-104]
+> set_parameter retimeLogicForRegisterInference true
+info:    Parameter 'retimeLogicForRegisterInference' set to 'true'  [PARAM-104]
+> set_parameter dspResource -1
+info:    Parameter 'dspResource' set to '-1'  [PARAM-104]
+> set_parameter doDSPResourceManagement true
+info:    Parameter 'doDSPResourceManagement' set to 'true'  [PARAM-104]
+> set_parameter avoidAssigns 2
+info:    Parameter 'avoidAssigns' set to '2'  [PARAM-104]
+> set_parameter optimizeSteps GAU
+info:    Parameter 'optimizeSteps' set to 'GAU'  [PARAM-104]
+> set_parameter enableTristateToMux true
+info:    Parameter 'enableTristateToMux' set to 'true'  [PARAM-104]
+> set_parameter finalCleanupUndriven true
+info:    Parameter 'finalCleanupUndriven' set to 'true'  [PARAM-104]
+> set_parameter inferMuxPart true
+info:    Parameter 'inferMuxPart' set to 'true'  [PARAM-104]
+> set_parameter inferRegPart true
+info:    Parameter 'inferRegPart' set to 'true'  [PARAM-104]
+> set_parameter muxMapLevel 3
+info:    Parameter 'muxMapLevel' set to '3'  [PARAM-104]
+> set_parameter recodeMuxes true
+info:    Parameter 'recodeMuxes' set to 'true'  [PARAM-104]
+> set_parameter muxDecompInElaborate false
+info:    Parameter 'muxDecompInElaborate' set to 'false'  [PARAM-104]
+> set_parameter reinferMuxLevel 3
+info:    Parameter 'reinferMuxLevel' set to '3'  [PARAM-104]
+> set_parameter reinferMuxWidthThreshold 8
+info:    Parameter 'reinferMuxWidthThreshold' set to '8'  [PARAM-104]
+> set_parameter convUMinusToAdder true
+info:    Parameter 'convUMinusToAdder' set to 'true'  [PARAM-104]
+> set_parameter transformUminus 3
+info:    Parameter 'transformUminus' set to '3'  [PARAM-104]
+> set_parameter shareDatapathUminus false
+info:    Parameter 'shareDatapathUminus' set to 'false'  [PARAM-104]
+> set_parameter cellOverridesModule true
+info:    Parameter 'cellOverridesModule' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesToDfg true
+info:    Parameter 'dissolveMergeNamesToDfg' set to 'true'  [PARAM-104]
+> set_parameter useAbcMapping true
+info:    Parameter 'useAbcMapping' set to 'true'  [PARAM-104]
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+> set_parameter romLutToGates false
+info:    Parameter 'romLutToGates' set to 'false'  [PARAM-104]
+> set_parameter datapathAddThreshold 14
+info:    Parameter 'datapathAddThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathComparatorThreshold 14
+info:    Parameter 'datapathComparatorThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathEqThreshold 14
+info:    Parameter 'datapathEqThreshold' set to '14'  [PARAM-104]
+> set_parameter allowHillClimb false
+info:    Parameter 'allowHillClimb' set to 'false'  [PARAM-104]
+> set_parameter collapseMuxChain 1
+info:    Parameter 'collapseMuxChain' set to '1'  [PARAM-104]
+> set_parameter forceExtractGenerateGenomes 1000
+info:    Parameter 'forceExtractGenerateGenomes' set to '1000'  [PARAM-104]
+> set_parameter decloneMultiDriverRegisters false
+info:    Parameter 'decloneMultiDriverRegisters' set to 'false'  [PARAM-104]
+> set_parameter lutPairBeforeUniquify true
+info:    Parameter 'lutPairBeforeUniquify' set to 'true'  [PARAM-104]
+> set_parameter vhdlDeferReadUntilElab true
+info:    Parameter 'vhdlDeferReadUntilElab' set to 'true'  [PARAM-104]
+> read_vhdl -lib UNISIM /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_VCOMP.vhd
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_vhdl.tcl
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_VCOMP.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDMACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDSUB_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SINGLE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_TDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_LOAD_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_TC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/EQ_COMPARE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_DUALCLOCK_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_SYNC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MULT_MACRO.vhd
+> read_verilog -sv {
+Battleship.sv
+LEDController.sv
+}
+> synthesize -module top
+starting synthesize at 00:00:00(cpu)/0:00:01(wall) 34MB(vsz)
+warning: cell BUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell LOOPBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell IBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell OBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell OBUFT does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell IOBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell tricell does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell INV does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell MUX1 does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell LUT5 does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+-------> Message [NL-134] suppressed 1107 times
+info:    synthesizing module 'top' ((Battleship.sv:103)[7])  [VLOG-400]
+info:    synthesizing module 'validLocation' ((Battleship.sv:270)[7])  [VLOG-400]
+warning: always_comb on 'valid_reg' did not result in combinational logic ((Battleship.sv:276)[6], (Battleship.sv:279)[6])  [SYN-112]
+warning: infering latch for variable 'valid_reg' ((Battleship.sv:276)[6], (Battleship.sv:279)[6])  [VLOG-566]
+info:    done synthesizing module 'validLocation' (1#10) ((Battleship.sv:270)[7])  [VLOG-401]
+info:    synthesizing module 'BigBombPossible' ((Battleship.sv:298)[7])  [VLOG-400]
+warning: always_comb on 'valid_reg' did not result in combinational logic ((Battleship.sv:305)[6], (Battleship.sv:308)[6])  [SYN-112]
+warning: infering latch for variable 'valid_reg' ((Battleship.sv:305)[6], (Battleship.sv:308)[6])  [VLOG-566]
+info:    done synthesizing module 'BigBombPossible' (2#10) ((Battleship.sv:298)[7])  [VLOG-401]
+info:    synthesizing module 'somethingIsWrong' ((Battleship.sv:328)[7])  [VLOG-400]
+info:    done synthesizing module 'somethingIsWrong' (3#10) ((Battleship.sv:328)[7])  [VLOG-401]
+info:    synthesizing module 'PatrolShip' ((Battleship.sv:355)[7])  [VLOG-400]
+info:    inferred (4 x 6) decoder from 12 constant equalities ((Battleship.sv:366)[11], (Battleship.sv:367)[17], (Battleship.sv:367)[25], (Battleship.sv:387)[26], (Battleship.sv:398)[31], (Battleship.sv:399)[26], (Battleship.sv:403)[24], (Battleship.sv:404)[23], (Battleship.sv:405)[23], (Battleship.sv:406)[23], (Battleship.sv:408)[23], (Battleship.sv:409)[24])  [SYN-106]
+info:    inferred (4 x 9) decoder from 16 constant equalities ((Battleship.sv:367)[8], (Battleship.sv:370)[17], (Battleship.sv:370)[25], (Battleship.sv:373)[17], (Battleship.sv:373)[25], (Battleship.sv:381)[14], (Battleship.sv:381)[22], (Battleship.sv:384)[19], (Battleship.sv:384)[27], (Battleship.sv:387)[17], (Battleship.sv:403)[16], (Battleship.sv:404)[15], (Battleship.sv:405)[15], (Battleship.sv:406)[15], (Battleship.sv:408)[15], (Battleship.sv:409)[15])  [SYN-106]
+info:    done synthesizing module 'PatrolShip' (4#10) ((Battleship.sv:355)[7])  [VLOG-401]
+info:    synthesizing module 'SubShip' ((Battleship.sv:591)[7])  [VLOG-400]
+info:    inferred (4 x 7) decoder from 11 constant equalities ((Battleship.sv:602)[28], (Battleship.sv:603)[25], (Battleship.sv:607)[32], (Battleship.sv:607)[40], (Battleship.sv:610)[32], (Battleship.sv:610)[40], (Battleship.sv:613)[32], (Battleship.sv:622)[26], (Battleship.sv:622)[34], (Battleship.sv:622)[54], (Battleship.sv:622)[62])  [SYN-106]
+info:    inferred (4 x 5) decoder from 5 constant equalities ((Battleship.sv:604)[11], (Battleship.sv:604)[19], (Battleship.sv:622)[17], (Battleship.sv:622)[45], (Battleship.sv:623)[13])  [SYN-106]
+info:    done synthesizing module 'SubShip' (5#10) ((Battleship.sv:591)[7])  [VLOG-401]
+info:    synthesizing module 'blockShip' ((Battleship.sv:455)[7])  [VLOG-400]
+info:    inferred (4 x 5) decoder from 25 constant equalities ((Battleship.sv:466)[29], (Battleship.sv:475)[25], (Battleship.sv:478)[25], (Battleship.sv:481)[25], (Battleship.sv:484)[25], (Battleship.sv:487)[26], (Battleship.sv:490)[25], (Battleship.sv:493)[25], (Battleship.sv:496)[25], (Battleship.sv:499)[25], (Battleship.sv:502)[26], (Battleship.sv:511)[32], (Battleship.sv:514)[25], (Battleship.sv:517)[25], (Battleship.sv:520)[25], (Battleship.sv:523)[25], (Battleship.sv:526)[26], (Battleship.sv:529)[26], (Battleship.sv:540)[22], (Battleship.sv:541)[23], (Battleship.sv:542)[23], (Battleship.sv:543)[23], (Battleship.sv:547)[37], (Battleship.sv:552)[37], (Battleship.sv:557)[37])  [SYN-106]
+info:    inferred (4 x 6) decoder from 22 constant equalities ((Battleship.sv:472)[12], (Battleship.sv:475)[17], (Battleship.sv:478)[17], (Battleship.sv:481)[17], (Battleship.sv:484)[17], (Battleship.sv:487)[17], (Battleship.sv:490)[17], (Battleship.sv:493)[17], (Battleship.sv:496)[17], (Battleship.sv:499)[17], (Battleship.sv:502)[17], (Battleship.sv:508)[13], (Battleship.sv:514)[17], (Battleship.sv:517)[17], (Battleship.sv:520)[17], (Battleship.sv:523)[17], (Battleship.sv:526)[17], (Battleship.sv:529)[17], (Battleship.sv:540)[13], (Battleship.sv:541)[14], (Battleship.sv:542)[14], (Battleship.sv:543)[14])  [SYN-106]
+info:    done synthesizing module 'blockShip' (6#10) ((Battleship.sv:455)[7])  [VLOG-401]
+info:    synthesizing module 'BCDtoLED' ((Battleship.sv:197)[7])  [VLOG-400]
+info:    done synthesizing module 'BCDtoLED' (7#10) ((Battleship.sv:197)[7])  [VLOG-401]
+info:    synthesizing module 'finalOutput' ((Battleship.sv:218)[7])  [VLOG-400]
+info:    done synthesizing module 'finalOutput' (8#10) ((Battleship.sv:218)[7])  [VLOG-401]
+info:    synthesizing module 'LEDController' ((LEDController.sv:65)[7])  [VLOG-400]
+info:    inferred (18 x 1) decoder from 4 constant equalities ((LEDController.sv:98)[16], (LEDController.sv:116)[16], (LEDController.sv:134)[16], (LEDController.sv:152)[16])  [SYN-106]
+info:    done synthesizing module 'LEDController' (9#10) ((LEDController.sv:65)[7])  [VLOG-401]
+info:    done synthesizing module 'top' (10#10) ((Battleship.sv:103)[7])  [VLOG-401]
+finished synthesize at 00:00:01(cpu)/0:00:01(wall) 40MB(vsz)
+> source /afs/ece/class/ece240/lib/sp3.tcl
+> get_parameter elaborateOnly
+after loading device timing info - CPU:00:00:01    WALL:00:02    MEM:166 m 
+> reinfer -multi_insts
+info:    dissolving instance 'pLED' of module 'BCDtoLED' in module 'top'  [NL-146]
+info:    dissolving instance 'sLED' of module 'BCDtoLED' in module 'top'  [NL-146]
+info:    dissolving instance 'bLED' of module 'BCDtoLED' in module 'top'  [NL-146]
+> fpga_flatten -merge_partitions false
+info:    dissolving instance 'vL' of module 'validLocation' in module 'top'  [NL-146]
+info:    dissolving instance 'bbp' of module 'BigBombPossible' in module 'top'  [NL-146]
+info:    dissolving instance 'sW' of module 'somethingIsWrong' in module 'top'  [NL-146]
+info:    dissolving instance 'pS' of module 'PatrolShip' in module 'top'  [NL-146]
+info:    dissolving instance 'sS' of module 'SubShip' in module 'top'  [NL-146]
+info:    dissolving instance 'bS' of module 'blockShip' in module 'top'  [NL-146]
+info:    dissolving instance 'finalo' of module 'finalOutput' in module 'top'  [NL-146]
+info:    dissolving instance 'lc' of module 'LEDController' in module 'top'  [NL-146]
+> reinfer 
+> set_parameter maxDissolveSize 5000
+info:    Parameter 'maxDissolveSize' set to '5000'  [PARAM-104]
+> fpga_flatten -merge_partitions false
+> undo_simple_enable 
+> constprop 
+> set_parameter enableLutMapping false
+info:    Parameter 'enableLutMapping' set to 'false'  [PARAM-104]
+> set_parameter disableAbc false
+info:    Parameter 'disableAbc' set to 'false'  [PARAM-104]
+> optimize -area
+starting optimize at 00:00:01(cpu)/0:00:02(wall) 40MB(vsz)
+finished optimize at 00:00:01(cpu)/0:00:02(wall) 41MB(vsz)
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+after optimize area - CPU:00:00:01    WALL:00:02    MEM:167 m 
+> get_parameter SDCFile
+> set_parameter abcOptScript {resyn2;fpga -K 0; sweep;}
+info:    Parameter 'abcOptScript' set to 'resyn2;fpga -K %d; sweep;'  [PARAM-104]
+> set_parameter mapFlowOption 17
+info:    Parameter 'mapFlowOption' set to '17'  [PARAM-104]
+after optimize timing 1 - CPU:00:00:01    WALL:00:02    MEM:167 m 
+> set_parameter enableLutMapping true
+info:    Parameter 'enableLutMapping' set to 'true'  [PARAM-104]
+> set_parameter flattenRemoveDfg true
+info:    Parameter 'flattenRemoveDfg' set to 'true'  [PARAM-104]
+> fpga_flatten 
+> set_parameter useAbcMapping true
+info:    Parameter 'useAbcMapping' set to 'true'  [PARAM-104]
+> set_parameter disableAbc false
+info:    Parameter 'disableAbc' set to 'false'  [PARAM-104]
+> set_parameter lutSize 4
+info:    Parameter 'lutSize' set to '4'  [PARAM-104]
+> lut_map 
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+> cleanup_netlist post_map
+after techmap - CPU:00:00:01    WALL:00:02    MEM:167 m 
+> report_rtl_partitions 
+Report RTL Partitions: 
+-----+-------------+-----------+---------
+     |RTL Partition|Replication|Instances
+-----+-------------+-----------+---------
+-----+-------------+-----------+---------
+> report_blackboxes 
+Report BlackBox: 
+-----+-------------+---------
+     |BlackBox name|Instances
+-----+-------------+---------
+-----+-------------+---------
+> report_cells 
+Report Cell: 
+-----+-------+-----+-----
+     |Cell   |Type |Count
+-----+-------+-----+-----
+1    |LUT2   |comb |   28
+2    |LUT3   |comb |   33
+3    |LUT4   |comb |  118
+4    |MUXCY_L|comb |   16
+5    |XORCY  |comb |   17
+6    |FDR    |ff   |   32
+7    |LDCP   |latch|    2
+-----+-------+-----+-----
+> report_area 
+Report Instance Area: 
+-----+--------+-----
+     |Instance|Cells
+-----+--------+-----
+-----+--------+-----
+> report_design_metrics 
+Report Design Metrics: 
+-----------------------+---
+                       |   
+-----------------------+---
+Design Name            |top
+  Total Instances      |246
+    Macros             |  0
+    Pads               |  0
+    Phys Only          |  0
+    Blackboxes         |  0
+    Cells              |246
+      Buffers/Inverters|  0
+      Combinational    |212
+      Latches          |  2
+      Registers        | 32
+        Load-Enabled   |  0
+        Clock-Gated    |  0
+  Tristate Pin Count   |  0
+  Bidir Pin Count      |  0
+  Unconnected Drivers  |  0
+  Undriven Nets        |  0
+  Multidriven Nets     |  0
+-----------------------+---
+> report_clocks 
+warning: design 'top' has no timing constraints  [TA-118]
+Report Clock: 
+-----+-----+--+---+------+-----------+----------+-------+------
+     |Clock|WS|TNS|Period|Uncertainty|Transition|Latency|Master
+-----+-----+--+---+------+-----------+----------+-------+------
+-----+-----+--+---+------+-----------+----------+-------+------
+> report_timing -net -max_paths 1
+after report  - CPU:00:00:01    WALL:00:02    MEM:167 m 
+> set_parameter maxDissolveSize 1000000
+info:    Parameter 'maxDissolveSize' set to '1000000'  [PARAM-104]
+Top module _a0b0faee_p_NRealModS
+Gen Dissolve 
+> fpga_flatten 
+> insert_io 
+> write_edif top.edf
+after netlist  - CPU:00:00:01    WALL:00:02    MEM:168 m 
+> set_parameter inferMuxPart false
+info:    Parameter 'inferMuxPart' set to 'false'  [PARAM-104]
+> set_parameter recognizeDsps false
+info:    Parameter 'recognizeDsps' set to 'false'  [PARAM-104]

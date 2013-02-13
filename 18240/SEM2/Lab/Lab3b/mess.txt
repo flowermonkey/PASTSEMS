@@ -1,0 +1,9 @@
+Reading /afs/ece.cmu.edu/support/mgc/mgc.release/modelsim-se_6.6b/modeltech/tcl/vsim/pref.tcl 
+
+# 6.6b
+
+# vsim -do {run -all; quit} -c top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: top.sv(14): (vopt-2247) The implicit port connection (.*) did not find a matching port, net, variable or interface instance for port 'reset'.
+# Optimization failed
+# Error loading design

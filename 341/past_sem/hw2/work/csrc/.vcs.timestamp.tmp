@@ -1,0 +1,119 @@
+0 
+28
+/usr/local/synopsys/vcs-mx-2009.12/suse32/bin/vcs1
+-Mcc=gcc
+-Mcplusplus=g++
+-Masflags=--32
+-Mcfl= -pipe -m32 -O -I/usr/local/synopsys/vcs-mx-2009.12/include 
+-Mldflags=-melf_i386 -m32 
+-Mout=simv
+-Mamsrun=
+-Mvcsaceobjs=
+-Mcmodrun=
+-Mobjects= /usr/local/synopsys/vcs-mx-2009.12/suse32/lib/libvirsim.a /usr/local/synopsys/vcs-mx-2009.12/suse32/lib/librterrorinf.so /usr/local/synopsys/vcs-mx-2009.12/suse32/lib/libsnpsmalloc.so 
+-Msaverestoreobj=/usr/local/synopsys/vcs-mx-2009.12/suse32/lib/vcs_save_restore_new.o
+-Mcrtn=
+-Mcsrc=
+-Msyslibs=/usr/local/synopsys/vcs-mx-2009.12/suse32/lib/ctype-stubs_32.a -ldl -lm 
+-Xcbug=0x1
+-debug_all
++cli+4
++vcsd
++itf+/usr/local/synopsys/vcs-mx-2009.12/suse32/lib/vcsd.tab
++vpi
+-line
+-debug=4
++memcbk
+-sverilog
++vpi
+-gen_obj
+../handshake.sv
+76
+mc=() {  mkdir -p $HOME/.mc/tmp 2> /dev/null;
+ chmod 700 $HOME/.mc/tmp;
+ MC=$HOME/.mc/tmp/mc-$$;
+ /usr/bin/mc -P "$@" > "$MC";
+ cd "`cat $MC`";
+ rm -f "$MC";
+ unset MC
+}
+XNLSPATH=/usr/share/X11/nls
+XKEYSYMDB=/usr/share/X11/XKeysymDB
+XILINX_PLANAHEAD=/afs/ece.cmu.edu/support/xilinx/xilinx.release/12.2/PlanAhead
+XILINX_EDK=/afs/ece.cmu.edu/support/xilinx/xilinx.release/12.2/EDK
+XILINX_DSP=/afs/ece.cmu.edu/support/xilinx/xilinx.release/12.2/ISE
+XILINXD_LICENSE_FILE=/afs/ece/support/xilinx/license.dat
+XILINX=/afs/ece.cmu.edu/support/xilinx/xilinx.release/12.2/ISE
+XDG_DATA_DIRS=/usr/share:/etc/opt/kde3/share:/opt/kde3/share
+XDG_CONFIG_DIRS=/etc/xdg
+XAUTHORITY=/tmp/ssh-XyldBy1779/cookies
+WINDOWMANAGER=/usr/bin/kde
+VMR_MODE_FLAG=32
+VIRSIMHOME=/usr/local/synopsys/vcs-mx-2009.12/gui/virsim
+VCS_QUICK_ANALYZE=0
+VCS_MX_HOME_INTERNAL=1
+VCS_LIC_EXPIRE_WARNING=0
+VCS_HOME=/usr/local/synopsys/vcs-mx-2009.12
+VCS_EM64T_PURE32=1
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=suse32
+VCS_ARCH=suse32
+UNAME=/bin/uname
+TOOL_HOME=/usr/local/synopsys/vcs-mx-2009.12/suse32
+SYN_DIR=/usr/local/synopsys/synopsys-2007.03-SP5
+SYNTH_COMMON=/afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data
+SYNOPSYS=/usr/local/synopsys
+SSH_TTY=/dev/pts/16
+SSH_CONNECTION=128.237.242.116 38086 128.2.131.17 22
+SSH_CLIENT=128.237.242.116 38086 22
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_SYSTEM_DIR=/usr/share/desktop-data
+QTDIR=/usr/lib/qt3
+PYTHONSTARTUP=/etc/pythonstart
+PROFILEREAD=true
+OVA_UUM=0
+OSTYPE=linux
+ORGANIZATION=Carnegie Mellon Univ., Electrical & Comp. Engineering
+NNTPSERVER=news.ece.cmu.edu
+MORE=/bin/more
+MINICOM=-c on
+MGC_HOME=/afs/ece/support/mgc/share/image/usr/local/mgc
+LS_OPTIONS=-N --color=tty -T 0
+LMC_HOME=/afs/ece.cmu.edu/support/xilinx/xilinx.release/12.2/ISE/smartmodel/lin64/installed_lin64
+LESS_ADVANCED_PREPROCESSOR=no
+LESSOPEN=lessopen.sh %s
+LESSKEY=/etc/lesskey.bin
+LESSCLOSE=lessclose.sh %s %s
+LESS=-M -I
+KRB5CCNAME=FILE:/tmp/krb5cc_iM1777
+JRE_HOME=/usr/lib64/jvm/jre
+JAVA_ROOT=/usr/lib64/jvm/jre
+JAVA_HOME=/usr/lib64/jvm/jre
+JAVA_BINDIR=/usr/lib64/jvm/jre/bin
+INPUTRC=/etc/inputrc
+INFODIR=/usr/local/info:/usr/share/info:/usr/info
+HOSTTYPE=x86_64
+HOSTNAME=ece007.ece.cmu.edu
+HOST=ece007.ece.cmu.edu
+G_FILENAME_ENCODING=@locale,UTF-8,ISO-8859-15,CP1252
+G_BROKEN_FILENAMES=1
+GTK_PATH=/usr/local/lib/gtk-2.0:/usr/lib/gtk-2.0
+GTK_PATH64=/usr/local/lib64/gtk-2.0:/usr/lib64/gtk-2.0
+GROFF_NO_SGR=yes
+GNOME_PATH=:/usr
+GNOMEDIR=/usr
+FROM_HEADER=ece.cmu.edu
+ENV=/etc/bash.bashrc
+DC_HOME=/usr/local/synopsys/synopsys-2007.03-SP5/linux/syn
+CVS_RSH=ssh
+CSHEDIT=emacs
+CPU=x86_64
+COLORTERM=1
+CDS_HOME=/afs/ece/support/cds/4.4.5/share/image
+BUILD=/afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis
+0
+3
+1329837169 ../handshake.sv
+1329837169 ../handshake.sv
+1258174735 /usr/local/synopsys/vcs-mx-2009.12/suse32/lib/vcsd.tab

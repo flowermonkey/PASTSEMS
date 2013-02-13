@@ -1,0 +1,2 @@
+ngdbuild -ise "C:/Documents and Settings/bge/Desktop/Lab2/work/Lab2Hardware/Lab2Hardware.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-5 "top.edf" top(.ngd
+ngdbuild -ise "C:/Documents and Settings/bge/Desktop/Lab2/work/Lab2Hardware/Lab2Hardware.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc3s200-pq208-5 "top.edf" top(.ngd

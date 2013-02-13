@@ -1,0 +1,6 @@
+    NM0 (OUT IN VSS VSS) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT IN VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+ends inverter
+// End of subcircuit definition.

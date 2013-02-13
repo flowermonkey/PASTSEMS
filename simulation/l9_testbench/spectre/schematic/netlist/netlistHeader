@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Dec  7 12:40:05 2012
+// Design library name: lab9
+// Design cell name: l9_testbench
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,11 @@
+# File Created by Brian D Flores at Mon Nov 26 15:27:28 2012
+# assisted by CdsLibEditor
+INCLUDE /afs/ece/class/ece320/F10/gpdk090_v4.5/user_setup/cds.lib
+DEFINE Lab8 Lab8
+DEFINE avTech /usr/cds/assura-4.1/tools/assura/etc/avtech/avTech
+DEFINE nand2 Lab8_2/nand2
+DEFINE lab6 lab6
+DEFINE Lab8_6 /afs/ece.cmu.edu/usr/bflores/ece320/Lab8_6
+DEFINE lab8B /afs/ece.cmu.edu/usr/bflores/ece320/lab8B
+DEFINE Lab8_Original Lab8_Original
+DEFINE lab9 lab9

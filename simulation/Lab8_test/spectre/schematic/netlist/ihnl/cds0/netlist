@@ -1,0 +1,10 @@
+    NM1 (net5 A VSS VSS) gpdk090_nmos1v w=(120n) l=100n as=69.6f ad=17.4f \
+        ps=1.16u pd=290.00n m=(1)*(1) simM=(1)*(1)
+    NM0 (OUT B net5 VSS) gpdk090_nmos1v w=(120n) l=100n as=17.4f ad=69.6f \
+        ps=290.00n pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM1 (OUT A VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+    PM0 (OUT B VDD VDD) gpdk090_pmos1v w=(120n) l=100n as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1) simM=(1)*(1)
+ends nand2
+// End of subcircuit definition.

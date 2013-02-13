@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 15 02:41:53 2012
+// Design library name: lab8B
+// Design cell name: MUX2_testbench
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,5 @@
+
+// Library name: lab9
+// Cell name: preLab_sim
+// View name: schematic
+I0 (GND IN OUT VDD) inverter width=8*lambda length=2*lambda

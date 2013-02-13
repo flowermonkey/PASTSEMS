@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "MUX2_testbench"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  hierDelim "."
+  netlistDir "/afs/ece.cmu.edu/usr/bflores/simulation/MUX2_testbench/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "lab6/inv1/schematic" "inv1" )
+( "lab8B/MUX2/schematic" "MUX2" )
+( "lab8B/MUX2_testbench/schematic" "MUX2_testbench" )
+ )
+( term
+ )
+( param
+ )
+( "inv1" "ihnl/cds0/map" )
+( "MUX2_testbench" "ihnl/cds2/map" )
+( "MUX2" "ihnl/cds1/map" )
+ )

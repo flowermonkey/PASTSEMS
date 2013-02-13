@@ -1,0 +1,35 @@
+# vsim -do {run -All} -c p18240_top 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 6.6b May 21 2010 Linux 2.6.27.29-0.1-default
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.p18240_sv_unit(fast)
+# Loading work.p18240_top(fast)
+# Loading work.controlpath_sv_unit(fast)
+# Loading work.controlpath(fast)
+# Loading work.datapath_sv_unit(fast)
+# Loading work.datapath(fast)
+# Loading work.reg_file(fast)
+# Loading work.library_sv_unit(fast)
+# Loading work.register(fast)
+# Loading work.demux(fast)
+# Loading work.tridrive(fast)
+# Loading work.mux4to1(fast)
+# Loading work.alu_sv_unit(fast)
+# Loading work.alu(fast)
+# Loading work.demux(fast__1)
+# Loading work.register(fast__1)
+# Loading work.memory_16bit(fast)
+# Loading work.board_sv_unit(fast)
+# Loading work.barDisplay(fast)
+# Loading work.sevenSegDisplay(fast)
+# Loading work.LEDController(fast)
+# run -All 

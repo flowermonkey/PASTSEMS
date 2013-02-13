@@ -1,0 +1,383 @@
+Loading realTime.tcl:Loading realTime.tcl: log(realTime.log.07 realTime.cmd.07) prompt utils config sdc cli commands dir
+Loading FPGA commands> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/fpga_tcl/commands.tcl
+
+info:    started RealTime Designer 9.3-p253 (built on: Wed Aug 11 18:33:58 PDT 2010) on Mon Apr 25 19:02:24 2011  [LIC-100]
+info:    running pid 10257/10265 on ece002.ece.cmu.edu (x86_64/Linux-2.6.27.29-0.1-default)  [LIC-101]
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/common_vhdl.tcl
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/core.tcl
+> disable_message LIB-100
+> disable_message LIB-117
+> disable_message LIB-125
+> disable_message NL-120
+> disable_message LIB-114
+> disable_message LIB-106
+> disable_message LIB-200
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/XILINX.lib
+> read_library /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_comp.lib
+> set_parameter areaOptMergePartitions true
+info:    Parameter 'areaOptMergePartitions' set to 'true'  [PARAM-104]
+> set_parameter genomeArea 25000
+info:    Parameter 'genomeArea' set to '25000'  [PARAM-104]
+> set_parameter extractSynchronousSetReset true
+info:    Parameter 'extractSynchronousSetReset' set to 'true'  [PARAM-104]
+> set_parameter extractEnableFromAssign true
+info:    Parameter 'extractEnableFromAssign' set to 'true'  [PARAM-104]
+> set_parameter shareDatapathInElaborate true
+info:    Parameter 'shareDatapathInElaborate' set to 'true'  [PARAM-104]
+> set_parameter datapathMergeMultiplierInCSA false
+info:    Parameter 'datapathMergeMultiplierInCSA' set to 'false'  [PARAM-104]
+> set_parameter replaceUndriven 0
+info:    Parameter 'replaceUndriven' set to '0'  [PARAM-104]
+> set_parameter extractLatchEnablesFirst true
+info:    Parameter 'extractLatchEnablesFirst' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesSeparator /
+info:    Parameter 'dissolveMergeNamesSeparator' set to '/'  [PARAM-104]
+> set_parameter max_loop_limit 8192
+info:    Parameter 'max_loop_limit' set to '8192'  [PARAM-104]
+> set_parameter inferBinaryMux true
+info:    Parameter 'inferBinaryMux' set to 'true'  [PARAM-104]
+> set_parameter inferSignInv true
+info:    Parameter 'inferSignInv' set to 'true'  [PARAM-104]
+> set_parameter inferAddSub true
+info:    Parameter 'inferAddSub' set to 'true'  [PARAM-104]
+> set_parameter inferCounter true
+info:    Parameter 'inferCounter' set to 'true'  [PARAM-104]
+> set_parameter inferRom true
+info:    Parameter 'inferRom' set to 'true'  [PARAM-104]
+> set_parameter pushRamOps true
+info:    Parameter 'pushRamOps' set to 'true'  [PARAM-104]
+> set_parameter prepRams true
+info:    Parameter 'prepRams' set to 'true'  [PARAM-104]
+> set_parameter optimizeMemoryPorts true
+info:    Parameter 'optimizeMemoryPorts' set to 'true'  [PARAM-104]
+> set_parameter dissolveMemory 1
+info:    Parameter 'dissolveMemory' set to '1'  [PARAM-104]
+> set_parameter inferMemoryIfTotalBitsMoreThan 16383
+info:    Parameter 'inferMemoryIfTotalBitsMoreThan' set to '16383'  [PARAM-104]
+> set_parameter adjustMemoryIndex 0
+info:    Parameter 'adjustMemoryIndex' set to '0'  [PARAM-104]
+> set_parameter romLutToGates true
+info:    Parameter 'romLutToGates' set to 'true'  [PARAM-104]
+> set_parameter prepDsps true
+info:    Parameter 'prepDsps' set to 'true'  [PARAM-104]
+> set_parameter recognizeDsps true
+info:    Parameter 'recognizeDsps' set to 'true'  [PARAM-104]
+> set_parameter convertLoopToLatch true
+info:    Parameter 'convertLoopToLatch' set to 'true'  [PARAM-104]
+> set_parameter DspDebugLevel 1
+info:    Parameter 'DspDebugLevel' set to '1'  [PARAM-104]
+> set_parameter DspPreInferRegister false
+info:    Parameter 'DspPreInferRegister' set to 'false'  [PARAM-104]
+> set_parameter DspFlattenBeforeReinfer true
+info:    Parameter 'DspFlattenBeforeReinfer' set to 'true'  [PARAM-104]
+> set_parameter simplifySignExtension true
+info:    Parameter 'simplifySignExtension' set to 'true'  [PARAM-104]
+> set_parameter retimeLogicForRegisterInference true
+info:    Parameter 'retimeLogicForRegisterInference' set to 'true'  [PARAM-104]
+> set_parameter dspResource -1
+info:    Parameter 'dspResource' set to '-1'  [PARAM-104]
+> set_parameter doDSPResourceManagement true
+info:    Parameter 'doDSPResourceManagement' set to 'true'  [PARAM-104]
+> set_parameter avoidAssigns 2
+info:    Parameter 'avoidAssigns' set to '2'  [PARAM-104]
+> set_parameter optimizeSteps GAU
+info:    Parameter 'optimizeSteps' set to 'GAU'  [PARAM-104]
+> set_parameter enableTristateToMux true
+info:    Parameter 'enableTristateToMux' set to 'true'  [PARAM-104]
+> set_parameter finalCleanupUndriven true
+info:    Parameter 'finalCleanupUndriven' set to 'true'  [PARAM-104]
+> set_parameter inferMuxPart true
+info:    Parameter 'inferMuxPart' set to 'true'  [PARAM-104]
+> set_parameter inferRegPart true
+info:    Parameter 'inferRegPart' set to 'true'  [PARAM-104]
+> set_parameter muxMapLevel 3
+info:    Parameter 'muxMapLevel' set to '3'  [PARAM-104]
+> set_parameter recodeMuxes true
+info:    Parameter 'recodeMuxes' set to 'true'  [PARAM-104]
+> set_parameter muxDecompInElaborate false
+info:    Parameter 'muxDecompInElaborate' set to 'false'  [PARAM-104]
+> set_parameter reinferMuxLevel 3
+info:    Parameter 'reinferMuxLevel' set to '3'  [PARAM-104]
+> set_parameter reinferMuxWidthThreshold 8
+info:    Parameter 'reinferMuxWidthThreshold' set to '8'  [PARAM-104]
+> set_parameter convUMinusToAdder true
+info:    Parameter 'convUMinusToAdder' set to 'true'  [PARAM-104]
+> set_parameter transformUminus 3
+info:    Parameter 'transformUminus' set to '3'  [PARAM-104]
+> set_parameter shareDatapathUminus false
+info:    Parameter 'shareDatapathUminus' set to 'false'  [PARAM-104]
+> set_parameter cellOverridesModule true
+info:    Parameter 'cellOverridesModule' set to 'true'  [PARAM-104]
+> set_parameter dissolveMergeNamesToDfg true
+info:    Parameter 'dissolveMergeNamesToDfg' set to 'true'  [PARAM-104]
+> set_parameter useAbcMapping true
+info:    Parameter 'useAbcMapping' set to 'true'  [PARAM-104]
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+> set_parameter romLutToGates false
+info:    Parameter 'romLutToGates' set to 'false'  [PARAM-104]
+> set_parameter datapathAddThreshold 14
+info:    Parameter 'datapathAddThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathComparatorThreshold 14
+info:    Parameter 'datapathComparatorThreshold' set to '14'  [PARAM-104]
+> set_parameter datapathEqThreshold 14
+info:    Parameter 'datapathEqThreshold' set to '14'  [PARAM-104]
+> set_parameter allowHillClimb false
+info:    Parameter 'allowHillClimb' set to 'false'  [PARAM-104]
+> set_parameter collapseMuxChain 1
+info:    Parameter 'collapseMuxChain' set to '1'  [PARAM-104]
+> set_parameter forceExtractGenerateGenomes 1000
+info:    Parameter 'forceExtractGenerateGenomes' set to '1000'  [PARAM-104]
+> set_parameter decloneMultiDriverRegisters false
+info:    Parameter 'decloneMultiDriverRegisters' set to 'false'  [PARAM-104]
+> set_parameter lutPairBeforeUniquify true
+info:    Parameter 'lutPairBeforeUniquify' set to 'true'  [PARAM-104]
+> set_parameter vhdlDeferReadUntilElab true
+info:    Parameter 'vhdlDeferReadUntilElab' set to 'true'  [PARAM-104]
+> read_vhdl -lib UNISIM /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unisim_VCOMP.vhd
+> source /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_vhdl.tcl
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/unimacro_VCOMP.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDMACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/ADDSUB_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_SINGLE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/BRAM_TDP_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_LOAD_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/COUNTER_TC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/EQ_COMPARE_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_DUALCLOCK_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/FIFO_SYNC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MACC_MACRO.vhd
+> read_vhdl -lib UNIMACRO /afs/ece/support/xilinx/xilinx.release/synth/prep/rdi/synthesis/data/unimacro/MULT_MACRO.vhd
+> read_verilog -sv {
+alu.sv
+board.sv
+constants.sv
+controlpath.sv
+datapath.sv
+LEDController.sv
+library.sv
+p18240.sv
+regfile.sv
+}
+> set_parameter inferMuxPart false
+info:    Parameter 'inferMuxPart' set to 'false'  [PARAM-104]
+> set_parameter recognizeDsps false
+info:    Parameter 'recognizeDsps' set to 'false'  [PARAM-104]
+> synthesize -module p18240_top
+starting synthesize at 00:00:01(cpu)/0:00:02(wall) 34MB(vsz)
+warning: cell BUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell LOOPBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell IBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell OBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell OBUFT does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell IOBUF does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell tricell does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell INV does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell MUX1 does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+warning: cell LUT5 does not have physical information - using area from Liberty and assuming Liberty area unit of 1 sq um  [NL-134]
+-------> Message [NL-134] suppressed 1107 times
+info:    synthesizing module 'p18240_top' ((p18240.sv:40)[7])  [VLOG-400]
+info:    synthesizing module 'controlpath' ((controlpath.sv:36)[7])  [VLOG-400]
+info:    done synthesizing module 'controlpath' (1#14) ((controlpath.sv:36)[7])  [VLOG-401]
+info:    synthesizing module 'datapath' ((datapath.sv:23)[7])  [VLOG-400]
+info:    synthesizing module 'reg_file' ((regfile.sv:29)[7])  [VLOG-400]
+info:    synthesizing module 'register__key0' ((library.sv:131)[7])  [VLOG-400]
+Parameter WIDTH bound to: 16 - type: integer 
+info:    done synthesizing module 'register__key0' (2#14) ((library.sv:131)[7])  [VLOG-401]
+info:    synthesizing module 'demux__key0' ((library.sv:113)[7])  [VLOG-400]
+Parameter OUT_WIDTH bound to: 8 - type: integer 
+Parameter IN_WIDTH bound to: 3 - type: integer 
+Parameter DEFAULT bound to: 1 - type: integer 
+info:    done synthesizing module 'demux__key0' (3#14) ((library.sv:113)[7])  [VLOG-401]
+info:    default block is never used ((regfile.sv:65)[6])  [VLOG-505]
+info:    default block is never used ((regfile.sv:76)[6])  [VLOG-505]
+info:    default block is never used ((regfile.sv:87)[6])  [VLOG-505]
+info:    done synthesizing module 'reg_file' (4#14) ((regfile.sv:29)[7])  [VLOG-401]
+info:    synthesizing module 'tridrive__key0' ((library.sv:72)[7])  [VLOG-400]
+Parameter WIDTH bound to: 16 - type: integer 
+info:    done synthesizing module 'tridrive__key0' (5#14) ((library.sv:72)[7])  [VLOG-401]
+info:    synthesizing module 'mux4to1__key0' ((library.sv:86)[7])  [VLOG-400]
+Parameter WIDTH bound to: 16 - type: integer 
+info:    done synthesizing module 'mux4to1__key0' (6#14) ((library.sv:86)[7])  [VLOG-401]
+info:    synthesizing module 'alu' ((alu.sv:31)[7])  [VLOG-400]
+info:    done synthesizing module 'alu' (7#14) ((alu.sv:31)[7])  [VLOG-401]
+info:    synthesizing module 'demux__key1' ((library.sv:113)[7])  [VLOG-400]
+Parameter OUT_WIDTH bound to: 6 - type: integer 
+Parameter IN_WIDTH bound to: 3 - type: integer 
+Parameter DEFAULT bound to: 1 - type: integer 
+info:    done synthesizing module 'demux__key1' (7#14) ((library.sv:113)[7])  [VLOG-401]
+info:    synthesizing module 'register__key1' ((library.sv:131)[7])  [VLOG-400]
+Parameter WIDTH bound to: 4 - type: integer 
+info:    done synthesizing module 'register__key1' (7#14) ((library.sv:131)[7])  [VLOG-401]
+info:    synthesizing module 'memory_16bit' ((library.sv:35)[7])  [VLOG-400]
+info:    inferring memory (255x16 bits) for variable 'mem' ((library.sv:43)[16])  [VLOG-420]
+info:    extracting RAM hierarchy for 'mem_reg'  [SYN-105]
+info:    done synthesizing module 'memory_16bit' (8#14) ((library.sv:35)[7])  [VLOG-401]
+info:    done synthesizing module 'datapath' (9#14) ((datapath.sv:23)[7])  [VLOG-401]
+info:    synthesizing module 'barDisplay' ((board.sv:28)[7])  [VLOG-400]
+info:    default block is never used ((board.sv:52)[5])  [VLOG-505]
+info:    done synthesizing module 'barDisplay' (10#14) ((board.sv:28)[7])  [VLOG-401]
+info:    synthesizing module 'sevenSegDisplay' ((board.sv:70)[7])  [VLOG-400]
+info:    synthesizing module 'HEXtoSevenSeg' ((board.sv:115)[7])  [VLOG-400]
+info:    default block is never used ((board.sv:120)[5])  [VLOG-505]
+info:    done synthesizing module 'HEXtoSevenSeg' (11#14) ((board.sv:115)[7])  [VLOG-401]
+info:    default block is never used ((board.sv:95)[9])  [VLOG-505]
+info:    done synthesizing module 'sevenSegDisplay' (12#14) ((board.sv:70)[7])  [VLOG-401]
+info:    synthesizing module 'LEDController' ((LEDController.sv:45)[7])  [VLOG-400]
+info:    inferred (18 x 1) decoder from 4 constant equalities ((LEDController.sv:77)[24], (LEDController.sv:95)[24], (LEDController.sv:113)[24], (LEDController.sv:131)[24])  [SYN-106]
+info:    done synthesizing module 'LEDController' (13#14) ((LEDController.sv:45)[7])  [VLOG-401]
+info:    done synthesizing module 'p18240_top' (14#14) ((p18240.sv:40)[7])  [VLOG-401]
+finished synthesize at 00:00:02(cpu)/0:00:03(wall) 41MB(vsz)
+> source /afs/ece/class/ece240/lib/sp3.tcl
+> get_parameter elaborateOnly
+after loading device timing info - CPU:00:00:02    WALL:00:03    MEM:167 m 
+> reinfer -multi_insts
+info:    dissolving instance 'dp/rfile/reg0' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg1' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg2' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg3' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg4' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg5' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg6' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile/reg7' of module 'register__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/a' of module 'tridrive__key0' in module 'datapath'  [NL-146]
+info:    dissolving instance 'dp/b' of module 'tridrive__key0' in module 'datapath'  [NL-146]
+-------> Message [NL-146] suppressed 11 times
+> fpga_flatten -merge_partitions false
+info:    dissolving instance 'dp/condCodeReg' of module 'register__key1' in module 'datapath'  [NL-146]
+info:    dissolving instance 'dp/dataMem' of module 'memory_16bit' in module 'datapath'  [NL-146]
+> reinfer 
+> set_parameter maxDissolveSize 5000
+info:    Parameter 'maxDissolveSize' set to '5000'  [PARAM-104]
+> fpga_flatten -merge_partitions false
+info:    dissolving instance 'dp/rfile/reg_en_decoder' of module 'demux__key0' in module 'reg_file'  [NL-146]
+info:    dissolving instance 'dp/rfile' of module 'reg_file' in module 'datapath'  [NL-146]
+info:    dissolving instance 'dp/alu_dp' of module 'alu' in module 'datapath'  [NL-146]
+info:    dissolving instance 'dp/reg_load_decoder' of module 'demux__key1' in module 'datapath'  [NL-146]
+> undo_simple_enable 
+> constprop 
+> set_parameter enableLutMapping false
+info:    Parameter 'enableLutMapping' set to 'false'  [PARAM-104]
+> set_parameter disableAbc false
+info:    Parameter 'disableAbc' set to 'false'  [PARAM-104]
+> optimize -area
+starting optimize at 00:00:02(cpu)/0:00:04(wall) 42MB(vsz)
+finished optimize at 00:00:03(cpu)/0:00:04(wall) 44MB(vsz)
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+after optimize area - CPU:00:00:03    WALL:00:04    MEM:170 m 
+> get_parameter SDCFile
+> set_parameter abcOptScript {resyn2;fpga -K 0; sweep;}
+info:    Parameter 'abcOptScript' set to 'resyn2;fpga -K %d; sweep;'  [PARAM-104]
+> set_parameter mapFlowOption 17
+info:    Parameter 'mapFlowOption' set to '17'  [PARAM-104]
+after optimize timing 1 - CPU:00:00:03    WALL:00:05    MEM:170 m 
+> set_parameter enableLutMapping true
+info:    Parameter 'enableLutMapping' set to 'true'  [PARAM-104]
+> set_parameter flattenRemoveDfg true
+info:    Parameter 'flattenRemoveDfg' set to 'true'  [PARAM-104]
+> fpga_flatten 
+info:    dissolving instance 'cp' of module 'controlpath' in module 'p18240_top'  [NL-146]
+info:    dissolving instance 'dp' of module 'datapath' in module 'p18240_top'  [NL-146]
+info:    dissolving instance 'bar' of module 'barDisplay' in module 'p18240_top'  [NL-146]
+info:    dissolving instance 'ledcon' of module 'LEDController' in module 'p18240_top'  [NL-146]
+> set_parameter useAbcMapping true
+info:    Parameter 'useAbcMapping' set to 'true'  [PARAM-104]
+> set_parameter disableAbc false
+info:    Parameter 'disableAbc' set to 'false'  [PARAM-104]
+> set_parameter lutSize 4
+info:    Parameter 'lutSize' set to '4'  [PARAM-104]
+> lut_map 
+> set_parameter disableAbc true
+info:    Parameter 'disableAbc' set to 'true'  [PARAM-104]
+> cleanup_netlist post_map
+after techmap - CPU:00:00:04    WALL:00:05    MEM:171 m 
+> report_rtl_partitions 
+Report RTL Partitions: 
+-----+-------------+-----------+---------
+     |RTL Partition|Replication|Instances
+-----+-------------+-----------+---------
+-----+-------------+-----------+---------
+> report_blackboxes 
+Report BlackBox: 
+-----+-------------+---------
+     |BlackBox name|Instances
+-----+-------------+---------
+-----+-------------+---------
+> report_cells 
+Report Cell: 
+-----+---------+----+-----
+     |Cell     |Type|Count
+-----+---------+----+-----
+1    |LUT1     |comb|   16
+2    |LUT2     |comb|  126
+3    |LUT3     |comb|  161
+4    |LUT4     |comb| 1013
+5    |MUXCY    |comb|   16
+6    |MUXCY_L  |comb|  121
+7    |RAM256X1S|comb|   16
+8    |XORCY    |comb|  122
+9    |tricell  |comb|   32
+10   |FDC      |ff  |   10
+11   |FDCE     |ff  |  212
+12   |FDR      |ff  |   32
+-----+---------+----+-----
+> report_area 
+Report Instance Area: 
+-----+--------+-----
+     |Instance|Cells
+-----+--------+-----
+-----+--------+-----
+> report_design_metrics 
+info:    multi-driven net with 1-th driver pin 'i_526/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 2-th driver pin 'i_510/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 1-th driver pin 'i_527/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 2-th driver pin 'i_511/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 1-th driver pin 'i_528/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 2-th driver pin 'i_512/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 1-th driver pin 'i_529/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 2-th driver pin 'i_513/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 1-th driver pin 'i_530/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+info:    multi-driven net with 2-th driver pin 'i_514/z' ((library.sv:72)[7], (library.sv:77)[23], (library.sv:77)[29])  [NL-108]
+Report Design Metrics: 
+-----------------------+----------
+                       |          
+-----------------------+----------
+Design Name            |p18240_top
+  Total Instances      |      1877
+    Macros             |         0
+    Pads               |         0
+    Phys Only          |         0
+    Blackboxes         |         0
+    Cells              |      1877
+      Buffers/Inverters|        16
+      Combinational    |      1607
+      Latches          |         0
+      Registers        |       254
+        Load-Enabled   |       212
+        Clock-Gated    |         0
+  Tristate Pin Count   |        32
+  Bidir Pin Count      |         0
+  Unconnected Drivers  |         0
+  Undriven Nets        |         0
+  Multidriven Nets     |        16
+-----------------------+----------
+-------> Message [NL-108] suppressed 22 times
+> report_clocks 
+warning: design 'p18240_top' has no timing constraints  [TA-118]
+Report Clock: 
+-----+-----+--+---+------+-----------+----------+-------+------
+     |Clock|WS|TNS|Period|Uncertainty|Transition|Latency|Master
+-----+-----+--+---+------+-----------+----------+-------+------
+-----+-----+--+---+------+-----------+----------+-------+------
+> report_timing -net -max_paths 1
+after report  - CPU:00:00:04    WALL:00:06    MEM:171 m 
+> set_parameter maxDissolveSize 1000000
+info:    Parameter 'maxDissolveSize' set to '1000000'  [PARAM-104]
+Top module _90ade8ee_p_NRealModS
+Gen Dissolve 
+> fpga_flatten 
+> insert_io 
+> write_edif p18240_top.edf
+after netlist  - CPU:00:00:04    WALL:00:06    MEM:171 m 

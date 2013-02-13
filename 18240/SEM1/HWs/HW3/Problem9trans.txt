@@ -1,0 +1,13 @@
+vlog -reportprogress 300 -work work /afs/ece.cmu.edu/usr/bflores/18240/HWs/HW3/Problem9.sv
+# ** Note: (vlog-1901) OptionFile "/afs/ece.cmu.edu/usr/bflores/vlog.opt" not found. Ignored.
+# Model Technology ModelSim SE vlog 6.6b Compiler 2010.05 May 21 2010
+# -- Compiling module Problem9
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim work.Problem9
+# vsim work.Problem9 
+# Loading sv_std.std
+# Loading work.Problem9(fast)
+quit -sim

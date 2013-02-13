@@ -1,0 +1,329 @@
+
+                        DC Professional (TM)
+                           DC Expert (TM)
+                            DC Ultra (TM)
+                       FloorPlan Manager (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                        Library Compiler (TM)
+                      DesignWare Developer (TM)
+                          DFT Compiler (TM)
+                            BSD Compiler
+                         Power Compiler (TM)
+
+          Version Z-2007.03-SP5 for suse32 -- Oct 16, 2007
+              Copyright (c) 1988-2007 by Synopsys, Inc.
+                         ALL RIGHTS RESERVED
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+The above trademark notice does not imply that you are licensed to use 
+all of the listed products. You are licensed to use only those products 
+for which you have lawfully obtained a valid license key.
+
+Initializing...
+# 18-341 Synopsys DC Script
+# Project 4
+# 10/25/2012
+# Brian Osbun <bosbun@andrew.cmu.edu>
+# ================================ SETUP =================================
+set target_library /afs/ece/class/ece341/setup/Artisan/typical.db
+/afs/ece/class/ece341/setup/Artisan/typical.db
+set link_library /afs/ece/class/ece341/setup/Artisan/typical.db
+/afs/ece/class/ece341/setup/Artisan/typical.db
+define_design_lib WORK -path "./work"
+1
+analyze -format sverilog "ham.sv"
+Running PRESTO HDLC
+Searching for ./ham.sv
+Compiling source file ./ham.sv
+Presto compilation completed successfully.
+Loading db file '/afs/ece/class/ece341/setup/Artisan/typical.db'
+1
+elaborate "ham_decoder"
+Loading db file '/usr/local/synopsys/synopsys-2007.03-SP5/libraries/syn/gtech.db'
+Loading db file '/usr/local/synopsys/synopsys-2007.03-SP5/libraries/syn/standard.sldb'
+  Loading link library 'typical'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ./ham.sv:24: Potential simulation-synthesis mismatch if index exceeds size of array 'correctMessage'. (ELAB-349)
+Warning:  ./ham.sv:24: Potential simulation-synthesis mismatch if index exceeds size of array 'message'. (ELAB-349)
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'ham_decoder'.
+1
+current_design ham_decoder
+Current design is 'ham_decoder'.
+{ham_decoder}
+link
+
+  Linking design 'ham_decoder'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  typical (library)           /afs/ece/class/ece341/setup/Artisan/typical.db
+
+1
+uniquify
+1
+# =============================== CLOCKING ===============================
+set_max_delay .49 [all_outputs]
+1
+set_max_area 0
+1
+remove_unconnected_ports -blast_buses [get_cells -hierarchical *]
+1
+set_fix_multiple_port_nets -all -constants -buffer_constants [get_designs *]
+1
+# =============================== REPORTS ================================
+check_design
+Warning: In design 'ham_decoder', cell 'I_0' does not drive any nets. (LINT-1)
+Warning: In design 'ham_decoder', cell 'B_8' does not drive any nets. (LINT-1)
+1
+set_ultra_optimization -f
+Information: DC ultra optimization mode successfully set. (UIO-73)
+1
+compile_ultra
+Alib files are up-to-date.
+Information: Data-path optimization is enabled. (DP-1)
+Loading db file '/usr/local/synopsys/synopsys-2007.03-SP5/libraries/syn/dw_foundation.sldb'
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library       |      Version       | Available |
+============================================================================
+| Basic DW Building Blocks                | Z-2007.03-DWBB_0710 |    *     |
+| Licensed DW Building Blocks             | Z-2007.03-DWBB_0710 |    *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loaded alib file './alib-52/typical.db.alib'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ham_decoder'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+  Mapping Optimization (Phase 2)
+  Mapping Optimization (Phase 3)
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06    1184.2      0.09       0.6       0.0                          
+    0:00:06    1323.9      0.07       0.5       0.0                          
+    0:00:07    1323.9      0.07       0.5       0.0                          
+    0:00:07    1769.6      0.04       0.3       0.0                          
+    0:00:07    1769.6      0.04       0.3       0.0                          
+    0:00:08    1919.3      0.03       0.2       0.0 correctMessage[6]        
+    0:00:08    2099.0      0.03       0.2       0.0 correctMessage[4]        
+    0:00:09    2371.7      0.02       0.1       0.0 correctMessage[4]        
+    0:00:09    2371.7      0.02       0.1       0.0                          
+    0:00:09    2371.7      0.02       0.1       0.0                          
+    0:00:10    2371.7      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 0)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:10    2355.1      0.02       0.1       0.0                          
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+    0:00:10    2355.1      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+    0:00:10    2355.1      0.02       0.1       0.0                          
+Loading db file '/afs/ece/class/ece341/setup/Artisan/typical.db'
+
+  Optimization Complete
+  ---------------------
+1
+compile -boundary_optimization -area_effort high -map_effort medium -ungroup_all 
+Alib files are up-to-date.
+Information: Data-path optimization is enabled. (DP-1)
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ham_decoder'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Ultra Medium effort)
+  -------------------------------
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03    1463.6      0.04       0.2       0.0                          
+    0:00:03    1463.6      0.04       0.2       0.0                          
+    0:00:03    1463.6      0.04       0.2       0.0                          
+    0:00:03    1516.8      0.03       0.2       0.0                          
+    0:00:03    1516.8      0.03       0.2       0.0                          
+    0:00:03    1516.8      0.03       0.2       0.0                          
+    0:00:03    1516.8      0.03       0.2       0.0                          
+    0:00:04    1822.9      0.01       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 0)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:04    1822.9      0.01       0.0       0.0                          
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+    0:00:04    1679.8      0.00       0.0       0.0                          
+    0:00:04    1679.8      0.00       0.0       0.0                          
+    0:00:04    1679.8      0.00       0.0       0.0                          
+    0:00:04    1679.8      0.00       0.0       0.0                          
+Loading db file '/afs/ece/class/ece341/setup/Artisan/typical.db'
+
+  Optimization Complete
+  ---------------------
+1
+report_area > ./fast/area_hf.rpt
+report_timing > ./fast/timing_hf.rpt
+report_power > ./fast/power_hf.rpt
+write -format verilog -output ./fast/netlist_hf.sv
+Writing verilog file '/afs/ece.cmu.edu/usr/bflores/341/p4/ham_sythesis/fast/netlist_hf.sv'.
+1
+exit
+
+Thank you...

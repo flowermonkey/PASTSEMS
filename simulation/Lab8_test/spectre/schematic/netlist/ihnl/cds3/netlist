@@ -1,0 +1,11 @@
+
+// Library name: Lab8
+// Cell name: Lab8_test
+// View name: schematic
+V1 (in2 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p
+V0 (in 0) vsource type=pulse val0=0 val1=1.2 period=1n delay=50p rise=50p \
+        fall=50p width=300p
+V3 (vss 0) vsource dc=0 type=dc
+V2 (vdd 0) vsource dc=1.2V type=dc
+I0 (vdd vss in in2 out) Lab8

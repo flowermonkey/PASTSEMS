@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="2">
+<DesignStatistics TimeStamp="Tue Mar 15 18:12:44 2011"><group name="MiscellaneousStatistics">
+<item name="AVG_LUT_FAN_IN" rev="2">
+<attrib name="value" value="3.309100"/></item>
+<item name="AVG_SIG_FANOUT" rev="2">
+<attrib name="value" value="1.890000"/></item>
+<item name="LUT" rev="2">
+<attrib name="value" value="55"/></item>
+<item name="MAX_SIG_FANOUT" rev="2">
+<attrib name="value" value="20"/></item>
+<item name="PK_NUM_4_INPUT_LUTS" rev="2">
+<attrib name="value" value="55"/></item>
+<item name="PK_NUM_4_INPUT_LUT_RTS" rev="2">
+<attrib name="value" value="17"/></item>
+<item name="PK_NUM_BONDED_IOBS" rev="2">
+<attrib name="value" value="24"/></item>
+<item name="PK_NUM_CYINIT" rev="2">
+<attrib name="value" value="9"/></item>
+<item name="PK_NUM_CYMUX" rev="2">
+<attrib name="value" value="16"/></item>
+<item name="PK_NUM_EQUIV_GATES" rev="2">
+<attrib name="value" value="706"/></item>
+<item name="PK_NUM_IOB_FFS" rev="2">
+<attrib name="value" value="9"/></item>
+<item name="PK_NUM_JTAG_GATES" rev="2">
+<attrib name="value" value="24"/></item>
+<item name="PK_NUM_LUTLESS_SLICE_FFS" rev="2">
+<attrib name="value" value="3"/></item>
+<item name="PK_NUM_LUTLESS_SLICE_LATS" rev="2">
+<attrib name="value" value="3"/></item>
+<item name="PK_NUM_SLICELS" rev="2">
+<attrib name="value" value="42"/></item>
+<item name="PK_NUM_SLICES" rev="2">
+<attrib name="value" value="42"/></item>
+<item name="PK_NUM_SLICE_FFS" rev="2">
+<attrib name="value" value="23"/></item>
+<item name="PK_NUM_SLICE_LATS" rev="2">
+<attrib name="value" value="3"/></item>
+<item name="PK_NUM_TOTAL_LUTLESS_REGISTERS" rev="2">
+<attrib name="value" value="3"/></item>
+<item name="PK_NUM_XBZ_GCLKS" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="PK_NUM_XOR" rev="2">
+<attrib name="value" value="17"/></item>
+<item name="SINGLE_LOAD_SIG" rev="2">
+<attrib name="value" value="48"/></item>
+<item name="THREE_LOAD_SIG" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="TWO_LOAD_SIG" rev="2">
+<attrib name="value" value="3"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

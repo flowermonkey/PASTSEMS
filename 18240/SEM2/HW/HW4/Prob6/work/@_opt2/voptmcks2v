@@ -1,0 +1,174 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+T_opt
+Z1 VPYG>BP9C;bOz81YPIWIGV2
+Z2 04 3 4 work top fast 0
+Z3 =1-0022195d11dd-4d8351e0-9d528-384c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 d/afs/ece/usr/bflores/18240/SEM2/HW/HW4/Prob4
+T_opt1
+Z8 VSFa8OBUkVgP8:AiCin=A@3
+R2
+Z9 =1-0022195d11dd-4d835234-ec1b8-4473
+R4
+Z10 n@_opt1
+R6
+R7
+T_opt2
+Z11 V:cQdA0QUBdOZcBg;TJgNO1
+R2
+Z12 =1-0022195d11dd-4d8353f0-5809b-71e
+R4
+Z13 n@_opt2
+R6
+R7
+vcounter
+Z14 Mx1 19 __model_tech/sv_std 3 std
+Z15 DXx19 __model_tech/sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z16 IO2T5iMO5ViPJ@Jl4ehT^m3
+Z17 VXKn8G=AmiHdI3`e?LJlJg3
+S1
+R7
+Z18 w1300439826
+Z19 8counter.sv
+Z20 Fcounter.sv
+L0 1
+Z21 OE;L;6.6b;45
+r1
+31
+Z22 o-sv -L mtiAvm -L mtiOvm -L mtiUPF
+Z23 !s100 K918X;^_D;3^hZ>aV46Yi3
+Z24 !s105 counter_sv_unit
+!s85 0
+vfsm
+R14
+R15
+Z25 IXT_:zSNQGXG8mj>kLYX2S0
+Z26 VjdgOnEB_Yk7;;C3?]@=B`0
+S1
+R7
+Z27 w1300452009
+Z28 8fsm.sv
+Z29 Ffsm.sv
+L0 1
+R21
+r1
+31
+R22
+Z30 !s100 5EcYkHTU1NNSfoCC40hj>2
+Z31 !s105 fsm_sv_unit
+!s85 0
+vmux
+R14
+R15
+Z32 ICDVE]?7939zWRPI8Pzl1i0
+Z33 VmbZCZz;MIA5c6H<ZH<JRV1
+Z34 !s105 mux_sv_unit
+S1
+R7
+Z35 w1300451024
+Z36 8mux.sv
+Z37 Fmux.sv
+L0 1
+R21
+r1
+31
+R22
+Z38 !s100 >k]c84_3@cBQeN368fbC=3
+!s85 0
+vOnesCount
+R14
+R15
+Z39 I`:on:OdKaI=gSX3]zhHZ43
+Z40 VcbXHjNfidZNX`d?Z8`O<]0
+Z41 !s105 onescount_sv_unit
+S1
+R7
+Z42 w1300452324
+Z43 8onescount.sv
+Z44 Fonescount.sv
+L0 1
+R21
+r1
+31
+R22
+Z45 n@ones@count
+Z46 !s100 `2KUY408eP74;`BdhKg7i1
+!s85 0
+vregister
+R14
+R15
+Z47 IjURddb6aIZjU7QRFG^Ida2
+Z48 VF^hmPzeO@C1D:2_H_glbP2
+S1
+R7
+Z49 w1300451001
+Z50 8reg.sv
+Z51 Freg.sv
+L0 1
+R21
+r1
+31
+R22
+Z52 !s100 HRX4N>TL?V[?8f7be>_GU3
+Z53 !s105 reg_sv_unit
+!s85 0
+vtest
+Z54 Mx1 6 sv_std 3 std
+Z55 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+Z56 I4AI9kzUj?Kcl9>F:ihNjm1
+Z57 V0fYEigWgdFWO5nJiiR2J>2
+R34
+S1
+R7
+Z58 w1300442196
+R36
+R37
+L0 20
+R21
+r1
+31
+R22
+Z59 !s100 0<3Bc;7=0FZDMBfL7W2ia3
+!s85 0
+vtestbench
+R14
+R15
+Z60 I9CV:EE9ZXVV;6PzJS=k6M1
+Z61 VCoSU<>7=oJEdm1j;lgP>l2
+R41
+S1
+R7
+R42
+R43
+R44
+L0 27
+R21
+r1
+31
+R22
+Z62 !s100 llK=>a[5`LN@JM8Ao<iM61
+!s85 0
+vtop
+R14
+R15
+Z63 IeBH_lc2Indj61m1<7zlkT3
+Z64 Ve:gFW1CKLAXc^T:7k2HoD1
+R41
+S1
+R7
+R42
+R43
+R44
+L0 48
+R21
+r1
+31
+R22
+Z65 !s100 :1lNAXMe_EX6k0YA3Sc6:3
+!s85 0

@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Nov  6 13:06:26 2011 
+Best design point: 1
+Design specs: 
+	Lab8:Lab8_test:1	corner	Default - 
+	integ(VT("/net3") 1e-09 5e-09)		Error	No
+Design parameters: 
+	beta		2.5
+	lambda		50n
+
+Interactive.4
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.4 completed. 
+Current time: Sun Nov  6 13:06:31 2011 

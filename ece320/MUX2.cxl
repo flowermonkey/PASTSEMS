@@ -1,0 +1,33 @@
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "MUX2 schematic lab8B" "MUX2 layout lab8B"
+N S0 avC9
+N net24 avC7
+N S0X avC8
+N D1 D1
+N Y Y
+N D0 D0
+N VDD VDD
+N VSS VSS
+N SEL0 SEL0
+I NM1 avD1_4
+I NM0 avD1_3
+I PM1 avD7_3
+I PM0 avD7_4
+I I2/NM0 avD1_5
+I I2/PM0 avD7_5
+I I1/NM0 avD1_2
+I I1/PM0 avD7_2
+I I0/NM0 avD1_1
+I I0/PM0 avD7_1
+
